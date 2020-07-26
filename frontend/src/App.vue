@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <a href="./">Home</a>
+    <a href="./DataProducts">Data Products</a>
+    <a href="./Blog">Blog</a>
     <img src="./assets/logo.png">
     <router-view/>
   </div>

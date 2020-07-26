@@ -1,9 +1,15 @@
 <template>
   <div>
     <p>Data Products</p>
-    <a href="./">Return Home</a>
 
     <!--  Product Selector  -->
+    <div>
+      <b-dropdown id="dropdown-1" text="Dropdown Button" class="m-md-2">
+        <b-dropdown-item>First Action</b-dropdown-item>
+        <b-dropdown-item>Second Action</b-dropdown-item>
+        <b-dropdown-item>Third Action</b-dropdown-item>
+      </b-dropdown>
+    </div>
 
     <!--   Sports Bettors   -->
     <div>
