@@ -14,9 +14,12 @@
       <div class="container">
         <b-form-select v-model="league" :options="leagues" size="sm" class="mt-3"></b-form-select>
         <b-form-select v-model="random_effect" :options="random_effects" size="sm" class="mt-3"></b-form-select>
+        <b-form-select v-model="condition" :options="conditions" size="sm" class="mt-3"></b-form-select>
       </div>
-      <button @click="sportsBettors">Bet on Sports</button>
+      <br>
       <input v-model="random_effect_value" type="text">
+      <br><br>
+      <button @click="sportsBettors">Bet on Sports</button>
       <p>Output from Sports Bettors: {{ sb_output }}</p>
     </div>
 
