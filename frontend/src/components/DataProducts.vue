@@ -8,8 +8,8 @@
     </div>
 
     <!--   Sports Bettors   -->
-    <div>
-      <hr>
+    <hr>
+    <div class="container" v-if="showSportsBettors">
       <p>Sports Bettors</p>
       <div class="container">
         <b-form-select v-model="random_effect" :options="random_effects" size="sm" class="mt-3"></b-form-select>
@@ -20,8 +20,8 @@
     </div>
 
     <!--  Presidents Speeches  -->
-    <div>
-      <hr>
+    <hr>
+    <div class="container" v-if="showPresidentsSpeeches">
       <p>Presidents Speeches</p>
       <button @click="presidentsSpeeches">Search Presidents</button>
       <input v-model="query" type="text">
@@ -29,8 +29,8 @@
     </div>
 
     <!--  Card Classifier  -->
-    <div>
-      <hr>
+    <hr>
+    <div class="container" v-if="showCardClassifier">
       <p>Card Classifier</p>
       <button @click="cardClassifier">Classify Card</button>
       <input v-model="input_path" type="text">
@@ -61,6 +61,17 @@ export default {
       // Card Classifier
       input_path: '',
       card_color: ''
+    }
+  },
+  computed: {
+    showCardClassifier: function () {
+      return this.data_product === 'Magic Card Classifier'
+    },
+    showSportsBettors: function () {
+      return this.data_product === 'Sports Bettors'
+    },
+    showPresidentsSpeeches: function () {
+      return this.data_product === 'Presidents Speeches'
     }
   },
   methods: {
