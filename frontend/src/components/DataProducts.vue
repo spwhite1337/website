@@ -8,10 +8,11 @@
     </div>
 
     <!--   Sports Bettors   -->
-    <hr>
     <div class="container" v-if="showSportsBettors">
+      <hr>
       <p>Sports Bettors</p>
       <div class="container">
+        <b-form-select v-model="league" :options="leagues" size="sm" class="mt-3"></b-form-select>
         <b-form-select v-model="random_effect" :options="random_effects" size="sm" class="mt-3"></b-form-select>
       </div>
       <button @click="sportsBettors">Bet on Sports</button>
@@ -20,8 +21,8 @@
     </div>
 
     <!--  Presidents Speeches  -->
-    <hr>
     <div class="container" v-if="showPresidentsSpeeches">
+      <hr>
       <p>Presidents Speeches</p>
       <button @click="presidentsSpeeches">Search Presidents</button>
       <input v-model="query" type="text">
@@ -29,11 +30,13 @@
     </div>
 
     <!--  Card Classifier  -->
-    <hr>
     <div class="container" v-if="showCardClassifier">
+      <hr>
       <p>Card Classifier</p>
+      <div class="container">
+        <b-form-select v-model="default_card" :options="default_cards" size="sm" class="mt-3"></b-form-select>
+      </div>
       <button @click="cardClassifier">Classify Card</button>
-      <input v-model="input_path" type="text">
       <p>Output from Card Classifier: {{ card_color }}</p>
     </div>
   </div>
@@ -49,17 +52,22 @@ export default {
       data_product: '',
 
       // Sports Bettors
+      leagues: ['College Football', 'NFL'],
+      league: '',
       random_effects: ['team', 'opponent'],
       random_effect: 'team',
       random_effect_value: '',
+      conditions: ['RushOnly', 'PassOnly', 'Offense', 'PointsScored', 'All'],
+      condition: '',
       sb_output: '',
 
-      // Presidents - Speeches
+      // Presidents Speeches
       query: '',
       president: '',
 
       // Card Classifier
-      input_path: '',
+      default_cards: ['balrog', 'galadriel', 'javert', 'jean', 'link', 'mary', 'napolean', 'sauron', 'tolstoy', 'vader'],
+      default_card: '',
       card_color: ''
     }
   },
@@ -112,7 +120,7 @@ export default {
       const path = `http://localhost:5000/api/cardclassifier`
       axios.get(path, {
         params: {
-          input_path: this.input_path
+          default_card: this.default_card
         }
       })
         .then(response => {

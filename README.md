@@ -20,3 +20,7 @@ Personal Website with flask+vue to display data products and my blog.
 - `cd backend`
 - `export / set FLASK_APP=run.py`
 - `export / set FLASK_DEBUG=1`
+
+### Hints because I am new to vue / javascript
+
+- Very useful tutorial: https://codeburst.io/full-stack-single-page-application-with-vue-js-and-flask-b1e036315532
