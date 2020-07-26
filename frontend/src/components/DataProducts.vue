@@ -3,20 +3,19 @@
     <p>Data Products</p>
 
     <!--  Product Selector  -->
-    <div>
-      <b-dropdown id="dropdown-1" text="Dropdown Button" class="m-md-2">
-        <b-dropdown-item>First Action</b-dropdown-item>
-        <b-dropdown-item>Second Action</b-dropdown-item>
-        <b-dropdown-item>Third Action</b-dropdown-item>
-      </b-dropdown>
+    <div class="container">
+      <b-form-select v-model="data_product" :options="data_products" size="sm" class="mt-3"></b-form-select>
     </div>
 
     <!--   Sports Bettors   -->
     <div>
       <hr>
       <p>Sports Bettors</p>
+      <div class="container">
+        <b-form-select v-model="random_effect" :options="random_effects" size="sm" class="mt-3"></b-form-select>
+      </div>
       <button @click="sportsBettors">Bet on Sports</button>
-      <input v-model="team" type="text">
+      <input v-model="random_effect_value" type="text">
       <p>Output from Sports Bettors: {{ sb_output }}</p>
     </div>
 
@@ -45,15 +44,23 @@ import axios from 'axios'
 export default {
   data () {
     return {
+      // Global
+      data_products: ['Sports Bettors', 'Magic Card Classifier', 'Presidents Speeches'],
+      data_product: '',
+
       // Sports Bettors
-      team: 'Select team',
-      sb_output: 'Nothing',
+      random_effects: ['team', 'opponent'],
+      random_effect: 'team',
+      random_effect_value: '',
+      sb_output: '',
+
       // Presidents - Speeches
-      query: 'Nothing',
-      president: 'Nobody',
+      query: '',
+      president: '',
+
       // Card Classifier
-      input_path: 'None',
-      card_color: 'None'
+      input_path: '',
+      card_color: ''
     }
   },
   methods: {
@@ -61,7 +68,10 @@ export default {
       const path = `http://localhost:5000/api/sportsbettors`
       axios.get(path, {
         params: {
-          team: this.team
+          random_effect: this.random_effect,
+          inputs: {
+            RandomEffect: this.random_effect_value
+          }
         }
       })
         .then(response => {
