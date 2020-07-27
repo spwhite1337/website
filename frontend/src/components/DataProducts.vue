@@ -64,10 +64,6 @@ export default {
       condition: '',
       sb_output: '',
 
-      // Presidents Speeches
-      query: '',
-      president: '',
-
       // Card Classifier
       default_cards: ['balrog', 'galadriel', 'javert', 'jean', 'link', 'mary', 'napolean', 'sauron', 'tolstoy', 'vader'],
       default_card: '',
@@ -98,21 +94,6 @@ export default {
       })
         .then(response => {
           this.sb_output = response.data.sb_output
-        })
-        .catch(error => {
-          console.log(error)
-        })
-      return {}
-    },
-    presidentsSpeeches () {
-      const path = `http://localhost:5000/api/presidentsspeeches`
-      axios.get(path, {
-        params: {
-          query: this.query
-        }
-      })
-        .then(response => {
-          this.president = response.data.president
         })
         .catch(error => {
           console.log(error)
