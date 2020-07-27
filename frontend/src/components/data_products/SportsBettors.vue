@@ -7,8 +7,9 @@
       <b-form-select v-model="random_effect" :options="random_effects" size="sm" class="mt-3"></b-form-select>
       <b-form-select v-model="feature_set" :options="feature_sets" size="sm" class="mt-3"></b-form-select>
     </div>
-    <div v-for="feature in inputs">
-      <li>{{ feature.name }}, {{ feature.value }}</li>
+    <div v-for="feature in inputs" :key="feature.name">
+      <p>{{ feature.name }}</p>
+      <input type="text" v-model="feature.value">
     </div>
     <br><br>
     <button @click="sportsBettors">Bet on Sports</button>
@@ -39,18 +40,43 @@ export default {
   },
   computed: {
     inputs: function () {
-      if (this.condition === 'RushOnly') {
-        return [{name: 'RushingYards', value: ''}]
-      } else if (this.condition === 'PassOnly') {
-        return [{name: 'RushingYards', value: ''}]
-      } else if (this.condition === 'Offense') {
-        return [{name: 'RushingYards', value: ''}]
-      } else if (this.condition === 'PointsScored') {
-        return [{name: 'RushingYards', value: ''}]
-      } else if (this.condition === 'All') {
-        return {'all': ''}
+      if (['College Football', 'NFL'].includes(this.league)) {
+        if (this.feature_set === 'RushOnly') {
+          return [
+            {name: 'Rushing Yards', value: ''},
+            {name: 'Rushing Attempts', value: ''}
+          ]
+        } else if (this.feature_set === 'PassOnly') {
+          return [
+            {name: 'Passing Yards', value: ''},
+            {name: 'Passing Attempts', value: ''}
+          ]
+        } else if (this.feature_set === 'Offense') {
+          return [
+            {name: 'Rushing Yards', value: ''},
+            {name: 'Rushing Attempts', value: ''},
+            {name: 'Passing Yards', value: ''},
+            {name: 'Passing Attempts', value: ''}
+          ]
+        } else if (this.feature_set === 'PointsScored') {
+          return [
+            {name: 'Total Points', value: ''}
+          ]
+        } else if (this.feature_set === 'All') {
+          return [
+            {name: 'Home? (1=yes)', value: ''},
+            {name: 'Rushing Yards (Adv)', value: ''},
+            {name: 'Passing Yards (Adv)', value: ''},
+            {name: 'Penalty Yards (Adv)', value: ''},
+            {name: 'Possession Time (Adv, min)', value: ''},
+            {name: 'Turnover Margin', value: ''},
+            {name: 'First Downs (adv)', value: ''}
+          ]
+        } else {
+          return []
+        }
       } else {
-        return [{name: 'RushingYards', value: ''}]
+        return []
       }
     }
   },
