@@ -27,15 +27,7 @@
     <div class="container" v-if="showPresidentsSpeeches"><PresidentsSpeeches/></div>
 
     <!--  Card Classifier  -->
-    <div class="container" v-if="showCardClassifier">
-      <hr>
-      <p>Card Classifier</p>
-      <div class="container">
-        <b-form-select v-model="default_card" :options="default_cards" size="sm" class="mt-3"></b-form-select>
-      </div>
-      <button @click="cardClassifier">Classify Card</button>
-      <p>Output from Card Classifier: {{ card_color }}</p>
-    </div>
+    <div class="container" v-if="showCardClassifier"><CardClassifier/></div>
 
   </div>
 </template>
@@ -43,10 +35,12 @@
 <script>
 import axios from 'axios'
 import PresidentsSpeeches from './data_products/PresidentsSpeeches.vue'
+import CardClassifier from './data_products/CardClassifier.vue'
 
 export default {
   components: {
-    PresidentsSpeeches
+    PresidentsSpeeches,
+    CardClassifier
   },
   data () {
     return {
@@ -62,12 +56,7 @@ export default {
       random_effect_value: '',
       conditions: ['RushOnly', 'PassOnly', 'Offense', 'PointsScored', 'All'],
       condition: '',
-      sb_output: '',
-
-      // Card Classifier
-      default_cards: ['balrog', 'galadriel', 'javert', 'jean', 'link', 'mary', 'napolean', 'sauron', 'tolstoy', 'vader'],
-      default_card: '',
-      card_color: ''
+      sb_output: ''
     }
   },
   computed: {
@@ -94,21 +83,6 @@ export default {
       })
         .then(response => {
           this.sb_output = response.data.sb_output
-        })
-        .catch(error => {
-          console.log(error)
-        })
-      return {}
-    },
-    cardClassifier () {
-      const path = `http://localhost:5000/api/cardclassifier`
-      axios.get(path, {
-        params: {
-          default_card: this.default_card
-        }
-      })
-        .then(response => {
-          this.card_color = response.data.card_color
         })
         .catch(error => {
           console.log(error)
