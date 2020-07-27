@@ -24,13 +24,7 @@
     </div>
 
     <!--  Presidents Speeches  -->
-    <div class="container" v-if="showPresidentsSpeeches">
-      <hr>
-      <p>Presidents Speeches</p>
-      <button @click="presidentsSpeeches">Search Presidents</button>
-      <input v-model="query" type="text">
-      <p>Output from Presidents speeches: {{ president }}</p>
-    </div>
+    <div class="container" v-if="showPresidentsSpeeches"><PresidentsSpeeches/></div>
 
     <!--  Card Classifier  -->
     <div class="container" v-if="showCardClassifier">
@@ -42,12 +36,18 @@
       <button @click="cardClassifier">Classify Card</button>
       <p>Output from Card Classifier: {{ card_color }}</p>
     </div>
+
   </div>
 </template>
 
 <script>
 import axios from 'axios'
+import PresidentsSpeeches from './data_products/PresidentsSpeeches.vue'
+
 export default {
+  components: {
+    PresidentsSpeeches
+  },
   data () {
     return {
       // Global

@@ -24,8 +24,10 @@ def sports_bettors():
 @app.route('/api/cardclassifier', methods=['GET', 'POST'])
 def card_classifier():
     args = request.args
-    logger.info(args)
-    response = {'card_color': 'colorless'}
+    response = {'card_color': ''}
+    if 'default_card' in args.keys():
+        output = cc_api(default_card=args['default_card'])
+        response = {'card_color': output}
     return jsonify(response)
 
 
