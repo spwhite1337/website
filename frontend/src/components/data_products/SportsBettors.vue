@@ -17,6 +17,7 @@
 
 <script>
 import axios from 'axios'
+const path = process.env.API_URL.concat('/sportsbettors')
 
 export default {
   name: 'SportsBettors',
@@ -34,7 +35,6 @@ export default {
   },
   methods: {
     sportsBettors () {
-      const path = `http://localhost:5000/api/sportsbettors`
       axios.get(path, {
         params: {
           random_effect: this.random_effect,

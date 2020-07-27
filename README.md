@@ -12,9 +12,20 @@ Personal Website with flask+vue to display data products and my blog.
 
 ## Set up Client-Side
 
+#### Development
+
 - `cd frontend`
 - `npm install`
 - `npm run dev`
+
+#### Production
+
+- `cd frontend`
+- Set environ var `process.env.BASE_URL`
+- `npm install`
+- `npm run build`
+- `npm run`
+
 
 ## Set up Server-Side
 - `cd backend`

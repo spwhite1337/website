@@ -12,6 +12,7 @@
 
 <script>
 import axios from 'axios'
+const path = process.env.API_URL.concat('/cardclassifier')
 
 export default {
   name: 'CardClassifier',
@@ -24,7 +25,6 @@ export default {
   },
   methods: {
     cardClassifier () {
-      const path = `http://localhost:5000/api/cardclassifier`
       axios.get(path, {
         params: {
           default_card: this.default_card

@@ -10,6 +10,7 @@
 
 <script>
 import axios from 'axios'
+const path = process.env.API_URL.concat('/presidentsspeeches')
 
 export default {
   name: 'PresidentsSpeeches',
@@ -21,7 +22,6 @@ export default {
   },
   methods: {
     presidentsSpeeches () {
-      const path = `http://localhost:5000/api/presidentsspeeches`
       axios.get(path, {
         params: {
           query: this.query
