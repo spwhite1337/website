@@ -5,7 +5,7 @@
     <div class="container">
       <b-form-select v-model="league" :options="leagues" size="sm" class="mt-3"></b-form-select>
       <b-form-select v-model="random_effect" :options="random_effects" size="sm" class="mt-3"></b-form-select>
-      <b-form-select v-model="condition" :options="conditions" size="sm" class="mt-3"></b-form-select>
+      <b-form-select v-model="feature_set" :options="feature_sets" size="sm" class="mt-3"></b-form-select>
     </div>
     <br>
     <input v-model="random_effect_value" type="text">
@@ -25,11 +25,16 @@ export default {
     return {
       leagues: ['College Football', 'NFL'],
       league: '',
+
       random_effects: ['team', 'opponent'],
       random_effect: '',
       random_effect_value: '',
-      conditions: ['RushOnly', 'PassOnly', 'Offense', 'PointsScored', 'All'],
-      condition: '',
+
+      feature_sets: ['RushOnly', 'PassOnly', 'Offense', 'PointsScored', 'All'],
+      feature_set: '',
+
+      feature_vals: [],
+
       sb_output: ''
     }
   },
@@ -54,7 +59,9 @@ export default {
     sportsBettors () {
       axios.get(path, {
         params: {
+          league: this.league,
           random_effect: this.random_effect,
+          feature_set: this.feature_set,
           inputs: {
             RandomEffect: this.random_effect_value
           }
