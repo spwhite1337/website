@@ -1,11 +1,12 @@
 import os
 from card_classifier.api import api
 
-from config import Config, logger
+from config import Config
 
 
 def cc_api(default_card: str = None, uploaded_card: str = None):
     if default_card:
+        # If default card, get the preds for the all them extract the selected card
         input_path = os.path.join(Config.DATA_DIR, 'card_classifier', 'cc_samples')
         outputs = api(**{'version': Config.cc_version, 'model_type': Config.cc_model_type, 'input_path': input_path})
         output = outputs.get(os.path.join('images', default_card + '.jpg'))

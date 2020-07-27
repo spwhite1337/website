@@ -6,8 +6,6 @@ from backend.apis.presidents_speeches import ps_api
 from backend.apis.sports_bettors import sb_api
 from backend.apis.card_classifier import cc_api
 
-from config import logger
-
 
 app = Flask(__name__, static_folder="../dist/static", template_folder="../dist")
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
@@ -15,30 +13,32 @@ cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 @app.route('/api/sportsbettors', methods=['GET', 'POST'])
 def sports_bettors():
-    args = request.args
-    logger.info(args)
-    response = {'sb_output': 'got em'}
-    return jsonify(response)
+    if request.method == 'GET':
+        response = sb_api(request.args)
+        return jsonify({'sb_output': response})
+
+    else:
+        return jsonify({})
 
 
 @app.route('/api/cardclassifier', methods=['GET', 'POST'])
 def card_classifier():
-    args = request.args
-    response = {'card_color': ''}
-    if 'default_card' in args.keys():
-        output = cc_api(default_card=args['default_card'])
-        response = {'card_color': output}
-    return jsonify(response)
+    if request.method == 'GET':
+        output = cc_api(default_card=request.args['default_card'])
+        return jsonify({'card_color': output})
+
+    else:
+        return jsonify({})
 
 
 @app.route('/api/presidentsspeeches', methods=['GET', 'POST'])
 def presidents_speeches():
-    args = request.args
-    if 'query' in args.keys():
-        response = {'president': ps_api(args['query'])}
+    if request.method == 'GET':
+        output = ps_api(request.args['query'])
+        return jsonify({'president': output})
+
     else:
-        response = {'president': 'Scott'}
-    return jsonify(response)
+        return jsonify({})
 
 
 @app.route('/', defaults={'path': ''})

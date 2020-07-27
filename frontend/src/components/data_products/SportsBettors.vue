@@ -43,16 +43,19 @@ export default {
       if (['College Football', 'NFL'].includes(this.league)) {
         if (this.feature_set === 'RushOnly') {
           return [
+            {name: 'RandomEffect', value: ''},
             {name: 'Rushing Yards', value: ''},
             {name: 'Rushing Attempts', value: ''}
           ]
         } else if (this.feature_set === 'PassOnly') {
           return [
+            {name: 'RandomEffect', value: ''},
             {name: 'Passing Yards', value: ''},
             {name: 'Passing Attempts', value: ''}
           ]
         } else if (this.feature_set === 'Offense') {
           return [
+            {name: 'RandomEffect', value: ''},
             {name: 'Rushing Yards', value: ''},
             {name: 'Rushing Attempts', value: ''},
             {name: 'Passing Yards', value: ''},
@@ -60,10 +63,12 @@ export default {
           ]
         } else if (this.feature_set === 'PointsScored') {
           return [
+            {name: 'RandomEffect', value: ''},
             {name: 'Total Points', value: ''}
           ]
         } else if (this.feature_set === 'All') {
           return [
+            {name: 'RandomEffect', value: ''},
             {name: 'Home? (1=yes)', value: ''},
             {name: 'Rushing Yards (Adv)', value: ''},
             {name: 'Passing Yards (Adv)', value: ''},
