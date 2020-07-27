@@ -1,7 +1,26 @@
 import os
+import numpy as np
+
 from card_classifier.api import api
 
 from config import Config
+
+
+def convert_scores_to_color(output: dict, num_colors: int = 4) -> dict:
+    """
+    Assume each card has num_colors colors. Use the max score for all four unless more than one color scored > 0.25.
+    In this case, assign colors in proportion
+    """
+    # Check if more than one color
+    num_colors = len([k for k, v in output.items() if v > (1 / num_colors)])
+    if num_colors > 1:
+        normalization = num_colors / np.sum([score for score in output.values() if score > (1 / num_colors)])
+        colors = {color: round(score * normalization) for color, score in output.items() if score > (1 / num_colors)}
+
+    else:
+        colors = {k: num_colors for k, v in output.items() if v == max(output.values())}
+
+    return colors
 
 
 def cc_api(default_card: str = None, uploaded_card: str = None):
@@ -11,16 +30,8 @@ def cc_api(default_card: str = None, uploaded_card: str = None):
         outputs = api(**{'version': Config.cc_version, 'model_type': Config.cc_model_type, 'input_path': input_path})
         output = outputs.get(os.path.join('images', default_card + '.jpg'))
 
-        # Check if more than one color is above 50%
-        num_colors = len([k for k, v in output.items() if v > 0.5])
-        if num_colors > 1:
-            colors = [k for k, v in output.items() if v > 0.5]
-            normalized_score = 0.
-        else:
-            colors = [k for k, v in output.items() if v == max(output.values())]
-
-        # Convert floats to strings for json
-        output = colors
+        # Parse output
+        output = convert_scores_to_color(output)
 
     elif uploaded_card:
         # TODO: Implement
