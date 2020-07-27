@@ -26,11 +26,28 @@ export default {
       leagues: ['College Football', 'NFL'],
       league: '',
       random_effects: ['team', 'opponent'],
-      random_effect: 'team',
+      random_effect: '',
       random_effect_value: '',
       conditions: ['RushOnly', 'PassOnly', 'Offense', 'PointsScored', 'All'],
       condition: '',
       sb_output: ''
+    }
+  },
+  computed: {
+    features: function () {
+      if (this.condition === 'RushOnly') {
+        return ['RushingYards', 'RushingAttempts']
+      } else if (this.condition === 'PassOnly') {
+        return ['PassingYards', 'PassingAttempts']
+      } else if (this.condition === 'Offense') {
+        return ['PassingYards', 'RushingYards', 'RushingAttempts', 'PassingAttempts']
+      } else if (this.condition === 'PointsScored') {
+        return ['TotalPoints']
+      } else if (this.condition === 'All') {
+        return ['All']
+      } else {
+        return []
+      }
     }
   },
   methods: {
