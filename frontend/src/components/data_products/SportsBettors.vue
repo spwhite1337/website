@@ -8,7 +8,7 @@
       <b-form-select v-model="feature_set" :options="feature_sets" size="sm" class="mt-3"></b-form-select>
     </div>
     <br>
-    <input v-model="random_effect_value" type="text">
+    <input v-model="feature_vals.RandomEffect" type="text">
     <br><br>
     <button @click="sportsBettors">Bet on Sports</button>
     <p>Output from Sports Bettors: {{ sb_output }}</p>
@@ -23,17 +23,20 @@ export default {
   name: 'SportsBettors',
   data () {
     return {
+      // Select League
       leagues: ['College Football', 'NFL'],
       league: '',
-
+      // Configure Model
       random_effects: ['team', 'opponent'],
       random_effect: '',
-      random_effect_value: '',
 
       feature_sets: ['RushOnly', 'PassOnly', 'Offense', 'PointsScored', 'All'],
       feature_set: '',
 
-      feature_vals: [],
+      // Set values of model
+      feature_vals: {
+        'RandomEffect': ''
+      },
 
       sb_output: ''
     }
@@ -62,9 +65,7 @@ export default {
           league: this.league,
           random_effect: this.random_effect,
           feature_set: this.feature_set,
-          inputs: {
-            RandomEffect: this.random_effect_value
-          }
+          inputs: this.feature_vals
         }
       })
         .then(response => {
