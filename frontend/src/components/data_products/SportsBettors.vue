@@ -7,8 +7,9 @@
       <b-form-select v-model="random_effect" :options="random_effects" size="sm" class="mt-3"></b-form-select>
       <b-form-select v-model="feature_set" :options="feature_sets" size="sm" class="mt-3"></b-form-select>
     </div>
-    <br>
-    <input v-model="feature_vals.RandomEffect" type="text">
+    <div v-for="feature in inputs">
+      <li>{{ feature.name }}, {{ feature.value }}</li>
+    </div>
     <br><br>
     <button @click="sportsBettors">Bet on Sports</button>
     <p>Output from Sports Bettors: {{ sb_output }}</p>
@@ -33,28 +34,23 @@ export default {
       feature_sets: ['RushOnly', 'PassOnly', 'Offense', 'PointsScored', 'All'],
       feature_set: '',
 
-      // Set values of model
-      feature_vals: {
-        'RandomEffect': ''
-      },
-
       sb_output: ''
     }
   },
   computed: {
-    features: function () {
+    inputs: function () {
       if (this.condition === 'RushOnly') {
-        return ['RushingYards', 'RushingAttempts']
+        return [{name: 'RushingYards', value: ''}]
       } else if (this.condition === 'PassOnly') {
-        return ['PassingYards', 'PassingAttempts']
+        return [{name: 'RushingYards', value: ''}]
       } else if (this.condition === 'Offense') {
-        return ['PassingYards', 'RushingYards', 'RushingAttempts', 'PassingAttempts']
+        return [{name: 'RushingYards', value: ''}]
       } else if (this.condition === 'PointsScored') {
-        return ['TotalPoints']
+        return [{name: 'RushingYards', value: ''}]
       } else if (this.condition === 'All') {
-        return ['All']
+        return {'all': ''}
       } else {
-        return []
+        return [{name: 'RushingYards', value: ''}]
       }
     }
   },
@@ -65,7 +61,7 @@ export default {
           league: this.league,
           random_effect: this.random_effect,
           feature_set: this.feature_set,
-          inputs: this.feature_vals
+          inputs: this.inputs
         }
       })
         .then(response => {
