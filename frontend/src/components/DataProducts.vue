@@ -1,8 +1,7 @@
 <template>
   <div>
-    <p>Data Products</p>
-
     <!--  Product Selector  -->
+    <p>Data Products</p>
     <div class="container">
       <b-form-select v-model="data_product" :options="data_products" size="sm" class="mt-3"></b-form-select>
     </div>
