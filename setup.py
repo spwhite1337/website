@@ -17,6 +17,7 @@ setup(
         'flask-migrate',
         'flask-login',
         'flask-cors',
+        'gunicorn',
         'plotly',
         'dash',
         'ipykernel',
