@@ -6,7 +6,7 @@ from card_classifier.api import api as cc_api
 from sports_bettors.api import api as sb_api
 
 
-from backend.config import Config, logger
+from config import Config, logger
 
 
 class TestApiCalls(TestCase):

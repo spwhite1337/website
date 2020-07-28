@@ -8,7 +8,7 @@ WORKDIR /backend
 ADD . /backend
 
 # Install the python dependencies
-RUN pip install -r requirements.txt
+RUN pip install -e .
 RUN pip install git+https://github.com/spwhite1337/card-classifier.git
 RUN pip install git+https://github.com/spwhite1337/sports-bettors.git
 RUN pip install git+https://github.com/spwhite1337/presidents-speeches.git
