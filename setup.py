@@ -11,6 +11,7 @@ setup(
         'pandas',
         'numpy',
         'requests',
+        'wheel',
         'flask',
         'flask-wtf',
         'flask-sqlalchemy',
