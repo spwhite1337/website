@@ -2,6 +2,13 @@
 
 Personal Website with flask+vue to display data products and my blog.
 
+## Docker Strategy
+
+- `cd backend`
+- `git clone presidents-speeches / git clone card-classifier / git clone sports-bettors`
+- `docker-compose up`
+
+
 ## Procedure
 
 - Python 3.5
@@ -40,15 +47,35 @@ Personal Website with flask+vue to display data products and my blog.
 
 ## Production Server
 
+- `Ubuntu 18.04`
+- Optional: Set up firewall (this is done on AWS instance creation)
+    - `sudo ufw allow OpenSSH`
+    - `sudo ufw enable`
 - `sudo apt-get update`
 - `wget https://repo.continuum.io/archive/Anaconda3-2018.12-Linux-x86_64.sh`
 - `bash Anaconda3-2018.12-Linux-x86_64.sh`
 - `source .bashrc`
 - `sudo apt-get install nginx nodejs npm`
 - `sudo apt-get install libsm6 libxrender1 libfontconfig1`
-- `git clone website / card-classifier / sports-bettors / presidents-speeches`
+- `git clone https://github.com/spwhite1337/card-classifier.git`
+- `git clone https://github.com/spwhite1337/presidents-speeches.git`
+- `git clone https://github.com/spwhite1337/sports-bettors.git`
+- `git clone https://github.com/spwhite1337/website.git`
 - `conda create -n website python=3.5`
 - `conda activate website`
+- `cd website`
+- `pip install --upgrade pip`
 - `pip install -e .`
-- `pip install ../card-classifier && pip install ../sports-bettors && pip install ../presidents-speeches`
+- `pip install ../card-classifier`
+- `pip install ../sports-bettors`
+- `pip install ../presidents-speeches`
 - `aws configure`
+- `python download.py`
+- `cd tests`
+- `python -m unittest`
+- `cd ../`
+- `cd ../frontend`
+- `npm install`
+- `npm run build` #Fails here on ubuntu
+
+

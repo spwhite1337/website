@@ -2,7 +2,7 @@ import os
 import re
 import argparse
 
-from config import Config, logger
+from backend.config import Config, logger
 
 
 def download(windows: bool, dryrun: bool):

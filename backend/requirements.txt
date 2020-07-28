@@ -1,0 +1,12 @@
+pandas
+numpy
+requests
+wheel
+flask
+flask-wtf
+flask-sqlalchemy
+flask-migrate
+flask-login
+flask-cors
+tqdm
+awscli

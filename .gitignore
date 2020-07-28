@@ -162,3 +162,10 @@ selenium-debug.log
 *.sln
 *security-sgps.py
 *security_backend.py
+
+# APIS
+backend/card-classifier/
+backend/sports-bettors/
+backend/presidents-speeches/
+backend/results/
+backend/data/
