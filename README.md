@@ -43,9 +43,12 @@ Personal Website with flask+vue to display data products and my blog.
 - `sudo apt-get update`
 - `wget https://repo.continuum.io/archive/Anaconda3-2018.12-Linux-x86_64.sh`
 - `bash Anaconda3-2018.12-Linux-x86_64.sh`
-- `apt-get install nginx nodejs npm`
+- `source .bashrc`
+- `sudo apt-get install nginx nodejs npm`
 - `sudo apt-get install libsm6 libxrender1 libfontconfig1`
 - `git clone website / card-classifier / sports-bettors / presidents-speeches`
+- `conda create -n website python=3.5`
+- `conda activate website`
 - `pip install -e .`
 - `pip install ../card-classifier && pip install ../sports-bettors && pip install ../presidents-speeches`
 - `aws configure`
