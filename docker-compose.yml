@@ -14,7 +14,7 @@ services:
             - './backend:/backend'
         #  expose port on the container, only to other containers
         expose:
-            - 5000
+            - 8080
 
     frontend:
         build: ./frontend
