@@ -8,7 +8,7 @@
 
 <script>
 import axios from 'axios'
-const path = 'http://backend:8888/api/presidentsspeeches'
+const path = 'http://backend:5000/api/presidentsspeeches'
 
 export default {
   name: 'HelloWorld',
