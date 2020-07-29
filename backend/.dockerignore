@@ -3,3 +3,4 @@ venv/
 v-backend/
 v-website/
 tests/
+__pycache__

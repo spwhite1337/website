@@ -2,9 +2,9 @@ import requests
 from flask import Flask, render_template, jsonify, request
 from flask_cors import CORS
 
-from backend.apis.presidents_speeches import ps_api
-from backend.apis.sports_bettors import sb_api
-from backend.apis.card_classifier import cc_api
+from apis.presidents_speeches import ps_api
+from apis.sports_bettors import sb_api
+from apis.card_classifier import cc_api
 
 
 app = Flask(__name__, static_folder="../dist/static", template_folder="../dist")

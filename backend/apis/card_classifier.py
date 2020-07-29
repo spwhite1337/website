@@ -3,7 +3,7 @@ import numpy as np
 
 from card_classifier.api import api
 
-from backend.config import Config
+from config import Config
 
 
 def convert_scores_to_color(output: dict, num_colors: int = 4) -> dict:
