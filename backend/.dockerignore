@@ -1,8 +1,0 @@
-*.egg-info
-venv/
-v-backend/
-v-website/
-tests/
-__pycache__
-results/
-data/
