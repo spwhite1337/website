@@ -8,8 +8,8 @@
 
 <script>
 import axios from 'axios'
-const path = 'http://backend:5000/api/presidentsspeeches'
-
+// const path = `http://backend:5000/api/presidentsspeeches`
+const path = 'api/presidentsspeeches'
 export default {
   name: 'HelloWorld',
   props: {
@@ -26,7 +26,6 @@ export default {
         this.president = response.data.president
         })
         .catch(error => {
-          console.log('Here we are')
           console.log(error)
           })
           return {}

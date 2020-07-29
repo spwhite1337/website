@@ -25,6 +25,8 @@ services:
         environment:
             - HEY=hey
         # mount the volumes so we can change code and hot reload
+        expose:
+            - 80
         volumes:
             - './frontend:/frontend'
         ports:
