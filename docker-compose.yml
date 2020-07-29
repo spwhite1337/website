@@ -13,7 +13,9 @@ services:
             - './backend:/backend'
         #  expose port on the container, only to other containers
         expose:
-            - 5000
+            - 8888
+        ports:
+            - "5000:5000"
 
     frontend:
         build: ./frontend
@@ -27,6 +29,6 @@ services:
             - './frontend:/frontend'
         # expose port on the container, only to other containers
         expose:
-            - 5000
+            - 8888
         ports:
             - "80:80"

@@ -27,10 +27,10 @@ def card_classifier():
 @app.route('/api/presidentsspeeches', methods=['GET', 'POST'])
 def presidents_speeches():
     if request.method == 'GET':
-        return jsonify({'president': 'output'})
+        return jsonify({'president': 'Hi from flask (Get)'})
 
     else:
-        return jsonify({})
+        return jsonify({'president': 'Hi from flask'})
 
 
 @app.route('/', defaults={'path': ''})
