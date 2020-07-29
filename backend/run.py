@@ -1,4 +1,3 @@
-import requests
 from flask import Flask, render_template, jsonify, request
 from flask_cors import CORS
 
@@ -37,10 +36,8 @@ def presidents_speeches():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def catch_all(path):
-    if app.debug:
-        return requests.get('http://localhost:8080/{}'.format(path)).text
-    return render_template("index.html")
+    return "Hi from Flask"
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=5000)
