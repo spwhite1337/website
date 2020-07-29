@@ -18,7 +18,7 @@ setup(
         'flask-migrate',
         'flask-login',
         'flask-cors',
-        # 'uwsgi',  # Bypass this on windows
+        'uwsgi',  # Bypass this on windows
         'plotly',
         'dash',
         'tqdm',
