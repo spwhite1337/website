@@ -10,5 +10,6 @@ To re-bebuild from scratch:
 
 ### Docker
 
+- `cd frontend`
 - `docker build -t vue-only .`
 - `docker run -it -p 8080:8080 --rm --name vue-only-01 vue-only`
