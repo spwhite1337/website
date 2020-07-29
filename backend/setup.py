@@ -10,7 +10,6 @@ setup(
     install_requires=[
         'pandas',
         'numpy',
-        'matplotlib',
         'requests',
         'wheel',
         'flask',
@@ -19,9 +18,13 @@ setup(
         'flask-migrate',
         'flask-login',
         'flask-cors',
+        # 'uwsgi',  # Bypass this on windows
         'plotly',
         'dash',
         'tqdm',
-        'awscli'
-    ]
+        'awscli',
+        'card-classifier @ git+https://github.com/spwhite1337/card-classifier#egg=card-classifier',
+        'sports-bettors @ git+https://github.com/spwhite1337/sports-bettors#egg=sports-bettors',
+        'presidents-speeches @ git+https://github.com/spwhite1337/presidents-speeches#presidents-speeches'
+    ],
 )

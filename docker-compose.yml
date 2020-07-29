@@ -1,4 +1,4 @@
-version: '2.0'
+version: '1.0'
 services:
 # first container
     backend:
@@ -30,11 +30,11 @@ services:
         expose:
             - 8080
 
-    nginx:
-        build: ./nginx
-        container_name:  nginx
-        restart: always
-        # port allows the host machine to link to container
-        # pass 80 from host machine to 80 of the image filesystem
-        ports:
-            - "80:80"
+#    nginx:
+#        build: ./nginx
+#        container_name:  nginx
+#        restart: always
+#        # port allows the host machine to link to container
+#        # pass 80 from host machine to 80 of the image filesystem
+#        ports:
+#            - "80:80"
