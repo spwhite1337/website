@@ -12,3 +12,5 @@ RUN pip install -e .
 
 # start the uWSGI
 CMD ["uwsgi", "app.ini"]
+#ENV FLASK_APP=run.py
+#CMD ["flask", "run"]
