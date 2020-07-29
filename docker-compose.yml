@@ -1,0 +1,33 @@
+version: '3.0'
+services:
+# first container
+    backend:
+        # look for dockerfile and build the container
+        build: ./backend
+        container_name:  backend
+        restart: always
+        # set environment variables
+        environment:
+            - APP_NAME=run
+        #  mount the volumes so we can change code and hot reload
+        volumes:
+            - './backend:/backend'
+        #  expose port on the container, only to other containers
+        expose:
+            - 5000
+
+    frontend:
+        build: ./frontend
+        container_name: frontend
+        restart: always
+        # set environment variables
+        environment:
+            - HEY=hey
+        # mount the volumes so we can change code and hot reload
+        volumes:
+            - './frontend:/frontend'
+        # expose port on the container, only to other containers
+        expose:
+            - 5000
+        ports:
+            - "80:80"

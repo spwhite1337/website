@@ -28,9 +28,7 @@ To re-bebuild from scratch:
 - `docker build -t flask .`
 - `docker run -it -p 5000:5000 --rm --name flask-01 flask`
 
-### Docker
+### Docker Network
 
-- `cd frontend`
-- `docker build -t vue-nginx-flask .`
-- `docker run -it -p 8080:80 --rm --name vue-nginx-flask-01 vue-nginx-flask`
-- `http://localhost:8080`
+- `cd website`
+- `docker-compose up --build`
