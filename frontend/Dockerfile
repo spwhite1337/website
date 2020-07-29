@@ -1,14 +1,13 @@
-FROM node:lts-alpine
-
-# install simple http server for serving static content
-RUN npm install -g http-server
-
+# build stage
+FROM node:lts-alpine as build-stage
 WORKDIR /frontend
-# Copy these first and install to take advantage of docker-caching when we only make code changes
 COPY package*.json ./
 RUN npm install
 COPY . .
 RUN npm run build
 
-EXPOSE 8080
-CMD [ "http-server", "dist" ]
+# production stage
+FROM nginx:stable-alpine as production-stage
+COPY --from=build-stage /frontend/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
