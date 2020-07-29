@@ -1,6 +1,5 @@
 version: '3.0'
 services:
-# first container
     backend:
         # look for dockerfile and build the container
         build: ./backend
