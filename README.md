@@ -1,6 +1,6 @@
 # Website
 
-
+Personal website to display some data products and my personal blog to impose my will on the internet. 
 
 ## Procedure
 
@@ -9,7 +9,7 @@
     - t2.small
     - with Spot Requests
     - Add a subnetwork
-    - Enable IP
+    - Enable Auto-assign Public IP
     - 16 GB EBS
     - Open to HTTP / HTTPS on ports 80 and 5000 (Custom TCP, 5000, 0.0.0.0/0)
     - SSH into instance
