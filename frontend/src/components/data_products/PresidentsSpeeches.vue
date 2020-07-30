@@ -10,7 +10,8 @@
 
 <script>
 import axios from 'axios'
-const path = 'http://localhost:5000/api/presidentsspeeches'
+const path = process.env.VUE_APP_ROOT_API.concat('/api/presidentsspeeches')
+
 export default {
   name: 'PresidentsSpeeches',
   data () {

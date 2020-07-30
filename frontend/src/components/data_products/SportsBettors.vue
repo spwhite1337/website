@@ -19,7 +19,7 @@
 
 <script>
 import axios from 'axios'
-const path = 'http://localhost:5000/api/sportsbettors'
+const path = process.env.VUE_APP_ROOT_API.concat('/api/sportsbettors')
 
 export default {
   name: 'SportsBettors',

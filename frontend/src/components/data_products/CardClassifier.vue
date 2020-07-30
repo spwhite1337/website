@@ -12,7 +12,7 @@
 
 <script>
 import axios from 'axios'
-const path = 'http://localhost:5000/api/cardclassifier'
+const path = process.env.VUE_APP_ROOT_API.concat('/api/cardclassifier')
 
 export default {
   name: 'CardClassifier',
