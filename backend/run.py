@@ -1,7 +1,9 @@
 from flask import Flask, request
+from flask_cors import CORS
 
 
 app = Flask(__name__, static_folder="../dist/static", template_folder="../dist")
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
 @app.route('/api/test', methods=['GET'])
@@ -13,8 +15,8 @@ def test():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def catch_all(path):
-    return "Hi from Flask"
+    return {'test': "Hi from Flask"}
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=5000)
