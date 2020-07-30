@@ -8,7 +8,7 @@
 
 <script>
 import axios from 'axios'
-const path = 'http://localhost:5000/api/test'
+const path = 'http://localhost:5000/api/presidentsspeeches'
 export default {
   name: 'TestBackend',
   data () {

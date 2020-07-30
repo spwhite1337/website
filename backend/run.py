@@ -6,10 +6,28 @@ app = Flask(__name__, static_folder="../dist/static", template_folder="../dist")
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
-@app.route('/api/test', methods=['GET'])
-def test():
+@app.route('/api/presidentsspeeches', methods=['GET'])
+def presidents_speeches():
+    response = {'test': 'none'}
     if request.method == 'GET':
-        return {'test': 'Hi from flask (test)'}
+        return {'test': 'Hi from flask (presidents speeches)'}
+    return response
+
+
+@app.route('/api/sportsbettors', methods=['GET'])
+def sports_bettors():
+    response = {'test': 'none'}
+    if request.method == 'GET':
+        return {'test': 'Hi from flask (sports bettors)'}
+    return response
+
+
+@app.route('/api/cardclassifier', methods=['GET'])
+def card_classifier():
+    response = {'test': 'none'}
+    if request.method == 'GET':
+        return {'test': 'Hi from flask (card classifier)'}
+    return response
 
 
 @app.route('/', defaults={'path': ''})
