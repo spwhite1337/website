@@ -10,7 +10,7 @@
     <div class="container" v-if="showSportsBettors">SB</div>
 
     <!--  Presidents Speeches  -->
-    <div class="container" v-if="showPresidentsSpeeches">PS</div>
+    <div class="container" v-if="showPresidentsSpeeches"><PresidentsSpeeches/></div>
 
     <!--  Card Classifier  -->
     <div class="container" v-if="showCardClassifier">CC</div>
@@ -19,7 +19,12 @@
 </template>
 
 <script>
+import PresidentsSpeeches from './data_products/PresidentsSpeeches.vue'
+
 export default {
+  components: {
+    PresidentsSpeeches,
+  },
   data () {
     return {
       data_products: ['Sports Bettors', 'Magic Card Classifier', 'Presidents Speeches'],
