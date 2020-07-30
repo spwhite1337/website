@@ -7,23 +7,27 @@
     </div>
 
     <!--   Sports Bettors   -->
-    <div class="container" v-if="showSportsBettors">SB</div>
+    <div class="container" v-if="showSportsBettors"><SportsBettors/></div>
 
     <!--  Presidents Speeches  -->
     <div class="container" v-if="showPresidentsSpeeches"><PresidentsSpeeches/></div>
 
     <!--  Card Classifier  -->
-    <div class="container" v-if="showCardClassifier">CC</div>
+    <div class="container" v-if="showCardClassifier"><CardClassifier/></div>
 
   </div>
 </template>
 
 <script>
 import PresidentsSpeeches from './data_products/PresidentsSpeeches.vue'
+import SportsBettors from './data_products/SportsBettors.vue'
+import CardClassifier from './data_products/CardClassifier'
 
 export default {
   components: {
     PresidentsSpeeches,
+    SportsBettors,
+    CardClassifier
   },
   data () {
     return {

@@ -27,8 +27,7 @@ export default {
         }
       })
         .then(response => {
-          console.log('here')
-          this.president = response.data.test
+          this.president = response.data.president
         })
         .catch(error => {
           console.log(error)

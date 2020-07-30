@@ -8,25 +8,25 @@ cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 @app.route('/api/presidentsspeeches', methods=['GET'])
 def presidents_speeches():
-    response = {'test': 'none'}
+    response = {'president': 'none'}
     if request.method == 'GET':
-        return {'test': 'Hi from flask (presidents speeches)'}
+        return {'president': 'Hi from flask (presidents speeches)'}
     return response
 
 
 @app.route('/api/sportsbettors', methods=['GET'])
 def sports_bettors():
-    response = {'test': 'none'}
+    response = {'sb_output': 'none'}
     if request.method == 'GET':
-        return {'test': 'Hi from flask (sports bettors)'}
+        return {'sb_output': 'Hi from flask (sports bettors)'}
     return response
 
 
 @app.route('/api/cardclassifier', methods=['GET'])
 def card_classifier():
-    response = {'test': 'none'}
+    response = {'card_color': 'none'}
     if request.method == 'GET':
-        return {'test': 'Hi from flask (card classifier)'}
+        return {'card_color': 'Hi from flask (card classifier)'}
     return response
 
 
