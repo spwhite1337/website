@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <TestBackend/>
+    <a href="./">Home</a>
+    <a href="./DataProducts">Data Products</a>
+    <a href="./Blog">Blog</a>
+    <img src="./assets/logo.png">
   </div>
 </template>
 
 <script>
-import TestBackend from './components/TestBackend.vue'
 
 export default {
   name: 'App',
-  components: {
-    TestBackend
-  }
 }
 </script>

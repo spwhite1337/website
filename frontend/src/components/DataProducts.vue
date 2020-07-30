@@ -1,0 +1,45 @@
+<template>
+  <div>
+    <!--  Product Selector  -->
+    <p>Data Products</p>
+    <div class="container">
+      <b-form-select v-model="data_product" :options="data_products" size="sm" class="mt-3"></b-form-select>
+    </div>
+
+    <!--   Sports Bettors   -->
+    <div class="container" v-if="showSportsBettors">SB</div>
+
+    <!--  Presidents Speeches  -->
+    <div class="container" v-if="showPresidentsSpeeches">PS</div>
+
+    <!--  Card Classifier  -->
+    <div class="container" v-if="showCardClassifier">CC</div>
+
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      data_products: ['Sports Bettors', 'Magic Card Classifier', 'Presidents Speeches'],
+      data_product: ''
+    }
+  },
+  computed: {
+    showCardClassifier: function () {
+      return this.data_product === 'Magic Card Classifier'
+    },
+    showSportsBettors: function () {
+      return this.data_product === 'Sports Bettors'
+    },
+    showPresidentsSpeeches: function () {
+      return this.data_product === 'Presidents Speeches'
+    }
+  },
+  methods: {
+  },
+  created () {
+  }
+}
+</script>
