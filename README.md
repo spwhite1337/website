@@ -26,7 +26,7 @@ Personal website to display some data products and my personal blog to impose my
     - `sudo chmod +x /usr/local/bin/docker-compose`
  
 - Set up project
-    - `git clone [this repo]`
+    - `git clone https://github.com/spwhite1337/website.git`
     - `cd website/backend`
     - `sudo apt install awscli`
     - `aws configure`
