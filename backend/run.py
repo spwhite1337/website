@@ -1,36 +1,13 @@
-from flask import Flask, jsonify, request
-from flask_cors import CORS
+from flask import Flask, request
 
 
 app = Flask(__name__, static_folder="../dist/static", template_folder="../dist")
-cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
-@app.route('/api/sportsbettors', methods=['GET', 'POST'])
-def sports_bettors():
+@app.route('/api/test', methods=['GET'])
+def test():
     if request.method == 'GET':
-        return jsonify({'sb_output': 'output'})
-
-    else:
-        return jsonify({})
-
-
-@app.route('/api/cardclassifier', methods=['GET', 'POST'])
-def card_classifier():
-    if request.method == 'GET':
-        return jsonify({'card_color': 'output'})
-
-    else:
-        return jsonify({})
-
-
-@app.route('/api/presidentsspeeches', methods=['GET', 'POST'])
-def presidents_speeches():
-    if request.method == 'GET':
-        return jsonify({'president': 'Hi from flask (Get)'})
-
-    else:
-        return jsonify({'president': 'Hi from flask'})
+        return {'test': 'Hi from flask (test)'}
 
 
 @app.route('/', defaults={'path': ''})
@@ -40,4 +17,4 @@ def catch_all(path):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0')
