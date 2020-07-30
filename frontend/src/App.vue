@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <p>
-      You are in App.vue
-    </p>
     <router-link to="./">Home</router-link>
+    <br>
     <router-link to="./DataProducts">Data Products</router-link>
+    <br>
     <router-link to="./Blog">Blog</router-link>
+    <br>
     <router-view></router-view>
   </div>
 </template>
