@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-    <a href="./">Home</a>
-    <a href="./DataProducts">Data Products</a>
-    <a href="./Blog">Blog</a>
-    <img src="./assets/logo.png">
     <p>
       You are in App.vue
     </p>
-    <router-view/>
+    <router-link to="./">Home</router-link>
+    <router-link to="./DataProducts">Data Products</router-link>
+    <router-link to="./Blog">Blog</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'App',
 }
