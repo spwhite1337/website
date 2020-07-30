@@ -1,34 +1,10 @@
-### Vue-Only 
+# Stack Overflow problem
 
-To re-bebuild from scratch:
-- Install node.js and npm
-- `npm install -g @vue-cli`
-- `vue create frontend`
-- `cd frontend`
-- `npm install`
-- `npm run dev` to test locally
+- The nginx server successfully hosts the vue-app but fails to receive requests from the flask app. 
+- I can port the flask app itself and it works just fine, it is only a communication issue.
+- My goals is to have the vue-app interface with the flask backend through axios requests.
 
-#### Vue-Nginx on Docker
-
-- `cd frontend`
-- `docker build -t vue-nginx .`
-- `docker run -it -p 8080:80 --rm --name vue-nginx-01 vue-nginx`
-
-### Flask only
-
-- `cd backend`
-- `conda activate backend`
-- `pip install -e .`
-- `set FLASK_APP=run.py`
-- `flask run`
-
-#### Flask on Docker
-
-- `cd backend`
-- `docker build -t flask .`
-- `docker run -it -p 5000:5000 --rm --name flask-01 flask`
-
-### Docker Network
-
-- `cd website`
+To reproduce this error:
+- Clone this branch
 - `docker-compose up --build`
+- go to `http://localhost` and click the button to see the 404 error.

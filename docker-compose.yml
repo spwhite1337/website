@@ -7,18 +7,13 @@ services:
         volumes:
             - './backend:/backend'
         expose:
-            - 5000
-        ports:
-            - "5000:5000"
+            - 8080
 
     frontend:
         build: ./frontend
         container_name: frontend
         restart: always
-        environment:
-            - HEY=hey
         volumes:
             - './frontend:/frontend'
         ports:
             - "80:80"
-            - "8888:5000"
