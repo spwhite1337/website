@@ -11,7 +11,7 @@
     - Add a subnetwork
     - Enable IP
     - 16 GB EBS
-    - Open to HTTP / HTTPS
+    - Open to HTTP / HTTPS on ports 80 and 5000
     - SSH into instance
     
 - Install Docker and run at startup (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
