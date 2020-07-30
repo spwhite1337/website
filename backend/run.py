@@ -2,7 +2,7 @@ from flask import Flask, request
 from flask_cors import CORS
 
 
-app = Flask(__name__, static_folder="../dist/static", template_folder="../dist")
+app = Flask(__name__)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
