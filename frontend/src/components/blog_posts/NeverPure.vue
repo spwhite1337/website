@@ -1,12 +1,9 @@
-<div id = "blog_post">
-    <h2 id = "blog_post_title"><b>Never Pure:</b> <em>Historical Studies of Science as if It Was Produced by People with Bodies, Situated in Time, Space, Culture, and Society, and Struggling for Credibility and Authority</em> by Steven Shapin</h2>
-    <hr id = #title_hr>
-   <p id = "blog_post_text">
+<template>
+<div>
+    <h2><b>Never Pure:</b> <em>Historical Studies of Science as if It Was Produced by People with Bodies, Situated in Time, Space, Culture, and Society, and Struggling for Credibility and Authority</em> by Steven Shapin</h2>
+    <hr>
+   <p>
      I love Science, I studied it for a decade of my prime years and utilize it for my livelihood. I also believe it is seriously overrated in 2018 America. Steven Shapin's work is a great antidote to widespread misappropriations of science one can witness including:
-     <figure id = 'stevenshapin'>
-       <img src="{% static 'Blog/images/NeverPure/stevenshapin.jpg' %}" alt="Steven Shapin">
-       <figcaption>Steven Shapin, himself</figcaption>
-     </figure>
      <ul>
        <li>
         (i) The Naturalistic Fallacy in its many forms. Most obviously when the "natural" structure of society is prescribed and justified with evolution.
@@ -27,7 +24,6 @@
      Steven Shapin demonstrates this with a strong thesis that investigates historical eras and moments in science by emphasizing the human element of the project. He does this intentionally and transparently with nods to the approach's limitations. There is no mention of the impersonal aspect of empirical adjudication of hypotheses, or the iconoclastic characters that disrupt institutions propelled by their scientific acumen. In order to write a book on such a big topic some things needed to be left out and, given his transparency, this can be easily forgiven.
      <br><br>
      The work, "Never Pure", outlines this thesis in a series of (largely) stand-alone essays. My favorite essays are summarized in this post along with their highlights and my interpretation. I'll conclude with my views on where this leaves science and its role in modern America.
-     <img id = 'neverpure_cover' src="{% static 'Blog/images/NeverPure/neverpure_cover.jpg' %}" alt="">
      <br><br>
      <b>Pro-Science and Anti-Science:</b> Before one pokes at sacred foundations of a society, it is essential to outline your terms of critique to belay the inevitable triggered response of, "What, you think the moon is just gonna fall to earth soon? Why don't you jump off a cliff if you don't believe in gravity?". This is right in Shapin's wheelhouse (a good chunk of his career is scientific heresy) so I will only present a few beliefs here that outline how one can be "anti-science":
      <ul>
@@ -114,28 +110,15 @@
 
    <br><br>
    <b>Places of Science:</b> The signage surrounding scientific laboratories is far from welcoming and far from new. This kind of isolation is justified on grounds of 'data integrity' (also safety, etc.).
-   <figure id = 'lab_signs'>
-     <img src="{% static 'Blog/images/NeverPure/lab_signs.jpg' %}" alt="Steven Shapin">
-     <figcaption>Labs</figcaption>
-   </figure>
    Steven Shapin diligently illustrates just what the hell this kind of integrity means and how the concept has morphed and evolved over time. He notes that human psychology is skeptically biased to unintuitive claims made from within its own environment. "You must not be seeing what I'm seeing" or "I know as good as you do and you're full of shit." This makes "doing science" outside of a "scientific lab" a contradiction. Science cannot be performed in the irrational world of lay folk, it requires a sober mind in a sober environment to make 'objective' claims to truth. <em>(The scientific lab is so ingrained in today's society it is difficult to imagine one without. The closest example I can imagine is a kind of internet blogger or youtuber promising they took great care in their scientific experiments they performed in their basement.)</em>
    <br><br>
-   <figure>
-     <img id = 'airpump' src="{% static 'Blog/images/NeverPure/boyle_airpump.jpg' %}" alt="">
-     <figcaption>Drawing of Boyle's Airpump for Communication</figcaption>
-   </figure>
    Before the infrastructure was in place, experimental work was pioneered by wealthy philosophers or an agreement between philosophers and patrons. It generally took place at the philosopher's personal estate. Shapin gives us a wonderful case study of one of my favorite enlightenment philosophers, Robert Boyle. An Irishman, he laid the foundations of chemistry and empirical science while fighting for and outlining the credibility of such an endeavor. Most importantly, Boyle and contemporaries like Bacon strongly argued <em>against</em> the solitude and isolated nature of philosophical findings. They resisted natural philosophy being defined by a caste of unreachable "priests of nature" tapping into natural truths. Instead, they desired public displays and social acceptance of empirical findings on their own grounds. They both saw the project as a fundamentally religious one making the isolation of scientists the downside, not the priestly aspect, because the truths of God's creation ought to be disseminated like the truths of scripture.
    <br><br>
    The modern laboratory and other constructed places of science are easy to see but harder to trace historically. Shapin connects the separation of scientific practice from the public to the broader separation of thinkers from society going back to antiquity. Think of Jesus wandering in the desert alone before he sees God, St. Paul converting on the Road Damascus, Joseph Smith alone in Upstate New York, Led Zeppelin writing songs in the rural English countryside at Bron-Yr-Aur, professors taking sabbaticals to write a book, the Twitter CEO taking meditation retreats to the East, Darwin on the Galapagos Islands, Dexter's laboratory (yes, the cartoon) outside the view of his parent's house. In order to truly tap into the "truths" of the natural world one must untie themselves from the bounds of human society and its associated biases to really understand 'how it all works'. This transcendent action begets transcendent knowledge, a feature that holds true for scientists who must find pristine places of work that barricade themselves both physically and mentally from the status quo. Ultimately, this trend morphed into the modern laboratories we have today. Private investigation and public dissemination of natural knowledge.
-   <figure id = 'christ_desert'>
-     <img src="{% static 'Blog/images/NeverPure/christ-desert.jpg' %}" alt="">
-     <figcaption>To really understand, Jesus had to 'get away from it all' so-to-speak.</figcaption>
-   </figure>
    <br><br>
    Naturally, the historical participation in the scientific enterprise required access to such seclusion or your results or findings would not achieve the necessary credibility. It was the loosening of this restriction, beginning with Boyle and Bacon in the 16th century, that lead to the huge amounts of scientific participation seen today. They pushed for public displays, clear communication, and even reproducibility! Without their efforts we would be left with a secluded class that had exclusive access to natural truths. In this light, contemporary laments about the 'lack of scientific knowledge' in society deserve nothing but ridicule when placed in the proper historical context.
    <br><br>
    <b>People of Science:</b> The leaders of "science" and the enlightenment had their own ideas about who was doing the science for their plan for humanity. Much of their vision was inspired by criticisms of the Scholastic era with its clergyman and scholars living lives of seclusion and isolation from the public (see section above). In a sense, they were <em>too</em> isolated to find <em>relevant</em> truths. Here Shapin lays out the evolution of the "scholar and the gentleman" as a proper proponent of the experimental push for a more 'democratic' scientific progression.
-   <img id = 'boyle' src="{% static 'Blog/images/NeverPure/robertboyle.jpeg' %}" alt="">
    <br><br>
    The scholar is studious, modest, and private - the gentleman is charismatic, wealthy, and public. The blending of these two personas was, in Boyle's view, important for the expansion of science's credibility among the public and the political leaders of the time. Of course, this scientist must be tempered by Christians virtues as Boyle outlined very seriously:<br><br>
    <ul>
@@ -169,10 +152,6 @@
    <a href="https://www.youtube.com/watch?v=jCIwmpBARO8" target = "_blank">Joshua Greene</a>,
    <a href="https://www.ted.com/talks/jonathan_haidt_on_the_moral_mind?language=en" target = "_blank">Jonathan Haidt</a>.
    This is not a dig at the listed scientists, drawing a line between science and morality is impossible (Some astute readers may note that all those listed are male and most are white/jewish. But you probably understand that science is not amoral as represented by demographics.). It is importent to remember this distinction: the scientific model of the universe is amoral, the people and institutions who make it and the methodologies they utilize are anything but amoral.
-   <figure id = 'boyle_grave_fig'>
-        <img id = 'boyle_grave' src="{% static 'Blog/images/NeverPure/boyle_grave.jpg' %}" alt="">
-      <figcaption>Me in front of the <br>  Boyle family grave <br> in the Dublin Cathedral.</figcaption>
-  </figure>
    <br><br>
    As a final note, it is trendy to historically analyze scientific figures with an emphasis on their sexism. But it is important to distinguish (at least) two kinds of exclusion that arise in institutions: (i) explicit prevention of certain groups, and (ii) selection of people based on standards only certain people can possibly meet. The latter is far, far more common and harder to alter because doing so affects the credibility of the institution through its diminished admission selectivity. In fact, an institution that is both 'inclusive' and 'credible' is, in some ways, a contradiction...
    <br><br>
@@ -185,7 +164,6 @@
    </em>
    <br><br>
    I think the reason I like this section so much is because it's almost as if Shapin is analyzing me. I similarly think that "science" is done with nutrition and hasn't progressed much since the time of Rene Descartes who claimed,
-   <img id = 'rene' src="{% static 'Blog/images/NeverPure/renedescartes.jpg' %}" alt="">
    "By the age of 30 the man knows more about his body that the best physician." I also think moderation should be adopted in moderation. I also think my views are as correct as all the science I have participated in throughout my life. The problem with nutrition science is that people don't ask scientific questions that lead to scientific problems that science can 'dissolve'. Instead, people mask their personal problems in dietary or health problems that they hope science can save them from. As history shows, science is no source of salvation.
    <br><br>
    <b>Natural Science of Nature:</b> One of my favorite passages of this work is the relationship between "nature" and science and, specifically, how it relates to politics and/or social order.
@@ -247,3 +225,9 @@
   <br><br>
   </p>
   </div>
+</template>
+<script>
+    export default {
+        name: 'NeverPure'
+    }
+</script>

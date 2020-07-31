@@ -1,7 +1,8 @@
-<div id = "blog_post">
-    <h2 id = "blog_post_title">The Great Gatsby, by F. Scott Fitzgerald</h2>
-    <hr id = #title_hr>
-    <p id = "blog_post_text">
+<template>
+  <div>
+    <h2>The Great Gatsby, by F. Scott Fitzgerald</h2>
+    <hr>
+    <p>
         Years back, I accepted an invitation to join a rec soccer team with a bunch of people that didn't know me and didn't
         know each other outside of Tuesday nights from 7-8pm. One gentleman, John from England, didn't take too kindly to
         my playing style despite me scoring >2 goals a game and our team consistently making it to the semi-finals (In
@@ -11,7 +12,6 @@
         American Dream?" and he said something like, "Well that's the high school reading of the novel, as a metaphor
         for the American dream, but not how I see it."
         <br><br>
-        <img id = 'bookcover' src="{% static 'Blog/images/GreatGatsby/bookcover.jpeg' %}" alt="">
         And in typical "I'm from Europe and think I know how to play football even though this kid from Iowa is way
         better than me and also I read books more intelligently than all of you" fashion he never revealed his "advanced"
         interpretation. This post is my attempt to match it.
@@ -62,7 +62,6 @@
         before her marriage to Tom while he was in the military. She and Tom live across the Bay from Gatsby denoted by
         a green light that is the subject of millions of high school essays on symbolism.
         <br><br>
-        <img id = 'great_gatsby' src="{% static 'Blog/images/GreatGatsby/great-gatsby-leo.jpg' %}" alt="">
         The Great Gatsby is best understood from this nickname. It isn't "Great" like Alexander the Great, but "Great"
         like an attraction at a circus. "Step right up, come see The Great Gatsby" is the proper context for his
         epithet. He is a ostentatiously wealthy socialite holding parties that are the talk of the town. He himself
@@ -82,7 +81,6 @@
         with Daisy with Nick as a serious Third-Wheel but the meeting kicks off an affair between Daisy and Gatsy
         regardless.
         <br><br>
-        <img id = 'greenlight' src="{% static 'Blog/images/GreatGatsby/greenlight.png' %}" alt="">
         The story takes a turn when Tom deduces the affair between Daisy and Gatsby. Despite being a serial adulterer,
         he is outraged. Gatsby defends his love for her but Tom is unmoved and calls Gatsby out for bootlegging and
         Daisy resolves to stay with Tom - likely due to her lack of spine and self-authenticity.
@@ -115,6 +113,12 @@
         Take The Great Gatsby as a cautionary tale against superficial facades that don't address foundational drives
         for meaning and significance. Don't be like Tom, Daisy, or Gatsby. The characters are unlikeable of a reason,
         to deter you from them.
-
     </p>
   </div>
+</template>
+
+<script>
+    export default {
+        name: 'GreatGatsby'
+    }
+</script>
