@@ -24,7 +24,7 @@ def download(windows: bool = False, dryrun: bool = False):
 
     logger.info('Data for Presidents Speeches')
     # Include
-    include_flag = " --exclude '*' --include '*corpus.pkl' --include 'dictionary.dict' "
+    include_flag = " --exclude '*' --include '*corpus.pkl' --include '*dictionary.dict' "
     include_flag = re.sub("'", "", include_flag) if windows else include_flag
 
     # Run
