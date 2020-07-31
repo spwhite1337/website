@@ -7,7 +7,7 @@ from config import Config, logger
 
 def download(windows: bool = False, dryrun: bool = False):
     base = 'aws s3 sync '
-    dryrun_arg = '--dryrun'
+    dryrun_arg = ' --dryrun'
     results_sync = '{} {}'.format(Config.CLOUD_RESULTS, Config.RESULTS_DIR)
     data_sync = '{} {}'.format(Config.CLOUD_DATA, Config.DATA_DIR)
 
