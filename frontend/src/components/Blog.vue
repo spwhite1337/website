@@ -2,7 +2,8 @@
   <div>
     <p>Blog Posts</p>
     <ul>
-      <li><button @click="showAmericanGods">American Gods b Neil Gaiman</button></li>
+      <li><button @click="showAmericanGods">American Gods by Neil Gaiman</button></li>
+      <li><button @click="showAmericanPsycho">American Psycho by Bret Easton Ellis</button></li>
       <li><button @click="showBraveNewWorld">Brave New World by Aldous Huxley</button></li>
       <li><button @click="showCatsCradle">Cat's Cradle by Kurt Vonnegut</button></li>
       <li><button @click="showNeverPure">Never Pure by Steven Shapin</button></li>
@@ -15,6 +16,7 @@
       <li><button @click="showScience">Science by Scott White</button></li>
     </ul>
     <div v-if="displayAmericanGods"><AmericanGods/></div>
+    <div v-if="displayAmericanPsycho"><AmericanPsycho/></div>
     <div v-if="displayBraveNewWorld"><BraveNewWorld/></div>
     <div v-if="displayCatsCradle"><CatsCradle/></div>
     <div v-if="displayNeverPure"><NeverPure/></div>
@@ -30,7 +32,7 @@
 
 <script>
   import AmericanGods from './blog_posts/AmericanGods.vue'
-  // import AmericanPsycho from './blog_posts/AmericanPsycho.vue'
+  import AmericanPsycho from './blog_posts/AmericanPsycho.vue'
   import BraveNewWorld from './blog_posts/BraveNewWorld.vue'
   import CatsCradle from './blog_posts/CatsCradle.vue'
   import NeverPure from './blog_posts/NeverPure.vue'
@@ -46,6 +48,7 @@
     data () {
       return {
         displayAmericanGods: false,
+        displayAmericanPsycho: false,
         displayBraveNewWorld: false,
         displayCatsCradle: false,
         displayNeverPure: false,
@@ -60,6 +63,7 @@
     },
     components: {
       AmericanGods,
+      AmericanPsycho,
       BraveNewWorld,
       CatsCradle,
       NeverPure,
@@ -74,6 +78,9 @@
     methods: {
       showAmericanGods: function () {
         this.displayAmericanGods = !this.displayAmericanGods
+      },
+      showAmericanPsycho: function () {
+        this.displayAmericanPsycho = !this.displayAmericanPsycho
       },
       showBraveNewWorld: function () {
         this.displayBraveNewWorld = !this.displayBraveNewWorld

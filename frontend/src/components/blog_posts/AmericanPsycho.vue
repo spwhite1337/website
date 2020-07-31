@@ -1,8 +1,7 @@
 <template>
  <div>
-    <h2>American Psycho, by Bret Easton Ellis</h2>
-    <hr>
-   <p>
+   <h2>American Psycho, by Bret Easton Ellis</h2>
+   <hr>
      American Psycho's protagonist, Patrick Bateman, is a personification of American capitalism,
        albeit a cartoonish and narrow version exemplified by 1980s greed and the anarchy of Wall
        Street stock trading. He is vacuous, beastly, driven by external validation (as opposed to an internal conscience),
@@ -29,9 +28,8 @@
        One of many examples is presented here and was selected because it made me laugh out loud in absurdity. These scenes
       are sprinkled throughout the novel with a clear progression of intensity. Bateman starts by accosting homeless
       people and dogs, advances to prostitutes, and finished with a murder of a colleague.
-           <br><br>
-        <span><em>
-      I lean in above her and shout, over her
+       <br><br>
+       I lean in above her and shout, over her
        screans, "Try to scream, scream, keep screaming..." I've opened all the windows and the door to my
        terrace and when I stand over her, the mouth opens and not even screams come out anymore, just
        horrible, guttural, animal-like noises, sometimes interrupted by retching sounds. "Scream, honey," I
@@ -43,10 +41,10 @@
        wall, where it sticks for a moment, leaving a stain, before falling to the floor with a tiny wet slap.
        Blood gushes out of her mouth and I have to hold her head up so she won't choke. Then I fuck her in the
        mouth, and after I've ejaculated and pulled out, I Mace her some more.
-            <br><br>
-        Later, when she briefly regains consciousness, I put on a porkpie hat I was given by one of my
+       <br><br>
+       Later, when she briefly regains consciousness, I put on a porkpie hat I was given by one of my
        girlfriends freshman year at Harvard. <br>
-         "Remember this?" I shout, towering over her. "And look at this!" I scream triumphantly, holding up
+       "Remember this?" I shout, towering over her. "And look at this!" I scream triumphantly, holding up
        a cigar. "I still smoke cigars. Ha. See? A cigar." I light it with steady, bloodstained fingers, and
        her face, pale to the point of blueness, keeps contracting, twitching with pain, her eyes, dull with
        horror, close, then open halfway, her life reduced to nightmare. <br>
@@ -60,7 +58,6 @@
             <br><br>
        Later, the next night in fact, three of us, Craig McDermott, Courtney and myself, are in a cab heading
        toward Nell's and talking about Evian water......
-      </em></span>
       <br><br>
       Parallels with works like Dorian Gray are clear, though,
       American Psycho goes into excruciating detail wwhile Oscar Wilde leaves it to the imagination.
@@ -72,7 +69,7 @@
       over dinner, get back together, etc. There are big accounts at work that come and go, we aren't given justification
       for their significance, nor are we even told what professional role Bateman plays. His violence culminates with an
       axe murder of his competitor and friend, Paul Allen.
-       <br><br>
+      <br><br>
       The ending can be very confusing if these story lines
       are emphasized or used to contextualize it. To refresh your memeory - In
       the final chapters after the murder, Patrick Bateman makes a call to his lawyer to confess his crimes only for it
@@ -109,7 +106,6 @@
       stem from. Even in the face of extreme, life-defining acts of violence - Bateman can only metaphorically
       speak of drug highs to express himself.
       <br><br>
-      <span><em>
       [After tormenting a homeless man] Then I turn to the barking dog and when I get up, stomp on its
        front legs while it's crouched down ready to jump at me, its fangs bared, immediately shattering
        the bones in both its legs, and it falls on its side squeaking in pain, front paws sticking up in the
@@ -126,7 +122,6 @@
        sit, my jacket, and its sleeves, lightly spattered with flecks of his blood. Two waitresses from the Cat
        Club walk in after me and sit in the booth across from mine, both smiling flirtatiously. I play it cool
        and ignore them. An old, crazy woman, wrinkled, chain-smoking, sits near us, nodding at no one.
-       </em></span>
        <br><br>
        <b>Women/Misogyny:</b> Women are objectified and used as sexual receptors and status symbols. The
       progression of the relationship to engagement/marriage is necessary only so far as it helps them
@@ -139,19 +134,18 @@
       validation. Bateman must constantly demonstrate his worth because he has no "being" to ground himself in. He has
       no emotions, and no opinion of himself. His sex is not romantic or pleasure, it is best described as a
       valueless insertion of genitalia.
-       <br><br>
+      <br><br>
       <b>Art and Advertisements:</b> Novels and movies are types of art, American Psycho is both a novel and movie,
       making it a work of art. Logic. However, the portrayal of art in American Psycho is the biggest, boldest
       arrow pointing to a shallow, meaningless interpretation. Despite always listening to music and renting video
       tapes, Patrick Bateman never comments on them with any depth. He doesn't say how the music makes *him* feel,
       but rather how the music *is*. He gives generic, uncontroversial analysis of
-      <a href="https://www.youtube.com/watch?v=Ruw9fsh3PNY", target = "_blank">Huey Lewis and the News</a>,
+      <a href="https://www.youtube.com/watch?v=Ruw9fsh3PNY" target="_blank">Huey Lewis and the News</a>,
       Phil Collins, and more but never relates the music to his life or his emotions (like, you know, real people).
       <br><br>
       The closest we get to a penetrating piece of art for Bateman follows:
       <br><br>
-      <span><em>
-          But when I sit down something strange on the stage catched my eye. Bono has
+       But when I sit down something strange on the stage catched my eye. Bono has
        now moved across the stage, following me to my seat, and he's staring into my eyes, kneeling at the
        edge of the stage, wearing black jeans (maybe Gitano), sandals, a leather vest with no shirt
        beneath it. His body is white, covered with sweat, and it's not worked out enough, there's no
@@ -168,22 +162,20 @@
        vague, now gets more powerful and he's nodding at me and I'm nodding back, everything getting clearer, my
        body alive and burning on fire, and from nowhere a flash of white and blinding light envelopes me and I
        hear it, can actually feel, can even make out the letters of the message hovering above Bono's head in
-       orange wavy letters: "I... am... the... devil... and I am... just... like... you..."
-        </em></span>
+       orange wavy letters: "I... am... the... devil... and I am... just... like... you...
       <br><br>
       You, as a viewer, should interpret American Psycho in the way Patrick Bateman interprets 80s pop music. "Christian
       Bale looks very good while he is killing a cat", "The camera angle during the slaughter of prostitutes is very
       tasteful". You should not be extracting "reality" from it, or looking for a moral lesson, or seeing it as a
       period piece. It is nothing, just ink on paper or lights on a screen.
-       <br><br>
+      <br><br>
       <b>Still Don't Believe Me?:</b> For a final straw, to prevent you from looking into this work
       more than you should. To stop you from thinking, "Man, is American Psycho a metaphor for insanity or mental illness?".
       To make sure you realize, all of Bateman's live is insignificant, meaningless, and unnecessary to
       interpret. I will lend you Bateman's explicit admission and agreement with me.
       <br><br>
-      <span><em>
        "And I just can't..." She stops, frustrated. "I can't pretend these feelings don't
-       exist, can I?" &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       exist, can I?"
            "Shhh..."
        .... there is an idea of Patrick Bateman, some kind of abstraction, but there is no real me, only
        an entity, something illusory, and though I can hide my cold gaze and you can shake my hand and feel
@@ -209,10 +201,8 @@
          "Let me rephrase the ques- Wait, how does my hair look?" I ask, interrupting myself. <br>
 
          "Uh, fine." <br>
-        </em></span>
       <br><br>
-  </p>
-  </div>
+ </div>
 </template>
 
 <script>
