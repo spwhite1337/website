@@ -2,7 +2,6 @@
   <div>
     <h2>American Gods, by Neil Gaiman</h2>
     <hr>
-   <p>
      Book reviews. Let me tell you what. Book reviews are tough to write, especially with a brain like mine that is drawn towards shallow, descriptive patterns rather than the thematic undertones. But nonetheless I will give it a shot with American Gods by Neil Gaiman. I read the book and have seen episodes of the Starz series sparingly and very much enjoyed it.
      <br><br>
      <b>Summary:</b> The story of American Gods is really quite <a href="https://en.wikipedia.org/wiki/Hero%27s_journey" target = "_blank">simple</a>. The protagonist, Shadow, is introduced at a low point in his life (he is in prison and immediately finds out his wife is dead and was cheating on him.), gets called to an adventure where he meets a diverse mixture of characters (accepts a job as a driver for a shady fellow, Mr. Wednesday), the following events force him to reinvent himself as he seeks to right the wrongs with the society he is re-entering (sacrifices himself to prevent a war). He finds himself at the intersection of a more important and far-reaching conflict and plays a central role in its resolution. Without giving too much away, I definitely recommend. American Gods has a discernible and readable structure that mirrors many other fantasy stories but occurs in an exciting universe and ends with a suspenseful but entertaining conclusion.
@@ -47,8 +46,6 @@
      And trust me, the context doesn't help much.
      <br><br>
      <b>Conclusion:</b> American Gods is a great fantasy book, hero story, and adventure that exceeds generic expectations due to it's creative setting and philosophy. For the contemporary American, it's great to get you thinking of "Republican gods" and "Progressive gods" and "Feminist gods" and "Trump gods" of all sorts as the populations belief's give them power to alter the world by defeating and controlling other gods. The obvious question for the reader is, "Which god's side are you on?". Me, I'm probably on something like a Christianity and Science god (but not a 'Christian Science' god) and, if I'm being honest, a money god. But I also very sympathetic to Sam's speech in that I don't really believe anything other than the belief that you all don't know what you're talking about.
-
-  </p>
 </div>
 </template>
 

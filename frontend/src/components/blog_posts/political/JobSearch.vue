@@ -8,7 +8,6 @@
      <br><br>
      Towards the end of my Ph.D. I had to outline the next move I would make in order to keep food on the table. The process is highlighted in the following figure (doesn't really work on mobile) and best interpreted as four pursuits: (i) Naive Chemical Engineering Pursuit, (ii) Serious Chemical Engineering Pursuit, (iii) Data Science Pursuit, (iv) Data Science Pursuit Post-Insight.
      <br><br>
-     <p>Insert Figure Here</p>
      <br><br>
      The timeline of the graph is elaborated as:<br>
      <ul>

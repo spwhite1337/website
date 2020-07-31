@@ -3,7 +3,6 @@
 <div>
     <h2>Cat's Cradle, by Kurt Vonnegut</h2>
     <hr>
-   <p>
        <br>
        In my more youthful days Kurt Vonnegut was one of my favorite authors with Cat's Cradle my favorite book of his.
        The black

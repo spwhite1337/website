@@ -3,7 +3,6 @@
 <div>
     <h2>Paradise Lost, by John Milton</h2>
     <hr>
-   <p>
      Paradise Lost is an epic poem by John Milton that has had reverberating influences on Christianity and Western society since its publication in 1667. Modern conceptions of hell, Satan/Lucifer, and angels can usually be connected directly to Milton's work. It is very difficult to read due to its poetic prose, so I had to read it in parallel with secondary sources that explained the story in plain English (<a href="http://www.paradiselost.org/lmg/Book-1.html" target = "_blank">Example</a>).
      <br><br>
      It is far too massive to tackle the whole thing, so instead I will highlight its relation to conspiratorial thinking - a pattern that is super relevant to navigating the internet and contemporary politics - and comment on the theological implications of Milton's depiction of Adam and Eve.
@@ -114,7 +113,6 @@
      </em>
      <br><br>
      When mapped to specifics, the gender relationship in Christianity is difficult to square with Modernity. For example, Adam is the main conduit of insight from Angels and God as opposed to God talking to them both - implying she doesn't 'need to know'. The core lesson from pre-modernity is that maintaining a connection between men and women requires a shared identity where each can individually complement for the greater pair. How this will look going forward is far beyond me - but it is worthwhile to investigate 'sexist' philosophies in order to understand their structure before they are demolished.
-  </p>
   </div>
 </template>
 

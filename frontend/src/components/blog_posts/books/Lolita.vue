@@ -2,7 +2,6 @@
 <div>
     <h2>Lolita, by Vladimir Nabokov</h2>
     <hr>
-   <p>
      This book is fucked. It's great. But fucked. In a sentence, it is a story told by a pedophilic murderer from his
        side and his side only. His narration is unreliable as hell, as he is constantly rationalizing and justifying
        abhorrent behavior.
@@ -157,7 +156,6 @@
        unable to illustrate such authenticity alone. To put another way, he is not more authentic than any other
        person is when placed in their personal narrative as they construct it.
        <br><br>
-  </p>
   </div>
 </template>
 

@@ -2,7 +2,6 @@
 <div>
     <h2><b>Never Pure:</b> <em>Historical Studies of Science as if It Was Produced by People with Bodies, Situated in Time, Space, Culture, and Society, and Struggling for Credibility and Authority</em> by Steven Shapin</h2>
     <hr>
-   <p>
      I love Science, I studied it for a decade of my prime years and utilize it for my livelihood. I also believe it is seriously overrated in 2018 America. Steven Shapin's work is a great antidote to widespread misappropriations of science one can witness including:
      <ul>
        <li>
@@ -27,7 +26,6 @@
      <br><br>
      <b>Pro-Science and Anti-Science:</b> Before one pokes at sacred foundations of a society, it is essential to outline your terms of critique to belay the inevitable triggered response of, "What, you think the moon is just gonna fall to earth soon? Why don't you jump off a cliff if you don't believe in gravity?". This is right in Shapin's wheelhouse (a good chunk of his career is scientific heresy) so I will only present a few beliefs here that outline how one can be "anti-science":
      <ul>
-       <br>
        <li>
          Science happens within historical time and place, not outside of it. And in turn has a spatio-temporal dependency.
        </li>
@@ -49,60 +47,60 @@
           "Postulating the existence of a real world constituting the irrational element in which science can never shake off, and the proud name 'Exact Science' must not be permitted to cause anybody to under-estimate the significance of this element of irrationality." -
           <a href="https://en.wikipedia.org/wiki/Max_Planck" target = "_blank">Max Planck</a>
         </em>
-      </li><br>
+      </li>
       <li>
         <em>
           "Science is a non-metaphysical activity" -
           <a href="https://en.wikipedia.org/wiki/J._Robert_Oppenheimer" target = "_blank">J. Robert Oppenheimer</a>
         </em>
-      </li><br>
+      </li>
       <li>
         <em>
           "For me as a physicist the laws of nature are as real in the same sense (whatever that is) as the rocks on the ground." -
           <a href="https://en.wikipedia.org/wiki/Steven_Weinberg" target = "_blank">Steve Weinberg</a>
         </em>
-      </li><br>
+      </li>
       <li>
         <em>
           "Reality is merely an illusion, albeit a persistent one." -
           <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target = "_blank">Albert Einstein</a>
         </em>
-      </li><br>
+      </li>
       <li>
         <em>
         "I was interested in truth from the point of view of salvation just as much as in truth from the point of view of scientific certainty. It appeared to me that there were two paths to truth, and I decided to follow both of them." -
         <a href="https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre" target = "_blank">George Lemaitre</a>
         </em>
-      </li><br>
+      </li>
       <li>
         <em>
           "What we observe is not nature itself, but nature exposed to our method of questioning." -
           <a href="https://en.wikipedia.org/wiki/Werner_Heisenberg" target = "_blank">Werner Heisenberg</a>
         </em>
-      </li><br>
+      </li>
       <li>
         <em>
           "Everything we call real is made of things that cannot be defined as real" -
           <a href="https://en.wikipedia.org/wiki/Niels_Bohr" target = "_blank">Niels Bohr</a>
         </em>
-      </li><br>
+      </li>
       <li>
         <em>
         "We're not allowed to call the Higgs Boson the 'God Particle' anymore because there is evidence it exists." -
         <a href="https://en.wikipedia.org/wiki/Sean_M._Carroll" target = "_blank">Sean Carroll</a>
         </em>
-      </li><br>
+      </li>
       <li>
         <em>
         "More generally it is completely unrealistic to claim, as Gould and many others do, that religion keeps itself away from science's turf, restricting itself to morals and values. A universe with a supernatural presence would be a fundamentally and qualitatively different kind of universe from one without. The difference is, inescapably, a scientific difference. Religions make existence claims, and this means scientific claims." -
         <a href="https://en.wikipedia.org/wiki/Richard_Dawkins" target = "_blank">Richard Dawkins</a>
         </em>
-      </li><br>
+      </li>
       <li>
         <em>"Nevertheless, all of us who work in quantum physics believe in the reality of the quantum world, and the reality of quantum entities like protons and electrons"; "It is the faithfullness of God that allows epistemology to model ontology." -
         <a href="https://en.wikipedia.org/wiki/John_Polkinghorne" target = "_blank">John Polkinghorne</a>
         </em>
-      </li><br>
+      </li>
     </ul>
     Continued research will fail to converge at a stable metaphysical relationship with science. If a litany of quotes don't convince you, then consider the entire field of metaphysics in philosophy - do you think this is redundant with 'science'? Do you think Aristotle was mistaken when he wrote "Metaphysics" after physics? Of course not, there is indeed a distinction and it is indeed important.
     <br><br>
@@ -178,42 +176,42 @@
      <em>
        "The growth of large business is merely a survival of the fittest... The American Beauty rose can be produced in the splendor and fragrance which bring cheer to its beholder only by sacrificing the early buds which grow up around it. This is not an evil tendency in business. It is merely the working out of a law of nature and a law of God." - John D. Rockefeller, Jr.
      </em>
-   </li><br>
+   </li>
     <li>
       <em>
         "It is clear that the class struggle of the proletariat is a quite natural and inevitable phenomenon." - Joseph Stalin
       </em>
-    </li><br>
+    </li>
     <li>
       <em>
         "National Socialism is nothing but applied biology." - Rudolf Hess
       </em>
-    </li><br>
+    </li>
     <li>
       <em>
         "The divine and natural law shows man the way to follow so as to practice the good and attain his end. The natural law states the first and essential precepts which govern the moral life. It hinges upon the desire for God and submission to him, who is the source and judge of all that is good, as well as upon the sense that the other is one's equal. Its principal precepts are expressed in the Decalogue. This law is called natural, not in reference to the nature of irrational beings, but because reason which decrees it properly belongs to human nature." - Catechism of the Catholic Church, Part Three, Section 1, Chapter 3, 1955
       </em>
-    </li><br>
+    </li>
     <li>
       <em>
       "[The rich] consume little more than the poor, and in spite of their natural selfishness and rapacity… they divide with the poor the produce of all their improvements. They are led by an invisible hand to make nearly the same distribution of the necessaries of life, which would have been made, had the earth been divided into equal portions among all its inhabitants, and thus without intending it, without knowing it, advance the interest of the society, and afford means to the multiplication of the species." - Adam Smith, Wealth of Nations
     </em>
-  </li><br>
+  </li>
     <li>
       <em>
         "The strongest argument against totalitarianism may be a recognition of a universal human nature; that all humans have innate desires for life, liberty and the pursuit of happiness. The doctrine of the blank slate... is a totalitarian's dream." - Steven Pinker
       </em>
-    </li><br>
+    </li>
     <li>
       <em>
       “if we have the choice between trusting in centralised power to make the right decision in that matter, or trusting in free associations of libertarian communities to make that decision, I would rather trust the latter. And the reason is that I think that they can serve to maximise decent human instincts, whereas a system of centralised power will tend in a general way to maximise one of the worst of human instincts, namely the instinct of rapaciousness, of destructiveness, of accumulating power to oneself and destroying others.” - Noam Chomsky
      </em>
-   </li><br>
+   </li>
     <li>
       <em>
         "The stronger must dominate and not mate with the weaker, which would signify the sacrifice of its own higher nature. Only the born weakling can look upon this principle as cruel, and if he does so it is merely because he is of a feebler nature and narrower mind; for if such a law did not direct the process of evolution then the higher development of organic life would not be conceivable at all.” - Adolf Hitler
       </em>
-    </li><br>
+    </li>
    </ul>
   Appeals to nature are ubiquitous, I tried to get examples from a wide range of political theories including an anarchist like Chomsky, capitalists like Rockefeller, and communists like Stalin as to avoid singling out any point on the (multi-dimensional) spectrum. I can only be so sure, but I suspect the universality of "appeals to nature" is itself an offshoot of human nature. To elaborate, we identify ourselves and the communities we belong to as situated in a narrative structure with a beginning, middle, and end. Religions make their beginning most identifiable with their creation stories (etiologies). But non-religous examples include science incepted from the enlightenment (it isn't), or political pundits referencing a fictional version of historical figures (FDR, Lincoln). The end conclusion of the narrative is some kind of promise that is continually out of reach. E.g. "The enlightenment taught us reason, if we build a natural society on reason then we will get to a point where we are all super reasonable and good.". Other examples include the communist utopia, the coming of Jesus, material wealth for all, conquering the world, liberating the masses. The "middle", where we always reside and where we make appeals to nature, is the 'natural' progression from beginning to end. The authors of the above quotes don't appeal to nature in isolation, but to justify a means to implement a path to their envisioned goal. To be clear, this is my idea - not Steven Shapin's.
   <br><br>
@@ -223,7 +221,6 @@
   <br><br>
   Personally, I could listen to anecdotes about historical figures in science along with interpretations of their philosophies for a long, long time. Steven Shapin covers Rene Descarte, Robert Boyle, Robert Hooke, and more throughout this work allowing one to deeply appreciate their effect on modernity and their role in expanding the knowledge of humanity.
   <br><br>
-  </p>
   </div>
 </template>
 <script>

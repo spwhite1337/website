@@ -2,7 +2,6 @@
     <div>
         <h2>The Picture of Dorian Gray, by Oscar Wilde</h2>
         <hr>
-       <p>
          <b>Preface:</b> Set in the late 19th century in Victorian England, The Picture of Dorian Gray is the only novel written by the quotable Oscar Wilde and illustrates his philosophy of 'aestheticism'. The movement sought to create art for art's sake as expressed in the preface to the book in Mr. Wilde's own words:
          <br><br>
          <em>
@@ -93,7 +92,6 @@
       The topic is done well, but at times it is super awkward with how in love the men are with each other. I mean, we're talking two dudes gushing over each other's beauty without ever having sex (explicitly). It would be preferable to me if they just banged it out and got on with the moral philosophizing. But that is likely a broader contempt I have for romance in novels, it always appears as too cartoon-ish or melodramatic for my taste.
       <br><br>
       <b>Conclusion:</b> <em>The Picture of Dorian Gray</em> stands out for its dark undertones and fantastic writing. It is a wonderful example of evil compounding due to the excesses of rationality and the stifling of emotions. Unfortunately, it doesn't address the much harder challenge of affirming a moral belief system but rather negates a somewhat cartoonish version of self-interested rationality. But it does accomplish this refutation with style and cogency with Oscar Wilde's great writing. Definitely recommend.
-  </p>
   </div>
 </template>
 

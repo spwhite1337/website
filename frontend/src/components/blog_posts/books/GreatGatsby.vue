@@ -2,7 +2,6 @@
   <div>
     <h2>The Great Gatsby, by F. Scott Fitzgerald</h2>
     <hr>
-    <p>
         Years back, I accepted an invitation to join a rec soccer team with a bunch of people that didn't know me and didn't
         know each other outside of Tuesday nights from 7-8pm. One gentleman, John from England, didn't take too kindly to
         my playing style despite me scoring >2 goals a game and our team consistently making it to the semi-finals (In
@@ -113,7 +112,6 @@
         Take The Great Gatsby as a cautionary tale against superficial facades that don't address foundational drives
         for meaning and significance. Don't be like Tom, Daisy, or Gatsby. The characters are unlikeable of a reason,
         to deter you from them.
-    </p>
   </div>
 </template>
 

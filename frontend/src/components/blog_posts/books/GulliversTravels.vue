@@ -2,7 +2,6 @@
 <div>
     <h2>Gulliver's Travels, by Jonathan Swift</h2>
     <hr>
-   <p>
      Jonathan Swift, the author of Gulliver's Travels, is a wild man and former dean of St. Patrick's Cathedral in
        Dublin, Ireland. A member of the <a href="https://en.wikipedia.org/wiki/Scriblerus_Club"
    target="_blank">Scriblerus Club </a>, he presented Gulliver's Travels as a satirical work that is mocking the
@@ -45,7 +44,6 @@
        <br><br>
        <b>Analysis:</b>
        <br><br>
-  </p>
   </div>
 </template>
 
