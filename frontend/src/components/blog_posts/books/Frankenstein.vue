@@ -3,7 +3,6 @@
 <div>
     <h2>Frankenstein, by Mary Shelley</h2>
     <hr>
-   <p>
      Often considered the first authentic work of science fiction, Frankenstein is a classic horror novel by Mary Shelley, published in 1823. It is a super dark book that toys with fundamental questions about why beings exist in the first place, what it means to be alive, and who has the responsibility to create and maintain life. Its presented in an accessible manner that enables the reader to progress through the plot without triggering an existential crisis of their own.
      <br><br>
      I will give a brief summary of the book then address three questions the novel raises. It is important to note that the novel arises out of a context that seriously blurred the distinctions between science, alchemy, and the metaphysics of life. Europe was slowly transitioning to a continent with a plurality of knowledge or truth sources including the Church, the Public, and Secular Institutions of Science and Philosophy.
@@ -74,7 +73,6 @@
      <br><br>
      Mary Shelley answers the question through the monster's progression. He starts out quite innocent and ignorant, only to be rebuked due to his looks by the community he hoped would validate his identity as a non-monster. The corresponding murders and violence come after his peaceful identity was rejected leaving him with only violent outrage. As a result, he seeks to abandon civilization to the wilderness, where it is implied the monster belongs. The novel leaves the reader with an obligation to connect to the lowest members in society in order to prevent righteous indignation.
      <br>
-  </p>
   </div>
 </template>
 
