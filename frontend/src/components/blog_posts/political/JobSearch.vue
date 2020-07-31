@@ -1,9 +1,7 @@
 <template>
-
 <div>
     <h2>Job Search Post-Academia</h2>
     <hr>
-   <p>
      Academic science is a strange place. It is an institution comprised of rational, intelligent people all pursuing a predominantly passion-driven and irrational endeavor: getting a Ph.D. This pecularity is amplified in the field I stem from, Chemical Engineering, because a bachelor's degree is far more employable than most other degrees including a Chemical Engineering Ph.D. Sure, the job roles and benefits differ, but the key barrier of 'employable or not' is readily surmounted after a bachelor's but increased if a Ph.D. is pursued in ChemE.
      <br><br>
      One could protest, 'A degree is not job training, the purpose of going to university is to become a better person/citizen/Christian (in the old days)!' to which I respond, 'lol, I graduated high school right at the recession I needed to get that paper.' While it's true that that was my mentality during most of undergrad, I still went on to get my Ph.D. when I had two informal offers from industry near bachelor's graduation. Those offers would haunt my dreams on multiple occassions during graduate school.
@@ -38,7 +36,6 @@
      </ul>
      <br>
      In summary, the process is confusing, demoralizing, dehumanizing, ego-killing, self-confidence-killing, and frustrating. I understand why people stay in academia (as the skills directly transfer) but I had to get out. If you're in a similar position I have a few pieces of advice/wisdom: (i) applying online gets you a 10% callback rate at best, (ii) using distant contacts for job networking is part of the norms and not awkward - you should do it, (iii) use a recruiter and abuse them, (iv) be willing to relocate as geographical restrictions are the biggest turn-off to employers, (v) lower your standards until you get experience, (vi) take care of yourself during the job hunt.
-  </p>
   </div>
 </template>
 

@@ -14,6 +14,7 @@
       <li><button @click="showLolita">Lolita by Vladimir Nabokov</button></li>
       <li><button @click="showParadiseLost">Paradise Lost by John Milton</button></li>
       <li><button @click="showScience">Science by Scott White</button></li>
+      <li><button @click="showJobSearch">Job Search by Scott White</button></li>
     </ul>
     <div v-if="displayAmericanGods"><AmericanGods/></div>
     <div v-if="displayAmericanPsycho"><AmericanPsycho/></div>
@@ -27,22 +28,24 @@
     <div v-if="displayLolita"><Lolita/></div>
     <div v-if="displayParadiseLost"><ParadiseLost/></div>
     <div v-if="displayScience"><Science/></div>
+    <div v-if="displayJobSearch"><JobSearch/></div>
   </div>
 </template>
 
 <script>
-  import AmericanGods from './blog_posts/AmericanGods.vue'
-  import AmericanPsycho from './blog_posts/AmericanPsycho.vue'
-  import BraveNewWorld from './blog_posts/BraveNewWorld.vue'
-  import CatsCradle from './blog_posts/CatsCradle.vue'
-  import NeverPure from './blog_posts/NeverPure.vue'
-  import GreatGatsby from './blog_posts/GreatGatsby.vue'
-  import Frankenstein from './blog_posts/Frankenstein.vue'
-  import DorianGray from './blog_posts/DorianGray.vue'
-  import GulliversTravels from './blog_posts/GulliversTravels.vue'
-  import Lolita from './blog_posts/Lolita.vue'
-  import ParadiseLost from './blog_posts/ParadiseLost.vue'
-  import Science from './blog_posts/Science.vue'
+  import AmericanGods from './blog_posts/books/AmericanGods.vue'
+  import AmericanPsycho from './blog_posts/books/AmericanPsycho.vue'
+  import BraveNewWorld from './blog_posts/books/BraveNewWorld.vue'
+  import CatsCradle from './blog_posts/books/CatsCradle.vue'
+  import NeverPure from './blog_posts/science/NeverPure.vue'
+  import GreatGatsby from './blog_posts/books/GreatGatsby.vue'
+  import Frankenstein from './blog_posts/books/Frankenstein.vue'
+  import DorianGray from './blog_posts/books/DorianGray.vue'
+  import GulliversTravels from './blog_posts/books/GulliversTravels.vue'
+  import Lolita from './blog_posts/books/Lolita.vue'
+  import ParadiseLost from './blog_posts/books/ParadiseLost.vue'
+  import Science from './blog_posts/science/Science.vue'
+  import JobSearch from './blog_posts/political/JobSearch.vue'
 
   export default {
     data () {
@@ -58,7 +61,8 @@
         displayGulliversTravels: false,
         displayLolita: false,
         displayParadiseLost: false,
-        displayScience: false
+        displayScience: false,
+        displayJobSearch: false
       }
     },
     components: {
@@ -73,7 +77,8 @@
       GulliversTravels,
       Lolita,
       ParadiseLost,
-      Science
+      Science,
+      JobSearch
     },
     methods: {
       showAmericanGods: function () {
@@ -111,6 +116,9 @@
       },
       showScience: function () {
         this.displayScience = !this.displayScience
+      },
+      showJobSearch: function () {
+        this.displayJobSearch = !this.displayJobSearch
       }
     }
   }
