@@ -16,19 +16,19 @@
       <li><button @click="showScience">Science by Scott White</button></li>
       <li><button @click="showJobSearch">Job Search by Scott White</button></li>
     </ul>
-    <div v-if="displayAmericanGods"><AmericanGods/></div>
-    <div v-if="displayAmericanPsycho"><AmericanPsycho/></div>
-    <div v-if="displayBraveNewWorld"><BraveNewWorld/></div>
-    <div v-if="displayCatsCradle"><CatsCradle/></div>
-    <div v-if="displayNeverPure"><NeverPure/></div>
-    <div v-if="displayGreatGatsby"><GreatGatsby/></div>
-    <div v-if="displayFrankenstein"><Frankenstein/></div>
-    <div v-if="displayDorianGray"><DorianGray/></div>
-    <div v-if="displayGulliversTravels"><GulliversTravels/></div>
-    <div v-if="displayLolita"><Lolita/></div>
-    <div v-if="displayParadiseLost"><ParadiseLost/></div>
-    <div v-if="displayScience"><Science/></div>
-    <div v-if="displayJobSearch"><JobSearch/></div>
+    <div v-if="display === 'American Gods'"><AmericanGods/></div>
+    <div v-if="display === 'American Psycho'"><AmericanPsycho/></div>
+    <div v-if="display === 'Brave New World'"><BraveNewWorld/></div>
+    <div v-if="display === 'Cats Cradle'"><CatsCradle/></div>
+    <div v-if="display === 'Never Pure'"><NeverPure/></div>
+    <div v-if="display === 'Great Gatsby'"><GreatGatsby/></div>
+    <div v-if="display === 'Frankenstein'"><Frankenstein/></div>
+    <div v-if="display === 'Dorian Gray'"><DorianGray/></div>
+    <div v-if="display === 'Gullivers Travels'"><GulliversTravels/></div>
+    <div v-if="display === 'Lolita'"><Lolita/></div>
+    <div v-if="display === 'Paradise Lost'"><ParadiseLost/></div>
+    <div v-if="display === 'Science'"><Science/></div>
+    <div v-if="display === 'Job Search'"><JobSearch/></div>
   </div>
 </template>
 
@@ -50,19 +50,7 @@
   export default {
     data () {
       return {
-        displayAmericanGods: false,
-        displayAmericanPsycho: false,
-        displayBraveNewWorld: false,
-        displayCatsCradle: false,
-        displayNeverPure: false,
-        displayGreatGatsby: false,
-        displayFrankenstein: false,
-        displayDorianGray: false,
-        displayGulliversTravels: false,
-        displayLolita: false,
-        displayParadiseLost: false,
-        displayScience: false,
-        displayJobSearch: false
+          display: ''
       }
     },
     components: {
@@ -82,43 +70,43 @@
     },
     methods: {
       showAmericanGods: function () {
-        this.displayAmericanGods = !this.displayAmericanGods
+        this.display = 'American Gods'
       },
       showAmericanPsycho: function () {
-        this.displayAmericanPsycho = !this.displayAmericanPsycho
+        this.display = 'American Psycho'
       },
       showBraveNewWorld: function () {
-        this.displayBraveNewWorld = !this.displayBraveNewWorld
+        this.display = 'Brave New World'
       },
       showCatsCradle: function () {
-        this.displayCatsCradle = !this.displayCatsCradle
+        this.display = 'Cats Cradle'
       },
       showNeverPure: function () {
-        this.displayNeverPure = !this.displayNeverPure
+        this.display = 'Never Pure'
       },
       showGreatGatsby: function () {
-        this.displayGreatGatsby = !this.displayGreatGatsby
+        this.display = 'Great Gatsby'
       },
       showFrankenstein: function () {
-        this.displayFrankenstein = !this.displayFrankenstein
+        this.display = 'Frankenstein'
       },
       showDorianGray: function () {
-        this.displayDorianGray = !this.displayDorianGray
+        this.display = 'Dorian Gray'
       },
       showGulliversTravels: function () {
-        this.displayGulliversTravels = !this.displayGulliversTravels
+        this.display = 'Gullivers Travels'
       },
       showLolita: function () {
-        this.displayLolita = !this.displayLolita
+        this.display = 'Lolita'
       },
       showParadiseLost: function () {
-        this.displayParadiseLost = !this.displayParadiseLost
+        this.display = 'Paradise Lost'
       },
       showScience: function () {
-        this.displayScience = !this.displayScience
+        this.display = 'Science'
       },
       showJobSearch: function () {
-        this.displayJobSearch = !this.displayJobSearch
+        this.display = 'Job Search'
       }
     }
   }
