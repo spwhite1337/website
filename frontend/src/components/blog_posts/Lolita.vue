@@ -1,12 +1,12 @@
-<div id = "blog_post">
-    <h2 id = "blog_post_title">Lolita, by Vladmir Nabokov</h2>
-    <hr id = #title_hr>
-   <p id = "blog_post_text">
+<template>
+<div>
+    <h2>Lolita, by Vladimir Nabokov</h2>
+    <hr>
+   <p>
      This book is fucked. It's great. But fucked. In a sentence, it is a story told by a pedophilic murderer from his
        side and his side only. His narration is unreliable as hell, as he is constantly rationalizing and justifying
        abhorrent behavior.
        <br><br>
-       <img id = 'nabokov' src="{% static 'Blog/images/Lolita/nabokov.jpg' %}" alt="">
        Being a famous book, I am at the luxury of borrowing interpretations from people far more intelligent and
        well-read than myself. Richard Rorty uses Lolita to explain the potential for cruelty in our quest for autonomy.
        The main character exhibits a tension between the passionate implementation of an authentic, life-affirming
@@ -34,7 +34,6 @@
        reality of a grown man cumming to a prepubescent girl, you are left understanding the fundamental motivations
        behind Humbert's actions that stem deeper than lust or hornyness.
        <br><br>
-       <img id = 'bookcover' src="{% static 'Blog/images/Lolita/lolita_bookcover.jpg' %}" alt="">
        Humbert, being an attrative, intelligent man, wins the affection of Lolita's mother and marrys her to stay
        closer to Lolita. To stay sane, he keeps a diary that
        meticulously documents his feelings towards Lolita. One day while Lolita is off at summer camp, Lolita's mother
@@ -70,7 +69,6 @@
        This is a man who loves a woman sincerely, except the woman is a pre-pubescent girl. It's so fucked up but
        so good at the same time. It really twists you and confuses you to try and like someone you despise.
        <br><br>
-       <img id = 'moviecover' src="{% static 'Blog/images/Lolita/lolita_movie.JPG' %}" alt="">
        <b>Summary Part Two:</b> The pair hit the road on a cross-country adventure filled with sex, arguments, and more
        professions of disgustingly but beautifully written love. Lolita enrolls in an all girls school that puts on a
        play Lolita participates in despite Humbert's reluctance. He is losing control while Lolita grows up and strives
@@ -105,7 +103,6 @@
        After a pathetic sounding fight,
        Humbert shoots him dead and he leaves to see quests at his house prepared for a licentious party. He is
        caught as he drives away and crashes his car.
-       <img id = 'lanadelrey' src="{% static 'Blog/images/Lolita/lanadelrey.jpeg' %}" alt="">
        <br><br>
        <em>
            The following decision I make with all the legal impact and support of a signed testament: I wish this memoir
@@ -145,7 +142,6 @@
        can we outline the metaphyiscal existence of these constraints outside a transcendent or divine vocabulary?
        I think the conclusion is we cannot, and secularism is on a far darker trajectory than most people realize.
        <br><br>
-       <img id = 'rorty' src="{% static 'Blog/images/Lolita/rickrorty.jpg' %}" alt="">
        The second point to derive from Lolita is the constraints of self-reflection inspired by Humbert. The man is
        writing a memoir that is to be withheld until his death. He will suffer no consequences from its reception
        yet still clearly lies to justify his own path. He is unanimously regarded as an unreliable narrator with his
@@ -161,7 +157,12 @@
        unable to illustrate such authenticity alone. To put another way, he is not more authentic than any other
        person is when placed in their personal narrative as they construct it.
        <br><br>
-
-
   </p>
   </div>
+</template>
+
+<script>
+  export default {
+    name: 'Lolita'
+  }
+</script>

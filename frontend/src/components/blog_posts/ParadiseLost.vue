@@ -1,7 +1,9 @@
-<div id = "blog_post">
-    <h2 id = "blog_post_title">Paradise Lost, by John Milton</h2>
-    <hr id = #title_hr>
-   <p id = "blog_post_text">
+<template>
+
+<div>
+    <h2>Paradise Lost, by John Milton</h2>
+    <hr>
+   <p>
      Paradise Lost is an epic poem by John Milton that has had reverberating influences on Christianity and Western society since its publication in 1667. Modern conceptions of hell, Satan/Lucifer, and angels can usually be connected directly to Milton's work. It is very difficult to read due to its poetic prose, so I had to read it in parallel with secondary sources that explained the story in plain English (<a href="http://www.paradiselost.org/lmg/Book-1.html" target = "_blank">Example</a>).
      <br><br>
      It is far too massive to tackle the whole thing, so instead I will highlight its relation to conspiratorial thinking - a pattern that is super relevant to navigating the internet and contemporary politics - and comment on the theological implications of Milton's depiction of Adam and Eve.
@@ -10,10 +12,6 @@
      <hr>
      <b>Rough Summary:</b> The poem starts out depicting the Holy Spirit inspiring a story-teller to relay the tale of creation in an analogous fashion to greek muses inspiring poems like the Odyssey or the Illiad.
      <br><br>
-     <figure id = 'John_milton'>
-       <img src="{% static 'Blog/images/ParadiseLost/john_milton.jpg' %}" alt="John_milton">
-       <figcaption>John Milton</figcaption>
-     </figure>
      <em>
        "Of Man’s First Disobedience, and the Fruit <br>
         Of that Forbidden Tree, whose mortal taste  <br>
@@ -35,19 +33,11 @@
      </em>
      <br><br>
      From there, Lucifer is chilling in hell with an assortment of biblical demons reconvening after their defeat against the forces of heaven. Frustrated, he plans to undermine God's creation by corrupting it underhandedly rather than attacking it head on. He ventures out of hell by sweet-talking the guardians, Sin and Death, and disguises himself as a Cherub to learn the location of Eden from the angel Uriel and makes his way there disguised as an Eagle (or a generic large bird or something).
-     <figure id = 'Satan_council'>
-       <img src="{% static 'Blog/images/ParadiseLost/satan_council.JPG' %}" alt="Satan Council">
-       <figcaption>Satan with his Council in Hell</figcaption>
-     </figure>
      <br><br>
      Satan morphs into a toad and approaches Adam and Eve in the garden to corrupt them. Meanwhile, God is spectating with a watchful eye and sends his angel Gabriel to lay down the hammer on that tricky Satan who bolts after God sends him a vision of golden scales of justice (Satan is the opposite of justice).
      <br><br>
      Raphael enters the scene and gives Adam and Eve a bit of a pep talk after Satan infiltrated their dreams. Raphael relays warnings about Adam's inquistive nature, reminding him that God is the source of knowledge and there are some concepts beyond his reach. He also reminds Adam that his love for Eve is spiritual in nature, not lustful (even though they still have sex).
      <br><br>
-     <figure id = 'Raphael'>
-       <img src="{% static 'Blog/images/ParadiseLost/Raphael.JPG' %}" alt="Raphael">
-       <figcaption>Raphael the Archangel</figcaption>
-     </figure>
      About a week after getting scurried away, Satan returns to Paradise and takes the form of a serpent. He corrupts Eve by coercing her to eat from the Tree of Knowledge. She does and frantically tells Adam who follows suit and eats in solidarity with Eve. Then later have sex out of animalistic lust.
      <br><br>
      Watching all along, God sends Jesus to put the situation back in order. Jesus punishes Satan and informs Adam and Eve that they will now experience Pain and Death as a consequence of their sin. Adam throws a fit and argues with Eve throwing blame at her and himself. Ultimately, they resolve to remain obedient to God to spite Satan despite the hardships they will inevitably face.
@@ -73,10 +63,6 @@
      <br><br>
      It is important to note that Milton does not call Satan weak. In fact, Satan is constantly depicted as powerful and mighty:
      <br><br>
-     <figure id = 'Satan'>
-       <img src="{% static 'Blog/images/ParadiseLost/satan.jpg' %}" alt="Satan">
-       <figcaption>Satan</figcaption>
-     </figure>
      <em>
        "Then with expanded wings he stears his flight <br>
         Aloft, incumbent on the dusky Air <br>
@@ -107,10 +93,6 @@
      <br><br>
      To say something like, "Men are above women" or "Adam is above Eve" is too reductionist. They are both nothing without each other but can combine in harmony to properly orient themselves in life. Alone, Eve fell victim to deception by Satan's exploitation of her vanity. Adam's presence could have (i) mitigated her vane concerns by expressing his love to her or (ii) fortified her integrity in the face of temptation. Similarly, with a weakened Eve, Adam loses site of his purpose and perspective. He eats of the tree to regain the solidarity he failed to maintain.
      <br><br>
-     <figure id = 'Adam_eve'>
-       <img src="{% static 'Blog/images/ParadiseLost/adam_eve.jpg' %}" alt="Adam_eve">
-       <figcaption>Adam and Eve (1640s) by Jacob Jordaens</figcaption>
-     </figure>
      <em>
           "Not equal, as their sex not equal seem’d; <br>
           For contemplation hee and valor form’d,<br>
@@ -132,7 +114,12 @@
      </em>
      <br><br>
      When mapped to specifics, the gender relationship in Christianity is difficult to square with Modernity. For example, Adam is the main conduit of insight from Angels and God as opposed to God talking to them both - implying she doesn't 'need to know'. The core lesson from pre-modernity is that maintaining a connection between men and women requires a shared identity where each can individually complement for the greater pair. How this will look going forward is far beyond me - but it is worthwhile to investigate 'sexist' philosophies in order to understand their structure before they are demolished.
-
-
   </p>
   </div>
+</template>
+
+<script>
+export default {
+    name: 'ParadiseLost'
+}
+</script>

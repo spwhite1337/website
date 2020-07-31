@@ -1,7 +1,8 @@
-<div id = "blog_post">
-    <h2 id = "blog_post_title">American Psycho, by Bret Easton Ellis</h2>
-    <hr id = #title_hr>
-   <p id = "blog_post_text">
+<template>
+ <div>
+    <h2>American Psycho, by Bret Easton Ellis</h2>
+    <hr>
+   <p>
      American Psycho's protagonist, Patrick Bateman, is a personification of American capitalism,
        albeit a cartoonish and narrow version exemplified by 1980s greed and the anarchy of Wall
        Street stock trading. He is vacuous, beastly, driven by external validation (as opposed to an internal conscience),
@@ -14,8 +15,6 @@
        <br>
        <hr>
        <br>
-      <img id = 'patrick_bateman_1' src="{% static 'Blog/images/AmericanPsycho/patrickbateman_1.jpg' %}" alt="">
-
        <b>Summary:</b> The story focuses on one character, Patrick Bateman, and his existence as a high end wall street
        account manager. While impressive on paper, his job is deeply blended with his social life with little-to-no
        emphasis on his actual profession. He explains his job to flirt with women, but he never actually does what
@@ -30,10 +29,8 @@
        One of many examples is presented here and was selected because it made me laugh out loud in absurdity. These scenes
       are sprinkled throughout the novel with a clear progression of intensity. Bateman starts by accosting homeless
       people and dogs, advances to prostitutes, and finished with a murder of a colleague.
-      <img id = 'murder' src="{% static 'Blog/images/AmericanPsycho/murder.jpg' %}" alt="">
-
            <br><br>
-        <span id = quoted_text><em>
+        <span><em>
       I lean in above her and shout, over her
        screans, "Try to scream, scream, keep screaming..." I've opened all the windows and the door to my
        terrace and when I stand over her, the mouth opens and not even screams come out anymore, just
@@ -47,7 +44,6 @@
        Blood gushes out of her mouth and I have to hold her head up so she won't choke. Then I fuck her in the
        mouth, and after I've ejaculated and pulled out, I Mace her some more.
             <br><br>
-
         Later, when she briefly regains consciousness, I put on a porkpie hat I was given by one of my
        girlfriends freshman year at Harvard. <br>
          "Remember this?" I shout, towering over her. "And look at this!" I scream triumphantly, holding up
@@ -65,10 +61,8 @@
        Later, the next night in fact, three of us, Craig McDermott, Courtney and myself, are in a cab heading
        toward Nell's and talking about Evian water......
       </em></span>
-      <img id = 'axe' src="{% static 'Blog/images/AmericanPsycho/axe.jpg' %}" alt="">
-
       <br><br>
-      Parallels with works like <a href="{% url 'Blog:DorianGray' %}">The Picture of Dorian Gray</a> are clear, though,
+      Parallels with works like Dorian Gray are clear, though,
       American Psycho goes into excruciating detail wwhile Oscar Wilde leaves it to the imagination.
       <br><br>
       The story zig-zags between inner monologues about minutiae, grotesque violent acts, elaborate social gossip,
@@ -110,14 +104,12 @@
       significant other. I highly doubt the author intended it this way, but it highlights the vacuousness of
       material or substantive pleasures in a hilarious manner. Drugs specifically designed to control your emotions
       are only used to maintain a version of yourself to others (Bateman's whole being).
-      <img id = 'drugs' src="{% static 'Blog/images/AmericanPsycho/drugs_ap.jpg' %}" alt="">
-
       <br><br>
       Drugs are the reference point for Bateman's feelings and emotions, as he has no internal soul for them to
       stem from. Even in the face of extreme, life-defining acts of violence - Bateman can only metaphorically
       speak of drug highs to express himself.
       <br><br>
-      <span id="quoted_text"><em>
+      <span><em>
       [After tormenting a homeless man] Then I turn to the barking dog and when I get up, stomp on its
        front legs while it's crouched down ready to jump at me, its fangs bared, immediately shattering
        the bones in both its legs, and it falls on its side squeaking in pain, front paws sticking up in the
@@ -142,7 +134,6 @@
       never look at them any deeper than that (he isn't any deeper himself). He treats prostitutes as
       sex robots that he only fucks to exemplify his capabilities. The most significant sexual attraction
       he has is to himself, as he stares at himself and flexes in the mirror while fucking a prostitute from behind.
-      <img id = 'evelynwilliams' src="{% static 'Blog/images/AmericanPsycho/evelynwilliams.jpg' %}" alt="">
       <br><br>
       Like drugs, women are not romantized and used as a means to an end. Unlike drugs, the end isn't a please but a
       validation. Bateman must constantly demonstrate his worth because he has no "being" to ground himself in. He has
@@ -157,10 +148,9 @@
       <a href="https://www.youtube.com/watch?v=Ruw9fsh3PNY", target = "_blank">Huey Lewis and the News</a>,
       Phil Collins, and more but never relates the music to his life or his emotions (like, you know, real people).
       <br><br>
-      <img id = 'headphones' src="{% static 'Blog/images/AmericanPsycho/headphones.gif' %}" alt="">
       The closest we get to a penetrating piece of art for Bateman follows:
       <br><br>
-      <span id = 'quoted_text'><em>
+      <span><em>
           But when I sit down something strange on the stage catched my eye. Bono has
        now moved across the stage, following me to my seat, and he's staring into my eyes, kneeling at the
        edge of the stage, wearing black jeans (maybe Gitano), sandals, a leather vest with no shirt
@@ -191,7 +181,7 @@
       To make sure you realize, all of Bateman's live is insignificant, meaningless, and unnecessary to
       interpret. I will lend you Bateman's explicit admission and agreement with me.
       <br><br>
-      <span id="quoted_text"><em>
+      <span><em>
        "And I just can't..." She stops, frustrated. "I can't pretend these feelings don't
        exist, can I?" &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
            "Shhh..."
@@ -223,3 +213,10 @@
       <br><br>
   </p>
   </div>
+</template>
+
+<script>
+export default {
+ name: 'AmericanPsycho'
+}
+</script>

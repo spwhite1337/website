@@ -1,7 +1,9 @@
-<div id = "blog_post">
-    <h2 id = "blog_post_title">Cat's Cradle, by Kurt Vonnegut</h2>
-    <hr id = #title_hr>
-   <p id = "blog_post_text">
+<template>
+
+<div>
+    <h2>Cat's Cradle, by Kurt Vonnegut</h2>
+    <hr>
+   <p>
        <br>
        In my more youthful days Kurt Vonnegut was one of my favorite authors with Cat's Cradle my favorite book of his.
        The black
@@ -19,7 +21,6 @@
        This is even more destructive than the atomic bomb as it could effectively wipe out all humanity and life on
        earth with just a single attack.
        <br><br>
-       <img id = 'bookcover' src="{% static 'Blog/images/CatsCradle/bookcover.jpg' %}" alt="">
        His journey brings him to San Lorenzo, a primitive island nation that is ostensibly Christian but practically
        Bokononist - a religion that is explicitly based on lies and untruths. The island is governed by
        a dictatorship with punishments issued by impalement on a large hook. Bokononism holds human relationships sacred
@@ -39,7 +40,6 @@
        emerge to find the inhabitants of San Lorenzo dead of mass suicide, John is rescued after some time when he
        wrote the memoirs that are revealed to be the book, Cat's Cradle.
        <br><br>
-       <img id = 'icenine' src="{% static 'Blog/images/CatsCradle/icenine.png' %}" alt="">
        The finale entails a meeting between John and Bokonon himself who is finishing the founding text of Bokononism
        "The Book of Bokonon". In the aftermath of all this destruction, Bokonon longs for a chance to do the whole
        thing over and initiate the <em>ice-nine</em> catastrophe years before while flipping off God. It is suggested
@@ -59,7 +59,6 @@
       who can't even understand alternative approaches to problems outside of technical means. For her (and many
       techno-futurist types) science is the One True Way which Vonnegut promptly mocks by noting the scientific
       achievement of atomic war:
-      <img id = 'kurtvonnegut' src="{% static 'Blog/images/CatsCradle/kurtvonnegut.jpg' %}" alt="">
       <br><br>
       <em>I thought scientists were going to find out exactly how everything worked, and then make it work better. I
           fully expected that by the time I was twenty-one, some scientist, maybe my brother, would have taken a color
@@ -86,7 +85,6 @@
       of truth and rationality for Vonnegut and serve as a easy target for his ridicule. Similarly, the "reasonable"
       government of San Lorenzo is still fundamentally governed by "irrational" passions and motives.
       <br><br>
-    <img id = 'sanlorenzo' src="{% static 'Blog/images/CatsCradle/sanlorenzoflag.png' %}" alt="">
       <b>Untruthiness of Nationalities:</b> Nationalities and nation-states are routinely ridiculed as harmful,
       pointless lies used to manipulate and rule.
       Being a veteran of the Dresden affair in WWII (a complete catastrophe), Vonnegut understandably detests
@@ -145,7 +143,6 @@
       President of the Humanists? Is this not the same thing? I'm sure they can rationalize a differentiation but
       I again don't see that jiving with the clear irrationality of humans comprising Vonnegut's work. Oh well, maybe I
       am just indoctrinated and brainwashed.
-      <img id = 'bokononism' src="{% static 'Blog/images/CatsCradle/bokononism.jpg' %}" alt="">
       <br><br>
       <b>Determinism and Pessimism:</b>
        Like the Calvinist notion of Total Depravity, Bokononists don't see any role for "free will" or individual
@@ -178,3 +175,10 @@
       Cradle.
       <br><br>
   </div>
+</template>
+
+<script>
+export default {
+    name: 'CatsCradle'
+}
+</script>
