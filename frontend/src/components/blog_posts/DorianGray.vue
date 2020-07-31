@@ -98,5 +98,7 @@
 </template>
 
 <script>
-
+  export default {
+    name: 'DorianGray'
+  }
 </script>

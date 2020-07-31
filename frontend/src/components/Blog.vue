@@ -6,11 +6,13 @@
       <li><button @click="showGreatGatsby">The Great Gatsby by F. Scott Fitzgerald</button></li>
       <li><button @click="showFrankenstein">Frankenstein by Mary Shelley</button></li>
       <li><button @click="showDorianGray">The Picture of Dorian Gray by Oscar Wilde</button></li>
+      <li><button @click="showGulliversTravels">Gulliver's Travels by Jonathan Swift</button></li>
     </ul>
     <div v-if="displayNeverPure"><NeverPure/></div>
     <div v-if="displayGreatGatsby"><GreatGatsby/></div>
     <div v-if="displayFrankenstein"><Frankenstein/></div>
     <div v-if="displayDorianGray"><DorianGray/></div>
+    <div v-if="displayGulliversTravels"><GulliversTravels/></div>
   </div>
 </template>
 
@@ -19,6 +21,7 @@
   import GreatGatsby from './blog_posts/GreatGatsby.vue'
   import Frankenstein from './blog_posts/Frankenstein.vue'
   import DorianGray from './blog_posts/DorianGray.vue'
+  import GulliversTravels from './blog_posts/GulliversTravels.vue'
 
   export default {
     data () {
@@ -26,14 +29,16 @@
         displayNeverPure: false,
         displayGreatGatsby: false,
         displayFrankenstein: false,
-        displayDorianGray: false
+        displayDorianGray: false,
+        displayGulliversTravels: false
       }
     },
     components: {
       NeverPure,
       GreatGatsby,
       Frankenstein,
-      DorianGray
+      DorianGray,
+      GulliversTravels
     },
     methods: {
       showNeverPure: function () {
@@ -47,6 +52,9 @@
       },
       showDorianGray: function () {
         this.displayDorianGray = !this.displayDorianGray
+      },
+      showGulliversTravels: function () {
+        this.displayGulliversTravels = !this.displayGulliversTravels
       }
     }
   }
