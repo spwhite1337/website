@@ -1,12 +1,10 @@
-<div id = "blog_post">
-    <h2 id = "blog_post_title">Frankenstein, by Mary Shelley</h2>
-    <hr id = #title_hr>
-   <p id = "blog_post_text">
+<template>
+
+<div>
+    <h2>Frankenstein, by Mary Shelley</h2>
+    <hr>
+   <p>
      Often considered the first authentic work of science fiction, Frankenstein is a classic horror novel by Mary Shelley, published in 1823. It is a super dark book that toys with fundamental questions about why beings exist in the first place, what it means to be alive, and who has the responsibility to create and maintain life. Its presented in an accessible manner that enables the reader to progress through the plot without triggering an existential crisis of their own.
-     <figure id = 'monster'>
-       <img src="{% static 'Blog/images/Frankenstein/monster.jpg' %}" alt="monster">
-       <figcaption>Frankenstein's Monster</figcaption>
-     </figure>
      <br><br>
      I will give a brief summary of the book then address three questions the novel raises. It is important to note that the novel arises out of a context that seriously blurred the distinctions between science, alchemy, and the metaphysics of life. Europe was slowly transitioning to a continent with a plurality of knowledge or truth sources including the Church, the Public, and Secular Institutions of Science and Philosophy.
      <br><br>
@@ -21,10 +19,6 @@
        "So much has been done, exclaimed the soul of Frankenstein — more, far more, will I achieve; treading in the steps already marked, I will pioneer a new way, explore unknown powers, and unfold to the world the deepest mysteries of creation."
      </em>
      <br><br>
-     <figure id = 'Frankenstein'>
-       <img src="{% static 'Blog/images/Frankenstein/Frankenstein.jpg' %}" alt="Frankenstein">
-       <figcaption>Dr. Frankenstein</figcaption>
-     </figure>
      However, the project takes a turn for the worse when the creature arises as a monstrosity that escapes. Time passes and William, Frankenstein's brother, is murdered. The town expects Justine, William's nanny, and puts her on trial. However, Frankenstein witnessed the monster near the crime scene but is unable to protect his friend due to the ludicrousness of his testimony - resulting in the hanging of Justine.
      <br><br>
      <b>Section 2, The Monster's Story:</b> Frankenstein treks to the mountains to clear his head where the monster finds him and relays his side of the story in a surprisingly articulate fashion. The monster woke up confused and ignorant in Frankenstein's lab then quickly ran to the wilderness away from the folks in towns that reacted to him with fear. He eventually stumbled upon a small, poor family in a cottage that he admired from afar. Through diffusion, he learned how to speak, read, and write. He anonymously helped the family survive by providing them with provisions and/or firewood.
@@ -34,10 +28,6 @@
      <b>Section 3, Frankenstein's Story Again:</b> Frankenstein voyages to the Orkney Islands off the North shore of Scotland to begin working on the female creature even though he has bad, very bad, feelings about the project. Due to fear of evil plaguing the Earth, Frankenstein aborts the project much to the chagrin of the monster. Confronting Frankenstein, the monster claims revenge on Frankenstein's wedding night. Frankenstein then finds that his friend, Henry, is murdered (inferred to be done by the monster) and is thrown in prison as a suspect.
      <br><br>
      Frankenstein is eventually released due to insufficient evidence and returns to marry his lifelong lover, Elizabeth. Terrified of what might happen with the monster, he arms himself and guards against attacks on his wife. The monster sneaks past him (due to his superior intellect and strength) and kills his newlywed wife. Frankenstein chases the monster all the way to the North Pole where the story rejoins the shipping expedition.
-     <figure id = 'shipwreck'>
-       <img src="{% static 'Blog/images/Frankenstein/ship_ice.jpeg' %}" alt="shipwreck">
-       <figcaption>A Ship stuck in Pack Ice</figcaption>
-     </figure>
      <br><br>
      <b>Part 4, The Expedition:</b> Back at the ship, the crew is low in morale and arguing to turn back South when they get out of the ice pack they are stuck in. Frankenstein encourages them to go on and avoid bravery, at least at first. Frankenstein quickly becomes ill and dies with his last words solidified as a famous quote from the novel:
      <br><br>
@@ -58,10 +48,6 @@
      <hr>
      <b>The Pursuit of Knowledge:</b> The first major theme of the work explores the limitations of 'knowledge for knowledge's sake'. The paradigmatic belief of the day was the value of disseminating knowledge to the masses for the sake of the good. This belief stemmed from enlightenment efforts originating from (at least) Francis Bacon and the Protestant Reformation enabling widespread reading of The Bible. Both the shipping captain and Dr. Frankenstein are exploring the secrets of nature without explicit justification for their pursuit. They are operating under an assumption that Mary Shelley is strongly questioning in this work.
      <br><br>
-     <figure id = 'francis_bacon'>
-       <img src="{% static 'Blog/images/Frankenstein/francis_bacon.jpg' %}" alt="francis_bacon">
-       <figcaption>Francis Bacon, "Knowledge is Power"</figcaption>
-     </figure>
      Dr. Frankenstein himself outlines his intellectual inspirations such as Cornelius Agrippa and Albertus Magnus who serve as a direct contrast to Frankenstein and the shipping captain's mentality. These clergymen investigated the utility of astrology and alchemy in the Catholic tradition as a means to connect and understand God. Frankenstein works with an important difference in his motivations: he is doing it out of curiosity and, as the reader knows, to distract himself of grief. The recklessness proves fateful by the end of the novel.
      <br><br>
      Mary Shelley's point is clear: the cure for recklessness is reflection. Reflection on the question, "Why are we doing this?". The monster exists in a state of constant distress to exemplify the importance of this existential grounding. He has no upbringing, no education, no direction, and no thought to his purpose. In the process of remedying this 'blank slate' condition he reads <em>Paradise Lost</em> by John Milton. An often tragic work about the condition of existence that is quoted by the monster:
@@ -71,10 +57,6 @@
      </em>
      <br><br>
      The lament reflects the existential issue of the monster in relation to the lack of contemplation before scientific knowledge is pursued. A similar existential issue afflicts the shipping crew when they run into hard conditions near the North Pole. The message, "Without a strong conviction to motivate your actions, nature will consume you" resonates strongly in the novel. The associated symbolism is thick when the ship is stuck in ice - don't let nature freeze you in place by not knowing what you're doing or else you'll die a cold, lonely death.
-     <figure id = 'Cornelius'>
-       <img src="{% static 'Blog/images/Frankenstein/cornelius_agrippa.jpg' %}" alt="Cornelius">
-       <figcaption>Cornelius Agrippa, 15th Century Monk</figcaption>
-     </figure>
      <br><br>
      <b>Agency and Creation:</b> An underlying frustration tracks the relationship between Frankenstein and the monster due to constant circling around the question, "Who is at fault for the tragedy of their situation?". The monster admits he is lost and scared upon arriving to consciousness so he can be forgiven for not knowing how to initially interact or integrate into society. How far can he be forgiven? Is he allowed to murder? Multiple murders? Hold his creator hostage? When does he need to 'get it together'? Is he justified in questioning his existence and knowledge of existence a la Job from The Bible doubting God?
      <br><br>
@@ -88,13 +70,16 @@
      <br><br>
      The Christian undertones of the novel are clearly at play in this conflict. Blaming the creator results in a stifling, dangerous outcome where the whole enterprise is in jeopardy (Existence, in the case of god. Science, in the case of the scientist). Blaming The Created inspires unsympathetic or uncomfortable reflexes. The Christian analogy is limited, though, as the monster's original sin is a product of Frankenstein's limitations (i.e. sin) so both are ultimately at fault.
      <br><br>
-     <figure id = 'Adam'>
-       <img src="{% static 'Blog/images/Frankenstein/adam.jpg' %}" alt="Adam">
-       <figcaption>Adam</figcaption>
-     </figure>
      <b>Do we start good?:</b> A question puzzling the brightest minds among us, "Does civilization make us good or bad?". Who is right - Hobbes or Rousseau? Bartolome de las Casas or Christopher Columbus? Academics or Religions? More explicitly, do humans need 'civilization' to be 'civil' or are we most in harmony without technology or agriculture?
      <br><br>
      Mary Shelley answers the question through the monster's progression. He starts out quite innocent and ignorant, only to be rebuked due to his looks by the community he hoped would validate his identity as a non-monster. The corresponding murders and violence come after his peaceful identity was rejected leaving him with only violent outrage. As a result, he seeks to abandon civilization to the wilderness, where it is implied the monster belongs. The novel leaves the reader with an obligation to connect to the lowest members in society in order to prevent righteous indignation.
      <br>
   </p>
   </div>
+</template>
+
+<script>
+  export default {
+    name: 'Frankenstein'
+  }
+</script>
