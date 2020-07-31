@@ -34,7 +34,7 @@ def download(windows: bool = False, dryrun: bool = False):
     os.system(ps_sync)
 
     logger.info('Results for Presidents Speeches')
-    include_flag = " --exclude '*' --include 'presidents_speeches/'"
+    include_flag = " --exclude '*' --include 'presidents_speeches/*'"
     include_flag = re.sub("'", "", include_flag) if windows else include_flag
     ps_sync = base + results_sync + include_flag
     ps_sync += dryrun_arg if dryrun else ''
