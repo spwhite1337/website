@@ -53,7 +53,7 @@ def download(windows: bool = False, dryrun: bool = False):
     include_flag = " --exclude '*' --include 'card_classifier/{}/{}/*'".format(Config.cc_model_type, Config.cc_version)
     include_flag = re.sub("'", "", include_flag) if windows else include_flag
     cc_sync = base + results_sync + include_flag
-    cc_sync += dryrun_arg if dryun else ''
+    cc_sync += dryrun_arg if dryrun else ''
     logger.info(cc_sync)
     os.system(cc_sync)
 
