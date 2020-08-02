@@ -4,6 +4,9 @@ Personal website to display some data products and to impose my will on the inte
 
 <img src="docs/logo.jpg" alt="Website logo" width=256>
 
+Note: This repo works for the `scottpwhite.com` domain and is hard-coded in every `.conf` and `.sh` file. If adopting 
+this repo to a new website, you will need to change these along with my email in `letsencrypt-prod.sh`.
+
 ---
 
 ###  AWS
@@ -61,6 +64,5 @@ First, generate an SSL certificate with Let's Encrypt / Certbot on a test site s
         - `source letsencrypt-staging`
         - Ensure success with `source letsencrypt-info`
         - You should see something like the following:
-     <img src="docs/
-    
-    
+        
+     <img src="docs/>
