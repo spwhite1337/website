@@ -49,20 +49,29 @@ this repo to a new website, you will need to change these along with my email in
     - `cd website`
     - `sudo docker-compose -f docker-compose-http.yml up --build`
 
+---
+
 ### Add SSL Certification
 
 SSL Certification is a free process from [Let's Encrypt](https://letsencrypt.org/) to enable transfer of data over
 HTTPS and removal of that annoying and embarrassing warning that chrome puts on sites without SSL certification. 
 
 First, generate an SSL certificate with Let's Encrypt / Certbot on a test site served over the domain 
-[Reference](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx)
-    - Stop and prune any running containers (e.g. `sudo docker system prune -a`)
-    - `cd letsencrypt`
-    - `sudo docker-compose up -d`
-    - Go to `http://scottpwhite.com` and `http://www.scottpwhite.com` to verify site is working over http
-    - In another session, test the certification process with:
-        - `source letsencrypt-staging`
-        - Ensure success with `source letsencrypt-info`
-        - You should see something like the following:
+[Reference](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx).
+- Stop and prune any running containers (e.g. `sudo docker system prune -a`)
+- `cd letsencrypt`
+- `sudo docker-compose up -d`
+- Go to `http://scottpwhite.com` and `http://www.scottpwhite.com` to verify site is working over http
+- In another session, test the certification process with:
+    - `source letsencrypt-staging.sh`
+    - Ensure success with `source letsencrypt-info.sh`
+    - You should see something like the following:
         
      <img src="docs/>
+
+- Generate the certificates and save them to docker-volumes with
+    - Remove staging volumes: `sudo docker rm -rf /docker-volumes/`
+    - Get certs with `source letsencrypt-prod.sh`
+    - See info with `source letsencrypt-info.sh`
+
+- Shut down initial certication container with: `sudo docker-compose down`
