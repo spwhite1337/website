@@ -31,7 +31,7 @@ this repo to a new website, you will need to change these along with my email in
     - Log-in -> Scott White (upper right) -> Manage Domains -> DNS -> Manage Zones -> Search `scottpwhite.com`
     - Match records to the IP Address from the EC2 instance
     
-    <img src="docs/DNS_records.JPG" alt="DNS Records" width=256>
+        <img src="docs/DNS_records.JPG" alt="DNS Records" width=256>
     
     - Can take a little as minutes to work, but takes days to cover the globe.
     
@@ -46,6 +46,7 @@ this repo to a new website, you will need to change these along with my email in
     - `cd website`
     - Set `VUE_APP_ROOT_API` in `website/frontend/.env.production` to external IP of EC2 instance
     - `source initialization.sh`
+        - Get AWS Keys from S3 Bucket `s3://scott-p-white`
 
 - Serve Website over HTTP
     - `cd website`
@@ -67,10 +68,14 @@ First, generate an SSL certificate with Let's Encrypt / Certbot on a test site s
 - Go to `http://scottpwhite.com` and `http://www.scottpwhite.com` to verify site is working over http
 - In another session, test the certification process with:
     - `source letsencrypt-staging.sh`
-    - Ensure success with `source letsencrypt-info.sh`
+    - You should see something like:
+    
+        <img src="docs/letsencrypt_staging.JPG" alt="Let's Encrypt Staging" width=256>
+    
+    - Ensure success with `source letsencrypt-info.sh`    
     - You should see something like the following:
         
-     <img src="docs/>
+        <img src="docs/letsencrypt_info.JPG" alt="Let's Encrypt Info" width=256>
 
 - Generate the certificates and save them to docker-volumes (rate limits are currently at 50 certificates per domain 
 per week. Should be plenty but best not waste them.):
