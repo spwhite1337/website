@@ -15,4 +15,3 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo apt -y install awscli
 aws configure
 sudo python3 download.py
-cd ../
