@@ -15,6 +15,9 @@ services:
         restart: always
         volumes:
             - ./nginx/https/nginx.conf:/etc/conf.d/default.conf
+            - ./dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
+            - /docker-volumes/etc/letsencrypt/live/scottpwhite.com/fullchain.pem:/etc/letsencrypt/live/scottpwhite.com/fullchain.pem
+            - /docker-volumes/etc/letsencrypt/live/scottpwhite.com/privkey.pem:/etc/letsencrypt/live/scottpwhite.com/privkey.pem
             - './frontend:/frontend'
         ports:
             - "80:80"
