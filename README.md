@@ -75,3 +75,6 @@ First, generate an SSL certificate with Let's Encrypt / Certbot on a test site s
     - See info with `source letsencrypt-info.sh`
 
 - Shut down initial certication container with: `sudo docker-compose down`
+
+Second, set up a process to automatically renew SSL certificates in the docker environment:
+- @TODO
