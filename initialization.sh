@@ -10,8 +10,7 @@ sudo apt -y install docker-ce
 sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-# Set up project
-# Go to instance root (on EC2; cd ../../ when default connection places you in home/ubuntu)
+# Download backend data
 sudo apt -y install awscli
 aws configure
 sudo python3 backend/download.py
