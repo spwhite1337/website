@@ -69,7 +69,8 @@ First, generate an SSL certificate with Let's Encrypt / Certbot on a test site s
         
      <img src="docs/>
 
-- Generate the certificates and save them to docker-volumes with
+- Generate the certificates and save them to docker-volumes
+    - Note: rate limits are currently at 50 certificates per domain per week. Should be plenty but best not waste them.
     - Remove staging volumes: `sudo docker rm -rf /docker-volumes/`
     - Get certs with `source letsencrypt-prod.sh`
     - See info with `source letsencrypt-info.sh`
