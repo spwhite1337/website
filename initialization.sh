@@ -14,4 +14,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 # Go to instance root (on EC2; cd ../../ when default connection places you in home/ubuntu)
 sudo apt -y install awscli
 aws configure
-sudo python3 download.py
+sudo python3 backend/download.py
