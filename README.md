@@ -43,17 +43,23 @@ Personal website to display some data products and to impose my will on the inte
 
 - Serve Website over HTTP
     - Set environment variable to external IP of EC2 instance
-    - `sudo docker-compose up --build`
+    - `sudo docker-compose -f docker-compose-http.yml up --build`
 
 ### Add SSL Certification
 
 SSL Certification is a free process from [Let's Encrypt](https://letsencrypt.org/) to enable transfer of data over
-HTTPS and removal of that annoying and embarassing warning that chrome puts on sites without SSL certification. 
+HTTPS and removal of that annoying and embarrassing warning that chrome puts on sites without SSL certification. 
 
-First, generate a 
-- Add SSL Certification [Reference](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx)
+First, generate an SSL certificate with Let's Encrypt / Certbot on a test site served over the domain 
+[Reference](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx)
     - Stop and prune any running containers (e.g. `sudo docker system prune -a`)
-    - 
     - `cd letsencrypt`
+    - `sudo docker-compose up -d`
+    - Go to `http://scottpwhite.com` and `http://www.scottpwhite.com` to verify site is working over http
+    - In another session, test the certification process with:
+        - `source letsencrypt-staging`
+        - Ensure success with `source letsencrypt-info`
+        - You should see something like the following:
+     <img src="docs/
     
     
