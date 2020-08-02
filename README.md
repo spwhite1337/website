@@ -42,7 +42,8 @@ Personal website to display some data products and to impose my will on the inte
     - `source initialization.sh`
 
 - Serve Website over HTTP
-    - Set environment variable to external IP of EC2 instance
+    - Set `VUE_APP_ROOT_API` in `website/frontend/.env.production` to external IP of EC2 instance
+    - `cd website`
     - `sudo docker-compose -f docker-compose-http.yml up --build`
 
 ### Add SSL Certification
