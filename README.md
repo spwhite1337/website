@@ -10,7 +10,7 @@ Personal website to display some data products and my personal blog to impose my
     - Ubuntu 18.04 Image
     - t2.small (~$0.0023 / hour or ~$16 / month)
         - Can't install project on t2.micro (Exits with `Killed` error)
-    - Spot Requests
+    - Spot Requests (Will lower the costs but not sure how much)
     - Select a subnetwork (probably unnecessary)
     - Enable Auto-assign Public IP
     - 16 GB EBS (Can maybe go smaller but I don't think this increases cost significantly)
