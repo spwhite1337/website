@@ -9,5 +9,5 @@ RUN npm run build
 # production stage
 FROM nginx:latest as production-stage
 COPY --from=build-stage /frontend/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/
+# COPY nginx.conf /etc/nginx/conf.d/
 CMD ["nginx", "-g", "daemon off;"]
