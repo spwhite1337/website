@@ -69,13 +69,13 @@ First, generate an SSL certificate with Let's Encrypt / Certbot on a test site s
         
      <img src="docs/>
 
-- Generate the certificates and save them to docker-volumes
-    - Note: rate limits are currently at 50 certificates per domain per week. Should be plenty but best not waste them.
+- Generate the certificates and save them to docker-volumes (rate limits are currently at 50 certificates per domain 
+per week. Should be plenty but best not waste them.):
     - Remove staging volumes: `sudo docker rm -rf /docker-volumes/`
     - Get certs with `source letsencrypt-prod.sh`
     - See info with `source letsencrypt-info.sh`
 
-- Shut down initial certication container with: `sudo docker-compose down`
+- Shut down initial certification container with: `sudo docker-compose down`
 
 Second, set up a process to automatically renew SSL certificates in the docker environment:
 - @TODO
