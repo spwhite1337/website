@@ -33,6 +33,8 @@ this repo to a new website, you will need to change these along with my email in
     
     <img src="docs/DNS_records.JPG" alt="DNS Records" width=256>
     
+    - Can take a little as minutes to work, but takes days to cover the globe.
+    
 
 ### Serve over HTTP    
 
@@ -42,10 +44,10 @@ this repo to a new website, you will need to change these along with my email in
     - Go to server root (on EC2; `cd ../../` when default connection places you in `home/ubuntu`)
     - `sudo git clone https://github.com/spwhite1337/website.git`
     - `cd website`
+    - Set `VUE_APP_ROOT_API` in `website/frontend/.env.production` to external IP of EC2 instance
     - `source initialization.sh`
 
 - Serve Website over HTTP
-    - Set `VUE_APP_ROOT_API` in `website/frontend/.env.production` to external IP of EC2 instance
     - `cd website`
     - `sudo docker-compose -f docker-compose-http.yml up --build`
 
