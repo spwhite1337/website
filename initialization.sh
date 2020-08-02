@@ -12,10 +12,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # Set up project
 # Go to instance root (on EC2; cd ../../ when default connection places you in home/ubuntu)
-sudo git clone https://github.com/spwhite1337/website.git
-cd website/backend
 sudo apt -y install awscli
 aws configure
-    Add AWS Keys
 sudo python3 download.py
 cd ../
