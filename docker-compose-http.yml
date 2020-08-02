@@ -14,7 +14,7 @@ services:
         container_name: frontend
         restart: always
         volumes:
-            - ./frontend/nginx-http.conf:/etc/conf.d/default.conf
+            - ./confs/http/nginx.conf:/etc/conf.d/default.conf
             - './frontend:/frontend'
         ports:
             - "80:80"
