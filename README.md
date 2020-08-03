@@ -106,4 +106,5 @@ This is a security key I don't totally understand but was recommended by the int
 ### Automate SSL Renewal
 
 Second, set up a process to automatically renew SSL certificates in the docker environment:
-- @TODO
+- `cd website/letsencrypt`
+- `cron cron_rewewal.txt`
