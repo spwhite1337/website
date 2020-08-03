@@ -2,18 +2,18 @@
 
 Personal website to display some data products and to impose my will on the internet via blog. 
 
-<img src="docs/logo.jpg" alt="Website logo" width=256>
+<img src="docs/logos/logo.jpg" alt="Website logo" width=256>
 
 Note: This repo works for the `scottpwhite.com` domain and is hard-coded in every `.conf` and `.sh` file. If adopting 
 this repo to a new website, you will need to change these along with my email in `letsencrypt-prod.sh`.
 
 ---
 <p>
-<img src="docs/flask_logo.png" alt="Flask Logo" width=256/>
-<img src="docs/vue_logo.png" alt="vue Logo" width=256/>
-<img src="docs/docker_logo.png" alt="Docker Logo" width=256/>
-<img src="docs/nginx_logo.png" alt="NGINX Logo" width=256/>
-<img src="docs/lets_encrypt_logo.png" alt="Let's Encrypt Logo" width="256"/>
+<img src="docs/logos/flask_logo.png" alt="Flask Logo" width=256/>
+<img src="docs/logos/vue_logo.png" alt="vue Logo" width=256/>
+<img src="docs/logos/docker_logo.png" alt="Docker Logo" width=256/>
+<img src="docs/logos/nginx_logo.png" alt="NGINX Logo" width=256/>
+<img src="docs/logos/lets_encrypt_logo.png" alt="Let's Encrypt Logo" width="256"/>
 </p>
 
 
@@ -49,7 +49,7 @@ this repo to a new website, you will need to change these along with my email in
     - Log-in -> Scott White (upper right) -> Manage Domains -> DNS -> Manage Zones -> Search `scottpwhite.com`
     - Match records to the IP Address from the EC2 instance
     
-        <img src="docs/DNS_records.JPG" alt="DNS Records" width=256>
+        <img src="docs/outputs/DNS_records.JPG" alt="DNS Records" width=256>
     
     - Can take a little as minutes to work, but takes days to cover the globe.
     
@@ -78,23 +78,23 @@ First, generate an SSL certificate with Let's Encrypt / Certbot on a test site s
     - `source letsencrypt-staging.sh`
     - You should see something like:
     
-        <img src="docs/letsencrypt_staging.JPG" alt="Let's Encrypt Staging" width=256>
+        <img src="docs/outputs/letsencrypt_staging.JPG" alt="Let's Encrypt Staging" width=256>
     
     - Ensure success with `source letsencrypt-info.sh`    
     - You should see something like the following:
         
-        <img src="docs/letsencrypt_info_staging.JPG" alt="Let's Encrypt Info Staging" width=256>
+        <img src="docs/outputs/letsencrypt_info_staging.JPG" alt="Let's Encrypt Info Staging" width=256>
 
 - Generate the certificates and save them to docker-volumes (rate limits are currently at 50 certificates per domain 
 per week. Should be plenty but best not waste them.):
     - Remove staging volumes: `sudo rm -rf ../../docker-volumes/`
     - Get certs with `source letsencrypt-prod.sh`
     
-        <img src="docs/letsencrypt_prod.JPG" alt="Let's Encrypt Prod" width=256>
+        <img src="docs/outputs/letsencrypt_prod.JPG" alt="Let's Encrypt Prod" width=256>
     
     - See info with `source letsencrypt-info.sh`
     
-        <img src="docs/letsencrypt_info_prod.JPG" alt="Let's Encrypt Info Prod" width=256>
+        <img src="docs/outputs/letsencrypt_info_prod.JPG" alt="Let's Encrypt Info Prod" width=256>
 
 - Shut down initial certification container with: `sudo docker-compose down`
 
@@ -106,12 +106,11 @@ This is a security key I don't totally understand but was recommended by the int
 - `sudo openssl dhparam -out /website/dh-param/dhparam-2048.pem 2048`
 - Should output:
 
-    <img src="docs/dh_params_out.JPG" alt="DH Params Out" width=256>
+    <img src="docs/outputs/dh_params_out.JPG" alt="DH Params Out" width=256>
 
 ### Serve Over HTTPS
 
 - Clear all containers / networks with: `sudo docker system prune -a`
-- Set `VUE_APP_ROOT_API=https://scottpwhite.com`
 - `cd website/frontend`
 - `echo "VUE_APP_ROOT_API=https://scottpwhite.com" > .env.production`
 - `sudo docker-compose -f docker-compose-https.yml up --build`
