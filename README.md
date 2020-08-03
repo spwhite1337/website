@@ -6,13 +6,13 @@ Personal website to display some data products and to impose my will on the inte
 
 ---
 <p>
-<img src="docs/logos/flask_logo.png" alt="Flask Logo" width=256/>
-<img src="docs/logos/vue_logo.png" alt="vue Logo" width=256/>
-<img src="docs/logos/docker_logo.png" alt="Docker Logo" width=256/>
-<img src="docs/logos/nginx_logo.png" alt="NGINX Logo" width=256/>
-<img src="docs/logos/lets_encrypt_logo.png" alt="Let's Encrypt Logo" width="256"/>
-<img src="docs/logos/aws_logo.png" alt="AWS Logo" width="256"/>
-<img src="docs/logos/godaddy_logo.png" alt="GoDaddy Logo" width="256"/>
+<img src="docs/logos/flask_logo.png" alt="Flask Logo" width=128/>
+<img src="docs/logos/vue_logo.png" alt="vue Logo" width=128/>
+<img src="docs/logos/docker_logo.png" alt="Docker Logo" width=128/>
+<img src="docs/logos/nginx_logo.png" alt="NGINX Logo" width=128/>
+<img src="docs/logos/lets_encrypt_logo.png" alt="Let's Encrypt Logo" width="128"/>
+<img src="docs/logos/aws_logo.png" alt="AWS Logo" width="128"/>
+<img src="docs/logos/godaddy_logo.png" alt="GoDaddy Logo" width="128"/>
 </p>
 
 
