@@ -1,8 +1,8 @@
 <template>
     <ul>
         <li>Email (Preferred): spwhite1337@gmail.com</li>
-        <li><a href="https://www.youtube.com/user/spwhite1337">Youtube Channel for SPWhite1337</a></li>
-        <li>Give me money on <a href="https://venmo.com/hubba">Venmo</a> or give it to poor people</li>
+        <li><a href="https://www.youtube.com/user/spwhite1337" target="_blank">Youtube Channel for SPWhite1337</a></li>
+        <li>Give me money on <a href="https://venmo.com/hubba" target="_blank">Venmo</a> or give it to poor people</li>
         <li>If I post on social media I mostly do
             <a href="https://twitter.com/ScottDollaBillz" target="_blank">Twitter</a>
         </li>
