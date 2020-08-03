@@ -60,7 +60,7 @@ Personal website to display some data products and to impose my will on the inte
 
 - Serve Website over HTTP
     - `cd website`
-    - `echo "VUE_APP_ROOT_API=http://scottpwhite.com" > frontend/.env.production`
+    - `sudo sh -c "echo 'VUE_APP_ROOT_API=http://scottpwhite.com' > frontend/.env.production"`
     - `sudo docker-compose -f docker-compose-http.yml up --build`
 
 ---
@@ -115,7 +115,7 @@ This is a security key I don't totally understand but was recommended by the int
 
 - Clear all containers / networks with: `sudo docker system prune -a`
 - `cd website`
-- `echo "VUE_APP_ROOT_API=https://scottpwhite.com" > frontend/.env.production`
+- `sudo sh -c "echo 'VUE_APP_ROOT_API=https://scottpwhite.com' > frontend/.env.production"`
 - `sudo docker-compose -f docker-compose-https.yml up --build`
 
 ### Automate SSL Renewal
