@@ -18,6 +18,23 @@ Personal website to display some data products and to impose my will on the inte
 
 ---
 
+### Local Development
+
+This will run two independent apps that do not communicate to each other.
+
+- `cd backend`
+- `set FLASK_APP=run.py` (`export FLASK_APP=run.py`)
+- `pip install -e .`
+- `flask run`
+- `cd frontend`
+- `npm install`
+- `npm run serve`
+
+The full app can be run through docker but tends to slow down my local computer a lot.
+- `cd website`
+- `echo "VUE_APP_ROOT_API=http://localhost > frontend/.env.production`
+- `docker-compose -f docker-compose-http.yml up --build`
+
 ###  Create Instance and Download Files
 
 - Set Up AWS EC2 instance: 
