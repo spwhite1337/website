@@ -169,3 +169,6 @@ backend/sports-bettors/
 backend/presidents-speeches/
 backend/results/
 backend/data/
+
+# Env vars
+frontend/.env.production
