@@ -77,7 +77,7 @@ Generate an SSL certificate with Let's Encrypt / Certbot on a test site served o
 - `cd letsencrypt`
 - `sudo docker-compose up -d`
 - Go to `http://scottpwhite.com` and `http://www.scottpwhite.com` to verify site is working over http
-- In another session, test the certification process with:
+- Test the certification process with:
     - `source letsencrypt-staging.sh`
     - You should see something like:
     
