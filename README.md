@@ -14,6 +14,7 @@ this repo to a new website, you will need to change these along with my email in
 <img src="docs/logos/docker_logo.png" alt="Docker Logo" width=256/>
 <img src="docs/logos/nginx_logo.png" alt="NGINX Logo" width=256/>
 <img src="docs/logos/lets_encrypt_logo.png" alt="Let's Encrypt Logo" width="256"/>
+<img src="docs/logos/aws_logo.png" alt="AWS Logo" width="256"/>
 </p>
 
 
