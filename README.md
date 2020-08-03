@@ -50,7 +50,6 @@ The full app can be run through docker but tends to slow down my local computer 
         - SSH on 22
         - HTTP on 80
         - HTTPS on 443
-        - Custom TCP on 5000 (for backend)
     
 - Set up project
     - SSH into instance
