@@ -78,10 +78,9 @@ The full app can be run through docker but tends to slow down my local computer 
 
 ### 3a.) Serve over HTTP
 
-- Serve Website over HTTP
-    - `cd website`
-    - `sudo sh -c "echo 'VUE_APP_ROOT_API=http://scottpwhite.com' > frontend/.env.production"`
-    - `sudo docker-compose -f docker-compose-http.yml up --build`
+- `cd website`
+- `sudo sh -c "echo 'VUE_APP_ROOT_API=http://scottpwhite.com' > frontend/.env.production"`
+- `sudo docker-compose -f docker-compose-http.yml up --build`
 
 ---
 
