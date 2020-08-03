@@ -25,9 +25,8 @@ Personal website to display some data products and to impose my will on the inte
     - t2.small (~$0.0023 / hour or ~$16 / month)
         - Can't install project on t2.micro (Exits with `Killed` error)
     - Spot Requests (Will lower the costs but not sure how much)
-    - Explicitly select a subnetwork (probably unnecessary)
     - Enable Auto-assign Public IP
-    - 16 GB EBS (Costs ~$0.10 GB / month, @TODO trim down)
+    - 12 GB EBS (Costs ~$0.10 GB / month)
     - Security Group `Website`:
         - SSH on 22
         - HTTP on 80
