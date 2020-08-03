@@ -8,12 +8,14 @@ Note: This repo works for the `scottpwhite.com` domain and is hard-coded in ever
 this repo to a new website, you will need to change these along with my email in `letsencrypt-prod.sh`.
 
 ---
-
+<p>
 <img src="docs/flask_logo.png" alt="Flask Logo" width=256/>
 <img src="docs/vue_logo.png" alt="vue Logo" width=256/>
 <img src="docs/docker_logo.png" alt="Docker Logo" width=256/>
 <img src="docs/nginx_logo.png" alt="NGINX Logo" width=256/>
 <img src="docs/lets_encrypt_logo.png" alt="Let's Encrypt Logo" width="256"/>
+</p>
+
 
 ---
 
