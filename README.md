@@ -90,8 +90,8 @@ SSL Certification can be accomplished with a free process from [Let's Encrypt](h
 transfer of data over HTTPS and removal of that annoying and embarrassing warning that chrome puts on sites without SSL 
 certification. 
 
-Generate an SSL certificate with Let's Encrypt / Certbot on a test site served over the domain 
-[Reference](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx).
+Generate an SSL certificate with Let's Encrypt / Certbot on a test site served over the domain. 
+([Reference](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx))
 - Stop and prune any running containers (e.g. `sudo docker system prune -a`)
 - `cd letsencrypt`
 - `sudo docker-compose up -d`
