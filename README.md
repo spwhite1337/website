@@ -18,7 +18,7 @@ Personal website to display some data products and to impose my will on the inte
 
 ---
 
-### Local Development
+## Local Development
 
 This will run two independent apps that do not communicate to each other.
 
@@ -35,7 +35,9 @@ The full app can be run through docker but tends to slow down my local computer 
 - `echo "VUE_APP_ROOT_API=http://localhost > frontend/.env.production`
 - `docker-compose -f docker-compose-http.yml up --build`
 
-###  Create Instance and Download Files
+## Server
+
+### 1.) Create Instance and Download Files
 
 - Set Up AWS EC2 instance: 
     - Ubuntu 18.04 Image
@@ -58,7 +60,7 @@ The full app can be run through docker but tends to slow down my local computer 
     - `source initialization.sh`
         - Get AWS Keys from S3 Bucket `s3://scott-p-white`
         
-### GoDaddy    
+### 2.) GoDaddy    
 
 - Update DNS records in GoDaddy account
     - Log-in -> Scott White (upper right) -> Manage Domains -> DNS -> Manage Zones -> Search `scottpwhite.com`
@@ -73,7 +75,7 @@ The full app can be run through docker but tends to slow down my local computer 
     - `letsencrypt-staging.sh`
     - `letsencrypt-prod.sh` (Also change the email in this script)
     
-### Serve over HTTP
+### 3a.) Serve over HTTP
 
 - Serve Website over HTTP
     - `cd website`
@@ -82,7 +84,7 @@ The full app can be run through docker but tends to slow down my local computer 
 
 ---
 
-### Add SSL Certification
+### 3b.) Add SSL Certification
 
 SSL Certification can be accomplished with a free process from [Let's Encrypt](https://letsencrypt.org/) to enable 
 transfer of data over HTTPS and removal of that annoying and embarrassing warning that chrome puts on sites without SSL 
@@ -118,7 +120,7 @@ per week. Should be plenty but best not waste them.):
 
 - Shut down initial certification container with: `sudo docker-compose down`
 
-### Add DH-params
+### 4.) Add DH-params
 
 This is a security key I don't totally understand but was recommended by the internet. We'll add it as well.
 
@@ -128,14 +130,14 @@ This is a security key I don't totally understand but was recommended by the int
 
     <img src="docs/outputs/dh_params_out.JPG" alt="DH Params Out" width=256>
 
-### Serve Over HTTPS
+### 5.) Serve Over HTTPS
 
 - Clear all containers / networks with: `sudo docker system prune -a`
 - `cd website`
 - `sudo sh -c "echo 'VUE_APP_ROOT_API=https://scottpwhite.com' > frontend/.env.production"`
 - `sudo docker-compose -f docker-compose-https.yml up --build`
 
-### Automate SSL Renewal
+### 6.) Automate SSL Renewal
 
 Set up a cron job to automatically renew SSL certificates in the docker environment:
 - `cd website/letsencrypt`
