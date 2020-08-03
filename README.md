@@ -9,7 +9,7 @@ this repo to a new website, you will need to change these along with my email in
 
 ---
 
-###  AWS
+###  Create Instance and Download Files
 
 - Set Up AWS EC2 instance: 
     - Ubuntu 18.04 Image
@@ -25,6 +25,14 @@ this repo to a new website, you will need to change these along with my email in
         - HTTPS on 443
         - Custom TCP on 5000 (for backend)
     
+- Set up project
+    - SSH into instance
+    - Go to server root (on EC2; `cd ../../` when default connection places you in `home/ubuntu`)
+    - `sudo git clone https://github.com/spwhite1337/website.git`
+    - `cd website`
+    - `source initialization.sh`
+        - Get AWS Keys from S3 Bucket `s3://scott-p-white`
+        
 ### GoDaddy    
 
 - Update DNS records in GoDaddy account
@@ -35,22 +43,10 @@ this repo to a new website, you will need to change these along with my email in
     
     - Can take a little as minutes to work, but takes days to cover the globe.
     
-
-### Serve over HTTP    
-
-
-- Set up project
-    - SSH into instance
-    - Go to server root (on EC2; `cd ../../` when default connection places you in `home/ubuntu`)
-    - `sudo git clone https://github.com/spwhite1337/website.git`
-    - `cd website`
-    - Set `VUE_APP_ROOT_API` in `website/frontend/.env.production` to external IP of EC2 instance
-    - `source initialization.sh`
-        - Get AWS Keys from S3 Bucket `s3://scott-p-white`
+### Serve over HTTP
 
 - Serve Website over HTTP
     - `cd website`
-    - set `VUE_APP_ROOT_API=http://scottpwhite.com` in `frontend/.env.production`
     - `sudo docker-compose -f docker-compose-http.yml up --build`
 
 ---
@@ -104,7 +100,7 @@ This is a security key I don't totally understand but was recommended by the int
 ### Serve Over HTTPS
 
 - Clear all containers / networks with: `sudo docker system prune -a`
-- set `VUE_APP_ROOT_API=https://scottpwhite.com` in `frontend/.env.production`
+- Set `VUE_APP_ROOT_API=https://scottpwhite.com`
 - `sudo docker-compose -f docker-compose-https.yml up --build`
 
 ### Automate SSL Renewal
