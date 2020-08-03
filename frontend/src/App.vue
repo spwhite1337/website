@@ -6,6 +6,8 @@
     <br>
     <router-link to="./Blog">Blog</router-link>
     <br>
+    <router-link to="./Contact">Contact</router-link>
+    <br>
     <router-view></router-view>
   </div>
 </template>
