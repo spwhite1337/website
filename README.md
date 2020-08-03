@@ -74,6 +74,8 @@ The full app can be run through docker but tends to slow down my local computer 
     - `letsencrypt-staging.sh`
     - `letsencrypt-prod.sh` (Also change the email in this script)
     
+---
+
 ### 3a.) Serve over HTTP
 
 - Serve Website over HTTP
