@@ -120,4 +120,4 @@ This is a security key I don't totally understand but was recommended by the int
 
 Second, set up a process to automatically renew SSL certificates in the docker environment:
 - `cd website/letsencrypt`
-- `crontab cron_rewewal.txt`
+- `crontab cron_renewal.txt`
