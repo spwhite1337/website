@@ -67,9 +67,10 @@ The full app can be run through docker but tends to slow down my local computer 
     
         <img src="docs/outputs/DNS_records.JPG" alt="DNS Records" width=256>
     
-    - Can take a little as minutes to work, but takes days to cover the globe.
+    - Can take as little as minutes to work, but takes days to cover the globe.
     
-- Update hard-coded domain name in the `nginx` folder and `letsencrypt` folder of this repo. 
+- Update hard-coded domain name in the `nginx` folder and `letsencrypt` folder of this repo. The rest of the docs assume
+`scottpwhite.com`.
     - `nginx.conf`
     - `letsencrypt-staging.sh`
     - `letsencrypt-prod.sh` (Also change the email in this script)
@@ -93,17 +94,15 @@ certification.
 Generate an SSL certificate with Let's Encrypt / Certbot on a test site served over the domain. 
 ([Reference](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx))
 - Stop and prune any running containers (e.g. `sudo docker system prune -a`)
-- `cd letsencrypt`
+- `cd website/letsencrypt`
 - `sudo docker-compose up -d`
 - Go to `http://scottpwhite.com` and `http://www.scottpwhite.com` to verify site is working over http
 - Test the certification process with:
     - `source letsencrypt-staging.sh`
-    - You should see something like:
     
         <img src="docs/outputs/letsencrypt_staging.JPG" alt="Let's Encrypt Staging" width=256>
     
     - Ensure success with `source letsencrypt-info.sh`    
-    - You should see something like the following:
         
         <img src="docs/outputs/letsencrypt_info_staging.JPG" alt="Let's Encrypt Info Staging" width=256>
 
@@ -126,7 +125,6 @@ This is a security key I don't totally understand but was recommended by the int
 
 - `cd website && sudo mkdir dh-param`
 - `sudo openssl dhparam -out /website/dh-param/dhparam-2048.pem 2048`
-- Should output:
 
     <img src="docs/outputs/dh_params_out.JPG" alt="DH Params Out" width=256>
 
