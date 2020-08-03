@@ -13,7 +13,7 @@ this repo to a new website, you will need to change these along with my email in
 <img src="docs/vue_logo.png" alt="vue Logo" width=256>
 <img src="docs/docker_logo.png" alt="Docker Logo" width=256>
 <img src="docs/nginx_logo.png" alt="NGINX Logo" width=256>
-
+<img src="docs/lets_encrypt_logo.png" alt="Let's Encrypt Logo" width="256">
 ---
 
 ###  Create Instance and Download Files
