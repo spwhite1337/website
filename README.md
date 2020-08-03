@@ -4,9 +4,6 @@ Personal website to display some data products and to impose my will on the inte
 
 <img src="docs/logos/logo.jpg" alt="Website logo" width=256>
 
-Note: This repo works for the `scottpwhite.com` domain and is hard-coded in every `.conf` and `.sh` file. If adopting 
-this repo to a new website, you will need to change these along with my email in `letsencrypt-prod.sh`.
-
 ---
 <p>
 <img src="docs/logos/flask_logo.png" alt="Flask Logo" width=256/>
@@ -54,6 +51,11 @@ this repo to a new website, you will need to change these along with my email in
         <img src="docs/outputs/DNS_records.JPG" alt="DNS Records" width=256>
     
     - Can take a little as minutes to work, but takes days to cover the globe.
+    
+- Update hard-coded domain name in the `nginx` folder and `letsencrypt` folder of this repo. 
+    - `nginx.conf`
+    - `letsencrypt-staging.sh`
+    - `letsencrypt-prod.sh` (Also change the email in this script)
     
 ### Serve over HTTP
 
