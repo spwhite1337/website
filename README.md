@@ -46,7 +46,8 @@ this repo to a new website, you will need to change these along with my email in
 ### Serve over HTTP
 
 - Serve Website over HTTP
-    - `cd website`
+    - `cd website/frontend`
+    - `echo "VUE_APP_ROOT_API=http://scottpwhite.com" > .env.production`
     - `sudo docker-compose -f docker-compose-http.yml up --build`
 
 ---
@@ -101,6 +102,8 @@ This is a security key I don't totally understand but was recommended by the int
 
 - Clear all containers / networks with: `sudo docker system prune -a`
 - Set `VUE_APP_ROOT_API=https://scottpwhite.com`
+- `cd website/frontend`
+- `echo "VUE_APP_ROOT_API=https://scottpwhite.com" > .env.production`
 - `sudo docker-compose -f docker-compose-https.yml up --build`
 
 ### Automate SSL Renewal
