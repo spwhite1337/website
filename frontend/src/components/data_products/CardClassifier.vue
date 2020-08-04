@@ -5,8 +5,8 @@
     <div class="container">
       <b-form-select v-model="default_card" :options="default_cards" size="sm" class="mt-3"></b-form-select>
     </div>
-      <p>Model is too big to serve right now</p>
-<!--    <button @click="cardClassifier">Classify Card</button>-->
+<!--      <p>Model is too big to serve right now</p>-->
+    <button @click="cardClassifier">Classify Card</button>
     <p>Output from Card Classifier: {{ card_color }}</p>
   </div>
 </template>
