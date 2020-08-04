@@ -25,6 +25,7 @@ def convert_scores_to_color(output: dict, num_colors: int = 4) -> dict:
 
 def cc_api(default_card: str = None, uploaded_card: str = None):
     if default_card:
+        # Vader has a weird extension
         ext = '.jpg' if default_card != 'vader' else '.jpeg'
 
         # If default card, get the preds for the all them extract the selected card
