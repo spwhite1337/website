@@ -25,10 +25,16 @@ def convert_scores_to_color(output: dict, num_colors: int = 4) -> dict:
 
 def cc_api(default_card: str = None, uploaded_card: str = None):
     if default_card:
+        ext = '.jpg' if default_card != 'vader' else '.jpeg'
+
         # If default card, get the preds for the all them extract the selected card
         input_path = os.path.join(Config.DATA_DIR, 'card_classifier', 'cc_samples')
         outputs = api(**{'version': Config.cc_version, 'model_type': Config.cc_model_type, 'input_path': input_path})
-        output = outputs.get(os.path.join('images', default_card + '.jpg'))
+        output = outputs.get(os.path.join('images', default_card + ext))
+
+        # With minified version, need to catch cross-OS complications
+        if not output:
+            output = outputs.get('images\\{}{}'.format(default_card, ext))
 
         # Parse output
         output = convert_scores_to_color(output)
