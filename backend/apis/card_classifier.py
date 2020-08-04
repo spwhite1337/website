@@ -12,8 +12,8 @@ def convert_scores_to_color(output: dict, num_colors: int = 4) -> dict:
     In this case, assign colors in proportion
     """
     # Check if more than one color
-    num_colors = len([k for k, v in output.items() if v > (1 / num_colors)])
-    if num_colors > 1:
+    num_colors_in_card = len([k for k, v in output.items() if v > (1 / num_colors)])
+    if num_colors_in_card > 1:
         # Norm-const is the num_colors / (sum of scores above (1 / num_colors))
         # Normalized score is the "fraction of total score from value cards that this card comprises"
         normalization = num_colors / np.sum([score for score in output.values() if score > (1 / num_colors)])
