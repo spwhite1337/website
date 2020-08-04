@@ -23,7 +23,7 @@ setup(
         'dash',
         'tqdm',
         'awscli',
-        'card-classifier @ git+https://github.com/spwhite1337/card-classifier#egg=card-classifier',
+        'card-classifier @ git+https://github.com/spwhite1337/card-classifier@minified#egg=card-classifier',
         'sports-bettors @ git+https://github.com/spwhite1337/sports-bettors#egg=sports-bettors',
         'presidents-speeches @ git+https://github.com/spwhite1337/presidents-speeches#presidents-speeches'
     ],
