@@ -41,7 +41,7 @@ export default {
       feature_set: '',
 
       // Output
-      sb_output: ''
+      sb_output: '',
 
       // Dashboard
       dashboard: dashpath
