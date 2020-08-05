@@ -7,7 +7,6 @@
         </b-dropdown-item>
     </b-dropdown>
     <router-view></router-view>
-
   </div>
 </template>
 
