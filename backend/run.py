@@ -43,8 +43,8 @@ def presidents_speeches():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def catch_all(path):
-    return jsonify({'message': 'Hi from Flask'})
+    return jsonify({'message': 'Greetings from the Backend'})
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='127.0.0.1', port=5000)

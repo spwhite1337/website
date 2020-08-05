@@ -14,26 +14,37 @@
     <br><br>
     <button @click="sportsBettors">Bet on Sports</button>
     <p>Output from Sports Bettors: {{ sb_output }}</p>
+    <br>
+    <iframe :src="dashboard" frameborder="0"></iframe>
+    
   </div>
 </template>
 
 <script>
 import axios from 'axios'
 const path = process.env.VUE_APP_ROOT_API.concat('/api/sportsbettors')
+const dashpath = process.env.VUE_APP_ROOT_API.concat('/api/dash/sportsbettors')
 
 export default {
   name: 'SportsBettors',
   data () {
     return {
+
       // Select League
       leagues: ['College Football', 'NFL'],
       league: '',
+
       // Configure Model
       random_effects: ['team', 'opponent'],
       random_effect: '',
       feature_sets: ['RushOnly', 'PassOnly', 'Offense', 'PointsScored', 'All'],
       feature_set: '',
-      sb_output: ''
+
+      // Output
+      sb_output: '',
+
+      // Dashboard
+      dashboard: dashpath
     }
   },
   computed: {
