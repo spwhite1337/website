@@ -1,14 +1,12 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <h3>This Site is Very Much Under Construction.</h3>
-    <router-link :to="{ name: 'home' }">Home</router-link>
-    <br>
-    <router-link :to="{ name: 'DataProducts' }">Data Products</router-link>
-    <br>
-    <router-link :to="{ name: 'Blog' }">Blog</router-link>
-    <br>
-    <router-link :to="{ name: 'Contact' }">Contact</router-link>
-    <br>
+    <b-nav>
+      <b-nav-item><router-link :to="{ name: 'home' }">Home</router-link></b-nav-item>
+      <b-nav-item><router-link :to="{ name: 'DataProducts' }">Data Products</router-link></b-nav-item>
+      <b-nav-item><router-link :to="{ name: 'Blog' }">Blog</router-link></b-nav-item>
+      <b-nav-item><router-link :to="{ name: 'Contact' }">Contact</router-link></b-nav-item>
+    </b-nav>
     <div class="container">
       <router-view></router-view>
     </div>
