@@ -15,8 +15,10 @@
     <button @click="sportsBettors">Bet on Sports</button>
     <p>Output from Sports Bettors: {{ sb_output }}</p>
     <br>
-    <iframe :src="dashboard" frameborder="0"></iframe>
-    
+    <div class="container">
+      <iframe :src="dashboard" frameborder="0"></iframe>
+    </div>
+
   </div>
 </template>
 
