@@ -1,14 +1,19 @@
 <template>
   <div>
     <p>Blog Posts</p>
-    <ul>
+      <b-dropdown>
+
       <b-dropdown-item>
         <router-link :to="{ name: 'AmericanGods' }">
             American Gods
         </router-link>
     </b-dropdown-item>
-      <li><router-link :to="{ name: 'AmericanGods' }">American Gods By Neil Gaiman</router-link></li>
-    </ul>
+            <b-dropdown-item>
+        <router-link :to="{ name: 'AmericanPsycho' }">
+            American Psycho
+        </router-link>
+    </b-dropdown-item>
+      </b-dropdown>
     <router-view></router-view>
   </div>
 </template>
