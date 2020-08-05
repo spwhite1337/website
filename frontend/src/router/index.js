@@ -14,7 +14,7 @@ export default new Router({
     routes: [
         { path: '/', name: 'home', component: Home },
         { path: '/DataProducts', name: 'DataProducts', component: DataProducts },
-        { path: '/Blog', name: 'Blog', component: Blog, children: BlogPosts },
+        { path: '/Blog', name: 'Blog', component: Blog, children: BlogPosts.Books.concat(BlogPosts.Political).concat(BlogPosts.Science) },
         { path: '/Contact', name: 'Contact', component: Contact },
         { path: '*', name: 'NotFound', component: NotFound }
     ]

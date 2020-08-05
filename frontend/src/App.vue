@@ -7,8 +7,6 @@
     <br>
     <router-link :to="{ name: 'Blog' }">Blog</router-link>
     <br>
-    <router-link :to="{ name: 'AmericanGods' }">American Gods</router-link>
-    <br>
     <router-link :to="{ name: 'Contact' }">Contact</router-link>
     <br>
     <div class="container">
