@@ -16,7 +16,7 @@
     <p>Output from Sports Bettors: {{ sb_output }}</p>
     <br>
     <br>
-    <iframe :src="{ dashboard }" frameborder="0"></iframe>
+    <iframe src="https://scottpwhite.com/api/dash/sportsbettors" frameborder="0"></iframe>
   </div>
 </template>
 
