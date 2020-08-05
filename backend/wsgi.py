@@ -2,6 +2,10 @@ from run import app
 from apis.dash.sports_bettors import add_sb_dash
 from apis.dash.card_classifier import add_cc_dash
 
+
+# Nice tutorial on Flask + Dash integration:
+# https://hackersandslackers.com/plotly-dash-with-flask/
+
 # Add Sports-Bettors Dash Board to Flask Server
 app = add_sb_dash(app, routes_pathname_prefix='/api/dash/sportsbettors/')
 
