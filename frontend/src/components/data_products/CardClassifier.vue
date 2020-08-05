@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <hr>
-    <p>Card Classifier from child</p>
+    <p>Card Classifier</p>
     <div class="container">
       <b-form-select v-model="default_card" :options="default_cards" size="sm" class="mt-3"></b-form-select>
     </div>
