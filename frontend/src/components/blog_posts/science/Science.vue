@@ -3,7 +3,8 @@
     <h2>How I Define Science</h2>
     <hr>
      <b>Short Version:</b> Science is a coherent and consistent model of the universe based on the application of rigid designators to objects and phenomena through a rational process constrained by empirical evidence and falsifiability.
-     <br><br>
+     <br>
+    <br>
      <b>Background:</b> The ideas behind science and the context in which it resides simply cannot be completely decoupled from the broader development of knowledge and philosophy throughout history. The early roots of science can be found in all ancient cultures as they tried to make sense of the chaotic world around them. Most famously, the foundations of modern science were laid by the Ancient Greeks including Aristotle, Euclid, and Lucretius. They referred to "natural philosophy" as the investigation of the natural world (as opposed to the supernatural) and mainly pursued it through rational argumentation and logic. Their work was far different from the science we do today, largely due to their limited capabilities for scientific experimentation. In fact, this dichotomy is a useful probe to track the development of science as <em>the interplay between rational reasoning via cognitive faculties and the information coming in from empirical evidence.</em>
      <br><br>
        Hevelius's Selenographia showing Al-Haytham on the left.
@@ -49,6 +50,6 @@
 
 <script>
 export default {
-  name: 'Science'
+  name: 'Science',
 }
 </script>
