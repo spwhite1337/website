@@ -4,7 +4,7 @@ import BraveNewWorld from '@/components/blog_posts/books/BraveNewWorld.vue'
 
 
 export default [
-    { path: '/Blog/AmericanGods', name: 'AmericanGods', component: AmericanGods },
-    { path: '/Blog/AmericanPsycho', name: 'AmericanPsycho', component: AmericanPsycho },
-    { path: '/Blog/BraveNewWorld', name: 'BraveNewWorld', component: BraveNewWorld }
+    { path: '/Blog/AmericanGods', name: 'AmericanGods', component: AmericanGods, label: 'American Gods' },
+    { path: '/Blog/AmericanPsycho', name: 'AmericanPsycho', component: AmericanPsycho, label: 'American Psycho' },
+    { path: '/Blog/BraveNewWorld', name: 'BraveNewWorld', component: BraveNewWorld, label: 'Brave New World' }
 ]
