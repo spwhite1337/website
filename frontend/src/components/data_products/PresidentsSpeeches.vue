@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <hr>
-    <p>Presidents Speeches from child</p>
+    <p>Presidents Speeches</p>
     <button @click="presidentsSpeeches">Search Presidents</button>
     <input v-model="query" type="text">
     <p>Output from Presidents speeches: {{ president }}</p>
