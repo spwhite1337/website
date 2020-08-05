@@ -15,6 +15,7 @@
     <button @click="sportsBettors">Bet on Sports</button>
     <p>Output from Sports Bettors: {{ sb_output }}</p>
     <br>
+    {{ dashboard }}
     <br>
     <iframe src="https://scottpwhite.com/api/dash/sportsbettors" frameborder="0"></iframe>
   </div>
@@ -24,6 +25,7 @@
 import axios from 'axios'
 const path = process.env.VUE_APP_ROOT_API.concat('/api/sportsbettors')
 const dashpath = process.env.VUE_APP_ROOT_API.concat('/api/dash/sportsbettors')
+console.log(dashpath)
 
 export default {
   name: 'SportsBettors',
