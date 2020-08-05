@@ -1,54 +1,24 @@
 <template>
   <div>
     <!--  Product Selector  -->
-    <p>Data Products</p>
-    <div class="container">
-      <b-form-select v-model="data_product" :options="data_products" size="sm" class="mt-3"></b-form-select>
-    </div>
-
-    <!--   Sports Bettors   -->
-    <div class="container" v-if="showSportsBettors"><SportsBettors/></div>
-
-    <!--  Presidents Speeches  -->
-    <div class="container" v-if="showPresidentsSpeeches"><PresidentsSpeeches/></div>
-
-    <!--  Card Classifier  -->
-    <div class="container" v-if="showCardClassifier"><CardClassifier/></div>
+    <b-dropdown text="Data Products">
+        <b-dropdown-item v-for="product in Products" :key="product.name" :value="product.name">
+            <router-link :to="{ name: product.name }">{{ product.title }}</router-link>
+        </b-dropdown-item>
+    </b-dropdown>
+    <router-view></router-view>
 
   </div>
 </template>
 
 <script>
-import PresidentsSpeeches from './data_products/PresidentsSpeeches.vue'
-import SportsBettors from './data_products/SportsBettors.vue'
-import CardClassifier from './data_products/CardClassifier'
+import DataProducts from '@/components/data_products'
 
 export default {
-  components: {
-    PresidentsSpeeches,
-    SportsBettors,
-    CardClassifier
-  },
   data () {
     return {
-      data_products: ['Sports Bettors', 'Magic Card Classifier', 'Presidents Speeches'],
-      data_product: ''
+        Products: DataProducts
     }
   },
-  computed: {
-    showCardClassifier: function () {
-      return this.data_product === 'Magic Card Classifier'
-    },
-    showSportsBettors: function () {
-      return this.data_product === 'Sports Bettors'
-    },
-    showPresidentsSpeeches: function () {
-      return this.data_product === 'Presidents Speeches'
-    }
-  },
-  methods: {
-  },
-  created () {
-  }
 }
 </script>

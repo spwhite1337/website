@@ -3,7 +3,22 @@ import PresidentsSpeeches from '@/components/data_products/PresidentsSpeeches.vu
 import SportsBettors from '@/components/data_products/SportsBettors'
 
 export default [
-    { path: '/DataProducts/CardClassifier', name: 'CardClassifier', component: CardClassifier },
-    { path: '/DataProducts/PresidentsSpeeches', name: 'PresidentsSpeeches', component: PresidentsSpeeches },
-    { path: '/DataProducts/SportsBettors', name: 'SportsBettors', component: SportsBettors }
+    {
+        path: '/DataProducts/CardClassifier',
+        name: 'CardClassifier',
+        component: CardClassifier,
+        title: 'Magic Card Classifier'
+    },
+    {
+        path: '/DataProducts/PresidentsSpeeches',
+        name: 'PresidentsSpeeches',
+        component: PresidentsSpeeches,
+        title: 'Presidents Speeches Search Engine'
+    },
+    {
+        path: '/DataProducts/SportsBettors',
+        name: 'SportsBettors',
+        component: SportsBettors,
+        title: 'Sports Betting Aid'
+    }
 ]
