@@ -18,6 +18,8 @@
     {{ dashboard }}
     <br>
     <iframe src="https://scottpwhite.com/api/dash/sportsbettors" frameborder="0"></iframe>
+    <iframe :src="{ dashboard }" frameborder="0"></iframe>
+    
   </div>
 </template>
 
