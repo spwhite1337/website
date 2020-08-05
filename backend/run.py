@@ -5,9 +5,18 @@ from apis.presidents_speeches import ps_api
 from apis.sports_bettors import sb_api
 from apis.card_classifier import cc_api
 
+from sports_bettors.dash import add_sb_dash
+from apis.dash.card_classifier import add_cc_dash
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+
+# Add Dash apps
+# Nice tutorial on Flask + Dash integration:
+# https://hackersandslackers.com/plotly-dash-with-flask/
+app = add_sb_dash(app, routes_pathname_prefix='/api/dash/sportsbettors/')
+app = add_cc_dash(app, routes_pathname_prefix='/api/dash/cardclassifier/')
 
 
 @app.route('/api/sportsbettors', methods=['GET', 'POST'])
