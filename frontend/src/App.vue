@@ -1,15 +1,19 @@
 <template>
   <div id="app">
     <h3>This Site is Very Much Under Construction.</h3>
-    <router-link to="./">Home</router-link>
+    <router-link :to="{ name: 'home' }">Home</router-link>
     <br>
-    <router-link to="./DataProducts">Data Products</router-link>
+    <router-link :to="{ name: 'DataProducts' }">Data Products</router-link>
     <br>
-    <router-link to="./Blog">Blog</router-link>
+    <router-link :to="{ name: 'Blog' }">Blog</router-link>
     <br>
-    <router-link to="./Contact">Contact</router-link>
+    <router-link :to="{ name: 'AmericanGods' }">American Gods</router-link>
     <br>
-    <router-view></router-view>
+    <router-link :to="{ name: 'Contact' }">Contact</router-link>
+    <br>
+    <div class="container">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
