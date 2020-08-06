@@ -20,7 +20,7 @@
           </b-dropdown-item>
       </b-dropdown>
 
-      <transition name="slide-fade">
+      <transition name="slide">
           <router-view></router-view>
       </transition>
   </div>
@@ -40,17 +40,13 @@ data () {
 </script>
 
 <style>
-  /* Enter and leave animations can use different */
-/* durations and timing functions.              */
-.slide-fade-enter-active {
-  transition: all .3s ease;
-}
-.slide-fade-leave-active {
-  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-}
-.slide-fade-enter, .slide-fade-leave-to
-/* .slide-fade-leave-active below version 2.1.8 */ {
-  transform: translateX(10px);
-  opacity: 0;
-}
+.enter { transform: translateX(100%) }
+.enter-to { transform: translateX(0) }
+.slide-enter-active { position: absolute }
+
+.leave { transform: translateX(0) }
+.leave-to { transform: translateX(-100%) }
+
+.slide-enter-active,
+.slide-leave-active { transition: all 100ms ease-in-out }
 </style>
