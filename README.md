@@ -55,7 +55,7 @@ The full app can be run through docker but tends to slow down my local computer 
     - Go to server root (on EC2; `cd ../../` when default connection places you in `home/ubuntu`)
     - `sudo git clone https://github.com/spwhite1337/website.git`
     - `cd website`
-    - `source initialization.sh`
+    - `source initialization_ubuntu.sh`
         - Get AWS Keys from S3 Bucket `s3://scott-p-white`
         
 ### 2.) GoDaddy    

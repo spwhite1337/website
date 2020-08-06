@@ -19,7 +19,10 @@
             <router-link :to="{ name: post.name }">{{ post.title }}</router-link>
           </b-dropdown-item>
       </b-dropdown>
-    <router-view></router-view>
+
+      <transition name="slide">
+          <router-view></router-view>
+      </transition>
   </div>
 </template>
 
@@ -35,3 +38,15 @@ data () {
     }
 }}
 </script>
+
+<style>
+.enter { transform: translateX(100%) }
+.enter-to { transform: translateX(0) }
+.slide-enter-active { position: absolute }
+
+.leave { transform: translateX(0) }
+.leave-to { transform: translateX(-100%) }
+
+.slide-enter-active,
+.slide-leave-active { transition: all 100ms ease-in-out }
+</style>
