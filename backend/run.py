@@ -13,8 +13,7 @@ cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
 # Add Dash apps
-# Nice tutorial on Flask + Dash integration:
-# https://hackersandslackers.com/plotly-dash-with-flask/
+# Nice tutorial on Flask + Dash integration: https://hackersandslackers.com/plotly-dash-with-flask/
 app = add_sb_dash(app, routes_pathname_prefix='/api/dash/sportsbettors/')
 app = add_cc_dash(app, routes_pathname_prefix='/api/dash/cardclassifier/')
 
