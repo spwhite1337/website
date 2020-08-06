@@ -15,7 +15,6 @@ Personal website to display some data products and to impose my will on the inte
 <img src="docs/logos/godaddy_logo.png" alt="GoDaddy Logo" width="128"/>
 </p>
 
-
 ---
 
 ## Local Development
@@ -102,7 +101,7 @@ Generate an SSL certificate with Let's Encrypt / Certbot on a test site served o
     
         <img src="docs/outputs/letsencrypt_staging.JPG" alt="Let's Encrypt Staging" width=256>
     
-    - Ensure success with `source letsencrypt-info.sh`    
+    - Optional: Ensure success with `source letsencrypt-info.sh`    
         
         <img src="docs/outputs/letsencrypt_info_staging.JPG" alt="Let's Encrypt Info Staging" width=256>
 
@@ -113,7 +112,7 @@ per week. Should be plenty but best not waste them.):
     
         <img src="docs/outputs/letsencrypt_prod.JPG" alt="Let's Encrypt Prod" width=256>
     
-    - See info with `source letsencrypt-info.sh`
+    - Optional: See info with `source letsencrypt-info.sh`
     
         <img src="docs/outputs/letsencrypt_info_prod.JPG" alt="Let's Encrypt Info Prod" width=256>
 
