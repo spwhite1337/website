@@ -11,7 +11,18 @@ def download(windows: bool = False, dryrun: bool = False):
     results_sync = '{} {}'.format(Config.CLOUD_RESULTS, Config.RESULTS_DIR)
     data_sync = '{} {}'.format(Config.CLOUD_DATA, Config.DATA_DIR)
 
-    logger.info('Models for Sports Bettors')
+    logger.info('Data for Sports Bettors')
+    # Select files
+    include_flag = " --exclude '*' --include '*df_curated.csv'"
+    include_flag = re.sub("'", '', include_flag) if windows else include_flag
+
+    # Run
+    sb_sync = base + data_sync + include_flag
+    sb_sync += dryrun_arg if dryrun else ''
+    logger.info(sb_sync)
+    os.system(sb_sync)
+
+    logger.info('Results for Sports Bettors')
     # Select files
     include_flag = " --exclude '*' --include '*predictor_set_{}.pkl'".format(Config.sb_version)
     include_flag = re.sub("'", '', include_flag) if windows else include_flag
