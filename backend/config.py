@@ -21,4 +21,4 @@ class Config(object):
     CLOUD_RESULTS = 's3://scott-p-white/website/results'
     cc_version = 'v1'
     cc_model_type = 'VGG'
-    sb_version = 'v1'
+    sb_version = 'v2'
