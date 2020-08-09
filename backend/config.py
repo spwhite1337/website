@@ -22,3 +22,5 @@ class Config(object):
     cc_version = 'v1'
     cc_model_type = 'VGG'
     sb_version = 'v2'
+    dashboard_version = 'v2'
+
