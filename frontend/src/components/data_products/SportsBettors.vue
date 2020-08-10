@@ -16,7 +16,12 @@
     <p>Output from Sports Bettors: {{ sb_output }}</p>
     <br>
     <div class="container" height="100%" width="100%">
-      <iframe :src="dashboard" frameborder="0"></iframe>
+<!--      <iframe :src="dashboard" frameborder="0"></iframe>-->
+      <iframe :src="dashboard"
+              onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+              style="height:200px;width:100%;border:none;overflow:hidden;">
+      </iframe>
+
     </div>
 
   </div>
