@@ -16,9 +16,9 @@
     <p>Output from Sports Bettors: {{ sb_output }}</p>
     <br>
     <div class="container">
-      <iframe :src="dashboard" frameborder="0"></iframe>
     </div>
 
+    <iframe :src="dashboard" frameborder="0"></iframe>
   </div>
 </template>
 
