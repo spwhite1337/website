@@ -18,11 +18,7 @@ app = add_sb_dash(app, routes_pathname_prefix='/api/dash/sportsbettors/')
 
 @app.route('/api/sportsbettors', methods=['GET', 'POST'])
 def sports_bettors():
-    # response = jsonify({'sb_output': 'blank'})
     if request.method == 'GET':
-        # if 'league' in request.args.keys():
-        #     response = sb_api(request.args)
-        #     return jsonify({'sb_output': response})
         output = sb_api(inputs=request.args) if 'league' in request.keys() else 'blank'
     else:
         output = 'blank'
@@ -32,9 +28,6 @@ def sports_bettors():
 @app.route('/api/cardclassifier', methods=['GET', 'POST'])
 def card_classifier():
     if request.method == 'GET':
-        # if 'default_card' in request.args.keys():
-            # output = cc_api(default_card=request.args['default_card'])
-            # return jsonify({'card_color': output})
         output = cc_api(default_card=request.args['default_card']) if 'default_card' in request.args.keys() else 'blank'
     else:
         output = 'blank'
@@ -44,9 +37,6 @@ def card_classifier():
 @app.route('/api/presidentsspeeches', methods=['GET', 'POST'])
 def presidents_speeches():
     if request.method == 'GET':
-        # if 'query' in request.args.keys():
-        #     output = ps_api(request.args['query'])
-        #     return jsonify({'president': output})
         output = ps_api(query=request.args['query']) if 'query' in request.args.keys() else 'blank'
     else:
         output = 'blank'
