@@ -19,7 +19,7 @@ app = add_sb_dash(app, routes_pathname_prefix='/api/dash/sportsbettors/')
 @app.route('/api/sportsbettors', methods=['GET', 'POST'])
 def sports_bettors():
     if request.method == 'GET':
-        output = sb_api(inputs=request.args) if 'league' in request.keys() else 'blank'
+        output = sb_api(inputs=request.args) if 'league' in request.args.keys() else 'blank'
     else:
         output = 'blank'
     return jsonify({'sb_output': output})
