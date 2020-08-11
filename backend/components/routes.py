@@ -1,19 +1,11 @@
-from flask import Flask, jsonify, request
-from flask_cors import CORS
+from flask import jsonify, request
 
 from apis.presidents_speeches import ps_api
 from apis.sports_bettors import sb_api
 from apis.card_classifier import cc_api
-
 from sports_bettors.dash import add_sb_dash
 
-app = Flask(__name__)
-cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
-
-
-# Add Dash apps
-# Nice tutorial on Flask + Dash integration: https://hackersandslackers.com/plotly-dash-with-flask/
-app = add_sb_dash(app, routes_pathname_prefix='/api/dash/sportsbettors/')
+from app import app
 
 
 @app.route('/api/sportsbettors', methods=['GET', 'POST'])
@@ -23,6 +15,11 @@ def sports_bettors():
     else:
         output = 'blank'
     return jsonify({'sb_output': output})
+
+
+# Add Dash app
+# Nice tutorial on Flask + Dash integration: https://hackersandslackers.com/plotly-dash-with-flask/
+app = add_sb_dash(app, routes_pathname_prefix='/api/dash/sportsbettors/')
 
 
 @app.route('/api/cardclassifier', methods=['GET', 'POST'])
@@ -46,8 +43,6 @@ def presidents_speeches():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def catch_all(path):
-    return jsonify({'message': 'Greetings from the Backend'})
-
-
-if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000)
+    message = 'Greetings from the Backend'
+    message += ' ({})'.format(path) if path else ''
+    return jsonify({'message': message})

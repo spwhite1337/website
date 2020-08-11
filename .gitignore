@@ -169,6 +169,7 @@ backend/sports-bettors/
 backend/presidents-speeches/
 backend/results/
 backend/data/
+backend/app.db
 
 # Env vars
 frontend/.env.production
