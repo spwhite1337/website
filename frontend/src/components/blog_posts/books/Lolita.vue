@@ -156,11 +156,44 @@
        unable to illustrate such authenticity alone. To put another way, he is not more authentic than any other
        person is when placed in their personal narrative as they construct it.
        <br><br>
+      <div class="container">
+        <ul v-for="comment in comments">
+          <li>{{ comment }}</li>
+        </ul>
+        <button @click="postCommment">Comment</button>
+        <input v-model="comment" placeholder="Post a comment...">
+        <p>{{ comment }}</p>
+        <p>{{ output }}</p>
+      </div>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'Lolita'
+import axios from 'axios'
+const path = process.env.VUE_APP_ROOT_API.concat('/api/comment')
+
+export default {
+  name: 'Lolita'
+  data () {
+    output: '',
+    comment: ''
+  },
+  methods: {
+    postComment () {
+      axios.get(path, {
+        params: {
+          post: 'Lolita',
+          comment: this.comment
+        }
+      })
+        .then(response => {
+          this.output = response.data.message
+        })
+        .catch(error => {
+          console.log(error)
+        })
+      return {}
+    }
   }
+}
 </script>
