@@ -72,7 +72,7 @@ def login():
 @app.route('/api/logout')
 def logout():
     logout_user()
-    return redirect(url_for('index'))
+    return jsonify({'message': 'You logged out'})
 
 
 @app.route('/api/register', methods=['GET', 'POST'])
