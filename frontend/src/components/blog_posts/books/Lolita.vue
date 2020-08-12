@@ -157,7 +157,7 @@
        person is when placed in their personal narrative as they construct it.
        <br><br>
       <div class="container">
-        <ul v-for="comment in comments">
+        <ul v-for="comment in comments" :key="comment">
           <li>{{ comment }}</li>
         </ul>
         <button @click="postCommment">Comment</button>
