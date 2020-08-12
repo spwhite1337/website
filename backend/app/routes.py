@@ -4,7 +4,7 @@ from werkzeug.urls import url_parse
 
 from app import app, db
 from app.forms import LoginForm, RegistrationForm
-from app.models import User
+from app.models import User, Comment
 
 from apis.presidents_speeches import ps_api
 from apis.sports_bettors import sb_api
@@ -88,6 +88,19 @@ def register():
         flash('Congratulations, you are now a registered user!')
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
+
+
+@app.route('/api/comment', methods=['GET', 'POST'])
+def write_comment():
+    if not current_user.is_authenticated:
+        return jsonify({'message': 'Login to comment'})
+    else:
+        # Update database
+        comment = Comment(post=request.args['post'], comment=request.arg['comment'], user_id=current_user.id)
+        db.session.add(comment)
+        db.session.commit()
+
+        return jsonify({'message': 'Comment added'})
 
 
 @app.route('/', defaults={'path': ''})
