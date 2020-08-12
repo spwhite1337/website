@@ -18,6 +18,8 @@
     <div height="2000px" width="1000px">
       <iframe :src="dashboard"></iframe>
     </div>
+    <iframe :src="dashboard"></iframe>
+    <iframe :src="dashboard" height="100%" width="100%"></iframe>
 
   </div>
 </template>
