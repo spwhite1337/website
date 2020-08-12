@@ -18,7 +18,7 @@
     <div class="container">
       <iframe :src="dashboard" height="100%" width="100%"></iframe>
     </div>
-    <iframe :src="dashboard" height="100%" width="100%"></iframe>
+    <iframe :src="dashboard" height="2000px" width="100%"></iframe>
 
   </div>
 </template>
