@@ -175,8 +175,10 @@ const path = process.env.VUE_APP_ROOT_API.concat('/api/comment')
 export default {
   name: 'Lolita',
   data () {
-    output: '',
-    comment: ''
+    return {
+      output: '',
+      comment: ''
+    }
   },
   methods: {
     postComment () {
