@@ -18,6 +18,7 @@ setup(
         'flask-migrate',
         'flask-login',
         'flask-cors',
+        'email-validator',
         'uwsgi',  # Bypass this on windows
         'plotly',
         'dash',
