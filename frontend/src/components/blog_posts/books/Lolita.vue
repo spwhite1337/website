@@ -173,7 +173,7 @@ import axios from 'axios'
 const path = process.env.VUE_APP_ROOT_API.concat('/api/comment')
 
 export default {
-  name: 'Lolita'
+  name: 'Lolita',
   data () {
     output: '',
     comment: ''
