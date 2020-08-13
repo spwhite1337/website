@@ -9,7 +9,6 @@ def upload():
     parser.add_argument('--dryrun', action='store_true')
     args = parser.parse_args()
 
-    # General commands
     copy_base = 'aws s3 cp '
     dryrun_arg = ' --dryrun'
     data_sync = '{} {}'.format(os.path.join(Config.ROOT_DIR, 'app.db'), os.path.join(Config.CLOUD_DATA, 'website-db',
@@ -18,3 +17,7 @@ def upload():
     aws_copy += dryrun_arg if args.dryrun else ''
     logger.info(aws_copy)
     os.system(aws_copy)
+
+
+if __name__  == '__main__':
+    upload()

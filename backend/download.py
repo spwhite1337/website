@@ -68,6 +68,16 @@ def download(windows: bool = False, dryrun: bool = False):
     logger.info(cc_sync)
     os.system(cc_sync)
 
+    logger.info('Website db')
+    copy_base = 'aws s3 cp '
+    dryrun_arg = ' --dryrun'
+    data_sync = '{} {}'.format(os.path.join(Config.CLOUD_DATA, 'website-db', 'app.db'),
+                               os.path.join(Config.ROOT_DIR, 'app.db'))
+    aws_copy = copy_base + data_sync
+    aws_copy += dryrun_arg if args.dryrun else ''
+    logger.info(aws_copy)
+    os.system(aws_copy)
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
