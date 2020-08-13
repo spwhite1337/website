@@ -178,7 +178,7 @@ export default {
     return {
       output: '',
       comment: 'test',
-      comments: [{ user: 'Guest', Comment: 'comment' }]
+      comments: [{ user: 'Guest', comment: 'comment' }]
     }
   },
   methods: {
