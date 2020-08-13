@@ -157,8 +157,8 @@
        person is when placed in their personal narrative as they construct it.
        <br><br>
       <div class="container">
-        <ul v-for="comment in comments" :key="comment">
-          <li>{{ comment }}</li>
+        <ul v-for="comment in comments" :key="comment.comment">
+          <li>{{ comment.user }} {{ comment.comment }}</li>
         </ul>
         <button @click="postCommment">Comment</button>
         <input v-model="comment" placeholder="Post a comment...">
@@ -177,7 +177,7 @@ export default {
   data () {
     return {
       output: '',
-      comment: ''
+      comment: { user: 'Guest', Comment: 'comment' }
     }
   },
   methods: {
