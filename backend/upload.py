@@ -11,8 +11,7 @@ def upload():
 
     copy_base = 'aws s3 cp '
     dryrun_arg = ' --dryrun'
-    data_sync = '{} {}'.format(os.path.join(Config.ROOT_DIR, 'app.db'), os.path.join(Config.CLOUD_DATA, 'website-db',
-                                                                                     'app.db'))
+    data_sync = '{} {}'.format(os.path.join(Config.ROOT_DIR, 'app.db'), Config.sqlite_db)
     aws_copy = copy_base + data_sync
     aws_copy += dryrun_arg if args.dryrun else ''
     logger.info(aws_copy)

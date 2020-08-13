@@ -22,6 +22,7 @@ class Config(object):
     cc_version = 'v1'
     cc_model_type = 'VGG'
     sb_version = 'v2'
+    sqlite_db = 's3://scott-p-white/website/data/sqlite/app.db'
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
         'sqlite:///' + os.path.join(ROOT_DIR, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
