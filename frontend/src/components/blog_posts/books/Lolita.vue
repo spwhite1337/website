@@ -177,7 +177,8 @@ export default {
   data () {
     return {
       output: '',
-      comment: { user: 'Guest', Comment: 'comment' }
+      comment: 'test',
+      comments: { user: 'Guest', Comment: 'comment' }
     }
   },
   methods: {
