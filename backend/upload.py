@@ -18,5 +18,5 @@ def upload():
     os.system(aws_copy)
 
 
-if __name__  == '__main__':
+if __name__ == '__main__':
     upload()
