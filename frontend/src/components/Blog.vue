@@ -25,7 +25,7 @@
       </transition>
 
       <br><br>
-      <a :href="link"></a>
+      <a :href="link">Login to Leave a Comment</a>
   </div>
 </template>
 
