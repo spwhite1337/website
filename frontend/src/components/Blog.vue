@@ -39,7 +39,7 @@ data () {
         books: BlogPosts.Books,
         political: BlogPosts.Political,
         science: BlogPosts.Science,
-        llnk: path
+        link: path
     }
 }}
 </script>
