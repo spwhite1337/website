@@ -25,19 +25,21 @@
       </transition>
 
       <br><br>
-      <router-link :to="{ name: 'login' }">Login To Comment</router-link>
+      <a :href="link"></a>
   </div>
 </template>
 
 <script>
 import BlogPosts from '@/components/blog_posts'
+const path = process.env.VUE_APP_ROOT_API.concat('/api/login')
 
 export default {
 data () {
   return {
         books: BlogPosts.Books,
         political: BlogPosts.Political,
-        science: BlogPosts.Science
+        science: BlogPosts.Science,
+        llnk: path
     }
 }}
 </script>
