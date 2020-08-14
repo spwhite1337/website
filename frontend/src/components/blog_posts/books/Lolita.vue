@@ -160,7 +160,7 @@
         <ul v-for="comment in comments" :key="comment.user">
           <li>{{ comment.user }} {{ comment.comment }}</li>
         </ul>
-        <button @click="postCommment">Comment</button>
+        <button @click="postComment">Comment</button>
         <input v-model="comment" placeholder="Post a comment...">
         <p>{{ comment }}</p>
         <p>{{ output }}</p>
