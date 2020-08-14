@@ -19,6 +19,10 @@ export default new Router({
             component: Home
         },
         {
+            path: '/api/login',
+            name: 'login'
+        },
+        {
             path: '/DataProducts',
             name: 'DataProducts',
             component: DataProductsIndex,

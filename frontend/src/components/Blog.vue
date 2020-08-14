@@ -24,7 +24,8 @@
           <router-view></router-view>
       </transition>
 
-      <a href="./api/login">Login to Comment</a>
+      <br><br>
+      <router-link :to="{ name: 'login' }">Login To Comment</router-link>
   </div>
 </template>
 
