@@ -183,6 +183,7 @@ export default {
   },
   methods: {
     postComment () {
+      console.log('Ran postComment')
       axios.get(path, {
         params: {
           post: 'Lolita',
