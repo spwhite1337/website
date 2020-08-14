@@ -2,5 +2,6 @@ FROM python:3.6-stretch
 WORKDIR /backend
 ADD . /backend
 RUN pip install -e .
+RUN flask db migrate
 RUN flask db upgrade
 CMD ["uwsgi", "app.ini"]
