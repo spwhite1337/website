@@ -23,6 +23,8 @@
       <transition name="slide">
           <router-view></router-view>
       </transition>
+
+      <a href="./api/login">Login to Comment</a>
   </div>
 </template>
 
