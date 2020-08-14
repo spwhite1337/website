@@ -1,6 +1,8 @@
 version: '3.0'
 services:
     backend:
+        environment:
+            - FLASK_APP=app.py
         build: ./backend
         container_name:  backend
         restart: always
