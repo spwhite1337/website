@@ -19,7 +19,6 @@
     <div class="container">
       <iframe :src="dashboard" height="2000px" width="100%" frameborder="0"></iframe>
     </div>
-
   </div>
 </template>
 
