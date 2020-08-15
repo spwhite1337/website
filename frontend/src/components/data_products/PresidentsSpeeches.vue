@@ -4,7 +4,7 @@
     <p>Presidents Speeches</p>
     <button @click="presidentsSpeeches">Search Presidents</button>
     <input v-model="query" type="text">
-      <ul v-for="result in results" :value="result.president">
+      <ul v-for="result in results" :key="result.president">
           <li>{{ result.president }}  {{ result.speech }}</li>
       </ul>
     <p>Output from Presidents speeches: {{ president }}</p>
