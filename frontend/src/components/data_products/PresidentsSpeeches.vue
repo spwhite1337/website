@@ -4,6 +4,7 @@
     <p>Presidents Speeches</p>
     <button @click="presidentsSpeeches">Search Presidents</button>
     <input v-model="query" type="text">
+    {{ results }}
   </div>
 </template>
 
@@ -16,6 +17,7 @@ export default {
   data () {
     return {
       query: '',
+      results: []
     }
   },
   methods: {
@@ -27,6 +29,8 @@ export default {
       })
         .then(response => {
           console.log(response.data)
+          this.results = response.data
+          console.log(this.results)
         })
         .catch(error => {
           console.log(error)
