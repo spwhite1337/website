@@ -5,6 +5,12 @@
     <button @click="presidentsSpeeches">Search Presidents</button>
     <input v-model="query" type="text">
     {{ results }}
+    <ul v-for="speech in results.speeches" :key="speech">
+      <li>{{ speech }}</li>
+    </ul>
+      <ul v-for="president in results.presidents" :key="president">
+      <li>{{ president }}</li>
+    </ul>
   </div>
 </template>
 
