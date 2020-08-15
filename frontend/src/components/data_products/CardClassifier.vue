@@ -35,7 +35,9 @@ export default {
   name: 'CardClassifier',
   data () {
     return {
-      default_cards: ['balrog', 'galadriel', 'javert', 'jean', 'link', 'mary', 'napolean', 'sauron', 'tolstoy', 'vader'],
+      default_cards: [
+        'balrog', 'galadriel', 'javert', 'jean', 'link', 'mary', 'napolean', 'sauron', 'tolstoy', 'vader'
+      ],
       default_card: '',
       output: '',
     }
