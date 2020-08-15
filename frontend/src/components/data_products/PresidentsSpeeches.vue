@@ -4,7 +4,17 @@
     <p>Presidents Speeches</p>
     <button @click="presidentsSpeeches">Search Presidents</button>
     <input v-model="query" type="text">
-    <div class="container" v-if="results.length > 1">
+    <div class="container" v-if="results.length">
+      Best matched Presidents
+      <ul v-for="president in results.presidents" :key="president">
+        <li>{{ president.toUpperCase() }}</li>
+      </ul>
+      Most Similar Speeches:
+      <ul v-for="(speech, idx) in results.speeches" :key="speech">
+        <li><a :href="speech">Speech {{ idx + 1 }}</a></li>
+      </ul>
+    </div>
+        <div class="container" v-if="results.length > 1">
       Best matched Presidents
       <ul v-for="president in results.presidents" :key="president">
         <li>{{ president.toUpperCase() }}</li>
