@@ -17,7 +17,7 @@
       <a href="https://github.com/spwhite1337/sports-bettors" target="_blank">Repo</a>
     </p>
     <div class="container">
-      <iframe :src="dashboard" height="2000px" width="100%" padding="10px"></iframe>
+      <iframe :src="dashboard" height="2000px" width="100%" padding="10px" frameborder="0"></iframe>
     </div>
 
   </div>
