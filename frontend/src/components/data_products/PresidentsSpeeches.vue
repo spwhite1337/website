@@ -7,15 +7,15 @@
           large part to comedian-in-chief Donald Trump.
           The Miller Center provides a collection of presidents speeches given in their official capacity and I had an
           interest in searching through these speeches by topics.
-          <br>
-          The ability to search through a collection of text is great example of Natural Language Processing or NLP. 
+          <br><br>
+          The ability to search through a collection of text is great example of Natural Language Processing or NLP.
           This quick project takes this (small) corpus of presidents speeches and maps an input phrase to the 
           president who it best matches and the specific speech it best matches.
-          <br>
+          <br><br>
           Inputs should be short, descriptive phrases like, "Fake News" or "Vietnam Communists". If you put garbage 
           queries in you will likely get spurious results. Future iterations will correct for this, but now this is all
           you get.
-          <br>
+          <br><br>
           The code and results can be found
           <a href="https://github.com/spwhite1337/presidents-speeches" target="_blank">here</a>.
       </p>
