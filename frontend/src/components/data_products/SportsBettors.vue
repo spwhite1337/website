@@ -10,7 +10,11 @@
       <br>
       The dashboard below presents results from a bayesian regression on three responses: (i) the probability of the
       selected team winning against the select opponent, (ii) the probability the spread or margin of victory will be
-      at least as high as presented, and (iii) the total number of points in the game.
+      at least as high as presented, and (iii) the total number of points in the game. The results are specific to a
+      model that control for different sets of inputs.
+      <br>
+      See the code and diagnostics of the various models on the repo:
+      <a href="https://github.com/spwhite1337/sports-bettors" target="_blank">Repo</a>
     </p>
     <div class="container">
       <iframe :src="dashboard" height="2000px" width="100%"></iframe>
