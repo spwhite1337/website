@@ -4,6 +4,9 @@
     <p>Presidents Speeches</p>
     <button @click="presidentsSpeeches">Search Presidents</button>
     <input v-model="query" type="text">
+      <ul v-for="result in results" :value="result.president">
+          <li>{{ result.president }}  {{ result.speech }}</li>
+      </ul>
     <p>Output from Presidents speeches: {{ president }}</p>
   </div>
 </template>
@@ -17,7 +20,7 @@ export default {
   data () {
     return {
       query: '',
-      president: ''
+      results: []
     }
   },
   methods: {
@@ -28,7 +31,7 @@ export default {
         }
       })
         .then(response => {
-          this.president = response.data.president
+          this.results = response.data
         })
         .catch(error => {
           console.log(error)
