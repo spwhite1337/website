@@ -41,10 +41,11 @@ The full app can be run through docker but tends to slow down my local computer 
 - Set Up AWS EC2 instance: 
     - Ubuntu 18.04 Image
     - t2.small (~$0.0023 / hour or ~$16 / month)
-        - Can't install project on t2.micro (Exits with `Killed` error)
+        - t2.micro works if you download the `minified` branch of `card-classifier`, otherwise you will get a 
+        `Killed` error during install of `master` on t2.micro.
     - Optional: Check Spot Requests to lower costs but might decrease performance.
     - Enable Auto-assign Public IP
-    - 12 GB EBS (Costs ~$0.10 GB / month)
+    - 10-12 GB EBS (Costs ~$0.10 GB / month)
     - Security Group `Website`:
         - SSH on 22
         - HTTP on 80
