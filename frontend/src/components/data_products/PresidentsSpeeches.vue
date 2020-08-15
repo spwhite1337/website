@@ -4,15 +4,6 @@
     <p>Presidents Speeches</p>
     <button @click="presidentsSpeeches">Search Presidents</button>
     <input v-model="query" type="text">
-    {{ results }}
-      <p>Similar Presidents</p>
-      <ul v-for="president in results.presidents" :key="president">
-          <li>{{ president }}</li>
-      </ul>
-      <p>Similar Speeches</p>
-      <ul v-for="speech in results.speeches" :key="speech">
-          <li>{{ speech }}</li>
-      </ul>
   </div>
 </template>
 
@@ -25,7 +16,6 @@ export default {
   data () {
     return {
       query: '',
-      results: []
     }
   },
   methods: {
@@ -37,7 +27,6 @@ export default {
       })
         .then(response => {
           console.log(response.data)
-          this.results = response.data
         })
         .catch(error => {
           console.log(error)
