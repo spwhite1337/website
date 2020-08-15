@@ -42,7 +42,7 @@ The full app can be run through docker but tends to slow down my local computer 
     - Ubuntu 18.04 Image
     - t2.small (~$0.0023 / hour or ~$16 / month)
         - t2.micro works if you download the `minified` branch of `card-classifier`, otherwise you will get a 
-        `Killed` error during install of `master` on t2.micro.
+        `Killed` error during install of `master` on t2.micro. This is ~1/2 the price of t2.small.
     - Optional: Check Spot Requests to lower costs but might decrease performance.
     - Enable Auto-assign Public IP
     - 10-12 GB EBS (Costs ~$0.10 GB / month)
