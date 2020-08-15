@@ -36,8 +36,8 @@ def presidents_speeches():
     if request.method == 'GET':
         output = ps_api(query=request.args['query']) if 'query' in request.args.keys() else 'blank'
     else:
-        output = 'blank'
-    return jsonify({'president': output})
+        output = {'presidents': ['blank'], 'presidents_sim': [1.0], 'speeches': ['blank'], 'speeches_sim': [1.0]}
+    return jsonify(output)
 
 
 @app.route('/', defaults={'path': ''})
