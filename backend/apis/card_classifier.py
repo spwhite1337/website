@@ -17,7 +17,7 @@ def convert_scores_to_color(output: dict, num_colors: int = 4) -> dict:
         # Norm-const is the num_colors / (sum of scores above (1 / num_colors))
         # Normalized score is the "fraction of total score from value cards that this card comprises"
         normalization = num_colors / np.sum([score for score in output.values() if score > (1 / num_colors)])
-        colors = {color: score * normalization for color, score in output.items() if score > (1 / num_colors)}
+        colors = {color: round(score * normalization) for color, score in output.items() if score > (1 / num_colors)}
 
     else:
         colors = {k: num_colors for k, v in output.items() if v == max(output.values())}
