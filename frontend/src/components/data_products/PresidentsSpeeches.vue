@@ -22,7 +22,7 @@
       </ul>
       Most Similar Speeches:
       <ul v-for="(speech, idx) in results.speeches" :key="speech">
-        <li><a :href="speech">Speech {{ idx + 1 }}</a></li>
+        <li><a :href="speech" target="_blank">Speech {{ idx + 1 }}</a></li>
       </ul>
     </div>
   </div>
