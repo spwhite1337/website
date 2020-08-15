@@ -21,6 +21,8 @@ Personal website to display some data products and to impose my will on the inte
 
 This will run two independent apps that do not communicate to each other.
 
+Requires: Python 3.5 and npm
+
 - `cd backend`
 - `set FLASK_APP=run.py` (`export FLASK_APP=run.py`)
 - `pip install -e .`
