@@ -1,20 +1,17 @@
 <template>
   <div class="container">
     <hr>
-    <p>Sports Bettors</p>
-    <div class="container">
-      <b-form-select v-model="league" :options="leagues" size="sm" class="mt-3"></b-form-select>
-      <b-form-select v-model="random_effect" :options="random_effects" size="sm" class="mt-3"></b-form-select>
-      <b-form-select v-model="feature_set" :options="feature_sets" size="sm" class="mt-3"></b-form-select>
-    </div>
-    <div v-for="feature in inputs" :key="feature.name">
-      <p>{{ feature.name }}</p>
-      <input type="text" v-model="feature.value">
-    </div>
-    <br><br>
-    <button @click="sportsBettors">Bet on Sports</button>
-    <p>Output from Sports Bettors: {{ sb_output }}</p>
+    <h3>Sports Bettors</h3>
     <br>
+    <p>
+      The great state of Indiana has introduced me to the world of online sports betting and it is a real treat.
+      I primarily use FanDuel to take advantage of combination bets including (i) which team will win, (ii) what
+      the spread will be, and (iii) the over / under for total points in the game.
+      <br>
+      The dashboard below presents results from a bayesian regression on three responses: (i) the probability of the
+      selected team winning against the select opponent, (ii) the probability the spread or margin of victory will be
+      at least as high as presented, and (iii) the total number of points in the game.
+    </p>
     <div class="container">
       <iframe :src="dashboard" height="2000px" width="100%"></iframe>
     </div>
@@ -23,97 +20,15 @@
 </template>
 
 <script>
-import axios from 'axios'
-const path = process.env.VUE_APP_ROOT_API.concat('/api/sportsbettors')
 const dashpath = process.env.VUE_APP_ROOT_API.concat('/api/dash/sportsbettors')
 
 export default {
   name: 'SportsBettors',
   data () {
     return {
-
-      // Select League
-      leagues: ['College Football', 'NFL'],
-      league: '',
-
-      // Configure Model
-      random_effects: ['team', 'opponent'],
-      random_effect: '',
-      feature_sets: ['RushOnly', 'PassOnly', 'Offense', 'PointsScored', 'All'],
-      feature_set: '',
-
-      // Output
-      sb_output: '',
-
       // Dashboard
       dashboard: dashpath
     }
   },
-  computed: {
-    inputs: function () {
-      if (['College Football', 'NFL'].includes(this.league)) {
-        if (this.feature_set === 'RushOnly') {
-          return [
-            {name: 'RandomEffect', value: ''},
-            {name: 'Rushing Yards', value: ''},
-            {name: 'Rushing Attempts', value: ''}
-          ]
-        } else if (this.feature_set === 'PassOnly') {
-          return [
-            {name: 'RandomEffect', value: ''},
-            {name: 'Passing Yards', value: ''},
-            {name: 'Passing Attempts', value: ''}
-          ]
-        } else if (this.feature_set === 'Offense') {
-          return [
-            {name: 'RandomEffect', value: ''},
-            {name: 'Rushing Yards', value: ''},
-            {name: 'Rushing Attempts', value: ''},
-            {name: 'Passing Yards', value: ''},
-            {name: 'Passing Attempts', value: ''}
-          ]
-        } else if (this.feature_set === 'PointsScored') {
-          return [
-            {name: 'RandomEffect', value: ''},
-            {name: 'Total Points', value: ''}
-          ]
-        } else if (this.feature_set === 'All') {
-          return [
-            {name: 'RandomEffect', value: ''},
-            {name: 'Home? (1=yes)', value: ''},
-            {name: 'Rushing Yards (Adv)', value: ''},
-            {name: 'Passing Yards (Adv)', value: ''},
-            {name: 'Penalty Yards (Adv)', value: ''},
-            {name: 'Possession Time (Adv, min)', value: ''},
-            {name: 'Turnover Margin', value: ''},
-            {name: 'First Downs (adv)', value: ''}
-          ]
-        } else {
-          return []
-        }
-      } else {
-        return []
-      }
-    }
-  },
-  methods: {
-    sportsBettors () {
-      axios.get(path, {
-        params: {
-          league: this.league,
-          random_effect: this.random_effect,
-          feature_set: this.feature_set,
-          inputs: this.inputs
-        }
-      })
-        .then(response => {
-          this.sb_output = response.data.sb_output
-        })
-        .catch(error => {
-          console.log(error)
-        })
-      return {}
-    }
-  }
 }
 </script>
