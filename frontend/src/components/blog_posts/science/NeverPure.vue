@@ -21,7 +21,7 @@
        </li>
      </ul>
      Steven Shapin demonstrates this with a strong thesis that investigates historical eras and moments in science by emphasizing the human element of the project. He does this intentionally and transparently with nods to the approach's limitations. There is no mention of the impersonal aspect of empirical adjudication of hypotheses, or the iconoclastic characters that disrupt institutions propelled by their scientific acumen. In order to write a book on such a big topic some things needed to be left out and, given his transparency, this can be easily forgiven.
-    <img :src="getImgUrl('steve_shapin.jpg')" alt="SteveShapin">
+    <img :src="getImgUrl('steve_shapin.jpg')" alt="SteveShapin" width="25%">
      <br><br>
      The work, "Never Pure", outlines this thesis in a series of (largely) stand-alone essays. My favorite essays are summarized in this post along with their highlights and my interpretation. I'll conclude with my views on where this leaves science and its role in modern America.
      <br><br>
