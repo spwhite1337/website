@@ -22,7 +22,7 @@
     <div class="container">
       <!--      <p>Model is too big to serve right now</p>-->
       <button @click="cardClassifier">Classify Card</button>
-      <p>Output from Card Classifier: {{ card_color }}</p>
+      <p>Output from Card Classifier: {{ images }}</p>
     </div>
   </div>
 </template>
@@ -37,7 +37,12 @@ export default {
     return {
       default_cards: ['balrog', 'galadriel', 'javert', 'jean', 'link', 'mary', 'napolean', 'sauron', 'tolstoy', 'vader'],
       default_card: '',
-      card_color: ''
+      output: '',
+    }
+  },
+  computed: {
+    images: function () {
+      return this.output
     }
   },
   methods: {
@@ -48,7 +53,7 @@ export default {
         }
       })
         .then(response => {
-          this.card_color = response.data.card_color
+          this.output = response.data.card_color
         })
         .catch(error => {
           console.log(error)
