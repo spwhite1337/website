@@ -26,6 +26,9 @@ def convert_scores_to_color(output: dict, num_colors: int = 4) -> list:
     # Convert dict of color: num to list of each color
     colors = list(itertools.chain.from_iterable([[k] * v for k, v in colors.items()]))
 
+    # Fill with N
+    colors += ['N'] * (num_colors - len(colors))
+
     return colors
 
 
