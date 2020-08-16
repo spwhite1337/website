@@ -3,30 +3,35 @@
     <h2>American Gods, by Neil Gaiman</h2>
     <hr>
      <b>Summary:</b> The story of American Gods is really quite
-   <a href="https://en.wikipedia.org/wiki/Hero%27s_journey" target = "_blank">simple</a>, as it follows a mythological
-   hero's journey that is seen in countless other works. The protagonist, Shadow, is introduced at a low point in his
-   life (he is in prison and immediately finds out his wife is dead and was cheating on him.), gets called to an
-   adventure where he meets a diverse mixture of characters (accepts a job as a driver for a shady fellow,
-   Mr. Wednesday), the following events force him to reinvent himself as he seeks to right the wrongs with the society
-   he is re-entering (sacrifices himself to prevent a war). He finds himself at the intersection of a more important
-   and far-reaching conflict and plays a central role in its resolution. Without giving too much away, I definitely
-   recommend. American Gods has a discernible and readable structure that mirrors many other fantasy stories but occurs
+     <a href="https://en.wikipedia.org/wiki/Hero%27s_journey" target = "_blank">simple</a>, as it follows a mythological
+     hero's journey that is seen in countless other works. The protagonist, Shadow, is introduced at a low point in his
+     life (he is in prison and immediately finds out his wife is dead and was cheating on him.), gets called to an
+     adventure where he meets a diverse mixture of characters (accepts a job as a driver for a shady fellow,
+     Mr. Wednesday), the following events force him to reinvent himself as he seeks to right the wrongs with the society
+          he is re-entering (sacrifices himself to prevent a war). He finds himself at the intersection of a more important
+    and far-reaching conflict and plays a central role in its resolution. Without giving too much away, I definitely
+     recommend. American Gods has a discernible and readable structure that mirrors many other fantasy stories but occurs
    in an exciting universe and ends with a suspenseful but entertaining conclusion.
+      <br><br>
+      The ontology of the universe is one where anthropomorphic gods very much exist, but that existence is proportional
+      to the people's belief in them. As new gods arise the old gods fade into obscurity. The heterogeneous nature of
+      American history presents a network of conflicts between these rising and falling gods as Shadow adventures
+      along with Wednesday and team. The principal conflict is between the Old gods (led by Mr. Wednesday or Odin)
+      and the New gods such as Mr. Town and Media.
      <br><br>
-     <b>Protagonist and Main Plotline:</b> The protagonist's name, Shadow, foreshadows (no pun intended) his journey.
-    He begins as a man who sees the world with contempt but as the story progresses he learns he is actually the son of
-    an Old God (Odin) and was intended to serve as a sacrifice that would expand Odin's power. He rebukes his course and
-    instead prevents a wider clash between the old gods and new gods (by sacrificing himself and reemerging powerful
-    enough to thwart gods). Succinctly, he exists as a shadow of the Old gods that must be confronted before he
+      The protagonist's name, Shadow, foreshadows (no pun intended) his journey.
+      He begins as a man who sees the world with contempt but as the story progresses he learns he is actually the son of
+      an Old God (Odin) and was intended to serve as a sacrifice that would expand Odin's power. He rebukes his course and
+      instead prevents a wider clash between the old gods and new gods (by sacrificing himself and reemerging powerful
+      enough to thwart gods). Succinctly, he exists as a shadow of the Old gods that must be confronted before he
       (and American society by extension) advance beyond them.
       <br>
       <img :src="getImgUrl('shadow.png')" alt="Shadow" width="25%">
      <br><br>
       Shadow's self-agency closely tracks the page count of the book. He is literally imprisoned at the start but
       becomes a more proactive player in the clash of gods rather than a reactive victim to their whims.
-
-     In addition to the core focus of the novel, I view his progression as that of a man who fulfills his external call
-   of significance to become a "god" and rebuke the course nature set him on. For the first half of the book Shadow is
+      In addition to the core focus of the novel, I view his progression as that of a man who fulfills his external call
+      of significance to become a "god" and rebuke the course nature set him on. For the first half of the book Shadow is
       a tumbling spectator thrown from town to town while Mr. Wednesday is recruiting for a "war" he is wary of
       participating in. Often portrayed as 'simple-minded', his questions serve as useful expositions about the nature
       of the universe. He is confused and frustrated by the complexities and ambiguities of his experience with Mr.
@@ -38,21 +43,20 @@
       to uncover insights into his significance. The visions serve as useful milestones for Shadow's progression
       from man-to-god and the manifestion of his divine nature for the reader to track. The culmination of his
       divinity is at the climax of the novel where he is sacrificed on Odin's behalf but rebukes his death (like only
-      an immortal god can) and returns to prevent the chaotic battle between the old gods and the new which Odin
-      had in store.
+      an immortal god can) and returns to prevent the chaotic battle between the old gods and the new.
      <br><br>
      <b>Philosophy of the Universe:</b>The most fun part of the novel is the ontology of this universe, namely the
       idea that existence stems from people's belief or things exist if people believe in them and their associated
       power is proportional to belief. As expressed by Mr. Towns towards the end of the novel, <em>"The symbol is the
       thing"</em>. This makes an eclectic mixture of gods personified throughout the landscape representing the strange
       and undefinable culture of settled America. The YouTube channel StoryDive clearly agrees with me and has a great
-      <a href="https://www.youtube.com/watch?v=D_lpQDc5pHE" target = "_blank">set of videos</a> chronicaling the
-      connections with historical mythology. An important consquence of this philosophy is that "theism" is unavoidable
-      as represented by the "new gods" of an ostentiably secular America: Media, Mr. World, Mr. Towns, Technology Boy,
+      <a href="https://www.youtube.com/watch?v=D_lpQDc5pHE" target = "_blank">set of videos</a> chronicling the
+      connections with historical mythology. An important consequence of this philosophy is that "theism" is unavoidable
+      as represented by the "new gods" of an ostensibly secular America: Media, Mr. World, Mr. Towns, Technology Boy,
       Mr. Corporation, etc. Rather than constructing pyramids for their holy ruler, modern religions construct
       skyscrapers for their corporations. Rather than attend weekly service at church to discuss moral teachings, they
       tune into their weekly shows and discuss the consequences to their "fictional" characters. While this comparative
-      religion framework can be fun, it can be very difficult to articule the important differences between "religions"
+      religion framework can be fun, it can be very difficult to articulate the important differences between "religions"
       across time beyond banal trivialities. Neil Gaiman doesn't really consider those differences likely to avoid the
       controversial aspects of such a debate (I assume).
      <br><br>
@@ -81,6 +85,8 @@
       Minnesota, Kansas, and more. You can find references to football, lakes, drinking, the dull of small town life
       along with the bizarre underlying drama. Gaiman clearly did his research because, as a Midwest Native, I thought
       it very spot-on and hilarious to read.
+      <br>
+      <img :src="getImgUrl('yooper.jpg')" alt="Yooper" width="25%">
      <br><br>
      A special shoutout is due for Lakeside, a quaint and orderly town that maintains structure through ritualistic
       child sacrifices to the lake goblin. Maybe I'm reading into this scene too much, but I think it is Neil Gaiman
