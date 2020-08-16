@@ -1,4 +1,5 @@
 import os
+import itertools
 import numpy as np
 
 from card_classifier.api import api
@@ -6,7 +7,7 @@ from card_classifier.api import api
 from config import Config
 
 
-def convert_scores_to_color(output: dict, num_colors: int = 4) -> dict:
+def convert_scores_to_color(output: dict, num_colors: int = 4) -> list:
     """
     Assume each card has num_colors colors. Use the max score for all four unless more than one color scored > 0.25.
     In this case, assign colors in proportion
@@ -21,6 +22,9 @@ def convert_scores_to_color(output: dict, num_colors: int = 4) -> dict:
 
     else:
         colors = {k: num_colors for k, v in output.items() if v == max(output.values())}
+
+    # Convert dict of color: num to list of each color
+    colors = list(itertools.chain.from_iterable([[k] * v for k, v in colors.items()]))
 
     return colors
 

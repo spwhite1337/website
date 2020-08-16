@@ -26,7 +26,13 @@
       <br><br>
       <img :src="display" alt="Input Card" width="25%">
       <br><br>
-      <p>Output from Card Classifier: {{ images }}</p>
+      <div class="container" v-if="images.length > 1">
+            Mana Class for selection
+          <ul v-for="(image, idx) in images" :key="idx" width="5%">
+            <li><img :src="getImgUrl(image)"></li>
+          </ul>
+      </div>
+
     </div>
   </div>
 </template>
@@ -55,7 +61,15 @@ export default {
         Vader: 'vader.jpeg'
       },
       selection: '',
-      output: '',
+      output: ['W'],
+      colors: {
+        N: 'colorless.png',
+        B: 'black.png',
+        U: 'blue.png',
+        G: 'green.png',
+        R: 'red.png',
+        W: 'white.png'
+      }
     }
   },
   computed: {
@@ -68,7 +82,9 @@ export default {
       }
     },
     images: function () {
-      return this.output
+      let images_f = []
+      this.output.forEach(color => images_f.push(this.colors[color]))
+      return images_f
     },
   },
   methods: {
