@@ -125,7 +125,8 @@ per week. Should be plenty but best not waste them.):
 
 This is a security key I don't totally understand but was recommended by the internet. We'll add it as well.
 
-- `cd website && sudo mkdir dh-param`
+- `cd website`
+- `sudo mkdir dh-param`
 - `sudo openssl dhparam -out /website/dh-param/dhparam-2048.pem 2048`
 
     <img src="docs/outputs/dh_params_out.JPG" alt="DH Params Out" width=256>

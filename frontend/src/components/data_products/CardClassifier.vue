@@ -17,7 +17,7 @@
       here</a>.
     </p>
     <div class="container">
-      <b-form-select v-model="default_card" :options="default_cards" size="sm" class="mt-3"></b-form-select>
+      <b-form-select v-model="selection" :options="default_cards" size="sm" class="mt-3"></b-form-select>
     </div>
     <div class="container">
       <!--      <p>Model is too big to serve right now</p>-->
@@ -39,9 +39,21 @@ export default {
   data () {
     return {
       default_cards: [
-        'balrog', 'galadriel', 'javert', 'jean', 'link', 'mary', 'napolean', 'sauron', 'tolstoy', 'vader'
+        'Balrog', 'Galadriel', 'Javert', 'Jean', 'Link', 'Mary', 'Napolean', 'Sauron', 'Tolstoy', 'Vader'
       ],
-      default_card: '',
+      default_cards_f: {
+        Balrog: 'balrog.jpg',
+        Galadriel: 'galadriel.jpg',
+        Javert: 'javert.jpg',
+        Jean: 'jean.jpg',
+        Link: 'link.jpg',
+        Mary: 'mary.jpg',
+        Napolean: 'napolean.jpg',
+        Sauron: 'sauron.jpg',
+        Tolstoy: 'tolstoy.jpg',
+        Vader: 'vader.jpeg'
+      },
+      selection: '',
       output: '',
     }
   },
@@ -50,13 +62,11 @@ export default {
       return this.output
     },
     display: function () {
-      if (!this.default_cards.includes(this.default_card)) {
-        return this.getImgUrl('colorless.png')
+      if (this.default_cards.includes(this.selection)) {
+        return this.getImgUrl(this.default_cards_f[this.selection])
       }
-      else if (this.default_card == 'vader') {
-        return this.getImgUrl(this.default_card + '.jpeg')
-      } else {
-        return this.getImgUrl(this.default_card + '.jpg')
+      else {
+        return this.getImgUrl('colorless.png')
       }
     }
   },
