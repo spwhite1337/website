@@ -22,6 +22,9 @@
     <div class="container">
       <!--      <p>Model is too big to serve right now</p>-->
       <button @click="cardClassifier">Classify Card</button>
+      <br><br>
+      <img :src="display" alt="Input Card" width="25%">
+      <br><br>
       <p>Output from Card Classifier: {{ images }}</p>
     </div>
   </div>
@@ -45,6 +48,16 @@ export default {
   computed: {
     images: function () {
       return this.output
+    },
+    display: function () {
+      if (!this.default_cards.includes(this.default_card)) {
+        return this.getImgUrl('colorless.png')
+      }
+      else if (this.default_card == 'vader') {
+        return this.getImgUrl(this.default_card + '.jpeg')
+      } else {
+        return this.getImgUrl(this.default_card + '.jpg')
+      }
     }
   },
   methods: {
@@ -61,6 +74,9 @@ export default {
           console.log(error)
         })
       return {}
+    },
+    getImgUrl (pic) {
+        return require('@/assets/data_products/card_classifier/' + pic)
     }
   }
 }
