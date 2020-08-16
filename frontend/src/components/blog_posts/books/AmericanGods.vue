@@ -211,6 +211,9 @@
       Christianity and Science god (but not a 'Christian Science' god) and, if I'm being honest, a money god. But
       I also very sympathetic to Sam's speech in that I don't really believe anything other than the belief that you
       all don't know what you're talking about.
+   <br><br>
+   <img :src="getImgUrl('cover.jpg')" alt="Book Cover" width="25%">
+   <br>
 </div>
 </template>
 
