@@ -11,7 +11,7 @@
       mtgjson.com</a> and used to create a mana-classifier with the Keras API. Select an image from the default 
       drop-down list to see the mana-class it would belong to if it were incorporated into the MTG catalog.
       <br><br>
-      In the future I will enable you to upload an arbitrary image, but I"m too cheap to beef up my server at this time.
+      In the future I will enable you to upload an arbitrary image, but I'm too cheap to beef up my server at this time.
       <br><br>
       The code and results can be found <a href="https://github.com/spwhite1337/card-classifier" target="_blank">
       here</a>.
