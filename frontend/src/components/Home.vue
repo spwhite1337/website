@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img src="getImgUrl('headshot.png')" alt="Headshot" width="25%">
+    <img :src="getImgUrl('headshot.png')" alt="Headshot" width="25%">
     <p>
       I'm Scott White and welcome to my channel. I hail from the great state of Iowa but have since done a
       Midwest tour to Minneapolis, Chicago, and Indianapolis.
@@ -16,7 +16,7 @@
       contradictorily mixed together. Though the "Catholic" part should be mixed with "American" and integrated
       beyond an ideology but I'm too liberal to make any coherent sense of it. I also subscribe to the ideology that
       doesn't like to put labels on anything but I think that just means I'm a Millennial.
-      <img src="getImgUrl('indy.JPG')" alt="Indy" width="25%">
+      <img :src="getImgUrl('indy.JPG')" alt="Indy" width="25%">
       <br><br>
       Explore the Data Products section to see some examples of my skills in Data Analytics, the Sports Bettors app is
       my favorite.
