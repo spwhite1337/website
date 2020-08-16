@@ -8,28 +8,32 @@
      life (he is in prison and immediately finds out his wife is dead and was cheating on him.), gets called to an
      adventure where he meets a diverse mixture of characters (accepts a job as a driver for a shady fellow,
      Mr. Wednesday), the following events force him to reinvent himself as he seeks to right the wrongs with the society
-          he is re-entering (sacrifices himself to prevent a war). He finds himself at the intersection of a more important
-    and far-reaching conflict and plays a central role in its resolution. Without giving too much away, I definitely
-     recommend. American Gods has a discernible and readable structure that mirrors many other fantasy stories but occurs
-   in an exciting universe and ends with a suspenseful but entertaining conclusion.
-      <br><br>
+     he is re-entering (sacrifices himself to prevent a war). He finds himself at the intersection of a more important
+     and far-reaching conflict and plays a central role in its resolution. Where American Gods really differentiates
+     itself is with the adept use of cynicism and humor mixed with an insightful connection to American culture that,
+     for a Brit, was extremely well researched. American Gods has a discernible and readable structure that mirrors many
+     other fantasy stories but occurs in an exciting universe and ends with a suspenseful and entertaining conclusion.
+     <br><br>
+     <img :src="getImgUrl('colombia.jpg')" alt="Colombia" width="25%">
+     <br>
       The ontology of the universe is one where anthropomorphic gods very much exist, but that existence is proportional
       to the people's belief in them. As new gods arise the old gods fade into obscurity. The heterogeneous nature of
       American history presents a network of conflicts between these rising and falling gods as Shadow adventures
       along with Wednesday and team. The principal conflict is between the Old gods (led by Mr. Wednesday or Odin)
-      and the New gods such as Mr. Town and Media.
+      and the New gods such as Mr. Town, Mr. Corporation, and Media (A pantheon of Liberal / Capitalist gods).
      <br><br>
       The protagonist's name, Shadow, foreshadows (no pun intended) his journey.
-      He begins as a man who sees the world with contempt but as the story progresses he learns he is actually the son of
-      an Old God (Odin) and was intended to serve as a sacrifice that would expand Odin's power. He rebukes his course and
-      instead prevents a wider clash between the old gods and new gods (by sacrificing himself and reemerging powerful
-      enough to thwart gods). Succinctly, he exists as a shadow of the Old gods that must be confronted before he
-      (and American society by extension) advance beyond them.
+      He begins as a man who sees the world with contempt but as he learns he is the son of
+      an Old God (Odin) and was intended to serve as a sacrifice that would expand Odin's power, he becomes a more
+      active participant in the world around him. He rebukes Odin's plan through self-sacrifice and prevents a wider
+      clash between the old gods and new gods. Succinctly, he exists as a shadow of the Old gods that must be confronted
+      before he (and American society by extension) advance beyond them.
       <br>
+      <hr>
       <img :src="getImgUrl('shadow.png')" alt="Shadow" width="25%">
-     <br><br>
-      Shadow's self-agency closely tracks the page count of the book. He is literally imprisoned at the start but
-      becomes a more proactive player in the clash of gods rather than a reactive victim to their whims.
+      <br><br>
+      <b>Shadow's</b> self-agency closely tracks the page count of the book. He is literally imprisoned at the start but
+      becomes a more proactive player in the climax rather than a reactive victim.
       In addition to the core focus of the novel, I view his progression as that of a man who fulfills his external call
       of significance to become a "god" and rebuke the course nature set him on. For the first half of the book Shadow is
       a tumbling spectator thrown from town to town while Mr. Wednesday is recruiting for a "war" he is wary of
@@ -37,22 +41,25 @@
       of the universe. He is confused and frustrated by the complexities and ambiguities of his experience with Mr.
       Wednesday. And, despite being a con-man himself, finds himself the victim of a con by Odin and Loki (who was
       also his close friend in prison).
+     <br>
+     <img :src="getImgUrl('mrwednesday.jpg')" alt="Mr. Wednesday" width="25%">
+     <br>
      <br><br>
      Shadow periodically sees or "oversees" into an alternative reality as a consequence of his divinity. Initially he
       experiences these visions with awe but, over the course of the novel, he actively participates and utilizes them
       to uncover insights into his significance. The visions serve as useful milestones for Shadow's progression
-      from man-to-god and the manifestion of his divine nature for the reader to track. The culmination of his
+      from man-to-god and the manifestation of his divine nature for the reader to track. The culmination of his
       divinity is at the climax of the novel where he is sacrificed on Odin's behalf but rebukes his death (like only
       an immortal god can) and returns to prevent the chaotic battle between the old gods and the new.
      <br><br>
-     <b>Philosophy of the Universe:</b>The most fun part of the novel is the ontology of this universe, namely the
+      <b>Setting and Physics:</b> The most fun part of the novel is the ontology of this universe, namely the
       idea that existence stems from people's belief or things exist if people believe in them and their associated
-      power is proportional to belief. As expressed by Mr. Towns towards the end of the novel, <em>"The symbol is the
-      thing"</em>. This makes an eclectic mixture of gods personified throughout the landscape representing the strange
-      and undefinable culture of settled America. The YouTube channel StoryDive clearly agrees with me and has a great
+      power is proportional to the conviction behind the belief. As expressed by Mr. Towns towards the end of the novel,
+      <em>"The symbol is the thing"</em>. This makes an eclectic mixture of gods personified throughout the landscape
+      representing the strange and undefinable culture of settled America. The YouTube channel StoryDive clearly agrees with me and has a great
       <a href="https://www.youtube.com/watch?v=D_lpQDc5pHE" target = "_blank">set of videos</a> chronicling the
       connections with historical mythology. An important consequence of this philosophy is that "theism" is unavoidable
-      as represented by the "new gods" of an ostensibly secular America: Media, Mr. World, Mr. Towns, Technology Boy,
+      as represented by the "new gods" of an ostensibly atheistic America: Media, Mr. World, Mr. Towns, Technology Boy,
       Mr. Corporation, etc. Rather than constructing pyramids for their holy ruler, modern religions construct
       skyscrapers for their corporations. Rather than attend weekly service at church to discuss moral teachings, they
       tune into their weekly shows and discuss the consequences to their "fictional" characters. While this comparative
@@ -60,7 +67,7 @@
       across time beyond banal trivialities. Neil Gaiman doesn't really consider those differences likely to avoid the
       controversial aspects of such a debate (I assume).
      <br><br>
-     This philosophy is a very useful lens to think about historical cultures where gods were ubiquitous. In what are
+      This philosophy is a very useful lens to think about historical cultures where gods were ubiquitous. In what are
       called "pagan" or "traditional" religions or mythologies the gods were worshipped so they (the objects of worship)
       would be stronger, or so that the followers of the god would get what they wanted (harvest, victory in war, etc.).
       It was sacrifices to these gods that largely determined the course of the future and the direction the society of
@@ -70,14 +77,14 @@
       personal relationship that is very different from the Norse, Greek, Roman, Native American, or Egyptian
       mythologies featured in American Gods. Buddhism is quite similar to Christianity in this regard.
       (DISCLAIMER: I don't know enough about Islam or Judaism to compare them. Their omission is not indicative of
-      my opinion towards them. Though I think Islam is similar to Christianity in this regard while Judaism varies.)
+      my opinion towards them. Though I think Islam is similar to Christianity while Judaism is too complicated for me.)
      <br><br>
      The "main quest" set out by Mr. Wednesday is motivated by this underlying ontology. If Mr. Wednesday (Odin) can
       get the old gods to fight the new gods (Technology, Television, etc.) then his power will increase due to the
       resulting shifts in the populations' belief and Loki (his brother) will thrive in the chaos. While solid, the
       plan is thwarted by Shadow and Laura (Shadow's dead wife) who transform throughout the work into active agents
       in the construction of their path in life. Shadow (and Laura) see the misdirection of Mr. Wednesday and Loki
-      and prevent their hopeful sacrifices from occuring. In the process, Shadow saves his own life and resolves his
+      and prevent their hopeful sacrifices from occurring. In the process, Shadow saves his own life and resolves his
       issues with Laura enabling her to reach final death.
      <br><br>
      <b>Setting:</b> What really makes this work for me is the setting. It is America, modern times but focuses on
@@ -88,7 +95,7 @@
       <br>
       <img :src="getImgUrl('yooper.jpg')" alt="Yooper" width="25%">
      <br><br>
-     A special shoutout is due for Lakeside, a quaint and orderly town that maintains structure through ritualistic
+     A special shout out is due for Lakeside, a quaint and orderly town that maintains structure through ritualistic
       child sacrifices to the lake goblin. Maybe I'm reading into this scene too much, but I think it is Neil Gaiman
       giving a nod to all the towns in the American midwest that are entirely interchangeable and generic on the
       surface but deep down they have a (usually dark) backstory that can be a founding story, a criminal event,
@@ -97,8 +104,11 @@
           conversation</a> when a group belonging to the "National Association for the Advancement of White People"
       burnt a cross outside an elementary school run by a black man. If you just drove through, you would expect
       nothing to ever happen in Dubuque apart from Sunday mass and riverside parties.
-     <br><br>
-     <b>Laura:</b> The characters are too many to enumerate here, but Laura deserves elaboration. She is the
+      <br><br>
+      But maybe I'm wrong and he is just an ardent follower of <a href="https://en.wikipedia.org/wiki/Ren%C3%A9_Girard"
+      target="_blank">Rene Girard</a>
+      <br><br>
+      <b>Laura:</b> The characters are too many to enumerate here, but Laura deserves elaboration. She is the
       cheating wife who died with Shadow's friend's cock in her mouth right before Shadow's release from prison
       for the crime she encouraged him to commit. She comes back as a zombie due to a "strike of luck" and connects
       with Shadow at various points in his adventure. Naturally hateable, she begins as a representation of all the
@@ -116,18 +126,19 @@
       leave that analysis to someone else
       (<a href="https://www.vice.com/en_us/article/z4d8m5/american-gods-wasnt-as-deep-of-a-book-as-you-remember"
           target = "_blank">VICE gives a predictable critique here if you care what VICE says about anything.</a>).
-      I'll keep her as a great redemption story that pushes herself and those around her to, literally, save the world.
+      I see her as a character that similarly "came to life" after death as did Shadow. He death was slow, and boring,
+      and tragic but nonetheless necessary for her to be fully realized.
      <br><br>
      <b>Jesus and Contemporary America Connection:</b> Probably the most intriguing aspect of American Gods is that it
       is written by a Secular Brit. This leads into the most puzzling omission from the American pantheon - Jesus.
       He is given only a passing nod in the novel and sarcastic depiction in the TV series
       (<a href="https://www.youtube.com/watch?v=grTH-hf_0rA" target = "_blank">Mexican Jesus, a black Jesus, a
       White Jesuit Jesus</a>) who doesn't do much more than walk on water. This is extra puzzling because the
-      ontology of the universe would suggest he ought to be extremely prominent in america likely featuring
+      ontology of the universe would suggest he ought to be extremely prominent in America likely featuring
       on both the "old gods" and "new gods" pantheon due to the reinvigoration of Christianity throughout
       American history (e.g. Great Awakenings).
      <br><br>
-     Theories abound as to why Jesus was ommitted, Neil himself hinted that it was too much to chew with all the
+     Theories abound as to why Jesus was omitted, Neil himself hinted that it was too much to chew with all the
       other (primarily Norse) deities in his universe. I'm not sure I buy it, I think Jesus is too difficult to
       incorporate into a universe with gods vying for power and authority. Jesus defines authority and power very
       differently making it quite intractable to imagine him "fighting a war" for followers. I simply don't think
@@ -147,13 +158,15 @@
       towards this claim, just consider the idea of "rights" in America. We've never had a clue what those ever
       meant nor who they applied to. Did all people have free speech throughout America? Does anyone have absolute
       free speech? What about religion? What does women's rights mean? What does worker's rights mean? What about
-      rich people's rights? What about racists' rights? Generally speaking, we make it up as we go and the "rights"
-      are expressed by the beliefs in certain gods (to adopt Mr. Gaiman's analogy). The cultural god that is most
-      powerful will draw the most criticism whether that is the Northern Industrialists abolishing slavery in the
-      South, the anti-communists during the Vietnam War, or the anti-immigration folks today (do we have a 'right'
-      to protect the border or do the immigrants have a 'right' for a better life?).
-     <br><br>
-     If I had to guess, I suspect this feature is what drew Neil Gaiman to integrate himself into American culture
+      rich people's rights? What about racists' rights?
+      <br><br>
+      Generally speaking, we make it up as we go and the "rights" are expressed by the beliefs in certain gods (to
+      adopt Mr. Gaiman's analogy). The cultural god that is most powerful will draw the most criticism whether that
+      is the Northern Industrialists abolishing slavery in the  South, the anti-communists during the Vietnam War, or
+      the anti-immigration folks today (do we have a 'right' to protect the border or do the immigrants have a 'right'
+     for a better life?).
+      <br><br>
+      If I had to guess, I suspect this feature is what drew Neil Gaiman to integrate himself into American culture
       itself and it likely rubbed off on him considerably. The most explicit articulation of someone's personal
       philosophy is in Interlude 3 where Sam is explaining herself to shadow and is also endorsed by Neil Gaiman
       as the closest to his personal views:
