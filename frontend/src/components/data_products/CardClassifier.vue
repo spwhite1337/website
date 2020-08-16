@@ -75,7 +75,7 @@ export default {
     cardClassifierDefault () {
       axios.get(path, {
         params: {
-          default_card: this.default_card
+          selection: this.default_cards_f[this.selection]
         }
       })
         .then(response => {

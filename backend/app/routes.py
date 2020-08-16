@@ -25,7 +25,7 @@ app = add_sb_dash(app, routes_pathname_prefix='/api/dash/sportsbettors/')
 @app.route('/api/cardclassifier', methods=['GET', 'POST'])
 def card_classifier():
     if request.method == 'GET':
-        output = cc_api(default_card=request.args['default_card']) if 'default_card' in request.args.keys() else 'blank'
+        output = cc_api(default_card=request.args['selection']) if 'selection' in request.args.keys() else 'blank'
     else:
         output = 'blank'
     return jsonify({'card_color': output})
