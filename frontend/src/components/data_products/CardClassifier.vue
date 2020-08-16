@@ -28,8 +28,8 @@
       <br><br>
       <div class="container" v-if="images.length > 1">
             Mana Class for selection
-          <ul v-for="(image, idx) in images" :key="idx" width="5%">
-            <li><img :src="getImgUrl(image)"></li>
+          <ul v-for="(image, idx) in images" :key="idx">
+            <li><img :src="getImgUrl(image)" width="5%"></li>
           </ul>
       </div>
 
