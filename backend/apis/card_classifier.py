@@ -29,7 +29,7 @@ def convert_scores_to_color(output: dict, num_colors: int = 4) -> list:
     # Fill with N
     colors += ['N'] * (num_colors - len(colors))
 
-    return colors
+    return sorted(colors)
 
 
 def cc_api(default_card: str = None, uploaded_card: str = None):
