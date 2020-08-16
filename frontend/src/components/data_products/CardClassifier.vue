@@ -22,7 +22,7 @@
     </div>
     <div class="container">
       <!--      <p>Model is too big to serve right now</p>-->
-      <button @click="cardClassifier">Classify Card</button>
+      <button @click="cardClassifierDefault">Classify Card</button>
       <br><br>
       <img :src="display" alt="Input Card" width="25%">
       <br><br>
@@ -72,7 +72,7 @@ export default {
     }
   },
   methods: {
-    cardClassifier () {
+    cardClassifierDefault () {
       axios.get(path, {
         params: {
           default_card: this.default_card
