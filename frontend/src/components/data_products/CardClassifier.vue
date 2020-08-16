@@ -27,12 +27,9 @@
       <img :src="display" alt="Input Card" width="25%">
       <br><br>
       <div class="container" v-if="images.length > 1">
-            Mana Class for selection
-          <ul v-for="(image, idx) in images" :key="idx">
-            <li><img :src="getImgUrl(image)" width="5%"></li>
-          </ul>
+            Mana Class:
+        <span v-for="(image, idx) in images" :key="idx"><img :src="getImgUrl(image)" width="5%"></span>
       </div>
-
     </div>
   </div>
 </template>
