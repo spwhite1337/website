@@ -19,6 +19,7 @@
               <br><br>
               The code and results can be found
               <a href="https://github.com/spwhite1337/presidents-speeches" target="_blank">here</a>.
+          <hr>
           </p>
       </div>
       <div style="margin: 5%">

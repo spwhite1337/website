@@ -15,6 +15,7 @@
       <br><br>
       The code and results can be found <a href="https://github.com/spwhite1337/card-classifier" target="_blank">
       here</a>.
+    <hr>
     </p>
     <div class="container">
       <b-form-select v-model="selection" :options="default_cards" size="sm" class="mt-3"></b-form-select>
