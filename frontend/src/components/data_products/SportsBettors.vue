@@ -15,8 +15,8 @@
       <br><br>
       See the code and diagnostics of the various models on the repo:
       <a href="https://github.com/spwhite1337/sports-bettors" target="_blank">Repo</a>
-    <hr>
     </p>
+    <hr>
     <div class="container">
       <iframe :src="dashboard" height="2000px" width="100%" style="border:0"></iframe>
     </div>

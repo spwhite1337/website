@@ -15,8 +15,8 @@
       <br><br>
       The code and results can be found <a href="https://github.com/spwhite1337/card-classifier" target="_blank">
       here</a>.
-    <hr>
     </p>
+    <hr>
     <div class="container">
       <b-form-select v-model="selection" :options="default_cards" size="sm" class="mt-3"></b-form-select>
     </div>
@@ -59,9 +59,6 @@ export default {
     }
   },
   computed: {
-    images: function () {
-      return this.output
-    },
     display: function () {
       if (this.default_cards.includes(this.selection)) {
         return this.getImgUrl(this.default_cards_f[this.selection])
@@ -69,7 +66,10 @@ export default {
       else {
         return this.getImgUrl('colorless.png')
       }
-    }
+    },
+    images: function () {
+      return this.output
+    },
   },
   methods: {
     cardClassifierDefault () {
