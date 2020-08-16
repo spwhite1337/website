@@ -24,7 +24,7 @@
       <!--      <p>Model is too big to serve right now</p>-->
       <button @click="cardClassifierDefault">Classify Card</button>
       <br><br>
-      <img :src="display" alt="Input Card" width="25%">
+      <img :src="getImgUrl(display)" alt="Input Card" width="25%">
       <br><br>
       <div class="container" v-if="images.length > 1">
             Mana Class:
@@ -42,9 +42,11 @@ export default {
   name: 'CardClassifier',
   data () {
     return {
+      // Default card labels
       default_cards: [
         'Balrog', 'Galadriel', 'Javert', 'Jean', 'Link', 'Mary', 'Napolean', 'Sauron', 'Tolstoy', 'Vader'
       ],
+      // Map default card labels to filename
       default_cards_f: {
         Balrog: 'balrog.jpg',
         Galadriel: 'galadriel.jpg',
@@ -57,8 +59,14 @@ export default {
         Tolstoy: 'tolstoy.jpg',
         Vader: 'vader.jpeg'
       },
+
+      // Selection
       selection: '',
-      output: ['W'],
+      // Default outputs as colorless
+      output: ['N'],
+      display: 'colorless.png',
+
+      // Map colors to images
       colors: {
         N: 'colorless.png',
         B: 'black.png',
@@ -70,14 +78,7 @@ export default {
     }
   },
   computed: {
-    display: function () {
-      if (this.default_cards.includes(this.selection)) {
-        return this.getImgUrl(this.default_cards_f[this.selection])
-      }
-      else {
-        return this.getImgUrl('colorless.png')
-      }
-    },
+    // Display outputs as image files
     images: function () {
       let images_f = []
       this.output.forEach(color => images_f.push(this.colors[color]))
@@ -85,14 +86,19 @@ export default {
     },
   },
   methods: {
+    // Get the calculated response of a card and display in the selection
     cardClassifierDefault () {
+      // Get response from backend
       axios.get(path, {
         params: {
           selection: this.default_cards_f[this.selection]
         }
       })
         .then(response => {
+          // Get output
           this.output = response.data.card_color
+          // Display selected card
+          this.display = this.default_cards_f[this.selection]
         })
         .catch(error => {
           console.log(error)
