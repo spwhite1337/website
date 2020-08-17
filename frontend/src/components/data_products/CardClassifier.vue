@@ -88,21 +88,13 @@ export default {
   methods: {
     // Get the calculated response of a card and display in the selection
     cardClassifierDefault () {
+      this.output = ['N'],
       // Get response from backend
-      axios.get(path, {
-        params: {
-          selection: this.default_cards_f[this.selection]
-        }
-      })
-        .then(response => {
-          // Get output
-          this.output = response.data.card_color
-          // Display selected card
-          this.display = this.default_cards_f[this.selection]
-        })
-        .catch(error => {
-          console.log(error)
-        })
+      axios.get(path, { params: { selection: this.default_cards_f[this.selection] } })
+        .then(response => { this.output = response.data.card_color })
+        .catch(error => { console.log(error) })
+      // Display selected card
+      this.display = this.default_cards_f[this.selection]
       return {}
     },
     getImgUrl (pic) {
