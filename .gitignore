@@ -173,7 +173,6 @@ backend/app.db
 
 # Resume Drafts
 *.odt
-*.tmp
 
 # Env vars
 frontend/.env.production
