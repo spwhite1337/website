@@ -1,5 +1,7 @@
 <template>
 <div>
+    <h1>Draft Post (Shield your eyes)</h1>
+     <br>
     <h2>Gulliver's Travels, by Jonathan Swift</h2>
     <hr>
      Jonathan Swift, the author of Gulliver's Travels, is a wild man and former dean of St. Patrick's Cathedral in
@@ -22,6 +24,8 @@
        religion's eschatology - namely the eventual turning of the world (which they believe to be flat) upside down
        requiring the dead to be buried vertically, head-first. (As an interesting side note, Jonathan Swift was
        buried standing up in case of flooding).
+        <br>
+        <img :src="getImgUrl('lilliput.jpg')" alt="Lilliput" width="25%">
        <br><br>
        The high societal crime of Lilliput is lying and, conversely, the principal value is trust. Deceit and false
        accusations in court (Bearing False Witness to One's Neighbor, if you will) are high crimes with severe
@@ -49,6 +53,7 @@
 
 <script>
   export default {
-    name: 'GulliversTravels'
+    name: 'GulliversTravels',
+    methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/GulliversTravels/' + pic) } }
   }
 </script>
