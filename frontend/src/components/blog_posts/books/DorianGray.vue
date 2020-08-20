@@ -248,10 +248,6 @@
 <script>
   export default {
     name: 'DorianGray',
-    methods: {
-      getImgUrl (pic) {
-        return require('@/assets/blog_posts/books/DorianGray/' + pic)
-      }
-    }
+    methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/DorianGray/' + pic) } }
   }
 </script>

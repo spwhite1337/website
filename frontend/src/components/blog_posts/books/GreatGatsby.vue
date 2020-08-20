@@ -16,11 +16,12 @@
         interpretation. This post is my attempt to match it.
         <br><br>
         <b>Character Summary:</b> Even though it's nearly universally read in American schools I don't have one moment
-        of memory
-        corresponding to The Great Gatsby from High School so a quick summary is in order. The protagonist, Nick
+        of memory corresponding to The Great Gatsby from High School so a quick summary is in order. The protagonist, Nick
         Carraway moves from the Midwest to New York in the early 1900s. There he meets three important characters:
         Tom Buchanan, his cousin Daisy Buchanan, and the titular Gatsby. All wealthy members of the NY elite, they
         ostensibly live the American Dream with piles of wealth, new cars, and nice mansions.
+        <br>
+        <img :src="getImgUrl('gatsby_crew.jpg')" alt="Gatsby Crew" width="25%">
         <br><br>
         Tom is a former athlete, muscular, and arrogant. He is a classic scientific racist from the early 20th century
         and reeks of insecurity despite his good looks, wealth, and beautiful wife. Almost as if he struggles to
@@ -51,8 +52,10 @@
         “This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he
             included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go
             to make civilization — oh, science and art, and all that. Do you see?”
-        <br><br>
         </em>
+      <br>
+      <img :src="getImgUrl('birth_of_a_nation.jpg')" alt="Birth of a Nation" width="25%">
+      <br><br>
         Tom is married to Daisy but cheats on her routinely, specifically with a woman named Myrtle from the poorer
         side of town.
         <br><br>
@@ -60,10 +63,12 @@
         unlikable due to her constant whining and entitled personality. She had a brief romantic affair with Gatsby
         before her marriage to Tom while he was in the military. She and Tom live across the Bay from Gatsby denoted by
         a green light that is the subject of millions of high school essays on symbolism.
+        <br>
+        <img :src="getImgUrl('green_light.jpg')" alt="Green Light" width="25%">
         <br><br>
         The Great Gatsby is best understood from this nickname. It isn't "Great" like Alexander the Great, but "Great"
         like an attraction at a circus. "Step right up, come see The Great Gatsby" is the proper context for his
-        epithet. He is a ostentatiously wealthy socialite holding parties that are the talk of the town. He himself
+        epithet. He is ostentatiously a wealthy socialite holding parties that are the talk of the town. He himself
         is enigmatic and aloof inspiring a wealth of rumors and gossip in the elite social scene. Later, it is
         revealed that his wealth stems from bootlegging (scandalous) despite his sobriety and is deeply in love with
         Daisy (or, at least the idea of Daisy). He also served in the same division as Nick leading to a natural
@@ -72,31 +77,36 @@
         Nick is also a product of wealth, his ancestor was able to pay someone to fight in the Civil War on his behalf
         then prudently invest his savings to become rich from the war effort. After graduating Yale and serving in WWI,
         Nick moves to New York for work as a bond-salesman (a lucrative career move). He begins optimistic and
-        adventurous but becomes dillusioned by the events of the novel and returns to the midwest.
+        adventurous but becomes disillusioned by the events of the novel and returns to the midwest.
+        <br><br>
+        Both Nick and Gatsby have insecurities around their legitimacy - Nick's wealth coming from an alleged cowards,
+        Gatsby's from a seedy illegality. Many of their motivations can be understood as a compensation and
+        overcorrection for their historical shortcomings.
         <br><br>
         <b>Events of the Novel:</b> Act 1 establishes the scene and introduces the characters outlined above. Act II
         begins at one of Gatsby's parties where we learn Gatsby's identity is largely performative and intended to
-        attract Daisy, whom he is effectively addicted. Through his friendship with Nick, Gatsby coordinates a meeting
-        with Daisy with Nick as a serious Third-Wheel but the meeting kicks off an affair between Daisy and Gatsy
-        regardless.
+        attract Daisy, to whom he is irrationaly ddicted. Through his friendship with Nick, Gatsby coordinates a meeting
+        with Daisy with Nick that kicks off an affair between Daisy and Gatsy.
         <br><br>
         The story takes a turn when Tom deduces the affair between Daisy and Gatsby. Despite being a serial adulterer,
-        he is outraged. Gatsby defends his love for her but Tom is unmoved and calls Gatsby out for bootlegging and
-        Daisy resolves to stay with Tom - likely due to her lack of spine and self-authenticity.
+        he is outraged. Gatsby defends his love for her but Tom is unmoved, calls Gatsby out for bootlegging and
+        Daisy resolves to stay with Tom due to her lack of conviction.
         <br><br>
         The climax/twist of the detective/murder style novel is a fatal crash between Gatsby's car and Myrtle, Tom's
         mistress. Nick later learns that Daisy was driving the car, not Gatsby (as was initially claimed). Tom tells
         George, Myrtle's husband, that Gatsby drove the car and is Myrtle's secret lover (who, in reality, is Tom)
         prompting him to kill Gatsby and himself. Nick attends Gatsby's funeral only to find it poorly attended even
         though his parties were so popular. Nick then moves back to the midwest.
+        <br>
+         <img :src="getImgUrl('manhattan.jpg')" alt="Manhattan" width="25%">
         <br><br>
-        <b>Analysis:</b> The dominant lesson derived from The Great Gatsby is in the context of early 20th century
+        <b>Analysis:</b> The dominant lesson derived from The Great Gatsby is lack of spirit of early 20th century
         America and it's ability to disabuse the reader of nationalistic mythologies about The American Dream. The
         characters have all you can ask for in the roarin' twenties of industrialized America - wealth, cars, mansions,
-        parties, and beautiful women.
+        parties, and beautiful women. Yet they nonetheless suffer from the vapidity of their relationships.
         <br><br>
-        Gatsby creates a fake persona in accordance with society's standards even though he deeply longs for a
-        different life with him and Daisy. A life more "spiritual" or at least less material. Similarly, Tom
+        Gatsby creates a fake persona to properly fit in to the social group even though he deeply longs for a
+        reinvented and reimagined life with Daisy. A life more "spiritual" and less material. Similarly, Tom
         puts on a show for his marriage while cheating on Myrtle habitually. Nick's disillusionment with their
         supposedly "ideal" lifestyle that embodies the American Dream is completed by the murder-suicide at the end
         of the novel.
@@ -108,6 +118,12 @@
         They forgot to develop themselves into the type of person who <em>deserves</em> great love, wealth, and
         popularity. They live a charade of a life with tortured internal souls that ultimately lead to their demise.
         <br><br>
+        It is best summarized by St. Augustine writing ~1500 years before the novel:
+        <br><br>
+        <em>
+            I was not yet in love, yet I loved to love... I sought what I might love, in love with loving.
+        </em>
+        <br><br>
         The lesson is timeless, and makes the book much more significant than a period piece about runaway capitalism.
         Take The Great Gatsby as a cautionary tale against superficial facades that don't address foundational drives
         for meaning and significance. Don't be like Tom, Daisy, or Gatsby. The characters are unlikeable of a reason,
@@ -117,6 +133,7 @@
 
 <script>
     export default {
-        name: 'GreatGatsby'
+        name: 'GreatGatsby',
+        methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/GreatGatsby/' + pic) } }
     }
 </script>
