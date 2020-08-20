@@ -9,14 +9,19 @@
        Being a famous book, I am at the luxury of borrowing interpretations from people far more intelligent and
        well-read than myself. Richard Rorty uses Lolita to explain the potential for cruelty in our quest for autonomy.
        The main character exhibits a tension between the passionate implementation of an authentic, life-affirming
-       quest and the destruction of a innocent girl's life. Put another way, Naobokov wrote Lolita as the best
-       argument possible for the systematic rape of a young person. You know that, in the end, justice is served so
-       your morally inspired squeemishness is quenched from chapter 1. To get the most out of the book, I suggest you
-       extend your hand to Nabokov willing to sympathize with a violent pedophile
+       quest and the destruction of a innocent girl's life.
        <br><br>
-       <b>Summary Part One:</b> The book summary is relatively straightforward, the narrator and protagonist Humbert has a decent upbringing
-       despite the death of his mother at an early age. He has a young relationship at age 13 that doesn't result in
-       sex despite both their intentions (according to Humbert).
+       Others have connected Lolita to Nabokov's love of chess and his habit of designing difficult chess problems
+       for other masters to solve. From thisp perspective, Naobokov wrote Lolita as the best argument possible for the
+       systematic rape of a young person - or an expert troll. You know that, in the end, justice is served so
+       your morally inspired squeemishness is quenched from chapter 1. To get the most out of the book, I suggest you
+       extend your hand to Nabokov and be willing to sympathize with a violent pedophile.
+       <br>
+       <img :src="getImgUrl('richard_rorty.jpg')" alt="Richard Rorty" width="25%">
+       <br><br>
+       <b>Summary Part One:</b> The book summary is relatively straightforward, the narrator and protagonist Humbert
+       has a decent upbringing despite the death of his mother at an early age. He has a young relationship at age 13
+       that doesn't result in sex despite both their intentions (according to Humbert).
        <br><br>
        He grows up and makes money writing. He marries once despite a persistent attraction to <em>nymphets</em>, girls
        aged 9-14. The marriage dissolves when she has an affair but he doesn't seem to mind despite a subsequent trip
@@ -161,6 +166,7 @@
 
 <script>
   export default {
-    name: 'Lolita'
+    name: 'Lolita',
+    methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/Lolita/' + pic) } }
   }
 </script>
