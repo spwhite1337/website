@@ -18,9 +18,10 @@ setup(
         'flask-migrate',
         'flask-login',
         'flask-cors',
-        'uwsgi',  # Bypass this on windows
+        # 'uwsgi',  # Bypass this on windows
         'plotly',
         'dash',
+        'dash-bootstrap-components',
         'tqdm',
         'awscli',
         'card-classifier @ git+https://github.com/spwhite1337/card-classifier@minified#egg=card-classifier',
