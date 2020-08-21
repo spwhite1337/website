@@ -7,7 +7,7 @@
       <br><br>
       I am an academy-certified Chemical Engineer with a BS from the University of Iowa and a PhD from The
       University of Minnesota but I am a private-sector-certified Data Scientist having worked for a consulting firm in
-      Chicago, (<a href="https://www.strong.io/" target="_blank">Strong Analytics</a>, and
+      Chicago, <a href="https://www.strong.io/" target="_blank">Strong Analytics</a>, and
       <a href="http://aes.com/" target="_blank">AES</a>, a energy company with a heavy renewable portfolio
       (my current employer).
       <br><br>

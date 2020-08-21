@@ -39,7 +39,7 @@
      <br><br>
      The work, "Never Pure", outlines this thesis in a series of (largely) stand-alone essays. My favorite essays
     are summarized in this post along with their highlights and my interpretation. I'll conclude with my views on
-    where this leaves science and its role in modern America.
+    where this leaves science and its cultural place in modern America.
      <br><br>
      <b>Pro-Science and Anti-Science:</b> Before one pokes at sacred foundations of a society, it is essential to
     outline your terms of critique to belay the inevitable triggered response of, "What, you think the moon is just
@@ -136,7 +136,7 @@
       </li>
       <li>
         <em>"Nevertheless, all of us who work in quantum physics believe in the reality of the quantum world, and
-            the reality of quantum entities like protons and electrons"; "It is the faithfullness of God that allows
+            the reality of quantum entities like protons and electrons"... "It is the faithfulness of God that allows
             epistemology to model ontology." -
         <a href="https://en.wikipedia.org/wiki/John_Polkinghorne" target = "_blank">John Polkinghorne</a>
         </em>
@@ -150,8 +150,7 @@
     In truth, it is silly to collapse science and metaphysics into the same domain just as it is silly for
     <a href="https://creationmuseum.org/" target= "_blank">Creationists</a> to separate them entirely. They
     are connected in a complicated fashion that modern institutions cannot stably define. I would encourage
-    you to look elsewhere.
-
+    you to look elsewhere than science for such stability.
    <br><br>
    <b>Places of Science:</b> The signage surrounding scientific laboratories is far from welcoming and far from new.
     This kind of isolation is justified on grounds of 'data integrity' (also safety, etc.).
@@ -177,8 +176,8 @@
    <br><br>
    The modern laboratory and other constructed places of science are easy to see but harder to trace historically.
     Shapin connects the separation of scientific practice from the public to the broader separation of thinkers from
-    society going back to antiquity. Think of Jesus wandering in the desert alone before he sees God, St. Paul
-    converting on the Road Damascus, Joseph Smith alone in Upstate New York, Led Zeppelin writing songs in the
+    going back to antiquity. Think of Jesus wandering in the desert alone before he sees God, St. Paul
+    converting on the Road to Damascus, Joseph Smith alone in Upstate New York, Led Zeppelin writing songs in the
     rural English countryside at Bron-Yr-Aur, professors taking sabbaticals to write a book, the Twitter CEO
     taking meditation retreats to the East, Darwin on the Galapagos Islands, Dexter's laboratory (yes, the cartoon)
     outside the view of his parent's house. In order to truly tap into the "truths" of the natural world one must
@@ -187,6 +186,8 @@
     find pristine places of work that barricade themselves both physically and mentally from the status quo.
     Ultimately, this trend morphed into the modern laboratories we have today. Private investigation and public
     dissemination of natural knowledge.
+    <br>
+    <img :src="getImgUrl('damascus.jpg')" alt="Paul - Damascus" width="25%">
    <br><br>
    Naturally, the historical participation in the scientific enterprise required access to such seclusion or your
     results or findings would not achieve the necessary credibility. It was the loosening of this restriction,
@@ -217,7 +218,7 @@
          docility servicable to religion".
      </li>
      <li>
-       Third, the experimental philospher must be a man of honor to maintain the integrity of the project.
+       Third, the experimental philosopher must be a man of honor to maintain the integrity of the project.
      </li>
      <li>
        Fourth, the experimental philosopher must be a devout Christian who identified his work as a form of religious
@@ -225,6 +226,9 @@
          places of 'divine worship'.
      </li>
    </ul>
+    <br>
+    <img :src="getImgUrl('boyle.jpg')" alt="Boyle" width="25%">
+    <br><br>
    While strikingly different than how we view the 'ideal scientist' today. There is no doubt a pattern of criteria
     that transfers to modernity. Science is routinely rejected due to financial conflicts of interest ("true science"
     doesn't come from Monsanto, Big Pharma, or Big Oil). Science is routinely rejected on political grounds (racist
@@ -255,7 +259,7 @@
        Haidt</a>.
    This is not a dig at the listed scientists, drawing a line between science and morality is impossible (Some
     astute readers may note that all those listed are male and most are white/jewish. But you probably understand
-    that science is not amoral as represented by demographics.). It is importent to remember this distinction: the
+    that science is not amoral as represented by demographics.). It is important to remember this distinction: the
     scientific model of the universe is amoral, the people and institutions who make it and the methodologies they
     utilize are anything but amoral.
    <br><br>
@@ -264,7 +268,7 @@
     of certain groups, and (ii) selection of people based on standards only certain people can possibly meet. The
     latter is far, far more common and harder to alter because doing so affects the credibility of the institution
     through its diminished admission selectivity. In fact, an institution that is both 'inclusive' and 'credible'
-    is, in some ways, a contradiction...
+    is, in some ways, a contradiction.
    <br><br>
    <b>The Body of Science:</b> This is by far my favorite chapter because it connects the scientist's philosophy with
     their personal bodily care (health, nutrition, sleep, drink, smoking). Once credibility is earned, the natural
@@ -288,6 +292,8 @@
        i.e. to drink every day wine with company, which, though not to drunkeness, spoils the Brain." John Aubrey
        in his biography of Thomas Hobbes who blacked out and puked once a year like a bitch (I'm jk)
    </em>
+    <br>
+    <img :src="getImgUrl('hobbes.jpg')" alt="Hobbes" width="25%">
    <br><br>
    I think the reason I like this section so much is because it's almost as if Shapin is analyzing me. I similarly
     think that "science" is done with nutrition and hasn't progressed much since the time of Rene Descartes who claimed,
@@ -315,6 +321,8 @@
     scientists and, in fact, are a ubiquitous part of how we interact with our community, our society, and the
     world:
     <br><br>
+    <img :src="getImgUrl('rothschild.jpg')" alt="Rothschild" width="25%">
+    <br>
    <ul>
      <li>
      <em>
@@ -395,13 +403,15 @@
     make appeals to nature, is the 'natural' progression from beginning to end. The authors of the above quotes don't
     appeal to nature in isolation, but to justify a means to implement a path to their envisioned goal. To be clear,
     this is my idea - not Steven Shapin's.
+    <br>
+    <img :src="getImgUrl('yggdrasill.jpg')" alt="Yggdrasill" width="25%">
   <br><br>
   Always be wary when people support "Science backed policy" or "Evolution inspired politics" without independently
     outlining their end goals and inspirational beginnings.
   <br><br>
   <b>Concluding Remarks:</b> This book is a treat. It lifts the veil on some silly conceptions of science held by
-    the broad public and also outlines the reasons for the pecularities of human institutions. The main value of
-    the book stems from the elaboration of historical scientists' successes and the associated failures from
+    the broad public and also outlines the reasons for the peculiarities of human institutions. The main value of
+    stems from the elaboration of historical scientists' successes and failures from
     extrapolating beyond those successes. Commonly referred to as the "Naturalistic Fallacy" or the inability
     for a descriptive model of the world to justify a prescriptive model is, was, and will remain an irresistible
     temptation for intellectuals of all stripes, institutions, and time periods. This is not to say a descriptive
