@@ -7,16 +7,17 @@
      <br>
     <br>
      <b>Background:</b> The ideas behind science and the context in which it resides simply cannot be completely
-    decoupled from the broader development of knowledge and philosophy throughout history. The early roots of science
-    can be found in all ancient cultures as they tried to make sense of the chaotic world around them. Most famously,
+    decoupled from the broader development of knowledge and philosophy throughout history. It is hardly a 20th century
+    phenomena much less an "enlightenment" one. The early roots of science can be found in all ancient cultures as they
+    tried to make sense of the chaotic world around them. Most famously,
     the foundations of modern science were laid by the Ancient Greeks including Aristotle, Euclid, and Lucretius. They
     referred to "natural philosophy" as the investigation of the natural world (as opposed to the supernatural) and
     mainly pursued it through rational argumentation and logic. Their work was far different from the science we do
     today, largely due to their limited capabilities for scientific experimentation. In fact, this dichotomy is a
-    useful probe to track the development of science as <em>the interplay between rational reasoning via cognitive
-    faculties and the information coming in from empirical evidence.</em>
+    useful probe to track the development of science as <em>the interplay between rational reasoning and the
+    interpretation of information coming in from empirical evidence.</em>
      <br><br>
-     My favorite historical anecdote on this topic is the debate surrounding the origin of light. Back in the day, it
+     Historical debates on the origin of light are useful illustrations of science's genealogy. Back in the day, it
     wasn't so clear that "light" was emitted from objects like sun or fire and received by our eyes (Intromission
     Theory) but rather it was thought to be emitted from our own eyes like Cyclops from X-men and reflected back
     (Emission Theory). Emission theory, while debunked today, was defended by titans of ancient philosophy like Euclid
@@ -38,6 +39,8 @@
     to show how unlikely and improbable it was for light to reflect off curved objects and manifest the images we see
     everyday. This early example of the interplay between rational argumentation and empirical investigation was
     systematically refined and amplified over the next millennium.
+    <br>
+    <img :src="getImgUrl('ibn-al-haytham.jpg')" alt="Ibn Al-Haytham" width="25%">
      <br><br>
      While I'm presenting the rationalism/empiricism as a binary battle, it is more accurately a question of degrees.
     To illustrate, I ask you to consider the extremes:
@@ -56,21 +59,22 @@
     model of human consciousness can explain contradictory human behaviors with the same motivation - it doesn't count
     as science. Similarly, if your "scientific" theory of economics explains contradictory phenomena with the same
     underlying class struggle - it not longer counts as science. These two examples stem from Sigmund Freud and Karl
-    Marx respectively who inspired the philosopher Karl Popper to articulate the value of falsifiability.
+    Marx who inspired the philosopher Karl Popper to articulate the value of falsifiability.
      <br><br>
      Every scientific model today has this constraint built in. Whether it's cancer metastasis, quantum field theory,
     electronics design, or turbulent fluid mechanics - they all are the "reigning champ" of their respective domains
     that can be falsified at any time should another model improve on their explanation of the underlying evidence.
      <br><br>
      <b>Consequences:</b> That all is relatively uncontroversial in the abstract but mapping it down to pragmatic
-    applications leads to very bizarre stretches of the imagination, at least in my opinion. In 2018, I see far too
-    much emphasis placed on rational side of this interplay. As science has progressed over the years it has reached
-    into new domains once considered out of reach such as the origin of the universe and the human mind. I see this as
-    a gross over-rationalization that is only taken seriously due to a lack of credibility in the opposition.
+    applications leads to very bizarre stretches of the imagination, at least in my opinion. In early 21st century 
+    America, I see far too much emphasis placed on rational side of this interplay. As science has progressed over the 
+    years it has reached into new domains once considered out of reach such as the origin of the universe and the 
+    human mind. I see this as a gross over-rationalization that is only taken seriously due to a lack of credibility in 
+    the opposition.
      <br><br>
+    <img :src="getImgUrl('bechamp.png')" alt="Bechamp" width="25%">
+    <br>
      Here are a few examples:<br><br>
-       <p>Antoine Bechamp, developed a now-debunked theory of life except when it comes to the first life-form that
-           developed.</p>
      <ul>
        <li><u>Evolutionary psychology:</u> Human behavior has always perplexed philosophers and scientists alike
            because humans just aren't well described by deterministic, rationally grounded mechanisms. Psychologists
@@ -82,7 +86,8 @@
            overcome my masculine insecurities, but I say I'm doing it because it is fun to shoot popcans, who is
            correct? How can your high-level models ever reduce down to individual constituents of your domain? I need
            to see an answer to this question, or an admission of its limitation. This is an example of <em>rationally
-               grounded models struggling to grasp irrational human behavior.</em> </li>
+           grounded models struggling to grasp irrational human behavior.</em> Also a nice of example of scientists
+           insisting on their detachment of their object of study, even if it is their own self.</li>
        <li><u>Cosmology:</u> First of all, I wholeheartedly admit that the Big Bang is the best model we have for the
            origin of the universe. But how much evidence do we really have that the inflationary epoch lasted
            10<sup>-32</sup> seconds and increased the volume by about 10<sup>78</sup>? Something like the Cosmic
@@ -90,7 +95,7 @@
            our best scientific explanation, but is it really better than saying, "We don't know"? If the standards
            for evidence are lowered to that which we can attain, then we run the risk of over rationalizing
            spectacularly when the attainable evidence is very limited in scope. <em>This is an example of the best
-               theory stretching our cognition into areas not directly verifiable with empirical evidence.</em></li>
+           theory stretching our cognition into areas not directly verifiable with empirical evidence.</em></li>
        <li><u>Aliens and the Origin of Life:</u> Extraterrestrial life has captured our imagination for decades and
            inspired laudable efforts in space exploration and astrobiology. However, we've yet to see any evidence
            for it. That doesn't mean it's not there, I guess. But that same logic applies to mole people under the
@@ -101,19 +106,20 @@
            Our rational explanation for extraterrestrial life does not hold any water until we can outline the origin of
            life on earth and concretely outline a testable hypothesis for the existence of life outside it. Until then,
            we are just aimlessly poking around in the dark unscientifically. <em>This is an example of the best theory
-               failing to surpass the proper default position of a skeptical indeterminism.</em> </li>
+           failing to surpass the proper default position of a skeptical indeterminism.</em> </li>
      </ul>
-
      <b>Limitations:</b> Science is a fantastic tool that has brought many advantages to
      living in modern society. But it is a tool that is only as good as the agent wielding it. I accept the reality of
-    the scientific model of the universe, but not as a reality
-     independent of the agents constructing it. Saul Kripke is arguably the most influential analytical philosopher of
+    the scientific model of the universe, but not as a reality independent of the agents constructing it. Saul Kripke
+    is arguably the most influential analytical philosopher of
     the 20th century who outlined a <a href="http://www.theotodman.com/Kripke_Naming.pdf" target = "_blank">beautiful
     causal theory of reference</a> for the naming of objects and phenomena. In this framework, we identify the reality
     of objects routinely! But we do so under the mediation of language. Some properties of objects are "necessarily
     true" meaning they are true in every possible world that object could exist in, or else it would not be that object.
     The results of science use these necessarily true properties or "rigid designators" to construct a model of the
     universe.
+    <br>
+    <img :src="getImgUrl('saul_kripke.jpg')" alt="Kripke" width="25%">
      <br><br>
      For other properties like value, moral virtue, meaning, purpose, etc. the object can have different values in
     various circumstances making them contingent properties rather than rigid designators. As a result, any attempts
