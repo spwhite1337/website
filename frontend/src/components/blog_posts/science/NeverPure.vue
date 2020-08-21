@@ -4,7 +4,7 @@
         Time, Space, Culture, and Society, and Struggling for Credibility and Authority</em> by Steven Shapin</h2>
     <hr>
      I love Science, I studied it for a decade of my prime years and utilize it for my livelihood. I also believe it is
-    seriously overrated in 2018 America. Steven Shapin's work is a great antidote to widespread misappropriations of
+    seriously overrated in 21st century America. Steven Shapin's work is a great antidote to widespread misappropriations of
     science one can witness including:
      <ul>
        <li>
@@ -28,11 +28,13 @@
            metaphysics (descriptions about said physical description) popularized by atheist vs. theist debates.
        </li>
      </ul>
-     Steven Shapin demonstrates this with a strong thesis that investigates historical eras and moments in science by
-    emphasizing the human element of the project. He does this intentionally and transparently with nods to the
-    approach's limitations. There is no mention of the impersonal aspect of empirical adjudication of hypotheses, or
-    the iconoclastic characters that disrupt institutions propelled by their scientific acumen. In order to write a book
-    on such a big topic some things needed to be left out and, given his transparency, this can be easily forgiven.
+     Steven Shapin demonstrates the fallacies behind these bullets with a strong thesis that investigates historical
+    eras and moments in science by emphasizing the human element of the project. He does this intentionally and
+    transparently with nods to the approach's limitations. There is no mention of the impersonal aspect of empirical
+    adjudication of hypotheses, or the iconoclastic characters that disrupt institutions propelled by their scientific
+    acumen. In order to write a book on such a big topic some things needed to be left out and, given his transparency,
+    this can be easily forgiven.
+    <br>
     <img :src="getImgUrl('steve_shapin.jpg')" alt="SteveShapin" width="25%">
      <br><br>
      The work, "Never Pure", outlines this thesis in a series of (largely) stand-alone essays. My favorite essays
