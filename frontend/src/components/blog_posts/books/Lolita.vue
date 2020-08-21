@@ -19,40 +19,40 @@
        <br>
        <img :src="getImgUrl('richard_rorty.jpg')" alt="Richard Rorty" width="25%">
        <br><br>
-       <b>Summary Part One:</b> The book summary is relatively straightforward, the narrator and protagonist Humbert
-       has a decent upbringing despite the death of his mother at an early age. He has a young relationship at age 13
-       that doesn't result in sex despite both their intentions (according to Humbert).
+       <b>Summary Part One:</b> Descriptively, Lolita is relatively straightforward, the narrator and protagonist
+       Humbert Humbert has a decent upbringing despite the death of his mother at an early age. He has a young
+       relationship at age 13 that doesn't result in sex despite both their intentions.
        <br><br>
-       He grows up and makes money writing. He marries once despite a persistent attraction to <em>nymphets</em>, girls
-       aged 9-14. The marriage dissolves when she has an affair but he doesn't seem to mind despite a subsequent trip
-       to a mental hospital. At this point, it is important to note that Humbert is full of shit. He is writing a
-       memoir from prison that he doesn't want released until after he dies. He is a brilliant man that can rationalize
-       anything. Assuming he is writing honestly is not recommended.
+       He grows up and makes money writing. He marries an adult woman despite a persistent attraction to
+       <em>nymphets</em>, girls aged 9-14. The marriage dissolves when she has an affair but he doesn't seem to mind
+       despite a subsequent trip to a mental hospital that should raise the reader's suspicions about the narrator's
+       reliability. He is writing a memoir from prison that he doesn't want released until after he dies. He is a
+       brilliant man that can rationalize anything, especially his abhorrent behavior.
        <br><br>
-       He is offered a chance to live with a friend of the family and accepted because they have a 12 year old
-       daughter, Dolores, who he affectionately nicknames <em>Lolita</em>. At this point the content of the book gets
-       gross where Humbert jerks it to Lolita a lot and cums in his pants when she sits on his lap. He's pathetic. But
-       the book is written so well and so eloquently that you tend to forget Lolita is a child and Humbert is a
-       piece of filth. It makes it very easy to forget the specifics of the situation and generalize Humbert's
-       feelings beyond pedophilia to love, beauty, and the idiosyncratic aesthetics of life. When you snap back to the
-       reality of a grown man cumming to a prepubescent girl, you are left understanding the fundamental motivations
-       behind Humbert's actions that stem deeper than lust or hornyness.
+       His introduction to Lolita (short for Dolores) arises when he accepts an offer to live with a friend of the
+       family. At this point the content of the book gets explicit where Humbert jerks it to Lolita a lot and cums in
+       his pants when she sits on his lap. He's pathetic. But the book is written so well and so eloquently that you
+       tend to forget Lolita is a child and Humbert is a piece of filth. It makes it very easy to forget the specifics
+       of the situation and generalize Humbert's feelings beyond pedophilia to love, beauty, and the idiosyncratic
+       aesthetics of life. When you snap back to the reality of a grown man cumming to a prepubescent girl, you are left
+       understanding the fundamental motivations behind Humbert's actions that stem deeper than lust or hornyness.
        <br><br>
-       Humbert, being an attrative, intelligent man, wins the affection of Lolita's mother and marrys her to stay
-       closer to Lolita. To stay sane, he keeps a diary that
-       meticulously documents his feelings towards Lolita. One day while Lolita is off at summer camp, Lolita's mother
-       finds the diary and confronts Humbert only to be killed in a car crash as she storms out of the house. This
-       promptly paints a picture of God's hand pointing to a fated Humbert/Lolita - destined to be together as he takes
-       over as her stepfather.
+       Humbert, being an attractive, intelligent man, wins the affection of Lolita's mother and marries her to stay
+       closer to Lolita. To stay sane, he keeps a diary that meticulously documents his feelings towards Lolita. While
+       Lolita is off at summer camp, Lolita's mother finds the diary and confronts Humbert only to be serendipitously
+       killed in a car crash as she storms out of the house. This promptly paints a picture of God's hand pointing to a
+       fated Humbert/Lolita - destined to be together as he takes over as her stepfather.
        <br><br>
        Humbert picks her up from Summer camp and the psycho really comes out of him. He doesn't tell her her mom is dead
-       for awhile, takes her on a trip where he gives her drugs so he can bang her but doesn't. He finds out she had sex
-       at camp so he manipulates her into having sex with him. So gross. As they continue their trip post-coitus,
-       Humbert finally tells her that her mother is dead.
+       for awhile, takes her on a trip where he gives her drugs so he can bang her, though he withdraws before the act.
+       He finds out she had sex at camp so he manipulates her into having sex with him. As they continue their trip
+       post-coitus, Humbert finally tells her that her mother is dead.
        <br><br>
+       <img :src="getImgUrl('lana_del_rey.jpg')" alt="Lolita" width="25%">
+       <br>
        While all this is horrible to summarize, the trippy thing about the book is the quality of romantic descriptions
        Humbert gives of Lolita. Makes you forget she is a child and he is an adult creep. Even inspires you to find
-       such passion in your own life.
+       such passion in your own life (maybe).
        <br><br>
        <em>Lolita, light of my life, fire of my loins. My sin, my soul. Lo-lee-ta: the tip of the tongue taking a trip
            of three steps down the palate to tap, at three, on the teeth. Lo. Lee. Ta.</em>
@@ -74,26 +74,29 @@
        so good at the same time. It really twists you and confuses you to try and like someone you despise.
        <br><br>
        <b>Summary Part Two:</b> The pair hit the road on a cross-country adventure filled with sex, arguments, and more
-       professions of disgustingly but beautifully written love. Lolita enrolls in an all girls school that puts on a
-       play Lolita participates in despite Humbert's reluctance. He is losing control while Lolita grows up and strives
-       for independence. Despite his intense passion for her he knows it is fleeting as her aesthetic intrigue is
-       highly age-dependent (because he's a sick-fuck). Paranoia, potentially justified, builds as Humbert suspects
-       someone is following them and unaware of his crime which he routinely opines as an injustice against the greater
-       moral good of Lolita and his love for her. He suspects she is sleeping around like a jealous boyfriend. Remember,
-       she is ~12 years old.
+       professions of disgustingly but beautifully written love. Lolita enrolls in an all girls school and participates
+       in a play despite Humbert's reluctance. He is losing control while Lolita grows up and strives
+       for independence. Watching her age twists his intense passion with a fleeting age-dependent attraction. Paranoia,
+       potentially justified, builds as Humbert suspects someone is following them and unaware of his alleged "crime".
+       Importantly he sees himself as innocent and a victim of a flawed society which he routinely opines as an
+       injustice against the greater, purer good of his love for Lolita. His jealously mounts from this insecurity
+       and keeps close track on Lolita's behavior.
        <br><br>
-       Lolita checks into a hospital where she escapes Humbert's watch. He justifies this with a convoluted mess of
-       external forces interfering with their love and pursues to no avail. He hooks up with an age-appropriate
-       alcoholic for awhile but doesn't express any feelings near to his love for Lolita. Eventually, Lolita reaches
-       out to him asking for money and telling him that she is married and pregnant (she is 17 now). He nonetheless
-       tracks her down to find her with a man he's never seen before and that she has aged out of the nymphet phase
-       deflating his passion for her but not his love.
+        <img :src="getImgUrl('humbert_lolita.jpg')" alt="Humbert + Lolita" width="25%">
+        <br>
+       Lolita checks into a hospital where she briefly escapes Humbert's watch. Her absences triggers a kind of
+       existential crisis where he resorts to abstract rationales for the interruption of their fated connection.
+       He justifies it with a convoluted mess of external forces interfering with their love and pursues to no avail.
+       He hooks up with an age-appropriate alcoholic for awhile but doesn't express any feelings near to his love for
+       Lolita. Eventually, Lolita reaches out to him asking for money and telling him that she is married and pregnant
+      (she is 17 now). He nonetheless tracks her down to find her with a man he's never seen before and that she has
+       aged out of the nymphet phase deflating his passion for her but not his love.
        <br><br>
-       Humbert gives her $4000 and Lolita tells him she ran away with a man named Quilty (also a pedophile, a previous
+       Humbert gives her $4000 and Lolita tells him she ran away with a man named Quilty (also a pedophile), a previous
        acquaintance of them both and writer of the play Lolita participated in. She left Quilty after he tried to make
-       her start in a child porn.
+       her star in a child porn.
        <br><br>
-       Humbert tracks down Quilty to find an opulent dwelling with a hedonistic atmosphere at his mansion. He confront
+       Humbert tracks down Quilty to find an opulent dwelling with a hedonistic atmosphere at his mansion. He confronts
        Quilty in his bedroom who doesn't believe he is really there to do him harm.
        <br><br>
        <em>
@@ -104,9 +107,8 @@
            over us.
        </em>
        <br><br>
-       After a pathetic sounding fight,
-       Humbert shoots him dead and he leaves to see quests at his house prepared for a licentious party. He is
-       caught as he drives away and crashes his car.
+       After a pathetic sounding fight, Humbert shoots him dead and he leaves to see guests at his house prepared for a
+       licentious party. He is caught as he drives away and crashes his car.
        <br><br>
        <em>
            The following decision I make with all the legal impact and support of a signed testament: I wish this memoir
@@ -129,12 +131,14 @@
        What is there to gain? Any joy at the service of justice is quelled in the prologue. Are there lessons or
        insights to be gained from this work? Are we meant to question the validity and social construction of
        pedophilia/murder? In my view there are two answers to these questions.
+       <br>
+       <img :src="getImgUrl('nabokov_chess.jpg')" alt="Nabokov Chess" width="25%">
        <br><br>
        First, Nabokov wants us to understand a major limitation of rationality, or the process of identifying reasons
-       and/or justifications for events, experiences, actions, etc usually done in accordance with some formal or
+       and/or justifications for events, experiences, actions - usually done in accordance with some formal or
        informal set of rules. Humbert has no problem rationalizing his behavior and the just, even chivalrous,
        motivations behind it. The book often reads as a challenge to tell him why he can't live an authentic, honest,
-       passion drive life. He is fuller of life than you are! Lolita lived on, she has a husband and a kid.
+       passion-driven life. He is fuller of life than you are! Lolita lived on, she has a husband and a kid.
        His joys clearly seem higher than her lows, is there some kind of utilitarian calculus that winds around this
        fact? I think not.
        <br><br>
@@ -142,11 +146,11 @@
        is not motivated by external validation, god, self-interest, revenge, pleasure, or any other primitive drive
        expressed by the simple-minded. He is embodying love for love's sake and beauty for beauty's sake. In context,
        I see Nabokov as a jester to the primacy of rationality - a common modern (in the philosophical sense) view.
-       If there is an inherent constraint to our lives, some "we" can't properly rationalize but indeed exists - how
-       can we outline the metaphyiscal existence of these constraints outside a transcendent or divine vocabulary?
+       If there is an inherent constraint to our lives, something "we" can't properly rationalize but indeed exists - how
+       can we outline the metaphysical existence of these constraints outside a transcendent or divine vocabulary?
        I think the conclusion is we cannot, and secularism is on a far darker trajectory than most people realize.
        <br><br>
-       The second point to derive from Lolita is the constraints of self-reflection inspired by Humbert. The man is
+       The second point to derive from Lolita is the constraints of self-reflection and self authenticity. The man is
        writing a memoir that is to be withheld until his death. He will suffer no consequences from its reception
        yet still clearly lies to justify his own path. He is unanimously regarded as an unreliable narrator with his
        inconsistent recollections of Lolita's behavior, and sporadic emphasis on perplexing events. My uncommon opinion
@@ -156,10 +160,12 @@
        it only manifests as the agent connects with another person at a level Humbert has with Lolita - only one that
        is mutually reciprocated.
        <br><br>
+       <img :src="getImgUrl('epstein.jpg')" alt="Epstein" width="25%">
+       <br>
        Just like rationality can lead to multiple answers to the same question - multiple notions of self can be
        derived by a person. The convergence evades our grasp. Humbert's authentic drive for Lolita is unreal, as he is
        unable to illustrate such authenticity alone. To put another way, he is not more authentic than any other
-       person is when placed in their personal narrative as they construct it.
+       person is when placed in the personal narrative they constructed.
        <br><br>
   </div>
 </template>
