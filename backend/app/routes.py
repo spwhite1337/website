@@ -1,8 +1,8 @@
 from flask import jsonify, request
 
-from apis.presidents_speeches import ps_api
-from apis.sports_bettors import sb_api
-from apis.card_classifier import cc_api
+from apis.utils.presidents_speeches.presidents_speeches import ps_api
+from apis.utils.sports_bettors.sports_bettors import sb_api
+from apis.utils.card_classifier.card_classifier import cc_api
 from sports_bettors.dash import add_sb_dash
 
 from app import app
