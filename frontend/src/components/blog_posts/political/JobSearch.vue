@@ -21,7 +21,9 @@
     Pursuit, (ii) Serious Chemical Engineering Pursuit, (iii) Data Science
     Pursuit, (iv) Data Science Pursuit Post-Insight.
      <br><br>
-        <em>Insert Figure Here</em>
+    <div class="container">
+      <iframe :src="dashboard" height="2000px" width="100%" style="border:0"></iframe>
+    </div>
      <br><br>
      The timeline of the graph is elaborated as:<br>
      <ul>
@@ -71,8 +73,15 @@
 </template>
 
 <script>
-  export default {
+const dashpath = process.env.VUE_APP_ROOT_API.concat('/api/dash/jobsearch')
+export default {
     name: 'JobSearch',
+    data () {
+        return {
+        // Dashboard
+        dashboard: dashpath
+        }
+    },
     methods: { getImgUrl (pic) { return require('@/assets/blog_posts/political/JobSearch/' + pic) } },
-  }
+}
 </script>
