@@ -21,6 +21,10 @@ def add_js_dash(server, routes_pathname_prefix: str = '/api/dash/jobsearch'):
 
     dashapp.layout = html.Div(children=[
         html.H1('Job Search Dash')
+        # Toggle colors: one of [state, field, progress, era]
+        # Time series
+
+        # Map plot
     ])
 
     return dashapp.server
