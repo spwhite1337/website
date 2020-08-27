@@ -29,8 +29,11 @@ def add_js_dash(server, routes_pathname_prefix: str = '/api/dash/jobsearch'):
                      os.path.join(Config.ROOT_DIR, 'apis', 'utils', 'job_search', 'applications.csv')
                  ).to_json()),
         html.H1('Job Search Dash'),
-        dcc.Dropdown(id='color-select', options=params['colors'], value=params['colors'][0]['value'],
+        dcc.Dropdown(id='color-select',
+                     options=params['colors'],
+                     value=params['colors'][0]['value'],
                      placeholder='Select Coloring Field'),
+        html.Br(),
         # Time series
         dcc.Graph(id='time-figure'),
         html.Br(),
@@ -50,5 +53,4 @@ def add_js_dash(server, routes_pathname_prefix: str = '/api/dash/jobsearch'):
     )
     def color_plots(df, color):
         return PlotCallbacks.figures(df, color)
-
     return dashapp.server

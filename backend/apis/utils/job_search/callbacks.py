@@ -14,6 +14,11 @@ def time_series(df: pd.DataFrame, color: str):
     return px.line(df, x='Date', y='count', color=color)
 
 
+def map_figure(df: pd.DataFrame, color: str):
+    df = df[~df['Latitude'].isna() & ~df['Longitude'].isna()]
+    return px.scatter_geo(df, lat='Latitude', lon='Longitude', color=color)
+
+
 class PlotCallbacks(object):
     @staticmethod
     def figures(df, color):
@@ -21,4 +26,5 @@ class PlotCallbacks(object):
         if df.shape[0] == 0:
             return params['empty-figure'], params['empty-figure']
         t_fig = time_series(df, color)
-        return t_fig, t_fig
+        m_fig = map_figure(df, color)
+        return t_fig, m_fig
