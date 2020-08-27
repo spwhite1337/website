@@ -22,7 +22,7 @@
     Pursuit, (iv) Data Science Pursuit Post-Insight.
      <br><br>
     <div class="container">
-      <iframe :src="dashboard" height="2000px" width="100%" style="border:0"></iframe>
+      <iframe :src="dashboard" height="500px" width="100%" style="border:0"></iframe>
     </div>
      <br><br>
      The timeline of the graph is elaborated as:<br>
