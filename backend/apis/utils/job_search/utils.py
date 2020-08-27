@@ -5,6 +5,7 @@ params = {
         {'label': 'State', 'value': 'State'},
         {'label': 'Era', 'value': 'Era'},
         {'label': 'Progress', 'value': 'Progress'},
+        {'label': 'All', 'value': 'All'}
     ],
     'empty-figure': {
         "layout": {

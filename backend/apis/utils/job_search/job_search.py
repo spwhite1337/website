@@ -26,8 +26,8 @@ def add_js_dash(server, routes_pathname_prefix: str = '/api/dash/jobsearch'):
         html.Div(id='app-data',
                  style=params['no-show'],
                  children=pd.read_csv(
-                     os.path.join(Config.ROOT_DIR, 'backend', 'apis', 'utils', 'job_search', 'applications.csv')
-                 )).to_json(),
+                     os.path.join(Config.ROOT_DIR, 'apis', 'utils', 'job_search', 'applications.csv')
+                 ).to_json()),
         html.H1('Job Search Dash'),
         dcc.Dropdown(id='color-select', options=params['colors'], value=params['colors'][0]['value'],
                      placeholder='Select Coloring Field'),
