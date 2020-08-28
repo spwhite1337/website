@@ -27,5 +27,6 @@ setup(
         'card-classifier @ git+https://github.com/spwhite1337/card-classifier@minified#egg=card-classifier',
         'sports-bettors @ git+https://github.com/spwhite1337/sports-bettors@master#egg=sports-bettors',
         'presidents-speeches @ git+https://github.com/spwhite1337/presidents-speeches@master#egg=presidents-speeches',
+        'wedding @ git+https://github.com/spwhite1337/wedding',
     ],
 )

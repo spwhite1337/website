@@ -5,6 +5,8 @@ from apis.utils.sports_bettors.sports_bettors import sb_api
 from apis.utils.card_classifier.card_classifier import cc_api
 from sports_bettors.dash import add_sb_dash
 from apis.utils.job_search.job_search import add_js_dash
+from wedding.dash import add_wedding_dash
+
 
 from app import app
 
@@ -43,6 +45,8 @@ def presidents_speeches():
 
 # Add dashboard for job-search
 app = add_js_dash(app, routes_pathname_prefix='/api/dash/jobsearch/')
+# Wedding
+app = add_wedding_dash(app, routes_pathname_prefix='/api/dash/wedding/')
 
 
 @app.route('/', defaults={'path': ''})

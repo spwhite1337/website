@@ -68,6 +68,14 @@ def download(windows: bool = False, dryrun: bool = False):
     logger.info(cc_sync)
     os.system(cc_sync)
 
+    logger.info('Data for Wedding')
+    include_flag = " --exclude '*' --include 'wedding/*.csv'"
+    include_flag = re.sub("'", "", include_flag) if windows else include_flag
+    wd_sync = base + data_sync + include_flag
+    wd_sync += dryrun_arg if dryrun else ''
+    logger.info(wd_sync)
+    os.system(wd_sync)
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
