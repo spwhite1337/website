@@ -22,4 +22,4 @@ class Config(object):
     cc_version = 'v1'
     cc_model_type = 'VGG'
     sb_version = 'v2'
-
+    mapbox_token = 'pk.eyJ1Ijoic3B3aGl0ZTEzMzciLCJhIjoiY2ppc3g5Yms0MWxsczNrdDk2cWx5Y3h5eSJ9.cyqzPXRz_Y_382m-tZqIIA'

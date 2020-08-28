@@ -3,6 +3,9 @@ import plotly.express as px
 
 from apis.utils.job_search.utils import params
 
+from config import Config
+px.set_mapbox_access_token(Config.mapbox_token)
+
 
 def time_series(df: pd.DataFrame, color: str):
     df = df.sort_values('Date', ascending=True).reset_index(drop=True)
@@ -16,7 +19,7 @@ def time_series(df: pd.DataFrame, color: str):
 
 def map_figure(df: pd.DataFrame, color: str):
     df = df[~df['Latitude'].isna() & ~df['Longitude'].isna()]
-    return px.scatter_geo(df, lat='Latitude', lon='Longitude', color=color)
+    return px.scatter_mapbox(df, lat='Latitude', lon='Longitude', color=color)
 
 
 class PlotCallbacks(object):
