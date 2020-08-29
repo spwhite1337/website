@@ -16,7 +16,7 @@ img {
     border: 1px solid lightgray
 }
 figure {
-    float: left;
+    float: right;
     padding: 15px;
     width: 25%
 }
