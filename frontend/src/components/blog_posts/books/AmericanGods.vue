@@ -13,8 +13,8 @@
      itself is with the adept use of cynicism and humor mixed with an insightful connection to American culture that,
      for a Brit, was extremely well researched. American Gods has a discernible and readable structure that mirrors many
      other fantasy stories but occurs in an exciting universe and ends with a suspenseful and entertaining conclusion.
-     <br><br>
-     <img :src="getImgUrl('colombia.jpg')" alt="Colombia" width="25%">
+     <br>
+     <captioned-image :image="getImgUrl('colombia.jpg')" alt="Columbia" caption="Lady Columbia"></captioned-image>
      <br>
       The ontology of the universe is one where anthropomorphic gods very much exist, but that existence is proportional
       to the people's belief in them. As new gods arise the old gods fade into obscurity. The heterogeneous nature of
@@ -218,8 +218,11 @@
 </template>
 
 <script>
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
+
 export default {
     name: 'AmericanGods',
+    components: { 'captioned-image': CaptionedImage },
     methods: {
         getImgUrl (pic) {
                 return require('@/assets/blog_posts/books/AmericanGods/' + pic)
