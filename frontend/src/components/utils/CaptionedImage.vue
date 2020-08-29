@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-    name: 'Image',
+    name: 'captioned-image',
     props: ["image", "alt", "caption"]
 }
 </script>
