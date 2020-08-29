@@ -19,7 +19,7 @@ Personal website to display some data products and to impose my will on the inte
 
 ## Local Development
 
-This will run two independent apps that do not communicate to each other.
+This will run two independent apps that do not communicate with each other.
 
 Requires: Python 3.5 and npm
 
@@ -31,7 +31,7 @@ Requires: Python 3.5 and npm
 - `npm install`
 - `npm run serve`
 
-The full app can be run through docker but tends to slow down my local computer a lot.
+The full app can be run through docker but tends to slow down my computer a lot.
 - `cd website`
 - `echo "VUE_APP_ROOT_API=http://localhost > frontend/.env.production`
 - `docker-compose -f docker-compose-http.yml up --build`
@@ -45,7 +45,8 @@ The full app can be run through docker but tends to slow down my local computer 
     - t2.small (~$0.0023 / hour or ~$16 / month)
         - t2.micro works if you download the `minified` branch of `card-classifier`, otherwise you will get a 
         `Killed` error during install of `master` on t2.micro. This is ~1/2 the price of t2.small.
-    - Optional: Check Spot Requests to lower costs but might decrease performance.
+    - Optional: Check Spot Requests to lower costs. But be warned that Amazon is on bullshit and your instance will 
+    disappear without explanation.
     - Enable Auto-assign Public IP
     - 10-12 GB EBS (Costs ~$0.10 GB / month)
     - Security Group `Website`:
