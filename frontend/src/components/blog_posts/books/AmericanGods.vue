@@ -34,7 +34,8 @@
       <hr>
        <br>
       <captioned-image
-              :image="getImgUrl('shadow.png')" alt="Shadow" caption="Ricky Whittle as Shadow" position="left" size="25%">
+              :image="getImgUrl('shadow.png')" alt="Shadow" caption="Ricky Whittle as Shadow"
+              position="left" size="30%">
       </captioned-image>
       <br>
       <b>Shadow's</b> self-agency closely tracks the page count of the book. He is literally imprisoned at the start but
