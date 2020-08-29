@@ -91,8 +91,7 @@ The full app can be run through docker but tends to slow down my computer a lot.
 ### 3b.) Add SSL Certification
 
 SSL Certification can be accomplished with a free process from [Let's Encrypt](https://letsencrypt.org/) to enable 
-transfer of data over HTTPS and removal of that annoying and embarrassing warning that chrome puts on sites without SSL 
-certification. 
+transfer of data over HTTPS.
 
 Generate an SSL certificate with Let's Encrypt / Certbot on a test site served over the domain. 
 ([Reference](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx))
