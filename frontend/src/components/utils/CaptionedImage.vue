@@ -13,7 +13,7 @@ export default {
 <style scoped>
 img {
     width: 100%;
-    border: 1px solid #000
+    border: 1px solid lightgray
 }
 figure {
     float: left;
