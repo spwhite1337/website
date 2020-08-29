@@ -39,7 +39,7 @@ data () {
 }}
 </script>
 
-<style>
+<style scoped>
 .enter { transform: translateX(100%) }
 .enter-to { transform: translateX(0) }
 .slide-enter-active { position: absolute }

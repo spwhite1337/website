@@ -1,20 +1,26 @@
 <template>
+<div :style="style">
     <figure>
         <img :src="image" :alt="alt">
         <figcaption>{{ caption }}</figcaption>
     </figure>
+</div>
 </template>
 <script>
 export default {
     name: 'captioned-image',
-    props: ["image", "alt", "caption"]
+    props: ["image", "alt", "caption", "position", "size"],
+    computed: {
+        style () {
+            return 'float: ' + this.position + ';' + ' width: ' + this.size;
+        }
+    }
 }
 </script>
 <style scoped>
 figure {
-    float: right;
     padding: 15px;
-    width: 25%;
+    width: 100%;
     box-shadow: 1px 2px 2px 1px lightgray
 }
 img {

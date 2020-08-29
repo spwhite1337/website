@@ -14,7 +14,9 @@
      for a Brit, was extremely well researched. American Gods has a discernible and readable structure that mirrors many
      other fantasy stories but occurs in an exciting universe and ends with a suspenseful and entertaining conclusion.
      <br>
-     <captioned-image :image="getImgUrl('colombia.jpg')" alt="Columbia" caption="Lady Columbia"></captioned-image>
+     <captioned-image :image="getImgUrl('colombia.jpg')" alt="Columbia" caption="Lady Columbia"
+                      position="right" size="25%">
+     </captioned-image>
      <br>
       The ontology of the universe is one where anthropomorphic gods very much exist, but that existence is proportional
       to the people's belief in them. As new gods arise the old gods fade into obscurity. The heterogeneous nature of
@@ -31,8 +33,8 @@
       <br>
       <hr>
        <br>
-      <captioned-image :image="getImgUrl('shadow.png')" alt="Shadow" caption="Ricky Whittle as Shadow">
-
+      <captioned-image
+              :image="getImgUrl('shadow.png')" alt="Shadow" caption="Ricky Whittle as Shadow" position="left" size="25%">
       </captioned-image>
       <br>
       <b>Shadow's</b> self-agency closely tracks the page count of the book. He is literally imprisoned at the start but
