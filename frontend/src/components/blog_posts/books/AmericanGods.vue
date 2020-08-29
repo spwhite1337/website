@@ -2,8 +2,8 @@
   <div>
     <h2>American Gods, by Neil Gaiman</h2>
     <hr>
-     <b>Summary:</b> The story of American Gods is really quite
-     <a href="https://en.wikipedia.org/wiki/Hero%27s_journey" target = "_blank">simple</a>, as it follows a mythological
+     <b>Summary:</b> The story of American Gods follows a familiar mythological
+     <a href="https://en.wikipedia.org/wiki/Hero%27s_journey" target = "_blank">structure</a>, as it follows a
      hero's journey that is seen in countless other works. The protagonist, Shadow, is introduced at a low point in his
      life (he is in prison and immediately finds out his wife is dead and was cheating on him.), gets called to an
      adventure where he meets a diverse mixture of characters (accepts a job as a driver for a shady fellow,
