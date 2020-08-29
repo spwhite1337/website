@@ -11,14 +11,15 @@ export default {
 }
 </script>
 <style scoped>
-img {
-    width: 100%;
-    border: 1px solid lightgray
-}
 figure {
     float: right;
     padding: 15px;
-    width: 25%
+    width: 25%;
+    box-shadow: 1px 2px 2px 1px lightgray
+}
+img {
+    width: 100%;
+    border: 1px solid lightgray
 }
 figcaption {
     font-style: italic
