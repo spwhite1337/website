@@ -12,7 +12,7 @@ export default {
     props: ["image", "alt", "caption", "position", "size"],
     computed: {
         style () {
-            return 'float: ' + this.position + ';' + ' width: ' + this.size + '; margin: 10px';
+            return 'float: ' + this.position + ';' + ' width: ' + this.size + ';' + ' margin: 10px';
         }
     }
 }
