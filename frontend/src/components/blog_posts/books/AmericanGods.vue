@@ -30,8 +30,11 @@
       before he (and American society by extension) advance beyond them.
       <br>
       <hr>
-      <img :src="getImgUrl('shadow.png')" alt="Shadow" width="25%">
-      <br><br>
+       <br>
+      <captioned-image :image="getImgUrl('shadow.png')" alt="Shadow" caption="Ricky Whittle as Shadow">
+
+      </captioned-image>
+      <br>
       <b>Shadow's</b> self-agency closely tracks the page count of the book. He is literally imprisoned at the start but
       becomes a more proactive player in the climax rather than a reactive victim.
       In addition to the core focus of the novel, I view his progression as that of a man who fulfills his external call
