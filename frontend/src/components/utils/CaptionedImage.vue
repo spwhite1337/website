@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <img :src="image" alt="alt" width="25%">
+        <img :src="image" :alt="alt" width="25%">
         <p>{{ caption }}</p>
     </div>
 </template>
