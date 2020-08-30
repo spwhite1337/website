@@ -24,12 +24,17 @@
       <!--      <p>Model is too big to serve right now</p>-->
       <button @click="cardClassifierDefault">Classify Card</button>
       <br><br>
-      <img :src="getImgUrl(display)" alt="Input Card" width="25%">
+      <captioned-image
+              :image="getImgUrl(display)" alt="Input Card" caption="Input Card"
+              position="left" size="25%">
+      </captioned-image>
       <br><br>
       <div class="container" v-if="images.length > 1">
             Mana Class:
         <span v-for="(image, idx) in images" :key="idx"><img :src="getImgUrl(image)" width="5%"></span>
       </div>
+      <br><br>
+      <br><br>
     </div>
   </div>
 </template>
@@ -37,9 +42,11 @@
 <script>
 import axios from 'axios'
 const path = process.env.VUE_APP_ROOT_API.concat('/api/cardclassifier')
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
 
 export default {
   name: 'CardClassifier',
+  components: { 'captioned-image': CaptionedImage },
   data () {
     return {
       // Default card labels
