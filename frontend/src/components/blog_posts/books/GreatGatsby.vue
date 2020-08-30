@@ -21,8 +21,11 @@
         Tom Buchanan, his cousin Daisy Buchanan, and the titular Gatsby. All wealthy members of the NY elite, they
         ostensibly live the American Dream with piles of wealth, new cars, and nice mansions.
         <br>
-        <img :src="getImgUrl('gatsby_crew.jpg')" alt="Gatsby Crew" width="25%">
-        <br><br>
+        <captioned-image
+          :image="getImgUrl('gatsby_crew.jpg')" alt="Gatsby Crew" caption="Great Gatsby Cast"
+          position="right" size="35%">
+        </captioned-image>
+        <br>
         Tom is a former athlete, muscular, and arrogant. He is a classic scientific racist from the early 20th century
         and reeks of insecurity despite his good looks, wealth, and beautiful wife. Almost as if he struggles to
         justify the quality of his life because he is a shitty person (IMO, the clear intent here).
@@ -54,8 +57,11 @@
             to make civilization — oh, science and art, and all that. Do you see?”
         </em>
       <br>
-      <img :src="getImgUrl('birth_of_a_nation.jpg')" alt="Birth of a Nation" width="25%">
-      <br><br>
+        <captioned-image
+          :image="getImgUrl('birth_of_a_nation.jpg')" alt="Birth of a Nation" caption="Birth of a Nation, 1915"
+          position="left" size="30%">
+        </captioned-image>
+      <br>
         Tom is married to Daisy but cheats on her routinely, specifically with a woman named Myrtle from the poorer
         side of town.
         <br><br>
@@ -63,8 +69,6 @@
         unlikable due to her constant whining and entitled personality. She had a brief romantic affair with Gatsby
         before her marriage to Tom while he was in the military. She and Tom live across the Bay from Gatsby denoted by
         a green light that is the subject of millions of high school essays on symbolism.
-        <br>
-        <img :src="getImgUrl('green_light.jpg')" alt="Green Light" width="25%">
         <br><br>
         The Great Gatsby is best understood from this nickname. It isn't "Great" like Alexander the Great, but "Great"
         like an attraction at a circus. "Step right up, come see The Great Gatsby" is the proper context for his
@@ -73,7 +77,12 @@
         revealed that his wealth stems from bootlegging (scandalous) despite his sobriety and is deeply in love with
         Daisy (or, at least the idea of Daisy). He also served in the same division as Nick leading to a natural
         friendship between the two.
-        <br><br>
+        <br>
+          <captioned-image
+                  :image="getImgUrl('green_light.jpg')" alt="Green Light" caption="The Green Light of Dreams in an Urban Wilderness"
+                  position="right" size="30%">
+          </captioned-image>
+        <br>
         Nick is also a product of wealth, his ancestor was able to pay someone to fight in the Civil War on his behalf
         then prudently invest his savings to become rich from the war effort. After graduating Yale and serving in WWI,
         Nick moves to New York for work as a bond-salesman (a lucrative career move). He begins optimistic and
@@ -98,8 +107,11 @@
         prompting him to kill Gatsby and himself. Nick attends Gatsby's funeral only to find it poorly attended even
         though his parties were so popular. Nick then moves back to the midwest.
         <br>
-         <img :src="getImgUrl('manhattan.jpg')" alt="Manhattan" width="25%">
-        <br><br>
+        <captioned-image
+          :image="getImgUrl('manhattan.jpg')" alt="Manhattan" caption="Old School Manhattan."
+          position="left" size="30%">
+        </captioned-image>
+        <br>
         <b>Analysis:</b> The dominant lesson derived from The Great Gatsby is lack of spirit of early 20th century
         America and it's ability to disabuse the reader of nationalistic mythologies about The American Dream. The
         characters have all you can ask for in the roarin' twenties of industrialized America - wealth, cars, mansions,
@@ -132,8 +144,10 @@
 </template>
 
 <script>
-    export default {
-        name: 'GreatGatsby',
-        methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/GreatGatsby/' + pic) } }
-    }
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
+export default {
+    name: 'GreatGatsby',
+    components: { 'captioned-image': CaptionedImage },
+    methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/GreatGatsby/' + pic) } }
+}
 </script>
