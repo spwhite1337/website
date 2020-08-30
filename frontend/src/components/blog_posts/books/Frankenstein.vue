@@ -14,8 +14,11 @@
     metaphysics of life relative to 21st century America. Europe was slowly transitioning to a continent with a
     plurality of knowledge or truth sources including the Church, the Public, and Secular Institutions of Science and
     Philosophy.
-     <br><br>
-     <img :src="getImgUrl('frankenstein.jpg')" alt="Frankenstein" width="25%">
+     <br>
+    <captioned-image
+          :image="getImgUrl('frankenstein.jpg')" alt="Frankenstein" caption="The monster that everyone calls Frankenstein"
+          position="right" size="30%">
+    </captioned-image>
      <br>
      <hr>
      <b>Part 0, Introduction on the Ship:</b> The book follows a segmented pattern with different narrators in each
@@ -58,15 +61,16 @@
  Frankenstein, the monster claims revenge on Frankenstein's wedding night. Frankenstein then finds that his friend,
  Henry, is murdered (inferred to be done by the monster) and is thrown in prison as a suspect.
     <br>
-    <img :src="getImgUrl('drfrankenstein.jpg')" alt="Dr. Frankenstein" width="25%">
-     <br><br>
+    <captioned-image
+          :image="getImgUrl('drfrankenstein.jpg')" alt="Dr. Frankenstein" caption="Grand Moff Harkin as Dr. Frankenstein"
+          position="right" size="30%">
+    </captioned-image>
+    <br>
      Frankenstein is eventually released due to insufficient evidence and returns to marry his lifelong lover,
  Elizabeth. Terrified of what might happen with the monster, he arms himself and guards against attacks on his
  wife. The monster sneaks past him (due to his superior intellect and strength) and kills his newlywed wife.
  Frankenstein chases the monster all the way to the North Pole where the story rejoins the shipping expedition.
-     <br><br>
-    <img :src="getImgUrl('nordwestpassage.jpg')" alt="Nordwest Passage" width="25%">
-    <br>
+    <br><br>
      <b>Part 4, The Expedition:</b> Back at the ship, the crew is low in morale and arguing to turn back South
  when they get out of the ice pack they are stuck in. Frankenstein encourages them to go on and avoid bravery,
  at least at first. Frankenstein quickly becomes ill and dies with his last words solidified as a famous quote
@@ -79,6 +83,12 @@
      <br><br>
      The monster appears on the ship and looms over Frankenstein's dead body. The captain walks in on the
  affair and the monster declares:
+    <br>
+    <captioned-image
+            :image="getImgUrl('nordwestpassage.jpg')" alt="Nordwest Passage" caption="Seafarer's Bane: The Nordwest Passage"
+            position="left" size="30%">
+    </captioned-image>
+    <br>
      <br><br>
      <em>
        "Farewell! I leave you, and in you the last of humankind whom these eyes will ever behold. Farewell,
@@ -109,8 +119,11 @@
  works with an important difference in his motivations: he is doing it out of curiosity and, as the reader knows, to
  distract himself of grief. The impurity of motivations combined with recklessness prove fatal by the end of the novel.
     <br>
-    <img :src="getImgUrl('agrippa.jpg')" alt="Agrippa" width="25%">
-     <br><br>
+    <captioned-image
+          :image="getImgUrl('agrippa.jpg')" alt="Agrippa" caption="Cornelius Agrippa, ~1500 A.D."
+          position="right" size="30%">
+    </captioned-image>
+    <br>
      Mary Shelley's point is clear: the cure for recklessness is reflection. Reflection on the question, "Why are we
  doing this?". The monster exists in a state of constant distress to exemplify the importance of this existential
  grounding. He has no upbringing, no education, no direction, and no thought to his purpose. In the process of
@@ -161,8 +174,11 @@
  More explicitly, do humans need 'civilization' to be 'civil' or are we most in harmony without technology or
  agriculture?
     <br>
-    <img :src="getImgUrl('rousseau.jpg')" alt="Rousseau" width="25%">
-     <br><br>
+    <captioned-image
+          :image="getImgUrl('rousseau.jpg')" alt="Rousseau" caption="Jean-Jacques Rousseau. Bad Frenchman."
+          position="right" size="30%">
+    </captioned-image>
+    <br>
      Mary Shelley answers the question through the monster's progression. He starts out quite innocent and ignorant,
  only to be rebuked due to his looks by the community he hoped would validate his identity as a non-monster. The
  corresponding murders and violence come after his peaceful identity was rejected leaving him with only violence
@@ -174,8 +190,10 @@
 </template>
 
 <script>
-  export default {
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
+export default {
     name: 'Frankenstein',
+    components: { 'captioned-image': CaptionedImage },
     methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/Frankenstein/' + pic) } }
-  }
+}
 </script>
