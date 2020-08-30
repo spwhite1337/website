@@ -17,8 +17,11 @@
        your morally inspired squeemishness is quenched from chapter 1. To get the most out of the book, I suggest you
        extend your hand to Nabokov and be willing to sympathize with a violent pedophile.
        <br>
-       <img :src="getImgUrl('richard_rorty.jpg')" alt="Richard Rorty" width="25%">
-       <br><br>
+       <captioned-image
+          :image="getImgUrl('richard_rorty.jpg')" alt="Richard Rorty" caption="Neo-Pragmatist Richard Rorty"
+          position="right" size="30%">
+        </captioned-image>
+        <br>
        <b>Summary Part One:</b> Descriptively, Lolita is relatively straightforward, the narrator and protagonist
        Humbert Humbert has a decent upbringing despite the death of his mother at an early age. He has a young
        relationship at age 13 that doesn't result in sex despite both their intentions.
@@ -47,8 +50,11 @@
        for awhile, takes her on a trip where he gives her drugs so he can bang her, though he withdraws before the act.
        He finds out she had sex at camp so he manipulates her into having sex with him. As they continue their trip
        post-coitus, Humbert finally tells her that her mother is dead.
-       <br><br>
-       <img :src="getImgUrl('lana_del_rey.jpg')" alt="Lolita" width="25%">
+       <br>
+       <captioned-image
+          :image="getImgUrl('lana_del_rey.jpg')" alt="Lana del Rey" caption="Lana Del Rey in the Lolita Costume"
+          position="left" size="30%">
+        </captioned-image>
        <br>
        While all this is horrible to summarize, the trippy thing about the book is the quality of romantic descriptions
        Humbert gives of Lolita. Makes you forget she is a child and he is an adult creep. Even inspires you to find
@@ -81,8 +87,11 @@
        Importantly he sees himself as innocent and a victim of a flawed society which he routinely opines as an
        injustice against the greater, purer good of his love for Lolita. His jealously mounts from this insecurity
        and keeps close track on Lolita's behavior.
-       <br><br>
-        <img :src="getImgUrl('humbert_lolita.jpg')" alt="Humbert + Lolita" width="25%">
+       <br>
+       <captioned-image
+          :image="getImgUrl('humbert_lolita.jpg')" alt="Humbert + Lolita" caption="Humbert and Lolita, 1997 film"
+          position="right" size="30%">
+        </captioned-image>
         <br>
        Lolita checks into a hospital where she briefly escapes Humbert's watch. Her absences triggers a kind of
        existential crisis where he resorts to abstract rationales for the interruption of their fated connection.
@@ -132,8 +141,11 @@
        insights to be gained from this work? Are we meant to question the validity and social construction of
        pedophilia/murder? In my view there are two answers to these questions.
        <br>
-       <img :src="getImgUrl('nabokov_chess.jpg')" alt="Nabokov Chess" width="25%">
-       <br><br>
+        <captioned-image
+          :image="getImgUrl('nabokov_chess.jpg')" alt="Nabokov Chess" caption="Vladimir Nabokov"
+          position="left" size="30%">
+        </captioned-image>
+       <br>
        First, Nabokov wants us to understand a major limitation of rationality, or the process of identifying reasons
        and/or justifications for events, experiences, actions - usually done in accordance with some formal or
        informal set of rules. Humbert has no problem rationalizing his behavior and the just, even chivalrous,
@@ -159,8 +171,11 @@
        narration, no one can be by themselves. The self does not exist independent of other people. In fact,
        it only manifests as the agent connects with another person at a level Humbert has with Lolita - only one that
        is mutually reciprocated.
-       <br><br>
-       <img :src="getImgUrl('epstein.jpg')" alt="Epstein" width="25%">
+       <br>
+        <captioned-image
+          :image="getImgUrl('epstein.jpg')" alt="Epstein" caption="Rich Pedos Persist"
+          position="right" size="30%">
+        </captioned-image>
        <br>
        Just like rationality can lead to multiple answers to the same question - multiple notions of self can be
        derived by a person. The convergence evades our grasp. Humbert's authentic drive for Lolita is unreal, as he is
@@ -171,8 +186,10 @@
 </template>
 
 <script>
-  export default {
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
+export default {
     name: 'Lolita',
+    components: { 'captioned-image': CaptionedImage },
     methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/Lolita/' + pic) } }
-  }
+}
 </script>
