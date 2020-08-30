@@ -42,7 +42,8 @@ The full app can be run through docker but tends to slow down my computer a lot.
     - Ubuntu 18.04 Image
     - t2.small (~$0.0023 / hour or ~$16 / month)
         - t2.micro works if you download the `minified` branch of `card-classifier`, otherwise you will get a 
-        `Killed` error during install of `master` on t2.micro. This is ~1/2 the price of t2.small.
+        `Killed` error during install of `master` on t2.micro (I assume `tensorflow` is the culprit). This is ~1/2 the 
+        price of t2.small.
     - Optional: Check Spot Requests to lower costs. But be warned that Amazon is on bullshit and your instance will 
     disappear without explanation.
     - Enable Auto-assign Public IP
