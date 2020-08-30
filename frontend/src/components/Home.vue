@@ -7,7 +7,7 @@
       <br>
       <captioned-image
               :image="getImgUrl('headshot.png')" alt="Headshot" caption="Me in 2019"
-              position="left" size="30%">
+              position="left" size="25%">
       </captioned-image>
       <br>
       I'm Scott White and welcome to my site. I hail from the great state of Iowa but have since done a
@@ -21,7 +21,7 @@
       <br>
       <captioned-image
               :image="getImgUrl('indy.jpg')" alt="Indy" caption="Indy White, the Yorkie Terror"
-              position="right" size="30%">
+              position="right" size="20%">
       </captioned-image>
       <br>
       Far more importantly, I am a fiance to Brittany Forkus and a dog-keeper to Indy the Yorkie Terror.
