@@ -25,8 +25,11 @@
        requiring the dead to be buried vertically, head-first. (As an interesting side note, Jonathan Swift was
        buried standing up in case of flooding).
         <br>
-        <img :src="getImgUrl('lilliput.jpg')" alt="Lilliput" width="25%">
-       <br><br>
+        <captioned-image
+          :image="getImgUrl('lilliput.jpg')" alt="Lilliput" caption="The Little Land of Lilliput"
+          position="left" size="30%">
+        </captioned-image>
+       <br>
        The high societal crime of Lilliput is lying and, conversely, the principal value is trust. Deceit and false
        accusations in court (Bearing False Witness to One's Neighbor, if you will) are high crimes with severe
        punishments. But, as Gulliver finds, the desecration of courts and civil monuments is also grave and he is
@@ -52,8 +55,10 @@
 </template>
 
 <script>
-  export default {
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
+export default {
     name: 'GulliversTravels',
+    components: { 'captioned-image': CaptionedImage },
     methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/GulliversTravels/' + pic) } }
-  }
+}
 </script>
