@@ -15,7 +15,7 @@
     <hr>
     <div class="container">
       Website source code can be found in my <a href="https://github.com/spwhite1337/website" target="_blank">repo</a>.
-      All the software is open source hosted on AWS.
+      All software is open source and hosted on AWS.
       <br><br>
     </div>
   </div>
