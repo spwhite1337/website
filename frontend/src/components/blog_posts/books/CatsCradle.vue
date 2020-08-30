@@ -16,8 +16,11 @@
         H2O that catalyzes the freezing of water even at room temperature. This is even more destructive than the atomic
         bomb as it could effectively wipe out all humanity and life on earth with just a single stray specimen.
         <br>
-       <img :src="getImgUrl('phase_diagram.png')" alt="H2O Phase Diagram" width="25%">
-       <br><br>
+      <captioned-image
+              :image="getImgUrl('phase_diagram.png')" alt="H2O Phase Diagram" caption="Phase Diagram of H2O"
+              position="right" size="30%">
+      </captioned-image>
+       <br>
        His journey brings him to San Lorenzo, a primitive island nation that is ostensibly Christian but practically
        Bokononist - a religion that is explicitly based on lies and untruths. The island is governed by
        a dictatorship with punishments issued by impalement on a large hook. Bokononism holds human relationships sacred
@@ -37,8 +40,11 @@
        emerge to find the inhabitants of San Lorenzo dead of mass suicide, John is rescued after some time when he
        wrote the memoirs that are revealed to be the book, Cat's Cradle.
         <br>
-        <img :src="getImgUrl('catscradle.jpg')" alt="Cat's Cradle" width="25%">
-       <br><br>
+      <captioned-image
+              :image="getImgUrl('catscradle.jpg')" alt="Cat's Cradle" caption="Meaninglessness of String Games"
+              position="left" size="30%">
+      </captioned-image>
+       <br>
        The finale entails a meeting between John and Bokonon himself who is finishing the founding text of Bokononism
        "The Book of Bokonon". In the aftermath of all this destruction, Bokonon longs for a chance to do the whole
        thing over and initiate the <em>ice-nine</em> catastrophe years before while flipping off God. It is suggested
@@ -89,9 +95,12 @@
       Vonnegut's critiques of Religion (i.e. Christianity) with those of Nations, politics, or science. It is not so
       easy, in Vonnegut's view, to escape the hubris of religious dogmatism.
       <br>
-      <img :src="getImgUrl('dresden.jpg')" alt="Dresden" width="25%">
-      <br><br>
-      Nationalities and nation-states are routinely ridiculed as harmful, pointless lies used to manipulate and 
+      <captioned-image
+              :image="getImgUrl('dresden.jpg')" alt="Dresden" caption="The Bombing of Dresden, 1945"
+              position="right" size="30%">
+      </captioned-image>
+      <br>
+      Nationalities and nation-states are routinely ridiculed as harmful, pointless lies used to manipulate and
       rule through this work (Also see the works of <a href="https://en.wikipedia.org/wiki/Eric_Hobsbawm">
       Eric Hobsbawn</a>) through the overlap between national and religious leaders and institutions. WWII saw a clash
       of nations that shaped their countries around their very existence - Nazis, Fascists, and Communists - making the
@@ -117,8 +126,11 @@
       who thinks Jesus was a good guy but doesn't think he did miracles or outlined a True metaphysics. Bokonism and
       Christianity inevitably arise as humans work together, but they aren't True in any proper sense.
      <br>
-      <img :src="getImgUrl('karass.jpg')" alt="Bokonism" width="25%">
-      <br><br>
+      <captioned-image
+              :image="getImgUrl('karass.jpg')" alt="Bokonism" caption="Bokonist Rituals"
+              position="left" size="30%">
+      </captioned-image>
+    <br>
       <b>Determinism and Pessimism:</b>
        Like the Calvinist notion of Total Depravity, Bokononists don't see any role for "free will" or individual
       agency in the course of events. In Vonnegut's world, blind luck is the dominate agent of world events as
@@ -149,8 +161,11 @@
        as a consequence of joining Humanism, but the actions of humanists are directed by the creeds and tenets of the
       humanist lifestance.
       <br>
-      <img :src="getImgUrl('humanist_assoc.png')" alt="Humanism" width="25%">
-      <br><br>
+      <captioned-image
+              :image="getImgUrl('humanist_assoc.png')" alt="Humanism" caption="Totally-not-a-religion"
+              position="right" size="30%">
+      </captioned-image>
+    <br>
     I can't help but connect Bokonism and Vonnegut's contempt for Christianity with his adoption of Humanism. I don't
     know how he sees it as different. I don't know why he thinks Humanism is an answer where Christianity or
     Bokononism is not. Maybe he doesn't, maybe he lived more pessimistically and nihilistically than I assume. But it
@@ -163,8 +178,11 @@
 </template>
 
 <script>
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
+
 export default {
     name: 'CatsCradle',
+    components: { 'captioned-image': CaptionedImage },
     methods: {
         getImgUrl (pic) {
                 return require('@/assets/blog_posts/books/CatsCradle/' + pic)
