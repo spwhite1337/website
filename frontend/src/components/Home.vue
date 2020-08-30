@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <br>
+    <h1>Scott P. White, Ph.D.</h1>
+    <h3><em>The Most Modest Person of All Time</em></h3>
     <p>
       <br>
       <captioned-image

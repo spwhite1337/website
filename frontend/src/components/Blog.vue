@@ -1,5 +1,6 @@
 <template>
   <div>
+      <br>
       <p>
           My posts fall into three categories:
           <ul>

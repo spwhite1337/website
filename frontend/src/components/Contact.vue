@@ -1,5 +1,8 @@
 <template>
     <div class="container">
+        <br>
+        <h3>You can contact me and / or get more information via many routes:</h3>
+        <br>
         <ul>
             <li><button><a @click="showResume">Download Resume (Updated Summer 2020)</a></button></li>
         </ul>

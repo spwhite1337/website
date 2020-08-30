@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="container">
-    <h3>This Site is Very Much Under Construction.</h3>
     <b-nav>
       <b-nav-item><router-link :to="{ name: 'home' }">Home</router-link></b-nav-item>
       <b-nav-item><router-link :to="{ name: 'DataProducts' }">Data Products</router-link></b-nav-item>
@@ -11,6 +10,11 @@
       <transition name="slide-fade">
         <router-view></router-view>
       </transition>
+    </div>
+    <br>
+    <hr>
+    <div class="container">
+      Website source code can be found in my <a href="https://github.com/spwhite1337/website" target="_blank">repo</a>.
     </div>
   </div>
 </template>
