@@ -183,10 +183,6 @@ import CaptionedImage from '@/components/utils/CaptionedImage.vue'
 export default {
     name: 'CatsCradle',
     components: { 'captioned-image': CaptionedImage },
-    methods: {
-        getImgUrl (pic) {
-                return require('@/assets/blog_posts/books/CatsCradle/' + pic)
-        }
-    },
+    methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/CatsCradle/' + pic) } },
 }
 </script>

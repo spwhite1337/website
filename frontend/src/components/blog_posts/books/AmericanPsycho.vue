@@ -237,10 +237,6 @@ import CaptionedImage from '@/components/utils/CaptionedImage.vue'
 export default {
     name: 'AmericanPsycho',
     components: { 'captioned-image': CaptionedImage },
-    methods: {
-        getImgUrl (pic) {
-                return require('@/assets/blog_posts/books/AmericanPsycho/' + pic)
-            }
-        },
+    methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/AmericanPsycho/' + pic) } },
     }
 </script>

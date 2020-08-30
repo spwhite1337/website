@@ -237,11 +237,7 @@ import CaptionedImage from '@/components/utils/CaptionedImage.vue'
 export default {
     name: 'AmericanGods',
     components: { 'captioned-image': CaptionedImage },
-    methods: {
-        getImgUrl (pic) {
-                return require('@/assets/blog_posts/books/AmericanGods/' + pic)
-            }
-        },
+    methods: { getImgUrl (pic) { return require('@/assets/blog_posts/books/AmericanGods/' + pic) } },
     }
 </script>
 
