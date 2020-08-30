@@ -4,6 +4,7 @@
     <hr>
      <b>Short Version:</b> Science is a coherent and consistent model of the universe based on the application of rigid
     designators to objects and phenomena through a rational process constrained by empirical evidence and falsifiability.
+    It is defined by its results, not the methods or institutions as those are contingent and ephemeral.
      <br>
     <br>
      <b>Background:</b> The ideas behind science and the context in which it resides simply cannot be completely
@@ -120,7 +121,7 @@
     is arguably the most influential analytical philosopher of
     the 20th century who outlined a <a href="http://www.theotodman.com/Kripke_Naming.pdf" target = "_blank">beautiful
     causal theory of reference</a> for the naming of objects and phenomena. In this framework, we identify the reality
-    of objects routinely! But we do so under the mediation of language. Some properties of objects are "necessarily
+    of objects routinely. But we do so under the mediation of language. Some properties of objects are "necessarily
     true" meaning they are true in every possible world that object could exist in, or else it would not be that object.
     The results of science use these necessarily true properties or "rigid designators" to construct a model of the
     universe.
