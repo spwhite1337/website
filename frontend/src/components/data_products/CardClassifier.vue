@@ -26,14 +26,13 @@
       <br><br>
       <captioned-image
               :image="getImgUrl(display)" alt="Input Card" caption="Input Card"
-              position="left" size="25%">
+              position="center" size="25%">
       </captioned-image>
       <br><br>
       <div class="container" v-if="images.length > 1">
             Mana Class:
         <span v-for="(image, idx) in images" :key="idx"><img :src="getImgUrl(image)" width="5%"></span>
       </div>
-      <br><br>
       <br><br>
     </div>
   </div>

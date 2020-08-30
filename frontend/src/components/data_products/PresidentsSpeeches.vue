@@ -21,9 +21,10 @@
               <a href="https://github.com/spwhite1337/presidents-speeches" target="_blank">here</a>.
           </p>
       </div>
-      <div style="margin: 5%">
-          <img :src="getImgUrl('best_words.jpg')" alt="BestWords" width="25%" >
-      </div>
+     <captioned-image
+              :image="getImgUrl('best_words.jpg')" alt="Best" caption="Peak articulation"
+              position="center" size="25%">
+      </captioned-image>
       <hr>
       <div>
           <button @click="presidentsSpeeches">Search Presidents</button>
@@ -45,9 +46,11 @@
 <script>
 import axios from 'axios'
 const path = process.env.VUE_APP_ROOT_API.concat('/api/presidentsspeeches')
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
 
 export default {
   name: 'PresidentsSpeeches',
+  components: { 'captioned-image': CaptionedImage },
   data () {
     return {
       query: '',
