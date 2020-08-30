@@ -15,6 +15,7 @@
     <hr>
     <div class="container">
       Website source code can be found in my <a href="https://github.com/spwhite1337/website" target="_blank">repo</a>.
+      <br><br>
     </div>
   </div>
 </template>
