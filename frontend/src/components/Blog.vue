@@ -1,7 +1,14 @@
 <template>
   <div>
-    <p>Blog Posts</p>
-
+      <p>
+          My posts fall into three categories:
+          <ul>
+            <li><b>Books:</b> Reports and Essays summarizing and analysing big-brain books</li>
+            <li><b>Science:</b> Essays related to my official profession</li>
+            <li><b>Political:</b> Comments on problems in the terrestrial realm</li>
+          </ul>
+      </p>
+      <hr>
       <b-dropdown text="Books">
           <b-dropdown-item v-for="post in books" :key="post.name" :value="post.name">
             <router-link :to="{ name: post.name }">{{ post.title }} by {{ post.author }}</router-link>
