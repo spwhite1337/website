@@ -36,11 +36,7 @@
       The Blog is all over the place, but mostly serves as a repository of Book reviews for pretentious stuff I read.
       <em>The Definition of Science</em> is probably my favorite but they are all similar.
     </p>
-    <hr>
-    <p>
-        User Login and Comments are coming soon!
-    </p>
-    <hr>
+    <hr><p>User Login and Comments are coming soon!</p><hr>
   </div>
 </template>
 

@@ -32,11 +32,7 @@
           <transition name="slide">
               <router-view></router-view>
           </transition>
-          <hr>
-          <p>
-              User Login and Comments are coming soon!
-          </p>
-          <hr>
+          <hr><p>User Login and Comments are coming soon!</p><hr>
       </div>
 
   </div>
