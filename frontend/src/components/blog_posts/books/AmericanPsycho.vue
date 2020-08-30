@@ -19,8 +19,11 @@
        emphasis on his actual profession. He explains his job to flirt with women, but he never actually says what
        his description is. He has business meetings, but they never talk about business.
        <br>
-       <img :src="getImgUrl('bateman.jpg')" alt="Patrick Bateman" width="25%">
-       <br><br>
+       <captioned-image
+              :image="getImgUrl('bateman.jpg')" alt="Patrick Bateman" caption="Christian Bale as Patrick Bateman"
+              position="right" size="30%">
+       </captioned-image>
+       <br>
        Instead, his life, relationships, and work revolve around his position in a social hierarchy defined by external
       appearance, job title, and wealth. He constantly obsesses with clothing, exercise, beauty products, musical tastes
       (even though the music is very generic), and (in one of the greatest scenes of all-time)
@@ -68,8 +71,11 @@
       and insider business deals. While the violence sharply increases, the other aspects of his life are largely
       meander aimlessly.
       <br>
-      <img :src="getImgUrl('chainsaw.jpg')" alt="Violence" width="25%">
-      <br><br>
+      <captioned-image
+              :image="getImgUrl('chainsaw.jpg')" alt="Violance" caption="Bateman chopping people up"
+              position="left" size="30%">
+       </captioned-image>
+      <br>
       He starts with a girlfriend, advances to engagement with zero romance, breaks it off
       over dinner, they get back together, etc. There are big accounts at work that come and go, we aren't given
       an elaboration of their significance, nor are we even told what professional role Bateman plays.
@@ -82,8 +88,11 @@
       confess his crimes only for it to be received as a joke and to learn that Paul Allen is alive and on vacation.
       This "twist" is often interpreted as a consequence of Bateman's psychosis, his life being a dream, him being out
       of touch with reality, etc.
-      <br><br>
-      <img :src="getImgUrl('paulallen.jpg')" alt="Paul Allen" width="25%">
+      <br>
+      <captioned-image
+              :image="getImgUrl('paulallen.jpg')" alt="Paul Allen" caption="Jared Leto as Paul Allen"
+              position="right" size="30%">
+       </captioned-image>
       <br>
       I just don't agree and encourage you to think otherwise. I see Bateman's life as real in every normal sense,
       his actions have consequences, he affects the
@@ -140,8 +149,11 @@
       never look at them any deeper than that (he can't since he isn't any deeper himself). He treats prostitutes as
       sex robots that he only fucks to exemplify his capabilities. The most significant sexual attraction
       he has is to himself, as he stares at himself and flexes in the mirror while fucking a prostitute from behind.
-      <br><br>
-      <img :src="getImgUrl('evelyn.jpg')" alt="Evelyn" width="25%">
+      <br>
+      <captioned-image
+              :image="getImgUrl('evelyn.jpg')" alt="Evelyn" caption="Reese Witherspoon as Evelyn"
+              position="right" size="30%">
+      </captioned-image>
       <br>
       Like drugs, women are not romanticized and used as a means to an end. Unlike drugs, the end isn't a pleasure but a
       validation. Bateman must constantly demonstrate his worth because he has no "being" to ground himself in. He has
@@ -211,11 +223,8 @@
        extracted from my telling. There has been no reason for me to tell you any of this. This confession
        has meant nothing. <br><br>
           I'm asking Jean, "How many people in this world are like me?" <br><br>
-
          She pauses, carefully answers, "I don't ... think anyone?" She's guessing. <br><br>
-
          "Let me rephrase the ques- Wait, how does my hair look?" I ask, interrupting myself. <br>
-
          "Uh, fine." <br>
       </em>
       <br><br>
@@ -223,8 +232,11 @@
 </template>
 
 <script>
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
+
 export default {
- name: 'AmericanPsycho',
+    name: 'AmericanPsycho',
+    components: { 'captioned-image': CaptionedImage },
     methods: {
         getImgUrl (pic) {
                 return require('@/assets/blog_posts/books/AmericanPsycho/' + pic)

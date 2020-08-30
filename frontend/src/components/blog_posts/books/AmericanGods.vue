@@ -216,7 +216,7 @@
               :image="getImgUrl('cover.jpg')" alt="Book Cover" caption="Gaiman's Book Cover"
               position="right" size="30%">
       </captioned-image>
-     <br><br>
+     <br>
      And trust me, the context doesn't help much.
      <br><br>
      <b>Conclusion:</b> American Gods is a great fantasy book, hero story, and adventure that exceeds generic
