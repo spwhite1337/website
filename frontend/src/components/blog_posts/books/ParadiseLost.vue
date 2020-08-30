@@ -19,7 +19,7 @@
      <hr>
      <b>Rough Summary:</b> The poem starts out depicting the Holy Spirit inspiring a story-teller to relay the tale
     of creation in an analogous fashion to greek muses inspiring poems like the Odyssey or the Illiad.
-     <br><br>
+     <br>
     <captioned-image
           :image="getImgUrl('adam_and_eve.jpg')" alt="Adam and Eve" caption="Adam and Eve"
           position="right" size="30%">
