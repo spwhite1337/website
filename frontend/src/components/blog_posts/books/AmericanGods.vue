@@ -101,8 +101,11 @@
       along with the bizarre underlying drama. Gaiman clearly did his research because, as a Midwest Native, I thought
       it very spot-on and hilarious to read.
       <br>
-      <img :src="getImgUrl('yooper.jpg')" alt="Yooper" width="25%">
-     <br><br>
+      <captioned-image
+              :image="getImgUrl('yooper.jpg')" alt="Yooper" caption="Midwest Living"
+              position="left" size="30%">
+      </captioned-image>
+     <br>
      A special shout out is due for Lakeside, a quaint and orderly town that maintains structure through ritualistic
       child sacrifices to the lake goblin. Maybe I'm reading into this scene too much, but I think it is Neil Gaiman
       giving a nod to all the towns in the American midwest that are entirely interchangeable and generic on the
@@ -208,6 +211,11 @@
       that no one but a moron would ever trust the legal system. I believe that life is a game, life is a cruel joke
       and that life is what happens when you're alive and that you might as well lie back and enjoy it."
      </em>
+     <br>
+      <captioned-image
+              :image="getImgUrl('cover.jpg')" alt="Book Cover" caption="Gaiman's Book Cover"
+              position="right" size="30%">
+      </captioned-image>
      <br><br>
      And trust me, the context doesn't help much.
      <br><br>
@@ -220,8 +228,6 @@
       I also very sympathetic to Sam's speech in that I don't really believe anything other than the belief that you
       all don't know what you're talking about.
    <br><br>
-   <img :src="getImgUrl('cover.jpg')" alt="Book Cover" width="25%">
-   <br>
 </div>
 </template>
 
