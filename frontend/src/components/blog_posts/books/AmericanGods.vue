@@ -47,9 +47,6 @@
       of the universe. He is confused and frustrated by the complexities and ambiguities of his experience with Mr.
       Wednesday. And, despite being a con-man himself, finds himself the victim of a con by Odin and Loki (who was
       also his close friend in prison).
-     <br>
-     <img :src="getImgUrl('mrwednesday.jpg')" alt="Mr. Wednesday" width="25%">
-     <br>
      <br><br>
      Shadow periodically sees or "oversees" into an alternative reality as a consequence of his divinity. Initially he
       experiences these visions with awe but, over the course of the novel, he actively participates and utilizes them
@@ -57,7 +54,12 @@
       from man-to-god and the manifestation of his divine nature for the reader to track. The culmination of his
       divinity is at the climax of the novel where he is sacrificed on Odin's behalf but rebukes his death (like only
       an immortal god can) and returns to prevent the chaotic battle between the old gods and the new.
-     <br><br>
+      <br>
+      <captioned-image
+              :image="getImgUrl('mrwednesday.jpg')" alt="Mr. Wednesday" caption="Ian McShane as Mr. Wednesday"
+              position="right" size="30%">
+      </captioned-image>
+     <br>
       <b>Setting and Physics:</b> The most fun part of the novel is the ontology of this universe, namely the
       idea that existence stems from people's belief or things exist if people believe in them and their associated
       power is proportional to the conviction behind the belief. As expressed by Mr. Towns towards the end of the novel,
