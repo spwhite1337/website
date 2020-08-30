@@ -59,7 +59,7 @@ The full app can be run through docker but tends to slow down my computer a lot.
     - `sudo git clone https://github.com/spwhite1337/website.git`
     - `cd website`
     - `source initialization.sh`
-        - Get AWS Keys from S3 Bucket `s3://scott-p-white`
+        - Get AWS Keys from S3 Bucket `s3://scott-p-white/personal/keys`
         
 ### 2.) GoDaddy    
 
