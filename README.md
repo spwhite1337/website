@@ -31,7 +31,7 @@ Run two independent apps that do not communicate with each other for debugging a
 
 The full app can be run through docker but tends to slow down my computer a lot.
 - `cd website`
-- `echo "VUE_APP_ROOT_API=http://localhost.com > frontend/.env.production`
+- `echo "VUE_APP_ROOT_API=http://localhost > frontend/.env.production`
 - `docker-compose -f docker-compose-http.yml up --build`
 
 ## Server
