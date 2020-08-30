@@ -181,7 +181,12 @@
       itself and it likely rubbed off on him considerably. The most explicit articulation of someone's personal
       philosophy is in Interlude 3 where Sam is explaining herself to shadow and is also endorsed by Neil Gaiman
       as the closest to his personal views:
-     <br><br>
+     <br>
+      <captioned-image
+              :image="getImgUrl('cover.jpg')" alt="Book Cover" caption="Gaiman's Book Cover"
+              position="right" size="30%">
+      </captioned-image>
+     <br>
      "<em>I can believe in things that are true and I can believe things that aren't true and I can believe things
       where nobody knows if they're true or not. I can believe in Santa Claus and the Easter Bunny and Marilyn
       Monroe and the Beatles and Elvis and Mister Ed. Listen: I believe that people are perfectible, that knowledge is
@@ -197,6 +202,7 @@
       out by the common cold like the Martians in War of the Worlds. I believe that the greatest poets of the
       last century were Edith Sitwell and Don Marquis, that jade is dried dragon sperm, and that thousands of
       years ago in a former life I was a one-armed Siberian shaman. I believe that mankind's destiny lies in
+
       the stars. I believe that candy really did taste better when I was a kid, that it's aerodynamically impossible
       for a bumblebee to fly, that light is a wave and a particle, that there's a cat in a box somewhere who's alive
       and dead at the same time (although if they don't ever open the box to feed it it'll eventually just be two
@@ -211,12 +217,6 @@
       that no one but a moron would ever trust the legal system. I believe that life is a game, life is a cruel joke
       and that life is what happens when you're alive and that you might as well lie back and enjoy it."
      </em>
-     <br>
-      <captioned-image
-              :image="getImgUrl('cover.jpg')" alt="Book Cover" caption="Gaiman's Book Cover"
-              position="right" size="30%">
-      </captioned-image>
-     <br>
      And trust me, the context doesn't help much.
      <br><br>
      <b>Conclusion:</b> American Gods is a great fantasy book, hero story, and adventure that exceeds generic

@@ -14,17 +14,17 @@
     metaphysics of life relative to 21st century America. Europe was slowly transitioning to a continent with a
     plurality of knowledge or truth sources including the Church, the Public, and Secular Institutions of Science and
     Philosophy.
-     <br>
-    <captioned-image
-          :image="getImgUrl('frankenstein.jpg')" alt="Frankenstein" caption="The monster that everyone calls Frankenstein"
-          position="right" size="30%">
-    </captioned-image>
-     <br>
+    <br><br>
      <hr>
      <b>Part 0, Introduction on the Ship:</b> The book follows a segmented pattern with different narrators in each
  section. The first tracks a shipping expedition to the North Pole that finds a strange creature (unnamed monster)
  sledding across the icebergs followed by an emaciated old man (Dr. Frankenstein). They bring the gentleman on board
  where he tells his life story as a moral lesson against reckless meddling with nature.
+    <br>
+    <captioned-image
+            :image="getImgUrl('frankenstein.jpg')" alt="Frankenstein" caption="The monster that everyone calls Frankenstein"
+            position="right" size="30%">
+    </captioned-image>
      <br><br>
      <b>Section 1, Frankenstein's Story:</b> The main storyline starts with Dr. Frankenstein's upper-class upbringing
  and early interest in philosophy and alchemy. After his mother tragically dies of illness, Frankenstein becomes
@@ -89,7 +89,6 @@
             position="left" size="30%">
     </captioned-image>
     <br>
-     <br><br>
      <em>
        "Farewell! I leave you, and in you the last of humankind whom these eyes will ever behold. Farewell,
       Frankenstein! If thou wert yet alive and yet cherished a desire of revenge against me, it would be better
@@ -168,17 +167,17 @@
  in the case of the scientist). Blaming The Created inspires unsympathetic or uncomfortable reflexes. The Christian
  analogy is limited, though, as the monster's original sin is a product of Frankenstein's limitations (i.e. sin)
  so both are ultimately at fault.
-     <br><br>
+    <br>
+    <captioned-image
+            :image="getImgUrl('rousseau.jpg')" alt="Rousseau" caption="Jean-Jacques Rousseau. Bad Frenchman."
+            position="right" size="30%">
+    </captioned-image>
+    <br>
      <b>Do we start good?:</b> A question puzzling the brightest minds among us, "Does civilization make us good or
  bad?". Who is right - Hobbes or Rousseau? Bartolome de las Casas or Christopher Columbus? Academics or Clergymen?
  More explicitly, do humans need 'civilization' to be 'civil' or are we most in harmony without technology or
  agriculture?
-    <br>
-    <captioned-image
-          :image="getImgUrl('rousseau.jpg')" alt="Rousseau" caption="Jean-Jacques Rousseau. Bad Frenchman."
-          position="right" size="30%">
-    </captioned-image>
-    <br>
+    <br><br>
      Mary Shelley answers the question through the monster's progression. He starts out quite innocent and ignorant,
  only to be rebuked due to his looks by the community he hoped would validate his identity as a non-monster. The
  corresponding murders and violence come after his peaceful identity was rejected leaving him with only violence

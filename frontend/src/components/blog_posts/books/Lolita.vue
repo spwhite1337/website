@@ -161,7 +161,13 @@
        If there is an inherent constraint to our lives, something "we" can't properly rationalize but indeed exists - how
        can we outline the metaphysical existence of these constraints outside a transcendent or divine vocabulary?
        I think the conclusion is we cannot, and secularism is on a far darker trajectory than most people realize.
-       <br><br>
+      <br>
+        <br>
+            <captioned-image
+                    :image="getImgUrl('epstein.jpg')" alt="Epstein" caption="Rich Pedos Persist"
+                    position="right" size="30%">
+            </captioned-image>
+        <br>
        The second point to derive from Lolita is the constraints of self-reflection and self authenticity. The man is
        writing a memoir that is to be withheld until his death. He will suffer no consequences from its reception
        yet still clearly lies to justify his own path. He is unanimously regarded as an unreliable narrator with his
@@ -171,12 +177,7 @@
        narration, no one can be by themselves. The self does not exist independent of other people. In fact,
        it only manifests as the agent connects with another person at a level Humbert has with Lolita - only one that
        is mutually reciprocated.
-       <br>
-        <captioned-image
-          :image="getImgUrl('epstein.jpg')" alt="Epstein" caption="Rich Pedos Persist"
-          position="right" size="30%">
-        </captioned-image>
-       <br>
+       <br><br>
        Just like rationality can lead to multiple answers to the same question - multiple notions of self can be
        derived by a person. The convergence evades our grasp. Humbert's authentic drive for Lolita is unreal, as he is
        unable to illustrate such authenticity alone. To put another way, he is not more authentic than any other
