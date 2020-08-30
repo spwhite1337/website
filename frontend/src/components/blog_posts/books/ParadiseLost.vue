@@ -206,9 +206,23 @@
     allowed the Holy Spirit to work through him. The absurdity of these metaphysics to a 21st century American
     stems from Modernity's elevation of the human and the author in lieu of pre-Modernity's elevation of God.
     <br><br>
-    Though not adopted explicitly, these metaphysics nonetheless modern discourse. Movements like QAnon, 911 Truthers,
-    Catholic Pedophile Rings, or Russian infiltration to the U.S. government are all examples of Milton's theology
-    in practice by
+    Though not adopted explicitly, these metaphysics nonetheless persist in modern discourse. Movements like QAnon,
+    911 Truthers, Catholic Pedophile Rings, or Russian infiltration to the U.S. government are all examples of Milton's
+    theology in practice both by those who endorse the movements and those who decry them. Promoters of these movements
+    see the evils and tragedies of today as caused by the an intrinsically evil force (Satan) rather than the
+    collective faults and limitations of mankind. The belief persists dogmatically, while sparse evidence expanded
+    to justify their pre-decided belief in the Demonic.
+    <br><br>
+    On the other side, those who decry the belief in the demonic by the un-credentialed do so with their own Milton
+    theology. The movements don't stem from confusion or misdirected analysis but spiritual forces like
+    bigotry, fear, brainwashing, etc. The dogmatic belief in these sinful forces supersede any human element of the
+    conspiratorial promoters.
+    <br><br>
+    The interplay between these groups is facilitated by the impersonal interaction of the internet, and the magnifying
+    glass placed on elected statesmen. We are greatly challenged with overcoming such reductionist, dogmatic theologies
+    of the demonic and advancing the discourse to something more honest and pessimistic: humans are flawed, we
+    are routinely subjected to the tragedies of these flaws. The demanded justice is cosmic and beyond our reach. As the
+    demands for it grow stronger, so too do the resulting tragedies.
     <br><br>
   </div>
 </template>
