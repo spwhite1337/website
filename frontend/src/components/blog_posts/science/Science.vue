@@ -40,8 +40,11 @@
     everyday. This early example of the interplay between rational argumentation and empirical investigation was
     systematically refined and amplified over the next millennium.
     <br>
-    <img :src="getImgUrl('ibn-al-haytham.jpg')" alt="Ibn Al-Haytham" width="25%">
-     <br><br>
+    <captioned-image
+          :image="getImgUrl('ibn-al-haytham.jpg')" alt="Ibn Al-Haytham" caption="Ancient Scientist Ibn Al-Haytham"
+          position="right" size="30%">
+    </captioned-image>
+    <br>
      While I'm presenting the rationalism/empiricism as a binary battle, it is more accurately a question of degrees.
     To illustrate, I ask you to consider the extremes:
      <ul>
@@ -71,8 +74,11 @@
     years it has reached into new domains once considered out of reach such as the origin of the universe and the 
     human mind. I see this as a gross over-rationalization that is only taken seriously due to a lack of credibility in 
     the opposition.
-     <br><br>
-    <img :src="getImgUrl('bechamp.png')" alt="Bechamp" width="25%">
+     <br>
+    <captioned-image
+          :image="getImgUrl('bechamp.png')" alt="Bechamp" caption="Modern Chemist, Bechamp (~1900)"
+          position="right" size="30%">
+    </captioned-image>
     <br>
      Here are a few examples:<br><br>
      <ul>
@@ -119,8 +125,11 @@
     The results of science use these necessarily true properties or "rigid designators" to construct a model of the
     universe.
     <br>
-    <img :src="getImgUrl('saul_kripke.jpg')" alt="Kripke" width="25%">
-     <br><br>
+    <captioned-image
+          :image="getImgUrl('saul_kripke.jpg')" alt="Kripke" caption="Genius and Nerd, Saul Kripke"
+          position="right" size="30%">
+    </captioned-image>
+    <br>
      For other properties like value, moral virtue, meaning, purpose, etc. the object can have different values in
     various circumstances making them contingent properties rather than rigid designators. As a result, any attempts
     to describe these properties scientifically falls flat right out of the gate. They are simply outside science's
@@ -141,8 +150,11 @@
 </template>
 
 <script>
+import CaptionedImage from '@/components/utils/CaptionedImage.vue'
+
 export default {
   name: 'Science',
+  components: { 'captioned-image': CaptionedImage },
   methods: { getImgUrl (pic) { return require('@/assets/blog_posts/science/Science/' + pic) } },
 }
 </script>
