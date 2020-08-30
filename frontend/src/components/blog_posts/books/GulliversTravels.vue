@@ -50,9 +50,15 @@
     <br><br>
         Contextualizing the work aids in this interpretation. In the 17th and 18th century Europe was the dominant global
         power with England on the up-and-up. Recent inventions such as paper and the sextant enabled exploration and
-        colonizations of lands of legend to ancient thinkers.
+        colonizations of lands of legend to ancient thinkers prompting widespread ideologies of chauvinism and
+        European / Ethno superiority. Swift mocks this notion with fictional society filled with comparably
+        arbitrariness as 18th century England.
+    <br><br>
+        More broadly, he attacks the "moderns" in the ancient vs. moderns debate that was popular amongst philosophical
+        circles at the time. Many saw the ancients (e.g. Aristotle, Plato, St. Paul) as outdated and irrelevant as we
+        had progressed beyond them on a path of enlightenment.
        <br><br>
-       <b>Laputa:</b> Someone here makes people lick dirt and routinely executes them with poison dirt.
+       <b>Laputa:</b>
        <br><br>
        <b>Analysis:</b>
        <br><br>
