@@ -21,7 +21,8 @@ export default {
 figure {
     padding: 15px;
     width: 100%;
-    box-shadow: 1px 2px 2px 1px lightgray
+    box-shadow: 1px 2px 2px 1px lightgray;
+    background-color: white
 }
 img {
     width: 100%;
