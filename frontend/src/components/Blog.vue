@@ -28,9 +28,12 @@
           </b-dropdown-item>
       </b-dropdown>
 
-      <transition name="slide">
-          <router-view></router-view>
-      </transition>
+      <div id="blog-post">
+          <transition name="slide">
+              <router-view></router-view>
+          </transition>
+      </div>
+
   </div>
 </template>
 
@@ -57,4 +60,11 @@ data () {
 
 .slide-enter-active,
 .slide-leave-active { transition: all 100ms ease-in-out }
+
+#blog-post {
+    border: 1px solid lightgray;
+    box-shadow: 1px 2px 2px 1px lightgray;
+    margin: 2%;
+    padding: 2%
+}
 </style>
