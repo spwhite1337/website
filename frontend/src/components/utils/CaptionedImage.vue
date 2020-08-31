@@ -11,10 +11,18 @@ export default {
     name: 'captioned-image',
     props: ["image", "alt", "caption", "position", "size"],
     computed: {
+        mq() { return window.matchMedia( "(max-width: 480px)" ).matches },
         style () {
-            return 'float: ' + this.position + ';' + ' width: ' + this.size + ';' + ' margin: 10px';
+            if (this.mq) {
+                // Mobile
+                return 'float: center;' + ' height: 30%;' + ' margin: 10px; font-size: 0.5em';
+            }
+            else {
+                // Desktop
+                return 'float: ' + this.position + ';' + ' width: ' + this.size + ';' + ' margin: 10px';
+            }
         }
-    }
+    },
 }
 </script>
 <style scoped>

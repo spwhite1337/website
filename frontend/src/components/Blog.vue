@@ -66,16 +66,18 @@ data () {
     border: 1px solid lightgray;
     box-shadow: 1px 2px 2px 1px lightgray;
     margin: 2%;
-    padding: 2%
+    padding: 2%;
+    font-size: 0.8em
     }
 }
 @media (min-width: 481px) {
-/* mobile version */
+/* desktop version */
 #blog-post {
     border: 1px solid lightgray;
-    box-shadow: 1px 2px 2px 1px lightgray;
+    box-shadow: 1px 2px 2px 1px gray;
     margin: 2%;
-    padding: 2%
+    padding: 2%;
+    font-size: 1.0em
     }
 }
 </style>
