@@ -6,7 +6,7 @@
     <p>
       <br>
       <captioned-image
-              :image="getImgUrl('headshot.png')" alt="Headshot" caption="Me in 2019"
+              :image="getImgUrl('headshot.png')" alt="Headshot" caption="Me in 2018"
               position="left" size="25%">
       </captioned-image>
       <br>
