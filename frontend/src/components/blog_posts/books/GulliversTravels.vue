@@ -89,8 +89,8 @@
          <br>
         <captioned-image
             :image="getImgUrl('sean_carroll.jpg')" alt="Sean Carroll"
-            caption="I'm he's a nice guy, but Sean Carroll has a horrible career."
-            position="right" size="20%">
+            caption="I'm sure he's a nice guy, but Sean Carroll has a horrible career."
+            position="right" size="30%">
         </captioned-image>
         <br>
         Socially, the over-emphasis on science leads to a dump of resources into frivolous endeavors like the
