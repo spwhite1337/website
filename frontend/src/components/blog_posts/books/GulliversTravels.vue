@@ -1,7 +1,5 @@
 <template>
 <div>
-    <h1>Draft Post (Shield your eyes)</h1>
-     <br>
     <h2>Gulliver's Travels, by Jonathan Swift</h2>
     <hr>
      Jonathan Swift, the author of Gulliver's Travels, is a wild man and former dean of St. Patrick's Cathedral in
@@ -10,7 +8,7 @@
        fashionable philosophies of his time - those that we often call "The Enlightenment" - while also critiquing
        European politics, religions, and wars. He explores different notions of "reason" and their effect on societal
        organizations in a form of "comparative government".
-       <br><br>
+       <br>
         <captioned-image
           :image="getImgUrl('swift_grave.jpg')" alt="Swift's Grave" caption="Swift's Grave at St. Patrick's Cathedral
           in Dublin. He was buried standing up due to the tendency for the cathedral to flood (unclear how this helps)"
@@ -36,31 +34,56 @@
        punishments. But, as Gulliver finds, the desecration of courts and civil monuments is also grave and he is
        sentenced to first death then blinding for urinating on the inflamed capital building. He eventually flees
        and takes a boat back to England.
-    <br>
-    <captioned-image
-            :image="getImgUrl('lilliput.jpg')" alt="Lilliput" caption="The Little Land of Lilliput"
-            position="left" size="30%">
-    </captioned-image>
-    <br>
+        <br><br>
        <b>Analysis:</b> Lilliput is a great example of how arbitrary many cultural practices are. From the festivals to
        the resolution of conflicts in court - Swift satirizes these in a period of Imperial dominance from European
        colonizers. Despite some wise values, they also quarrel with neighboring tribes over trivial interpretations of
         legal texts, outline absurd requirements for government positions, and drastically overestimate their place in
         the universe.
-    <br><br>
+        <br>
+        <captioned-image
+                :image="getImgUrl('lilliput.jpg')" alt="Lilliput" caption="Gulliver Captured in Lilliput"
+                position="left" size="30%">
+        </captioned-image>
+        <br>
         Contextualizing the work aids in this interpretation. In the 17th and 18th century Europe was the dominant global
         power with England on the up-and-up. Recent inventions such as paper and the sextant enabled exploration and
         colonizations of lands of legend to ancient thinkers prompting widespread ideologies of chauvinism and
         European / Ethno superiority. Swift mocks this notion with fictional society filled with comparably
         arbitrariness as 18th century England.
-    <br><br>
+        <br><br>
         More broadly, he attacks the "moderns" in the ancient vs. moderns debate that was popular amongst philosophical
         circles at the time. Many saw the ancients (e.g. Aristotle, Plato, St. Paul) as outdated and irrelevant as we
-        had progressed beyond them on a path of enlightenment.
+        had progressed beyond them on a path of enlightenment. Highlighting the similarities between England and
+        Lilliput puts the moderns adjacent to the ancients rather than beyond - undermining many myths of progress.
+        <br><br>
+        Sometimes referred to as a "flat" history, Swift's comparison between the ancients and moderns is absurd in
+        particulars and complicated in the abstract. Of course the adoption of new technologies "advanced" society in a
+        way, the only question is if they are "better" ethically / morally / politically. Swift doesn't really outline
+        what it would mean for a society to be better or worse, and is in fact quite relativistic as he travels from
+        country to country. But at a time of political hubris, raising the skeptical questions in an insightful,
+        scathing manner can prove very useful.
+       <br><hr>
+       <b>Laputa:</b> After getting sent out to sea in a small boat, Gulliver finds himself on a floating island near
+        Japan. The inhabitants are a powerful group of hyper-intelligent statesmen with grand ideas but no practical
+        abilities. They have servants called, "Flappers", to aid their masters in conversation as their minds will
+        frequently drift off into intellectual musings.
+         <br>
+        <captioned-image
+            :image="getImgUrl('laputa.jpg')" alt="Laputa" caption="Gulliver spots Laputa"
+            position="left" size="20%">
+        </captioned-image>
+        <br>
+        Considerable efforts are directed towards astronomy where their high reason pays off, and they also find refuge
+        in sophisticated music. More "political" efforts include the extraction of sunbeams from cucumbers and the
+        analysis of excrement to diagnose a person's political ambitions.
        <br><br>
-       <b>Laputa:</b>
-       <br><br>
-       <b>Analysis:</b>
+       <b>Analysis:</b> Science is a hard concept to critique, especially during times when it is the badge of the
+        intellectual. But Swift nonetheless destroys ideas about "Science for Science's sake" or, more formally,
+        "Knowledge for Knowledge's" sake with his depiction of Laputa.
+        <br><br>
+        Taken literally, the purity of science and the pursuit knowledge promoted by popular enlightenment figures like
+        Francis Bacon is an absurdity.
        <br><br>
   </div>
 </template>

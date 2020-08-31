@@ -1,23 +1,23 @@
 <template>
   <div id="app" class="container">
-    <b-nav>
-      <b-nav-item><router-link :to="{ name: 'home' }">Home</router-link></b-nav-item>
-      <b-nav-item><router-link :to="{ name: 'DataProducts' }">Data Products</router-link></b-nav-item>
-      <b-nav-item><router-link :to="{ name: 'Blog' }">Blog</router-link></b-nav-item>
-      <b-nav-item><router-link :to="{ name: 'Contact' }">Contact</router-link></b-nav-item>
-    </b-nav>
-    <div class="container">
-      <transition name="slide-fade">
-        <router-view></router-view>
-      </transition>
-    </div>
-    <br>
-    <hr>
-    <div class="container">
-      Website source code can be found in my <a href="https://github.com/spwhite1337/website" target="_blank">repo</a>.
-      All software is open source. The server is from AWS.
-      <br><br>
-    </div>
+      <b-nav>
+        <b-nav-item><router-link :to="{ name: 'home' }">Home</router-link></b-nav-item>
+        <b-nav-item><router-link :to="{ name: 'DataProducts' }">Data Products</router-link></b-nav-item>
+        <b-nav-item><router-link :to="{ name: 'Blog' }">Blog</router-link></b-nav-item>
+        <b-nav-item><router-link :to="{ name: 'Contact' }">Contact</router-link></b-nav-item>
+      </b-nav>
+      <div class="container">
+        <transition name="slide-fade">
+          <router-view></router-view>
+        </transition>
+      </div>
+      <br>
+      <hr>
+      <div class="container">
+        Website source code can be found in my <a href="https://github.com/spwhite1337/website" target="_blank">repo</a>.
+        All software is open source. The server is from AWS.
+        <br><br>
+      </div>
   </div>
 </template>
 
@@ -40,5 +40,9 @@ export default {
 /* .slide-fade-leave-active below version 2.1.8 */ {
   transform: translateX(10px);
   opacity: 0;
+}
+
+#app {
+  padding: 1%
 }
 </style>
