@@ -3,7 +3,6 @@
 <div>
     <h2>Cat's Cradle, by Kurt Vonnegut</h2>
     <hr>
-       <br>
        In my more youthful days Kurt Vonnegut was one of my favorite authors with Cat's Cradle my favorite book of his.
        The black humor and absurdist underpinning kept me thoroughly entertained as I flew through a book making serious
        points with a not-so-serious tone and context. Vonnegut manages to attack religion, science, nation-states, and
