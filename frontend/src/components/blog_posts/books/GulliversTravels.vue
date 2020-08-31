@@ -18,12 +18,12 @@
         Pound for pound, the book is very rich. I will focus on two of the societies Gulliver travels too and outline
        the main lessons we can draw from Swift's analysis - the relationship between ancients / moderns and his
         criticism of Science.
-       <br><br>
+       <br><hr>
        <b>Lilliput:</b> Gulliver is a trained surgeon who takes to sea after his patronage runs out. He finds himself
        shipwrecked and captured by a diminutive race of people - proportional humans shrunk to ~6 inches in height.
        They use Gulliver as a weapon against their long-term foes. His captivity is relieved when he shows mercy to
        officers who disobediently attacked him - something quite offensive to Lilliputian courts as they hold their
-       culture and customs in high regards despite their ridiculousness (e.g. public officials almost literally
+       culture and customs in high regard despite their ridiculousness (e.g. public officials almost literally
        jump through hoops to get appointed, people write diagonally). Their burial rituals coincide with their
        religion's eschatology - namely the eventual turning of the world (which they believe to be flat) upside down
        requiring the dead to be buried vertically, head-first. (As an interesting side note, Jonathan Swift was
@@ -82,9 +82,30 @@
         intellectual. But Swift nonetheless destroys ideas about "Science for Science's sake" or, more formally,
         "Knowledge for Knowledge's" sake with his depiction of Laputa.
         <br><br>
-        Taken literally, the purity of science and the pursuit knowledge promoted by popular enlightenment figures like
-        Francis Bacon is an absurdity.
-       <br><br>
+        Taken literally, the purity of science and the pure pursuit knowledge promoted by popular enlightenment figures
+        like Francis Bacon is an absurdity. It is not only unfeasible to attain, but undesirable. The extreme
+        abstraction from practicality leads to reclusive, socially inept scientists not so unlike the stereotype
+        of Ph.D. scientists today (e.g. Ph.D. Chemical Engineers like myself).
+         <br>
+        <captioned-image
+            :image="getImgUrl('sean_carroll.jpg')" alt="Sean Carroll"
+            caption="I'm he's a nice guy, but Sean Carroll has a horrible career."
+            position="right" size="20%">
+        </captioned-image>
+        <br>
+        Socially, the over-emphasis on science leads to a dump of resources into frivolous endeavors like the
+        extraction of sunbeams from cucumbers, the trivial cataloguing of celestial bodies, or the determination of
+        human nature by their bodily correlates. Modern examples about as we are currently deeply plagued with such
+        a blind elevation of science against wise and humble approaches to our existences. The embodiment of this
+        sickness is Sean Carroll, a theoretical physicist at CalTech. While he is undoubtedly very learned at skilled
+        at quantum field theory and General Relativity, I fail to see the value of his work outside of its effect on his
+        students and colleagues (an effect that is not unique to theoretical physics, but to good teachers - which I'm
+        sure he is one). I strongly suspect he agrees as he spends much of his efforts "popularizing" his science and a
+        post-Soviet strain of materialistic atheism. Luckily for Laputa, their abstracted intellectuals have lost the
+        ability to promulgate their ideas to the uninitiated - the laziness of Sean Carroll's views make me wish he
+        would follow suit. More humorously, he justifies his position due to its place in time after the victory of the
+        moderns over the ancients. But if he would digest his Jonathan Swift more, he would see his views as a flat
+        line from the works of Parmenides and other monists.
   </div>
 </template>
 
