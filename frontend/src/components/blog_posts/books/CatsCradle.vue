@@ -152,19 +152,19 @@
        the role of a skeptic and asking, "What is God and what is Love?". Vonnegut's skepticism is more
       about about skeptical of rationalized beliefs rather than acted out or embodied beliefs, as it is not "false" to
       love humans, only false to claim you know why you are doing it.
-      <br><br>
+    <br>
+    <captioned-image
+            :image="getImgUrl('humanist_assoc.png')" alt="Humanism" caption="Totally-not-a-religion"
+            position="right" size="30%">
+    </captioned-image>
+    <br>
       Vonnegut is famous example of a "Humanist", or a member of a religion or lifestance that holds human beings as
       sacred absent the transcendent or supernatural (The American Humanist Association held Vonnegut as a Humanist of
       the Year in 1992 and honorary president). To me, this grossly contradicts his works like Cat's Cradle. Of course
       there is no <em>reason</em> or purpose to becoming a Humanist, nor is there any meaning to the lives of Humanists
        as a consequence of joining Humanism, but the actions of humanists are directed by the creeds and tenets of the
       humanist lifestance.
-      <br>
-      <captioned-image
-              :image="getImgUrl('humanist_assoc.png')" alt="Humanism" caption="Totally-not-a-religion"
-              position="right" size="30%">
-      </captioned-image>
-    <br>
+    <br><br>
     I can't help but connect Bokonism and Vonnegut's contempt for Christianity with his adoption of Humanism. I don't
     know how he sees it as different. I don't know why he thinks Humanism is an answer where Christianity or
     Bokononism is not. Maybe he doesn't, maybe he lived more pessimistically and nihilistically than I assume. But it
@@ -172,7 +172,7 @@
     motivated organization or the proclamation of meaning and purpose in life but accept positions like the
     President of the Humanists? Is Humanism not providing what you write against? I'm sure Vonnegut has an answer, but
     know many Humanists don't.
-    <br><br>
+    <br>
   </div>
 </template>
 

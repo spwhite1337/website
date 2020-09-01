@@ -147,7 +147,7 @@
      Symbolically, science can be represented with a sponge. It will always have holes in the form of evidence gaps,
     unanswered questions, or questions it simply can't access making it bad candidate for a foundation of society or
     personal worldview, but a great tool for cleaning up existing structures and ideologies.
-     <hr>
+     <br>
   </div>
 </template>
 

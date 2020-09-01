@@ -14,7 +14,7 @@
     metaphysics of life relative to 21st century America. Europe was slowly transitioning to a continent with a
     plurality of knowledge or truth sources including the Church, the Public, and Secular Institutions of Science and
     Philosophy.
-    <br><br>
+    <br>
      <hr>
      <b>Part 0, Introduction on the Ship:</b> The book follows a segmented pattern with different narrators in each
  section. The first tracks a shipping expedition to the North Pole that finds a strange creature (unnamed monster)

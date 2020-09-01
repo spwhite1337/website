@@ -16,16 +16,16 @@
        systematic rape of a young person - or an expert troll. You know that, in the end, justice is served so
        your morally inspired squeemishness is quenched from chapter 1. To get the most out of the book, I suggest you
        extend your hand to Nabokov and be willing to sympathize with a violent pedophile.
-       <br>
-       <captioned-image
-          :image="getImgUrl('richard_rorty.jpg')" alt="Richard Rorty" caption="Neo-Pragmatist Richard Rorty"
-          position="right" size="30%">
-        </captioned-image>
-        <br>
+        <br><hr>
        <b>Summary Part One:</b> Descriptively, Lolita is relatively straightforward, the narrator and protagonist
        Humbert Humbert has a decent upbringing despite the death of his mother at an early age. He has a young
        relationship at age 13 that doesn't result in sex despite both their intentions.
-       <br><br>
+        <br>
+        <captioned-image
+                :image="getImgUrl('richard_rorty.jpg')" alt="Richard Rorty" caption="Neo-Pragmatist Richard Rorty"
+                position="right" size="30%">
+        </captioned-image>
+        <br>
        He grows up and makes money writing. He marries an adult woman despite a persistent attraction to
        <em>nymphets</em>, girls aged 9-14. The marriage dissolves when she has an affair but he doesn't seem to mind
        despite a subsequent trip to a mental hospital that should raise the reader's suspicions about the narrator's
@@ -182,7 +182,7 @@
        derived by a person. The convergence evades our grasp. Humbert's authentic drive for Lolita is unreal, as he is
        unable to illustrate such authenticity alone. To put another way, he is not more authentic than any other
        person is when placed in the personal narrative they constructed.
-       <br><br>
+       <br>
   </div>
 </template>
 

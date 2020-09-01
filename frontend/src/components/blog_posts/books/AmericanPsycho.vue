@@ -13,7 +13,6 @@
        not significantly.
        <br>
        <hr>
-       <br>
        <b>Summary:</b> The story focuses on one character, Patrick Bateman, and his existence as a high end wall street
        account manager. While impressive on paper, his job is deeply blended with his social life with little-to-no
        emphasis on his actual profession. He explains his job to flirt with women, but he never actually says what
@@ -227,7 +226,9 @@
          "Let me rephrase the ques- Wait, how does my hair look?" I ask, interrupting myself. <br>
          "Uh, fine." <br>
       </em>
-      <br><br>
+      <br>
+     While one may be tempted to label this writing style a "stream of consciousness" it is actually more poignant
+     and emblematic of the essence of the story - that Bateman and capitalism are vacuous entities.
  </div>
 </template>
 

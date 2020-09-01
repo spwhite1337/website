@@ -67,7 +67,9 @@ data () {
     box-shadow: 1px 2px 2px 1px lightgray;
     margin: 2%;
     padding: 2%;
-    font-size: 0.8em
+    font-size: 0.8em;
+    text-align: justify;
+    text-justify: inter-word
     }
 }
 @media (min-width: 481px) {
@@ -77,7 +79,9 @@ data () {
     box-shadow: 1px 2px 2px 1px gray;
     margin: 2%;
     padding: 2%;
-    font-size: 1.0em
+    font-size: 1.0em;
+    text-align: justify;
+    text-justify: inter-word
     }
 }
 </style>

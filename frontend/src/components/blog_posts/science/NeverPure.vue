@@ -43,7 +43,7 @@
      The work, "Never Pure", outlines this thesis in a series of (largely) stand-alone essays. My favorite essays
     are summarized in this post along with their highlights and my interpretation. I'll conclude with my views on
     where this leaves science and its cultural place in modern America.
-     <br><br>
+     <br><hr>
      <b>Pro-Science and Anti-Science:</b> Before one pokes at sacred foundations of a society, it is essential to
     outline your terms of critique to belay the inevitable triggered response of, "What, you think the moon is just
     gonna fall to earth soon? Why don't you jump off a cliff if you don't believe in gravity?". This is right in
@@ -412,18 +412,17 @@
     most identifiable with their creation stories (etiologies). But non-religious examples include science conceived
     from the enlightenment (it isn't), or political pundits referencing a fictional version of historical figures
     (FDR, Lincoln). The end conclusion of the narrative is some kind of promise that is continually out of reach.
+    <captioned-image
+            :image="getImgUrl('yggdrasill.jpg')" alt="Yggrdasill" caption="Tree of Life to the Norse"
+            position="right" size="30%">
+    </captioned-image>
     E.g. "The enlightenment taught us reason, if we build a natural society on reason then we will get to a point where
     we are all super reasonable and good.". Other examples include the communist utopia, the coming of Jesus, material
     wealth for all, conquering the world, liberating the masses. The "middle", where we always reside and where we
     make appeals to nature, is the 'natural' progression from beginning to end. The authors of the above quotes don't
     appeal to nature in isolation, but to justify a means to implement a path to their envisioned goal. To be clear,
     this is my idea - not Steven Shapin's.
-    <br>
-    <captioned-image
-          :image="getImgUrl('yggdrasill.jpg')" alt="Yggrdasill" caption="Tree of Life to the Norse"
-          position="right" size="30%">
-    </captioned-image>
-    <br>
+    <br><br>
   Always be wary when people support "Science backed policy" or "Evolution inspired politics" without independently
     outlining their end goals and inspirational beginnings.
   <br><br>
@@ -439,7 +438,7 @@
     philosophies for a long, long time. Steven Shapin covers Rene Descarte, Robert Boyle, Robert Hooke, and more
     throughout this work allowing one to deeply appreciate their effect on modernity and their role in expanding
     the knowledge of humanity.
-  <br><br>
+  <br>
   </div>
 </template>
 <script>

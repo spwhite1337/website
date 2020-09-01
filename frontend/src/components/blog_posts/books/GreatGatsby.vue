@@ -14,7 +14,7 @@
         And in typical "I'm from Europe and think I know how to play football even though this kid from Iowa is way
         better than me and also I read books more intelligently than all of you" fashion he never revealed his "advanced"
         interpretation. This post is my attempt to match it.
-        <br><br>
+        <br><hr>
         <b>Character Summary:</b> Even though it's nearly universally read in American schools I don't have one moment
         of memory corresponding to The Great Gatsby from High School so a quick summary is in order. The protagonist, Nick
         Carraway moves from the Midwest to New York in the early 1900s. There he meets three important characters:

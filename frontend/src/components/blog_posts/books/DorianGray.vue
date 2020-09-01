@@ -39,7 +39,7 @@
       movements, geopolitical movements, religious movements, and literary/artistic movements. <em>The Picture of
       Dorian Gray</em> responds to this time period by saying, "I don't believe in any of your shit but I can still
       write a great moral novel".
-      <br><br>
+      <br><hr>
       <b>Summary:</b> The story centers around three main characters: Dorian Gray, Lord Henry, and Basil.
       Dorian Gray, the protagonist, has a tragic past consisting of dead parents but exists today as a proud member
       of the upper class with a devastatingly handsome face. Lord Henry is a friend of Dorian's, clearly in love with

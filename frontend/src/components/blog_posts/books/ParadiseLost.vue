@@ -223,7 +223,7 @@
     of the demonic and advancing the discourse to something more honest and pessimistic: humans are flawed, we
     are routinely subjected to the tragedies of these flaws. The demanded justice is cosmic and beyond our reach. As the
     demands for it grow stronger, so too do the resulting tragedies.
-    <br><br>
+    <br>
   </div>
 </template>
 
