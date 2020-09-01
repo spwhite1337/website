@@ -1,6 +1,7 @@
 <template>
 
 <div>
+    <h2>Draft Post, Shield your eyes</h2>
     <h2>Brave New World, by Aldous Huxley</h2>
     <hr>
      Rationally optimizing society. An endeavor that only makes sense in the abstract world of politics and theoretical
