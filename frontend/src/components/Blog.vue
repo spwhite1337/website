@@ -62,6 +62,7 @@ data () {
 .slide-leave-active { transition: all 100ms ease-in-out }
 
 @media (max-width: 480px) {
+/* mobile version */
 #blog-post {
     border: 1px solid lightgray;
     box-shadow: 1px 2px 2px 1px lightgray;
