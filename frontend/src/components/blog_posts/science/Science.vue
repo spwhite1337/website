@@ -4,7 +4,8 @@
     <hr>
      <b>Short Version:</b> Science is a coherent and consistent model of the universe based on the application of rigid
     designators to objects and phenomena through a rational process constrained by empirical evidence and falsifiability.
-    It is defined by its results, not the methods or institutions as those are contingent and ephemeral.
+    It is defined by its results we can obtain under these constraints, not the methods or institutions as those are
+    contingent and ephemeral.
      <br>
     <br>
      <b>Background:</b> The ideas behind science and the context in which it resides simply cannot be completely
