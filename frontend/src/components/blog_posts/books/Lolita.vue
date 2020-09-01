@@ -20,12 +20,11 @@
        <b>Summary Part One:</b> Descriptively, Lolita is relatively straightforward, the narrator and protagonist
        Humbert Humbert has a decent upbringing despite the death of his mother at an early age. He has a young
        relationship at age 13 that doesn't result in sex despite both their intentions.
-        <br>
+        <br><br>
         <captioned-image
                 :image="getImgUrl('richard_rorty.jpg')" alt="Richard Rorty" caption="Neo-Pragmatist Richard Rorty"
                 position="right" size="30%">
         </captioned-image>
-        <br>
        He grows up and makes money writing. He marries an adult woman despite a persistent attraction to
        <em>nymphets</em>, girls aged 9-14. The marriage dissolves when she has an affair but he doesn't seem to mind
        despite a subsequent trip to a mental hospital that should raise the reader's suspicions about the narrator's
@@ -50,12 +49,11 @@
        for awhile, takes her on a trip where he gives her drugs so he can bang her, though he withdraws before the act.
        He finds out she had sex at camp so he manipulates her into having sex with him. As they continue their trip
        post-coitus, Humbert finally tells her that her mother is dead.
-       <br>
+       <br><br>
        <captioned-image
           :image="getImgUrl('lana_del_rey.jpg')" alt="Lana del Rey" caption="Lana Del Rey in the Lolita Costume"
           position="left" size="30%">
         </captioned-image>
-       <br>
        While all this is horrible to summarize, the trippy thing about the book is the quality of romantic descriptions
        Humbert gives of Lolita. Makes you forget she is a child and he is an adult creep. Even inspires you to find
        such passion in your own life (maybe).
@@ -87,12 +85,11 @@
        Importantly he sees himself as innocent and a victim of a flawed society which he routinely opines as an
        injustice against the greater, purer good of his love for Lolita. His jealously mounts from this insecurity
        and keeps close track on Lolita's behavior.
-       <br>
+       <br><br>
        <captioned-image
           :image="getImgUrl('humbert_lolita.jpg')" alt="Humbert + Lolita" caption="Humbert and Lolita, 1997 film"
           position="right" size="30%">
         </captioned-image>
-        <br>
        Lolita checks into a hospital where she briefly escapes Humbert's watch. Her absences triggers a kind of
        existential crisis where he resorts to abstract rationales for the interruption of their fated connection.
        He justifies it with a convoluted mess of external forces interfering with their love and pursues to no avail.
@@ -140,12 +137,11 @@
        What is there to gain? Any joy at the service of justice is quelled in the prologue. Are there lessons or
        insights to be gained from this work? Are we meant to question the validity and social construction of
        pedophilia/murder? In my view there are two answers to these questions.
-       <br>
+        <br><br>
         <captioned-image
           :image="getImgUrl('nabokov_chess.jpg')" alt="Nabokov Chess" caption="Vladimir Nabokov"
           position="left" size="30%">
         </captioned-image>
-       <br>
        First, Nabokov wants us to understand a major limitation of rationality, or the process of identifying reasons
        and/or justifications for events, experiences, actions - usually done in accordance with some formal or
        informal set of rules. Humbert has no problem rationalizing his behavior and the just, even chivalrous,
@@ -161,13 +157,11 @@
        If there is an inherent constraint to our lives, something "we" can't properly rationalize but indeed exists - how
        can we outline the metaphysical existence of these constraints outside a transcendent or divine vocabulary?
        I think the conclusion is we cannot, and secularism is on a far darker trajectory than most people realize.
-      <br>
-        <br>
+        <br><br>
             <captioned-image
                     :image="getImgUrl('epstein.jpg')" alt="Epstein" caption="Rich Pedos Persist"
                     position="right" size="30%">
             </captioned-image>
-        <br>
        The second point to derive from Lolita is the constraints of self-reflection and self authenticity. The man is
        writing a memoir that is to be withheld until his death. He will suffer no consequences from its reception
        yet still clearly lies to justify his own path. He is unanimously regarded as an unreliable narrator with his

@@ -13,11 +13,10 @@
      itself is with the adept use of cynicism and humor mixed with an insightful connection to American culture that,
      for a Brit, was extremely well researched. American Gods has a discernible and readable structure that mirrors many
      other fantasy stories but occurs in an exciting universe and ends with a suspenseful and entertaining conclusion.
-     <br>
      <captioned-image :image="getImgUrl('colombia.jpg')" alt="Columbia" caption="Lady Columbia"
                       position="right" size="25%">
      </captioned-image>
-     <br>
+     <br><br>
       The ontology of the universe is one where anthropomorphic gods very much exist, but that existence is proportional
       to the people's belief in them. As new gods arise the old gods fade into obscurity. The heterogeneous nature of
       American history presents a network of conflicts between these rising and falling gods as Shadow adventures
@@ -32,12 +31,10 @@
       before he (and American society by extension) advance beyond them.
       <br>
       <hr>
-       <br>
       <captioned-image
               :image="getImgUrl('shadow.png')" alt="Shadow" caption="Ricky Whittle as Shadow"
               position="left" size="30%">
       </captioned-image>
-      <br>
       <b>Shadow's</b> self-agency closely tracks the page count of the book. He is literally imprisoned at the start but
       becomes a more proactive player in the climax rather than a reactive victim.
       In addition to the core focus of the novel, I view his progression as that of a man who fulfills his external call
@@ -54,12 +51,11 @@
       from man-to-god and the manifestation of his divine nature for the reader to track. The culmination of his
       divinity is at the climax of the novel where he is sacrificed on Odin's behalf but rebukes his death (like only
       an immortal god can) and returns to prevent the chaotic battle between the old gods and the new.
-      <br>
+      <br><br>
       <captioned-image
               :image="getImgUrl('mrwednesday.jpg')" alt="Mr. Wednesday" caption="Ian McShane as Mr. Wednesday"
               position="right" size="30%">
       </captioned-image>
-     <br>
       <b>Setting and Physics:</b> The most fun part of the novel is the ontology of this universe, namely the
       idea that existence stems from people's belief or things exist if people believe in them and their associated
       power is proportional to the conviction behind the belief. As expressed by Mr. Towns towards the end of the novel,
@@ -100,12 +96,11 @@
       Minnesota, Kansas, and more. You can find references to football, lakes, drinking, the dull of small town life
       along with the bizarre underlying drama. Gaiman clearly did his research because, as a Midwest Native, I thought
       it very spot-on and hilarious to read.
-      <br>
+      <br><br>
       <captioned-image
               :image="getImgUrl('yooper.jpg')" alt="Yooper" caption="Midwest Living"
               position="left" size="30%">
       </captioned-image>
-     <br>
      A special shout out is due for Lakeside, a quaint and orderly town that maintains structure through ritualistic
       child sacrifices to the lake goblin. Maybe I'm reading into this scene too much, but I think it is Neil Gaiman
       giving a nod to all the towns in the American midwest that are entirely interchangeable and generic on the
@@ -181,12 +176,11 @@
       itself and it likely rubbed off on him considerably. The most explicit articulation of someone's personal
       philosophy is in Interlude 3 where Sam is explaining herself to shadow and is also endorsed by Neil Gaiman
       as the closest to his personal views:
-     <br>
+     <br><br>
       <captioned-image
               :image="getImgUrl('cover.jpg')" alt="Book Cover" caption="Gaiman's Book Cover"
               position="right" size="30%">
       </captioned-image>
-     <br>
      "<em>I can believe in things that are true and I can believe things that aren't true and I can believe things
       where nobody knows if they're true or not. I can believe in Santa Claus and the Easter Bunny and Marilyn
       Monroe and the Beatles and Elvis and Mister Ed. Listen: I believe that people are perfectible, that knowledge is

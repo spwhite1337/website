@@ -8,13 +8,12 @@
        fashionable philosophies of his time - those that we often call "The Enlightenment" - while also critiquing
        European politics, religions, and wars. He explores different notions of "reason" and their effect on societal
        organizations in a form of "comparative government".
-       <br>
+       <br><br>
         <captioned-image
           :image="getImgUrl('swift_grave.jpg')" alt="Swift's Grave" caption="Swift's Grave at St. Patrick's Cathedral
           in Dublin. He was buried standing up due to the tendency for the cathedral to flood (unclear how this helps)"
           position="right" size="30%">
         </captioned-image>
-       <br>
         Pound for pound, the book is very rich. I will focus on two of the societies Gulliver travels too and outline
        the main lessons we can draw from Swift's analysis - the relationship between ancients / moderns and his
         criticism of Science.
@@ -40,12 +39,11 @@
        colonizers. Despite some wise values, they also quarrel with neighboring tribes over trivial interpretations of
         legal texts, outline absurd requirements for government positions, and drastically overestimate their place in
         the universe.
-        <br>
+        <br><br>
         <captioned-image
                 :image="getImgUrl('lilliput.jpg')" alt="Lilliput" caption="Gulliver Captured in Lilliput"
                 position="left" size="30%">
         </captioned-image>
-        <br>
         Contextualizing the work aids in this interpretation. In the 17th and 18th century Europe was the dominant global
         power with England on the up-and-up. Recent inventions such as paper and the sextant enabled exploration and
         colonizations of lands of legend to ancient thinkers prompting widespread ideologies of chauvinism and
@@ -68,12 +66,11 @@
         Japan. The inhabitants are a powerful group of hyper-intelligent statesmen with grand ideas but no practical
         abilities. They have servants called, "Flappers", to aid their masters in conversation as their minds will
         frequently drift off into intellectual musings.
-         <br>
+         <br><br>
         <captioned-image
             :image="getImgUrl('laputa.jpg')" alt="Laputa" caption="Gulliver spots Laputa"
             position="left" size="20%">
         </captioned-image>
-        <br>
         Considerable efforts are directed towards astronomy where their high reason pays off, and they also find refuge
         in sophisticated music. More "political" efforts include the extraction of sunbeams from cucumbers and the
         analysis of excrement to diagnose a person's political ambitions.
@@ -86,13 +83,12 @@
         like Francis Bacon is an absurdity. It is not only unfeasible to attain, but undesirable. The extreme
         abstraction from practicality leads to reclusive, socially inept scientists not so unlike the stereotype
         of Ph.D. scientists today (e.g. Ph.D. Chemical Engineers like myself).
-         <br>
+         <br><br>
         <captioned-image
             :image="getImgUrl('sean_carroll.jpg')" alt="Sean Carroll"
             caption="I'm sure he's a nice guy, but Sean Carroll has a horrible career."
             position="right" size="30%">
         </captioned-image>
-        <br>
         Socially, the over-emphasis on science leads to a dump of resources into frivolous endeavors like the
         extraction of sunbeams from cucumbers, the trivial cataloguing of celestial bodies, or the determination of
         human nature by their bodily correlates. Modern examples about as we are currently deeply plagued with such

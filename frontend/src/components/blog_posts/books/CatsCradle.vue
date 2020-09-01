@@ -14,12 +14,11 @@
         killing. Quickly, John learns that Felix has also discovered a substance called <em>ice-nine</em>, a phase of
         H2O that catalyzes the freezing of water even at room temperature. This is even more destructive than the atomic
         bomb as it could effectively wipe out all humanity and life on earth with just a single stray specimen.
-        <br>
+        <br><br>
       <captioned-image
               :image="getImgUrl('phase_diagram.png')" alt="H2O Phase Diagram" caption="Phase Diagram of H2O"
               position="right" size="30%">
       </captioned-image>
-       <br>
        His journey brings him to San Lorenzo, a primitive island nation that is ostensibly Christian but practically
        Bokononist - a religion that is explicitly based on lies and untruths. The island is governed by
        a dictatorship with punishments issued by impalement on a large hook. Bokononism holds human relationships sacred
@@ -38,12 +37,11 @@
        John and his new wife (betrothed when he took rule) hide away in a secret bunker until the storms subside. They
        emerge to find the inhabitants of San Lorenzo dead of mass suicide, John is rescued after some time when he
        wrote the memoirs that are revealed to be the book, Cat's Cradle.
-        <br>
+        <br><br>
       <captioned-image
               :image="getImgUrl('catscradle.jpg')" alt="Cat's Cradle" caption="Meaninglessness of String Games"
               position="left" size="30%">
       </captioned-image>
-       <br>
        The finale entails a meeting between John and Bokonon himself who is finishing the founding text of Bokononism
        "The Book of Bokonon". In the aftermath of all this destruction, Bokonon longs for a chance to do the whole
        thing over and initiate the <em>ice-nine</em> catastrophe years before while flipping off God. It is suggested
@@ -93,12 +91,11 @@
       anti-war stance in his politics and activism during the 1960s. Cat's Cradle expounds on this stance by merging
       Vonnegut's critiques of Religion (i.e. Christianity) with those of Nations, politics, or science. It is not so
       easy, in Vonnegut's view, to escape the hubris of religious dogmatism.
-      <br>
+        <br><br>
       <captioned-image
               :image="getImgUrl('dresden.jpg')" alt="Dresden" caption="The Bombing of Dresden, 1945"
               position="right" size="30%">
       </captioned-image>
-      <br>
       Nationalities and nation-states are routinely ridiculed as harmful, pointless lies used to manipulate and
       rule through this work (Also see the works of <a href="https://en.wikipedia.org/wiki/Eric_Hobsbawm">
       Eric Hobsbawn</a>) through the overlap between national and religious leaders and institutions. WWII saw a clash
@@ -124,12 +121,11 @@
       Vonnegut is very much in line with the rise of "spiritual but not religious" people, or someone
       who thinks Jesus was a good guy but doesn't think he did miracles or outlined a True metaphysics. Bokonism and
       Christianity inevitably arise as humans work together, but they aren't True in any proper sense.
-     <br>
+     <br><br>
       <captioned-image
               :image="getImgUrl('karass.jpg')" alt="Bokonism" caption="Bokonist Rituals"
               position="left" size="30%">
       </captioned-image>
-    <br>
       <b>Determinism and Pessimism:</b>
        Like the Calvinist notion of Total Depravity, Bokononists don't see any role for "free will" or individual
       agency in the course of events. In Vonnegut's world, blind luck is the dominate agent of world events as
@@ -152,12 +148,11 @@
        the role of a skeptic and asking, "What is God and what is Love?". Vonnegut's skepticism is more
       about about skeptical of rationalized beliefs rather than acted out or embodied beliefs, as it is not "false" to
       love humans, only false to claim you know why you are doing it.
-    <br>
+    <br><br>
     <captioned-image
             :image="getImgUrl('humanist_assoc.png')" alt="Humanism" caption="Totally-not-a-religion"
             position="right" size="30%">
     </captioned-image>
-    <br>
       Vonnegut is famous example of a "Humanist", or a member of a religion or lifestance that holds human beings as
       sacred absent the transcendent or supernatural (The American Humanist Association held Vonnegut as a Humanist of
       the Year in 1992 and honorary president). To me, this grossly contradicts his works like Cat's Cradle. Of course

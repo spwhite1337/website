@@ -20,12 +20,11 @@
  section. The first tracks a shipping expedition to the North Pole that finds a strange creature (unnamed monster)
  sledding across the icebergs followed by an emaciated old man (Dr. Frankenstein). They bring the gentleman on board
  where he tells his life story as a moral lesson against reckless meddling with nature.
-    <br>
+    <br><br>
     <captioned-image
             :image="getImgUrl('frankenstein.jpg')" alt="Frankenstein" caption="The monster that everyone calls Frankenstein"
             position="right" size="30%">
     </captioned-image>
-     <br><br>
      <b>Section 1, Frankenstein's Story:</b> The main storyline starts with Dr. Frankenstein's upper-class upbringing
  and early interest in philosophy and alchemy. After his mother tragically dies of illness, Frankenstein becomes
  engrossed in the study of chemistry (alchemy) and the origins life. He eventually makes a creature he hoped would
@@ -60,12 +59,11 @@
  to fear of evil plaguing the Earth, Frankenstein aborts the project much to the chagrin of the monster. Confronting
  Frankenstein, the monster claims revenge on Frankenstein's wedding night. Frankenstein then finds that his friend,
  Henry, is murdered (inferred to be done by the monster) and is thrown in prison as a suspect.
-    <br>
+    <br><br>
     <captioned-image
           :image="getImgUrl('drfrankenstein.jpg')" alt="Dr. Frankenstein" caption="Grand Moff Harkin as Dr. Frankenstein"
           position="right" size="30%">
     </captioned-image>
-    <br>
      Frankenstein is eventually released due to insufficient evidence and returns to marry his lifelong lover,
  Elizabeth. Terrified of what might happen with the monster, he arms himself and guards against attacks on his
  wife. The monster sneaks past him (due to his superior intellect and strength) and kills his newlywed wife.
@@ -83,12 +81,11 @@
      <br><br>
      The monster appears on the ship and looms over Frankenstein's dead body. The captain walks in on the
  affair and the monster declares:
-    <br>
+    <br><br>
     <captioned-image
             :image="getImgUrl('nordwestpassage.jpg')" alt="Nordwest Passage" caption="Seafarer's Bane: The Nordwest Passage"
             position="left" size="30%">
     </captioned-image>
-    <br>
      <em>
        "Farewell! I leave you, and in you the last of humankind whom these eyes will ever behold. Farewell,
       Frankenstein! If thou wert yet alive and yet cherished a desire of revenge against me, it would be better
@@ -117,12 +114,11 @@
  the utility of astrology and alchemy as a means to connect and understand God. Frankenstein
  works with an important difference in his motivations: he is doing it out of curiosity and, as the reader knows, to
  distract himself of grief. The impurity of motivations combined with recklessness prove fatal by the end of the novel.
-    <br>
+    <br><br>
     <captioned-image
           :image="getImgUrl('agrippa.jpg')" alt="Agrippa" caption="Cornelius Agrippa, ~1500 A.D."
           position="right" size="30%">
     </captioned-image>
-    <br>
      Mary Shelley's point is clear: the cure for recklessness is reflection. Reflection on the question, "Why are we
  doing this?". The monster exists in a state of constant distress to exemplify the importance of this existential
  grounding. He has no upbringing, no education, no direction, and no thought to his purpose. In the process of
@@ -167,12 +163,11 @@
  in the case of the scientist). Blaming The Created inspires unsympathetic or uncomfortable reflexes. The Christian
  analogy is limited, though, as the monster's original sin is a product of Frankenstein's limitations (i.e. sin)
  so both are ultimately at fault.
-    <br>
     <captioned-image
             :image="getImgUrl('rousseau.jpg')" alt="Rousseau" caption="Jean-Jacques Rousseau. Bad Frenchman."
             position="right" size="30%">
     </captioned-image>
-    <br>
+    <br><br>
      <b>Do we start good?:</b> A question puzzling the brightest minds among us, "Does civilization make us good or
  bad?". Who is right - Hobbes or Rousseau? Bartolome de las Casas or Christopher Columbus? Academics or Clergymen?
  More explicitly, do humans need 'civilization' to be 'civil' or are we most in harmony without technology or

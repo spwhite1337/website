@@ -20,12 +20,11 @@
         Carraway moves from the Midwest to New York in the early 1900s. There he meets three important characters:
         Tom Buchanan, his cousin Daisy Buchanan, and the titular Gatsby. All wealthy members of the NY elite, they
         ostensibly live the American Dream with piles of wealth, new cars, and nice mansions.
-        <br>
+        <br><br>
         <captioned-image
           :image="getImgUrl('gatsby_crew.jpg')" alt="Gatsby Crew" caption="Great Gatsby Cast"
           position="right" size="35%">
         </captioned-image>
-        <br>
         Tom is a former athlete, muscular, and arrogant. He is a classic scientific racist from the early 20th century
         and reeks of insecurity despite his good looks, wealth, and beautiful wife. Almost as if he struggles to
         justify the quality of his life because he is a shitty person (IMO, the clear intent here).
@@ -56,12 +55,11 @@
             included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go
             to make civilization — oh, science and art, and all that. Do you see?”
         </em>
-      <br>
+      <br><br>
         <captioned-image
           :image="getImgUrl('birth_of_a_nation.jpg')" alt="Birth of a Nation" caption="Birth of a Nation, 1915"
           position="left" size="30%">
         </captioned-image>
-      <br>
         Tom is married to Daisy but cheats on her routinely, specifically with a woman named Myrtle from the poorer
         side of town.
         <br><br>
@@ -77,12 +75,11 @@
         revealed that his wealth stems from bootlegging (scandalous) despite his sobriety and is deeply in love with
         Daisy (or, at least the idea of Daisy). He also served in the same division as Nick leading to a natural
         friendship between the two.
-        <br>
+        <br><br>
           <captioned-image
                   :image="getImgUrl('green_light.jpg')" alt="Green Light" caption="The Green Light of Dreams in an Urban Wilderness"
                   position="right" size="30%">
           </captioned-image>
-        <br>
         Nick is also a product of wealth, his ancestor was able to pay someone to fight in the Civil War on his behalf
         then prudently invest his savings to become rich from the war effort. After graduating Yale and serving in WWI,
         Nick moves to New York for work as a bond-salesman (a lucrative career move). He begins optimistic and
@@ -106,12 +103,11 @@
         George, Myrtle's husband, that Gatsby drove the car and is Myrtle's secret lover (who, in reality, is Tom)
         prompting him to kill Gatsby and himself. Nick attends Gatsby's funeral only to find it poorly attended even
         though his parties were so popular. Nick then moves back to the midwest.
-        <br>
+        <br><br>
         <captioned-image
           :image="getImgUrl('manhattan.jpg')" alt="Manhattan" caption="Old School Manhattan."
           position="left" size="30%">
         </captioned-image>
-        <br>
         <b>Analysis:</b> The dominant lesson derived from The Great Gatsby is lack of spirit of early 20th century
         America and it's ability to disabuse the reader of nationalistic mythologies about The American Dream. The
         characters have all you can ask for in the roarin' twenties of industrialized America - wealth, cars, mansions,

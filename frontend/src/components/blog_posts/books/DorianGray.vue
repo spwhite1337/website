@@ -47,12 +47,11 @@
       the rest. Basically a more honest version of <a href="https://en.wikipedia.org/wiki/Ayn_Rand" target = "_blank">
       Ayn Rand</a>'s shitty philosophy. Basil is an artist, also super in love with Dorian, and the general tempering
       force or voice for 'normalcy' in the novel.
-      <br>
+      <br><br>
       <captioned-image
               :image="getImgUrl('dorian_gray.jpg')" alt="Dorian Gray" caption="Ben Barnes as Dorian Gray"
               position="right" size="30%">
       </captioned-image>
-      <br>
       Shortly after the novel begins, Basil paints a picture of Dorian Gray that 'perfectly captures his beauty'
       (The book has explicit homosexual references but no sex which makes it super awkward at times). Simultaneously,
       Lord Henry influences Dorian's worldview by outlining a selfish, insular, and individualistic philosophy that
@@ -98,12 +97,11 @@
       to some recent 'good' acts. However, the painting is even worse due to his self-interested motivation
       to improve. In a last ditch effort, Dorian slashes it with the knife he used to murder Basil. The painting is
       restored while Dorian lies dead - completing the self-destruction of his soul.
-      <br>
+      <br><br>
       <captioned-image
               :image="getImgUrl('stephen_fry.jpg')" alt="Stephen Fry" caption="Stephen Fry as Oscar Wilde"
               position="right" size="30%">
       </captioned-image>
-      <br>
       <b>Morality of Self-Interest:</b> The question of, 'How ought I direct my life?' is investigated by negation.
       Namely, systems of belief centered around self-interest, rationality, and complete altruism are outlined as
       containing unforeseen consequences or inherent contradictions. Oscar Wilde adopts a technique I love in
@@ -138,12 +136,11 @@
       that Lord Henry wishes we would take more seriously. But what are those 'romantic' foundations? Are they stable
       or shifting? They are elaborated later when Lord Henry seeks to console Dorian Gray after his break-up with 
       Sibyl Vane. Quote,
-      <br>
+      <br><br>
       <captioned-image
               :image="getImgUrl('greek_gay.jpg')" alt="Gay Greeks" caption="Gay Ancient Greeks"
               position="left" size="30%">
       </captioned-image>
-      <br>
       <em>
         "My dear boy, the people who love only once in their lives are really the shallow people. What they call
         their loyalty, and their fidelity, I call either the lethargy of custom or their lack of imagination.
@@ -237,12 +234,11 @@
       the relationships between males and females in the book are incredibly toxic, obsessive, shallow, and indulgent.
       There are clear parallels with other themes as the value of 'love' for 'love's sake' rather than for self-interest.
       Male-male love is for love, male-female love is for lust, self-interest, or cultural conformity.
-      <br>
       <captioned-image
               :image="getImgUrl('victoria.jpg')" alt="Victoria" caption="Queen Victoria, 1882"
               position="right" size="30%">
       </captioned-image>
-      <br>
+      <br><br>
       The topic is done well, but at times it is super awkward with how in love the men are with each other.
       I mean, we're talking two dudes gushing over each other's beauty without ever having sex (explicitly).
       It would be preferable to me if they just banged it out and got on with the moral philosophizing. But that

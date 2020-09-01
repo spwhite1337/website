@@ -19,12 +19,10 @@
      <hr>
      <b>Rough Summary:</b> The poem starts out depicting the Holy Spirit inspiring a story-teller to relay the tale
     of creation in an analogous fashion to greek muses inspiring poems like the Odyssey or the Illiad.
-     <br>
     <captioned-image
           :image="getImgUrl('adam_and_eve.jpg')" alt="Adam and Eve" caption="Adam and Eve"
           position="right" size="30%">
     </captioned-image>
-    <br>
      <em>
        "Of Man’s First Disobedience, and the Fruit <br>
         Of that Forbidden Tree, whose mortal taste  <br>

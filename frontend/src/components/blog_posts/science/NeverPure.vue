@@ -34,12 +34,11 @@
     adjudication of hypotheses, or the iconoclastic characters that disrupt institutions propelled by their scientific
     acumen. In order to write a book on such a big topic some things needed to be left out and, given his transparency,
     this can be easily forgiven.
-    <br>
+    <br><br>
     <captioned-image
           :image="getImgUrl('steve_shapin.jpg')" alt="Steve Shapin" caption="The Legend, Prof. Steve Shapin"
           position="right" size="30%">
     </captioned-image>
-    <br>
      The work, "Never Pure", outlines this thesis in a series of (largely) stand-alone essays. My favorite essays
     are summarized in this post along with their highlights and my interpretation. I'll conclude with my views on
     where this leaves science and its cultural place in modern America.
@@ -232,12 +231,11 @@
          places of 'divine worship'.
      </li>
    </ul>
-    <br>
+    <br><br>
     <captioned-image
           :image="getImgUrl('boyle.jpg')" alt="Robert Boyle" caption="Sir Robert Boyle, O.G. Experimental Chemist"
           position="right" size="30%">
     </captioned-image>
-    <br>
    While strikingly different than how we view the 'ideal scientist' today. There is no doubt a pattern of criteria
     that transfers to modernity. Science is routinely rejected due to financial conflicts of interest ("true science"
     doesn't come from Monsanto, Big Pharma, or Big Oil). Science is routinely rejected on political grounds (racist
@@ -301,12 +299,11 @@
        i.e. to drink every day wine with company, which, though not to drunkeness, spoils the Brain." John Aubrey
        in his biography of Thomas Hobbes who blacked out and puked once a year like a bitch (I'm jk)
    </em>
-    <br>
+    <br><br>
     <captioned-image
           :image="getImgUrl('hobbes.jpg')" alt="Hobbes" caption="Annoying but usually accurate philosopher Hobbes"
           position="right" size="30%">
     </captioned-image>
-    <br>
    I think the reason I like this section so much is because it's almost as if Shapin is analyzing me. I similarly
     think that "science" is done with nutrition and hasn't progressed much since the time of Rene Descartes who claimed,
    "By the age of 30 the man knows more about his body that the best physician." I also think moderation should
@@ -332,12 +329,11 @@
     the Scholastic Era) or for the vision you have for society. These broad "appeals to nature" are not unique to
     scientists and, in fact, are a ubiquitous part of how we interact with our community, our society, and the
     world:
-    <br>
+    <br><br>
     <captioned-image
           :image="getImgUrl('rothschild.jpg')" alt="Rothschild" caption="Squirmy Rothschild who puts Profit over Country"
           position="right" size="30%">
     </captioned-image>
-    <br>
    <ul>
      <li>
      <em>
