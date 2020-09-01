@@ -1,18 +1,29 @@
 <template>
   <div id="app" class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
           <ul class="navbar-nav">
-            <li class="nav-item active"><router-link :to="{ name: 'home' }" class="nav-link">Home</router-link></li>
-              <li class="nav-item active"><router-link :to="{ name: 'DataProducts' }" class="nav-link">Data Products
-                </router-link></li>
-              <li class="nav-item active"><router-link :to="{ name: 'Blog' }" class="nav-link">Blog</router-link></li>
-              <li class="nav-item active"><router-link :to="{ name: 'Contact' }" class="nav-link">Contact</router-link></li>
+            <li class="nav-item active">
+                <router-link :to="{ name: 'home' }" class="nav-link">
+                    Home
+                </router-link>
+            </li>
+            <li class="nav-item active">
+                <router-link :to="{ name: 'DataProducts' }" class="nav-link">
+                    Data Products
+                </router-link>
+            </li>
+            <li class="nav-item active">
+                <router-link :to="{ name: 'Blog' }" class="nav-link">
+                    Blog
+                </router-link>
+            </li>
+            <li class="nav-item active">
+                <router-link :to="{ name: 'Contact' }" class="nav-link">
+                    Contact
+                </router-link>
+            </li>
           </ul>
       </nav>
-
       <div class="container">
         <transition name="slide-fade">
           <router-view></router-view>
