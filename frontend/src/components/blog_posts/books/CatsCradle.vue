@@ -7,7 +7,7 @@
        The black humor and absurdist underpinning kept me thoroughly entertained as I flew through a book making serious
        points with a not-so-serious tone and context. Vonnegut manages to attack religion, science, nation-states, and
        himself all in a quick-read about a not-so-fictional universe that ends up decimating itself.
-       <br><br>
+       <br><hr>
        <b>Summary:</b> The book tracks John (Jonah?) as he strives to document the descendants of an inventor of the
         atomic bomb, Felix Hoenniker, in post-WWII america. In the process he explores the role of science in shaping
         the worldviews of its advocates along with science's ability to amplify violence through mass industrialized
@@ -46,8 +46,7 @@
        "The Book of Bokonon". In the aftermath of all this destruction, Bokonon longs for a chance to do the whole
        thing over and initiate the <em>ice-nine</em> catastrophe years before while flipping off God. It is suggested
        that John intends to the do the same after the book.
-       <hr>
-       <br><br>
+    <br><br>
        <b>Truthful Truths and Truthful Lies and Lying Truths:</b> The principal concept explored in Cat's Cradle, and
       most if not all of Vonnegut's work, is the falsity of Truth and its pernicious forms in religion, humanism,
       nationalism, scientism, etc. I would categorize these all together as "belief systems that give its adherents
