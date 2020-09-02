@@ -27,9 +27,15 @@
     To enable their profound scientific progress in genetic engineering and psychology, the culture of the World
     State is one of Extreme individualism with a group identity engineered by caste: Alphas are the highest while
     gammas are the lowest. Ostensibly the system functions perfectly, but cracks form as seen through two alphas:
-    Bernard and Helmholtz. Bernard is an aliened psychologist while Helmholtz is a bored writer.
+    Bernard and Helmholtz. Bernard is an alienated psychologist while Helmholtz is a bored writer.
     <br><br>
-    Bernard
+    Despite being an alpha, Bernard doesn't fit in well in the World State and suspect he was accidentally subjected to
+    alcohol during his birth - resulting in him being a "small" alpha and inspiring insecurities. After causing some
+    trouble he ventured to the outskirts of society and meets John, man who grew up outside the hyper-scientific
+    individualism of the World State and instead developed among a psuedo-Native American tribe while learning
+    english from the works of Shakespeare.
+    <br><br>
+    Bernard brings John back to the world state where he bonds with the bored and literary-minded Helmholtz. 
   </div>
 </template>
 

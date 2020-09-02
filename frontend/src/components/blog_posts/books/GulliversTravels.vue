@@ -16,7 +16,20 @@
         </captioned-image>
         Pound for pound, the book is very rich. I will focus on two of the societies Gulliver travels too and outline
        the main lessons we can draw from Swift's analysis - the relationship between ancients / moderns and his
-        criticism of Science.
+        criticism of Science. We get a glimpse into Swift's motivations through the protagonist and narrator about
+        halfway through the novel.
+    <br>
+        <em>
+            I hope the gentle reader will excuse me for dwelling on these and the like particulars, which, however
+            insignificant they may appear to groveling vulgar minds, yet will certainly help a philosopher to enlarge
+            his thoughts and imagination, and apply them to the benefit of public as well as private life, which was my
+            sole design in presenting this and other accounts of my travels to the world; wherein I have been chiefly
+            studious of truth, without affecting any ornaments of learning or of style. But the whole scene of this
+            voyage made so strong an impression on my mind, and is so deeply fixed in my memory, that, in committing it
+            to paper I did not omit one material circumstance: however, upon a strict review, I blotted out several
+            passages. Of less moment which were in my first copy, for fear of being censured as tedious and trifling,
+            whereof travellers are often, perhaps not without justice, accused.
+        </em>
        <br><hr>
        <b>Lilliput:</b> Gulliver is a trained surgeon who takes to sea after his patronage runs out. He finds himself
        shipwrecked and captured by a diminutive race of people - proportional humans shrunk to ~6 inches in height.
