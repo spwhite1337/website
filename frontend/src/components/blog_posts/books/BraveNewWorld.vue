@@ -23,6 +23,13 @@
     mutually beneficially for them and for society as a whole. They find immense joy out of consuming material goods,
     satiating their sexual appetites, and consuming soma - a psychoactive pharmaceutical that is generously distributed
     by the World State.
+    <br><br>
+    To enable their profound scientific progress in genetic engineering and psychology, the culture of the World
+    State is one of Extreme individualism with a group identity engineered by caste: Alphas are the highest while
+    gammas are the lowest. Ostensibly the system functions perfectly, but cracks form as seen through two alphas:
+    Bernard and Helmholtz. Bernard is an aliened psychologist while Helmholtz is a bored writer.
+    <br><br>
+    Bernard
   </div>
 </template>
 
