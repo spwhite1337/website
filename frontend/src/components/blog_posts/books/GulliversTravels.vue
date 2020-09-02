@@ -44,7 +44,7 @@
        The high societal crime of Lilliput is lying and, conversely, the principal value is trust. Deceit and false
        accusations in court (Bearing False Witness to One's Neighbor, if you will) are high crimes with severe
        punishments. But, as Gulliver finds, the desecration of courts and civil monuments is also grave and he is
-       sentenced to first death then blinding for urinating on the inflamed capital building. He eventually flees
+       sentenced to blinding for urinating on the inflamed capital building. He eventually flees
        and takes a boat back to England.
         <br><br>
        <b>Analysis:</b> Lilliput is a great example of how arbitrary many cultural practices are. From the festivals to
