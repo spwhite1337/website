@@ -68,6 +68,31 @@
         caption="Karl Marx, the man who tried to scientifically derive society."
         position="right" size="30%">
     </captioned-image>
+    The paradigm of rationality hypothesizes answers to a question then determines an optimal selection based on
+    experimentation and deductive reasoning. Marx hypothesized and selected "Equality" as the answer to, "What is the
+    best society?" and used a scientific analysis of the mechanisms of society deduce an economic revolution to
+    achieve it. Importantly, neither Marx or other Enlightenment-era proponents of rationality analyze the axiomatic
+    assumptions of their society nor do they question their goals. The World State has adopted this paradigm when they
+    take "Stability" as an unquestioned goal of their society and the utilization of science as an undoubted route to
+    said goal.
+    <br><br>
+    John is the outlier in their model, one who comes from outside with a different language that simply can't account
+    for the axioms underlying the World State. Only Mond has the ability to see the axioms of the Worst State as they
+    are in light of John's existence, while other citizens simply see him as crazy, confused, or contaminated. To put
+    another way, they must question the humanity of John rather than the validity of their view of humanity.
+    <captioned-image
+        :image="getImgUrl('slogan.jpg')" alt="Slogan"
+        caption="The Slogan of the World State"
+        position="right" size="30%">
+    </captioned-image>
+    <hr>
+    The citizen's communal identity parallels Marx's communitarian idea of human relations. They don't have
+    families, nor do they have long-term romantic relationship. <em>Everyone belongs to everyone else</em> in a stable,
+    functioning World State. In contrast, the relation between castes is a liberal-capitalist view that groups people
+    not axiomatically (like Marx would) but as a "natural" outgrowth of different roles in a hierarchically ordered and
+    economic based society. Both are fused together in Brave New World in a seamless manner that, I believe, is
+    remarkably prescient for the disconnected sub-cultures I experience in 21st century America.
+    <br><br>
     <b>God, The Ubermensch, and The Last Man:</b> The world state citizens are the last men, John and Helmoltz are
     failed Ubermensch, God is the functional mechanism that destroys the Ubermensch and his function is replaced /
     improved upon by the scientific progress.
