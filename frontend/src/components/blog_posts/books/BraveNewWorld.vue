@@ -93,6 +93,12 @@
     economic based society. Both are fused together in Brave New World in a seamless manner that, I believe, is
     remarkably prescient for the disconnected sub-cultures I experience in 21st century America.
     <br><br>
+    At the societal level, Huxley portrays the World State as a irony-riddled satire of modern dreams of science and
+    rationality. He takes seriously the claims of big-brain pseudo-revolutionaries who believe that passion, emotion,
+    faith, hope, etc. ought to have no place in politics and ethics as we can take care of that ourselves. This book
+    and the history of the 20th century should give pause to anyone who thinks our successes in natural philosophy can
+    be carried over to the humanities.
+    <hr>
     <b>God, The Ubermensch, and The Last Man:</b> The world state citizens are the last men, John and Helmoltz are
     failed Ubermensch, God is the functional mechanism that destroys the Ubermensch and his function is replaced /
     improved upon by the scientific progress.
