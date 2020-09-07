@@ -2,7 +2,7 @@
   <div>
       <br>
       <p>
-          My posts fall into three categories:
+          My posts fall into three categories with lengths proportional to my interest:
           <ul>
             <li><b>Books:</b> Reports and Essays summarizing and analysing big-brain books</li>
             <li><b>Science:</b> Essays related to my official profession</li>
