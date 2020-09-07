@@ -15,7 +15,7 @@
    <br><hr>
     <captioned-image
             :image="getImgUrl('mond.jpg')" alt="Mond"
-            caption="Mond, by Leonard Nimoy in 1998"
+            caption="Leonard Nimoy as Mund in 1998"
             position="right" size="30%">
     </captioned-image>
 <b>Summary:</b> Set in the 26th Century, Europe had reached it goals of a scientific, progressive, and stable society.
