@@ -43,7 +43,7 @@
     <captioned-image
             :image="getImgUrl('marx.jpg')" alt="Marx"
             caption="Karl Marx, the man who tried to scientifically derive society."
-            position="right" size="30%">
+            position="left" size="25%">
     </captioned-image>
     Mond lifts the curtain of society and outlines the mechanisms only referenced implicitly prior in the novel. The
     mechanisms of consumption and labor, Soma and sex, conditioning and suppression serve to elevate stability and
@@ -102,7 +102,7 @@
     <captioned-image
             :image="getImgUrl('soma.jpg')" alt="Soma"
             caption="Soma, the most prescient part of the work."
-            position="right" size="30%">
+            position="left" size="30%">
     </captioned-image>
     <br>
     Bernard and Helmholtz both find themselves as Last Men in the World State, unable to pinpoint the source of their
@@ -117,7 +117,7 @@
     <br><br>
     The answer lies with God and Huxley's treatment of religion in the character of John and the World State. The
     climatic confrontation between John and Mund includes a musing of theology and quotations of Cardinal Newman, a
-    famous 20th century thinker that brutally critiqued the secular culture of the anglo-sphere and warned of its
+    famous 19th century thinker that brutally critiqued the secular culture of the anglo-sphere and warned of its
     certain demise. The aforementioned excerpt follows:
     <em>
         "Quite so. I'll read you one of the things he did dream of in a moment. Meanwhile, listen to what this old
@@ -137,6 +137,11 @@
         "Take this, for example," <br>
         he said, and in his deep voice once more began to read:
         <br>
+        <captioned-image
+            :image="getImgUrl('newman.jpg')" alt="Cardinal Newman"
+            caption="Cardinal John Henry Newman, 18th century English theologian."
+            position="left" size="30%">
+        </captioned-image>
         "'A man grows old; he feels in himself that radical sense of weakness, of listlessness, of
         discomfort, which accompanies the advance of age; and, feeling thus, imagines himself merely sick, lulling
         his fears with the notion that this distressing condition is due to some particular cause, from which, as
