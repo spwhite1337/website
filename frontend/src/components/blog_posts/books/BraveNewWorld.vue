@@ -119,6 +119,7 @@
     climatic confrontation between John and Mund includes a musing of theology and quotations of Cardinal Newman, a
     famous 19th century thinker that brutally critiqued the secular culture of the anglo-sphere and warned of its
     certain demise. The aforementioned excerpt follows:
+    <br><br>
     <em>
         "Quite so. I'll read you one of the things he did dream of in a moment. Meanwhile, listen to what this old
         Arch-Community-Songster said." He opened the book at the place marked by a slip of paper and began to read.
