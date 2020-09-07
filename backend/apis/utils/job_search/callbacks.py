@@ -14,7 +14,8 @@ def time_series(df: pd.DataFrame, color: str):
         return px.line(df, x='Date', y='count')
     df['count'] = df.assign(count=1).groupby(color)['count'].cumsum()
     df = df[~df[color].isna()]
-    return px.line(df, x='Date', y='count', color=color)
+    return px.line(df, x='Date', y='count', color=color, template='plotly_dark',
+                   labels={'count': 'Number of Applications'})
 
 
 def map_figure(df: pd.DataFrame, color: str):
