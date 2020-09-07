@@ -40,6 +40,11 @@
     ensues as the outsider forces the citizens to reflect on the assumptions of their technocratic culture. John is
     eventually presented to Mond, one of the top ten ranking officials of the World State.
     <br><br>
+    <captioned-image
+        :image="getImgUrl('mond.jpg')" alt="Mond"
+        caption="Mond, by Leonard Nimoy in 1998"
+        position="right" size="30%">
+    </captioned-image>
     Mond lifts the curtain of society and outlines the mechanisms only referenced implicitly prior in the novel. The
     mechanisms of consumption and labor, Soma and sex, conditioning and suppression serve to elevate stability and
     "rationality" of the World State. The god of the State survives from the sacrifice of citizen's agency and humanity.
