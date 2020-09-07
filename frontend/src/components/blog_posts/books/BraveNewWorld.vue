@@ -14,9 +14,9 @@
     revisited in another post someday.
    <br><hr>
     <captioned-image
-        :image="getImgUrl('soma.jpg')" alt="Soma"
-        caption="Soma, the most prescient part of the work."
-        position="right" size="30%">
+            :image="getImgUrl('mond.jpg')" alt="Mond"
+            caption="Mond, by Leonard Nimoy in 1998"
+            position="right" size="30%">
     </captioned-image>
 <b>Summary:</b> Set in the 26th Century, Europe had reached it goals of a scientific, progressive, and stable society.
     The World State cultivates its citizens into different castes that are conditioned to fully in a manner that is
@@ -39,11 +39,11 @@
     appalled by the citizenry's aversion to familial bonds, love, God, and their addiction to Soma. Much unrest
     ensues as the outsider forces the citizens to reflect on the assumptions of their technocratic culture. John is
     eventually presented to Mond, one of the top ten ranking officials of the World State.
-    <br><br>
+    <br>
     <captioned-image
-        :image="getImgUrl('mond.jpg')" alt="Mond"
-        caption="Mond, by Leonard Nimoy in 1998"
-        position="right" size="30%">
+            :image="getImgUrl('marx.jpg')" alt="Marx"
+            caption="Karl Marx, the man who tried to scientifically derive society."
+            position="right" size="30%">
     </captioned-image>
     Mond lifts the curtain of society and outlines the mechanisms only referenced implicitly prior in the novel. The
     mechanisms of consumption and labor, Soma and sex, conditioning and suppression serve to elevate stability and
@@ -64,9 +64,9 @@
     oppressive labor relations as the end in itself.
     <br>
     <captioned-image
-        :image="getImgUrl('marx.jpg')" alt="Marx"
-        caption="Karl Marx, the man who tried to scientifically derive society."
-        position="right" size="30%">
+            :image="getImgUrl('slogan.jpg')" alt="Slogan"
+            caption="The Slogan of the World State"
+            position="right" size="30%">
     </captioned-image>
     The paradigm of rationality hypothesizes answers to a question then determines an optimal selection based on
     experimentation and deductive reasoning. Marx hypothesized and selected "Equality" as the answer to, "What is the
@@ -80,11 +80,6 @@
     for the axioms underlying the World State. Only Mond has the ability to see the axioms of the Worst State as they
     are in light of John's existence, while other citizens simply see him as crazy, confused, or contaminated. To put
     another way, they must question the humanity of John rather than the validity of their view of humanity.
-    <captioned-image
-        :image="getImgUrl('slogan.jpg')" alt="Slogan"
-        caption="The Slogan of the World State"
-        position="right" size="30%">
-    </captioned-image>
     <hr>
     The citizen's communal identity parallels Marx's communitarian idea of human relations. They don't have
     families, nor do they have long-term romantic relationship. <em>Everyone belongs to everyone else</em> in a stable,
@@ -102,6 +97,11 @@
     <b>God, The Ubermensch, and The Last Man:</b> The world state citizens are the last men, John and Helmoltz are
     failed Ubermensch, God is the functional mechanism that destroys the Ubermensch and his function is replaced /
     improved upon by the scientific progress.
+    <captioned-image
+            :image="getImgUrl('soma.jpg')" alt="Soma"
+            caption="Soma, the most prescient part of the work."
+            position="right" size="30%">
+    </captioned-image>
     <em>
         "Quite so. I'll read you one of the things he did dream of in a moment. Meanwhile, listen to what this old
         Arch-Community-Songster said." He opened the book at the place marked by a slip of paper and began to read.
