@@ -94,17 +94,35 @@
     and the history of the 20th century should give pause to anyone who thinks our successes in natural philosophy can
     be carried over to the humanities.
     <hr>
-    <b>God, The Ubermensch, and The Last Man:</b> The world state citizens are the last men, John and Helmoltz are
-    failed Ubermensch, God is the functional mechanism that destroys the Ubermensch and his function is replaced /
-    improved upon by the scientific progress.
+    <b>God, The Ubermensch, and The Last Man:</b> Nietzsche's musing of the The Last Man ought to be required study for
+    all American Millennial males. A comfortable life, minimized tragedy and struggle, begrudging welcomes to adulthood,
+    topped with a constant deluge of distractions on the internet put us on the fast track to a nihilistic depression.
+    The reactions to this are laudable in principle, but naturally distraught and chaotic in practice (e.g. Antifa,
+    White Supremacist edge-lords, Boomer vigilantes).
     <captioned-image
             :image="getImgUrl('soma.jpg')" alt="Soma"
             caption="Soma, the most prescient part of the work."
             position="right" size="30%">
     </captioned-image>
+    <br>
+    Bernard and Helmholtz both find themselves as Last Men in the World State, unable to pinpoint the source of their
+    dissatisfaction or their disillusionment they spiral into a slow decline until they confront John. His outside
+    perspective can instantly see the lack of struggle and meaning that deprive the World State citizens of their
+    humanity. His disgust inspires him to transcend the laws of the World State and carry the dying citizenry with him,
+    the messianic role of the Ubermensch in Nietzsche's writings.
+    <br><br>
+    His project fails, as he ultimately kills himself at the bemusement of Soma-addled citizens. The conclusion leads
+    the reader confused of Huxley's opinion of Nietzsche's mechanism of redemption and transcension - is it all a
+    fiction as well? Or it is simply an incomplete project for John  and company?
+    <br><br>
+    The answer lies with God and Huxley's treatment of religion in the character of John and the World State. The
+    climatic confrontation between John and Mund includes a musing of theology and quotations of Cardinal Newman, a
+    famous 20th century thinker that brutally critiqued the secular culture of the anglo-sphere and warned of its
+    certain demise. The aforementioned excerpt follows:
     <em>
         "Quite so. I'll read you one of the things he did dream of in a moment. Meanwhile, listen to what this old
         Arch-Community-Songster said." He opened the book at the place marked by a slip of paper and began to read.
+        <br><br>
         "'We are not our own any more than what we possess is our own. We did not make ourselves, we cannot be supreme
         over ourselves. We are not our own masters. We are God's property. Is it not our happiness thus to view the
         matter? Is it any happiness or any comfort, to consider that we are our own? It may be thought so by the young
@@ -112,9 +130,14 @@
         on no one–to have to think of nothing out of sight, to be without the irksomeness of continual acknowledgment,
         continual prayer, continual reference of what they do to the will of another. But as time goes on, they, as
         all men, will find that independence was not made for man–that it is an unnatural state–will do for a while,
-        but will not carry us on safely to the end …'" Mustapha Mond paused, put down the first book and, picking up
-        the other, turned over the pages. "Take this, for example," he said, and in his deep voice once more began
-        to read: "'A man grows old; he feels in himself that radical sense of weakness, of listlessness, of
+        but will not carry us on safely to the end …'"
+        <br><br>
+        Mustapha Mond paused, put down the first book and, picking up
+        the other, turned over the pages. <br>
+        "Take this, for example," <br>
+        he said, and in his deep voice once more began to read:
+        <br>
+        "'A man grows old; he feels in himself that radical sense of weakness, of listlessness, of
         discomfort, which accompanies the advance of age; and, feeling thus, imagines himself merely sick, lulling
         his fears with the notion that this distressing condition is due to some particular cause, from which, as
         from an illness, he hopes to recover. Vain imaginings! That sickness is old age; and a horrible disease it
@@ -129,17 +152,35 @@
         from within or from without, we feel the need to lean on something that abides, something that will never
         play us false–a reality, an absolute and everlasting truth. Yes, we inevitably turn to God; for this
         religious sentiment is of its nature so pure, so delightful to the soul that experiences it, that it makes
-        up to us for all our other losses.'" Mustapha Mond shut the book and leaned back in his chair. "One of the
-        numerous things in heaven and earth that these philosophers didn't dream about was this" (he waved his hand),
+        up to us for all our other losses.'" <br><br>
+        Mustapha Mond shut the book and leaned back in his chair. <br>
+        "One of the numerous things in heaven and earth that these philosophers didn't dream about was this" <br>
+        (he waved his hand),
+        <br>
         "us, the modern world. 'You can only be independent of God while you've got youth and prosperity; independence
         won't take you safely to the end.' Well, we've now got youth and prosperity right up to the end. What follows?
         Evidently, that we can be independent of God. 'The religious sentiment will compensate us for all our losses.'
         But there aren't any losses for us to compensate; religious sentiment is superfluous. And why should we go
         hunting for a substitute for youthful desires, when youthful desires never fail? A substitute for distractions,
         when we go on enjoying all the old fooleries to the very last? What need have we of repose when our minds
-        and bodies continue to delight in activity? of consolation, when we have soma? of something immovable,
+        and bodies continue to delight in activity? of consolation, when we have Soma? of something immovable,
         when there is the social order?"
     </em>
+    <br><br>
+    In contrast to Marx's famous proclamation that "Religion is the opiate of the masses" implying their full humanity
+    will be realized once they have been ridden of their chains. In contrast, Huxley sees opium as a necessary
+    component of the masses' existence - whether theological or pharmaceutical. Mund and the World State's great
+    innovation and foresight was to see religion as an unsatisfactory opiate for the citizens of the scientific World
+    State, they needed something strong and something more infantilizing.
+    <br><br>
+    The prognosis gives me chills when I think of the widespread adoption of psychoactive substances today. I am not
+    innocent here with a historical addiction to nicotine, a present dependency on caffeine, and a nurtured attachment
+    to alcohol. Continuing on this tragedy of recreational drugs (e.g. the wave of cannabis legalizations), "healthy"
+    nicotine vessels, free pornography, Xanax, anti-depressants, amphetamines, etc. leads to Soma-bombs that are
+    welcomed with open arms rather than the freely adopted struggle of existing without such distractions. Failing to
+    curtail our dependencies and addictions to sensual pleasures is a Herculean task us Millennials must undertake or
+    else politics and culture will descend into a conflict for masturbatory pleasures rather than something
+    actually worth living and dying for.
   </div>
 </template>
 
