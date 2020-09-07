@@ -140,7 +140,7 @@
         <captioned-image
             :image="getImgUrl('newman.jpg')" alt="Cardinal Newman"
             caption="Cardinal John Henry Newman, 18th century English theologian."
-            position="left" size="30%">
+            position="right" size="30%">
         </captioned-image>
         "'A man grows old; he feels in himself that radical sense of weakness, of listlessness, of
         discomfort, which accompanies the advance of age; and, feeling thus, imagines himself merely sick, lulling
