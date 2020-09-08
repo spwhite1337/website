@@ -20,6 +20,7 @@
     <transition name="slide-fade">
         <router-view></router-view>
     </transition>
+    <hr><p>User Login and Comments are coming soon!</p><hr>
   </div>
 </template>
 
