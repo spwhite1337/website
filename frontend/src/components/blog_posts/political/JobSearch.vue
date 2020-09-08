@@ -9,7 +9,7 @@
     or not' is readily surmounted after a bachelor's but increased if a Ph.D. is pursued in ChemE.
      <br><br>
     <captioned-image
-          :image="getImgUrl('brick_in_the_wall.jpg')" alt="Brick in the Wall" caption="Liberal Credentialism"
+          :image="getImgUrl('brick_in_the_wall.jpg')" alt="Brick in the Wall" caption="Bureaucratic Credentialism"
           position="right" size="30%">
     </captioned-image>
      One could protest, 'A degree is not job training, the purpose of going to university is to become a better
