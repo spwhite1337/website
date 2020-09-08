@@ -63,7 +63,6 @@
             but denied for Corteva.
       </li>
      </ul>
-     <br>
      In summary, the process is confusing, demoralizing, dehumanizing, ego-killing, self-confidence-killing, and
     frustrating. I understand why people stay in academia (as the skills directly transfer) but I had to get out.
     If you're in a similar position I have a few pieces of advice/wisdom: (i) applying online gets you a 10% callback
