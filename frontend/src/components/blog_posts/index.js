@@ -16,6 +16,7 @@ import JobSearch from '@/components/blog_posts/political/JobSearch.vue'
 // Science
 import NeverPure from '@/components/blog_posts/science/NeverPure.vue'
 import Science from '@/components/blog_posts/science/Science.vue'
+import PhD from '@/components/blog_posts/science/PhD.vue'
 
 export default {
     Books: [
@@ -110,6 +111,12 @@ export default {
         name: 'Science',
         component: Science,
         title: 'The Definition of Science'
+      },
+      {
+        path: '/Blog/Science',
+        name: 'PhD',
+        component: PhD,
+        title: 'My PhD Summary'
       }
     ]
 }
