@@ -66,8 +66,7 @@
        </em>
       <br><br>
       The story zig-zags between inner monologues about minutiae, grotesque violent acts, elaborate social gossip,
-      and insider business deals. While the violence sharply increases, the other aspects of his life are largely
-      meander aimlessly.
+      and insider business deals. While the violence sharply increases, the other aspects of his life meander aimlessly.
       <br><br>
       <captioned-image
               :image="getImgUrl('chainsaw.jpg')" alt="Violance" caption="Bateman chopping people up"
@@ -76,7 +75,7 @@
       He starts with a girlfriend, advances to engagement with zero romance, breaks it off
       over dinner, they get back together, etc. There are big accounts at work that come and go, we aren't given
       an elaboration of their significance, nor are we even told what professional role Bateman plays.
-      Meanwhile, sis violence systematically escalates and culminates with an axe murder of his competitor and friend,
+      Meanwhile, his violence systematically escalates and culminates with an axe murder of his competitor and friend,
       Paul Allen. I repeat, the idea is to blend these extreme contrasts in Bateman's experiences in a character
      that goes about them unfeeling. Bateman is nothing, just a mechanism or system that requires constant validation
      to persist. He is an embodiment of Capitalism and vacuous, greed-driven lifestyle.

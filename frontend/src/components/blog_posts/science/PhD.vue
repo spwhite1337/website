@@ -17,6 +17,11 @@
     investment. But this "real-life" experience in the private sector is fraught with shortcomings -> namely a
     profound lack of introspection by those who are too detached from the "fake life" of academy.
     <br><br>
+    <captioned-image
+            :image="getImgUrl('gore_annex.jpg')" alt="Gore Annex"
+            caption="The Chemical Engineering Building at the UMN, 'The Gore Annex'"
+            position="right" size="30%">
+    </captioned-image>
     Anecdotes abound from my career, but the laughable references to "the private sector" or the "free market" in
     industry are thrown around in situations as absurd as multi-trillion dollar international investment banks. People
     actually believe they operate within "freedom" constraints that differ from those of government institutions with
@@ -34,11 +39,11 @@
     sub-set of intellectual society. While most-but-definitely-not-all of the members of a Ph.D. organization are
     generally intelligent, they all very much value intelligence and intellectual pursuits and don't question its
     adoption as a guiding beacon for living life.
-    <captioned-image
-          :image="getImgUrl('gore_annex.jpg')" alt="Gore Annex"
-          caption="The Chemical Engineering Building at the UMN, 'The Gore Annex'"
-          position="right" size="30%">
-    </captioned-image>
+    <br><br>
+    <b>Project Context:</b> Further elaboration on Academia is topic for another post, but the it is important to
+    understand the defining characteristics of academic life as I outline the inspiration my specific Ph.D. project.
+    It began an undergraduate seeking a career path. I was a good Chemical Engineering student that had experienced
+    the process engineering industry through an internship with Monsanto in Muscatine, IA.
     <br><br>
     <b>Proof of Concept:</b>
     <captioned-image
