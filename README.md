@@ -139,5 +139,5 @@ This is a security key I don't totally understand but was recommended by the int
 
 ### 6.) Automate SSL Renewal
 
-Set up a cron job to automatically renew SSL certificates in the docker environment:
-- TBD
+Set up a cron job to automatically renew SSL certificates in the docker environment (This still needs to be verified):
+- `0 0 1 * * cd website/letsencrypt && echo 'Y' | source cert_renewal.sh >> cron.txt`
