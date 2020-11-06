@@ -1,5 +1,3 @@
-# Stop all containers
-sudo docker stop $(docker ps -a -q)
 # Clear docker cache
 sudo docker system prune -a
 # serve http page
