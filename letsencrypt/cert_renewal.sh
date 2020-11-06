@@ -1,6 +1,6 @@
 # Clear docker cache
 sudo docker system prune -a
-# serve http page
+# Serve http page
 sudo docker-compose up -d
 # Get new certs
 sudo docker run -i --rm \
