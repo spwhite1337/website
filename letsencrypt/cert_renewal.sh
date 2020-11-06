@@ -1,7 +1,7 @@
 # Clear docker cache
 sudo docker system prune -a
 # serve http page
-sudo docker compose up -d
+sudo docker-compose up -d
 # Remove staging volumes
 sudo rm -rf ../../docker-volumes
 # Get new certs
