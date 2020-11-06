@@ -12,7 +12,7 @@ certbot/certbot \
 certonly --webroot \
 --email spwhite1337@gmail.com --agree-tos --no-eff-email \
 --webroot-path=/data/letsencrypt \
--d scottpwhite.com -d www.scottpwhite.com
+-d scottpwhite.com -d www.scottpwhite.com --break-my-certs
 
 # Shut down and prune cert-container
 sudo docker-compose down
