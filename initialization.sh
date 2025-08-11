@@ -1,4 +1,8 @@
 #!bin/bash
+
+# Vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 # Install Docker
 sudo apt-get update
 sudo apt -y install apt-transport-https ca-certificates curl software-properties-common
@@ -11,6 +15,6 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 
 # Download backend data
-sudo apt -y install awscli
-aws configure
-sudo python3 backend/download.py
+sudo snap install aws-cli --classic
+sudo aws configure
+# sudo python3 backend/download.py
