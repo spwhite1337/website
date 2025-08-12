@@ -26,11 +26,9 @@
 <script>
 import axios from 'axios'
 const path = process.env.VUE_APP_ROOT_API.concat('/api/processgambling')
-import CaptionedImage from '@/components/utils/CaptionedImage.vue'
 
 export default {
   name: 'ProcessGambling',
-  components: { 'captioned-image': CaptionedImage },
   data () {
     return {
       query: '',

@@ -2,13 +2,7 @@
   <div>
     <br>
       <p>
-      Data Products use data to generate actionable insights. Peruse the following:
-          <ul>
-            <li><b>Magic Card Classifier:</b> Buzzfeed style app to determine the mana class of an input image</li>
-            <li><b>Sports Betting Aid:</b> Bayesian Model that yields data-driven winning probabilities</li>
-            <li><b>Presidents Speeches Search Engine:</b> Quick language classifier that connects search queries to a
-            U.S. President and their official speeches</li>
-          </ul>
+      Data Products use data to generate actionable insights.
       </p>
       <hr>
     <!--  Product Selector  -->
@@ -20,7 +14,6 @@
     <transition name="slide-fade">
         <router-view></router-view>
     </transition>
-    <hr><p>User Login and Comments are coming soon!</p><hr>
   </div>
 </template>
 
