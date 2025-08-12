@@ -10,10 +10,11 @@ from app import app
 @app.route('/api/processgambling', methods=['GET', 'POST'])
 def sports_bettors():
     if request.method == 'GET':
-        output = bet(inputs=request.args)
+        # inputs=request.args
+        output = bet()
     else:
         output = 'blank'
-    return jsonify({'sb_output': output})
+    return jsonify({'output': output})
 
 
 # Add dashboard for job-search

@@ -25,4 +25,5 @@ setup(
         'tqdm',
         'awscli',
         'process-gambling @ git+https://github.com/spwhite1337/process-gambling@main#egg=process-gambling'
+    ]
 )
