@@ -52,9 +52,6 @@ export default {
         })
       return {}
     },
-    getImgUrl (pic) {
-        return require('@/assets/data_products/process_gambling/' + pic)
-    }
   }
 }
 </script>
