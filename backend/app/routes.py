@@ -7,10 +7,10 @@ from app import app
 
 
 @app.route('/api/processgambling', methods=['GET', 'POST'])
-def sports_bettors():
+def process_gambling_route():
     if request.method == 'GET':
         # inputs=request.args
-        output = bet()
+        output = bets()
     else:
         output = 'blank'
     return jsonify({'output': output})
