@@ -1,6 +1,6 @@
 from flask import jsonify, request
 
-from apis.utils.process_gambling.bets import bets
+from apis.utils.process_gambling.process_gambling import bets
 from apis.utils.job_search.job_search import add_js_dash
 
 
