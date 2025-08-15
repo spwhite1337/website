@@ -28,7 +28,7 @@ export default new Router({
             path: '/Blog',
             name: 'Blog',
             component: Blog,
-            children: BlogPosts.Books.concat(BlogPosts.Political).concat(BlogPosts.Science)
+            children: BlogPosts.Books.concat(BlogPosts.Science)
         },
         {
             path: '/Contact',

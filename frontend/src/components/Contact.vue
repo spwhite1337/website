@@ -4,7 +4,7 @@
         <h3>You can contact me and / or get more information via many routes:</h3>
         <br>
         <ul>
-            <li><button><a @click="showResume">Download Resume (Currently Out-of-Date)</a></button></li>
+            <li><button><a @click="showResume">Download Resume (Currently >5 years old)</a></button></li>
         </ul>
         <ul>
             <li>Email (Preferred): spwhite1337@gmail.com</li>
