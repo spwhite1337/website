@@ -10,9 +10,6 @@ import GulliversTravels from '@/components/blog_posts/books/GulliversTravels.vue
 import Lolita from '@/components/blog_posts/books/Lolita.vue'
 import ParadiseLost from '@/components/blog_posts/books/ParadiseLost.vue'
 
-// Political
-import JobSearch from '@/components/blog_posts/political/JobSearch.vue'
-
 // Science
 import NeverPure from '@/components/blog_posts/science/NeverPure.vue'
 import Science from '@/components/blog_posts/science/Science.vue'
@@ -90,14 +87,6 @@ export default {
          title: 'Paradise Lost',
          author: 'John Milton'
        }
-    ],
-    Political: [
-      {
-         path: '/Blog/JobSearch',
-         name: 'JobSearch',
-         component: JobSearch,
-         title: 'Job Search',
-      },
     ],
     Science: [
       {

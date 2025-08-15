@@ -2,11 +2,9 @@
   <div>
       <br>
       <p>
-          My posts fall into three categories with lengths proportional to my interest:
           <ul>
             <li><b>Books:</b> Reports and Essays summarizing and analysing big-brain books</li>
             <li><b>Science:</b> Essays related to my official profession</li>
-            <li><b>Political:</b> Comments on problems in the terrestrial realm</li>
           </ul>
       </p>
       <hr>
@@ -18,12 +16,6 @@
 
       <b-dropdown text="Science">
           <b-dropdown-item v-for="post in science" :key="post.name" :value="post.name">
-            <router-link :to="{ name: post.name }">{{ post.title }}</router-link>
-          </b-dropdown-item>
-      </b-dropdown>
-
-      <b-dropdown text="Political">
-          <b-dropdown-item v-for="post in political" :key="post.name" :value="post.name">
             <router-link :to="{ name: post.name }">{{ post.title }}</router-link>
           </b-dropdown-item>
       </b-dropdown>
@@ -43,7 +35,6 @@ export default {
 data () {
   return {
         books: BlogPosts.Books,
-        political: BlogPosts.Political,
         science: BlogPosts.Science
     }
 }}
