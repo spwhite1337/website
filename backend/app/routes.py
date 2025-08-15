@@ -1,7 +1,6 @@
 from flask import jsonify, request
 
-from apis.utils.process_gambling.process_gambling import bets
-from apis.utils.job_search.job_search import add_js_dash
+from apis.process_gambling.process_gambling import bets
 
 
 from app import app
@@ -15,10 +14,6 @@ def sports_bettors():
     else:
         output = 'blank'
     return jsonify({'output': output})
-
-
-# Add dashboard for job-search
-app = add_js_dash(app, routes_pathname_prefix='/api/dash/jobsearch/')
 
 
 @app.route('/', defaults={'path': ''})
