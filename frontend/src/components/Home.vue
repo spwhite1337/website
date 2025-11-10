@@ -24,7 +24,7 @@
               position="right" size="20%">
       </captioned-image>
       <br>
-      Far more importantly, I am a fiance to Brittany Forkus and a dog-keeper to Indy the Yorkie Terror.
+      Far more importantly, I am a wife to Brittany, father to Lucy,  and a dog-keeper to Indy the Yorkie Terror.
       Ideologically I'm a tortured combination of Catholic and Liberal with the worst parts of each one
       contradictorily mixed together. Though the "Catholic" part should be mixed with "American" and integrated
       beyond an ideology to a Way of Life but I'm too liberal to make any coherent sense of it. I also subscribe to the
