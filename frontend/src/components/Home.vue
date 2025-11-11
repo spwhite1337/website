@@ -6,7 +6,7 @@
     <p>
       <br>
       <captioned-image
-              :image="getImgUrl('headshot.png')" alt="Headshot" caption="Me in 2018"
+              :image="getImgUrl('headshot.png')" alt="Headshot" caption="Me in 2023"
               position="left" size="25%">
       </captioned-image>
       <br>
@@ -17,24 +17,22 @@
       University of Minnesota. Beyond scholarship, I am a private-sector-certified Data Scientist having worked for
       <a href="https://www.strong.io/" target="_blank">Strong Analytics</a>, a consulting firm in Chicago, and
       <a href="http://aes.com/" target="_blank">AES</a>, an energy company with a heavy renewables portfolio and my
-      current employer.
+      current employer. Of late, my time at AES has been dedicated to improving the product delivered by our utilities businesses.
       <br>
       <captioned-image
               :image="getImgUrl('indy.jpg')" alt="Indy" caption="Indy White, the Yorkie Terror"
               position="right" size="20%">
       </captioned-image>
       <br>
-      Far more importantly, I am a husband to Brittany, father to Lucy,  and a dog-keeper to Indy the Yorkie Terror.
+      Explore the Data Products section to see the gambling assisant I am working on. 
+      <br><br>
+      The Blog is all over the place and is best described as a collection of drafted thoughts inspired by things I've read. <em>The Definition of Science</em> is probably my favorite but they are all similar quality.
+      <br><br>
+      Outside of the professional sphere, I am a husband to Brittany, father to Lucy, and a dog-keeper to Indy the Yorkie Terror.
       Ideologically I'm a tortured combination of Catholic and Liberal with the worst parts of each one
       contradictorily mixed together. Though the "Catholic" part should be mixed with "American" and integrated
       beyond an ideology to a Way of Life but I'm too liberal to make any coherent sense of it. I also subscribe to the
       ideology that doesn't like to put labels on anything but I think that just means I'm a Millennial.
-      <br><br>
-      Explore the Data Products section to see some examples of my skills in Data Analytics, the Sports Bettors app is
-      my favorite.
-      <br><br>
-      The Blog is all over the place, but mostly serves as a repository of Book reviews for pretentious stuff I read.
-      <em>The Definition of Science</em> is probably my favorite but they are all similar quality.
     </p>
   </div>
 </template>
