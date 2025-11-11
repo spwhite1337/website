@@ -52,6 +52,7 @@ The full app can be run through docker but tends to slow down my computer a lot.
         - SSH on 22
         - HTTP on 80
         - HTTPS on 443
+    - IAM Instance Profile: `ec2-s3access` to connect EC2 to S3
     
 - Set up project
     - SSH into instance
@@ -66,7 +67,6 @@ The full app can be run through docker but tends to slow down my computer a lot.
             - Test connection: `ssh -T git@github.com`
     - `cd website`
     - `source initialization.sh`
-        - Get AWS Keys from S3 Bucket `s3://scott-p-white/personal/keys`
         
 ### 2.) GoDaddy    
 
