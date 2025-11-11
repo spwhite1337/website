@@ -2,7 +2,7 @@
   <div class="container">
     <hr>
       <div>
-          <h3>Process Gambling</h3>
+          <h3>Process Gambling (In Development)</h3>
           <p>
             Test page for gambling AI assist or whatever I call it.
               <br><br>
@@ -11,7 +11,7 @@
           </p>
       </div>
       <div>
-          <button @click="processGambling">Show Results</button>
+          <button @click="processGambling">Show Results (Fake for Now)</button>
           <input v-model="query" type="text">
       </div>
       <div class="container" v-if="results.output">
