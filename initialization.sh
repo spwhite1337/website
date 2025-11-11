@@ -16,5 +16,5 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # Download backend data
 sudo snap install aws-cli --classic
-sudo aws configure
+# sudo aws configure
 # sudo python3 backend/download.py
