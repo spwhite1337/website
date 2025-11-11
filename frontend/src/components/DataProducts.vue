@@ -2,7 +2,7 @@
   <div>
     <br>
       <p>
-      Data Products use data to generate actionable insights.
+      The "Process Gambling" app is available below, other applications are in the pipeline (i.e., brainstorming phase).
       </p>
       <hr>
     <!--  Product Selector  -->

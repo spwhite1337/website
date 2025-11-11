@@ -7,7 +7,7 @@
             Test page for gambling AI assist or whatever I call it.
               <br><br>
               The code and results can be found
-              <a href="https://github.com/spwhite1337/process-gambling" target="_blank">here</a>.
+              <a href="https://github.com/spwhite1337/process-gambling" target="_blank">here</a>. The output below is fake until I finish productionalizing the model prototype I developed.
           </p>
       </div>
       <div>
