@@ -29,7 +29,7 @@ Run two independent apps that do not communicate with each other for debugging a
 
 The full app can be run through docker but tends to slow down my computer a lot.
 - `cd website`
-- `docker-compose -f docker-compose.yml up --build`
+- `docker-compose up --build`
 
 ## Server
 
@@ -62,7 +62,7 @@ The full app can be run through docker but tends to slow down my computer a lot.
 ### 2.) Serve App from EC2
 
 - `cd website`
-- `sudo docker-compose -f docker-compose.yml up --build`
+- `sudo docker-compose up --build`
     - Optional: Test your app based on the public IP address on the EC2 (http only)
 
 ### 3.) Configure AWS
