@@ -72,8 +72,6 @@ The full app can be run through docker but tends to slow down my computer a lot.
 - `sudo sh -c "echo 'VUE_APP_ROOT_API=http://scottpwhite.com' > frontend/.env.production"`
 - `sudo docker-compose -f docker-compose-http.yml up --build`
 
----
-
 ### 3.) Configure AWS
 
 - Starting with a EC2 server over HTTP and a registered domain name (e.g., `scottpwhite.com`)
