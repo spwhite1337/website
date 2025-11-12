@@ -36,7 +36,7 @@ The full app can be run through docker but tends to slow down my computer a lot.
 
 ### 1.) Create Instance and Download Files
 
-- Set Up AWS EC2 instance: 
+- a.) Set Up AWS EC2 instance: 
     - Ubuntu
     - t2.small (~$0.0023 / hour or ~$16 / month) (t2.micro takes too long to build)
     - Enable Auto-assign Public IP
@@ -47,7 +47,7 @@ The full app can be run through docker but tends to slow down my computer a lot.
         - HTTPS on 443 (optional)
     - IAM Instance Profile: `ec2-s3access` to connect EC2 to S3
 
-- Set up project
+- b.) Set up project
     - Connect to instance (e.g., EC2 Connect, SSH)
     - Create SSH for github
         - From `home`: `ssh-keygen -t ed25519 -C "[email]"`
@@ -68,7 +68,7 @@ The full app can be run through docker but tends to slow down my computer a lot.
 
 ### 3.) Configure AWS
 
-- Starting with a EC2 server over HTTP and a registered domain name (e.g., `scottpwhite.com`)
+- Starting with a EC2 server over HTTP (see Step 1a) and a registered domain name (e.g., `scottpwhite.com`, I used Amazon Route 53 for domain registration)
 - Make a "Target Group" in AWS that contains the EC2 instance hosting the website
 - Create a certificate in AWS Certificate Manager (ACM) for the domain name
 - Create an Application Load Balancer that (i) redirects HTTP to HTTPS, (ii) forwards HTTPS requests to the Target Group containing the EC2 instance hosting the webpage with the associated Certificate from ACM
