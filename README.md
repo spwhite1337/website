@@ -52,17 +52,17 @@ The full app can be run through docker but tends to slow down my computer a lot.
         - HTTPS on 443
     - IAM Instance Profile: `ec2-s3access` to connect EC2 to S3
     
+
 - Set up project
-    - SSH into instance
-    - Go to server root (EC2 defaults login as `ubuntu` so just `cd ../../` after ssh-ing in)
+    - Connect to instance (e.g., EC2 Connect, SSH)
+    - Create SSH for github
+        - From `home`: `ssh-keygen -t ed25519 -C "[email]"`
+        - `eval "$(ssh-agent -s)"`
+        - `ssh-add ~/.ssh/id_ed25519`
+        - `cat ~/.ssh/id_ed25519.pub`
+        - Paste output to github SSH keys
+        - Test connection: `ssh -T git@github.com`
     - `sudo git clone https://github.com/spwhite1337/website.git`
-        - To setup SSH on EC2 for Github
-            - From home: `ssh-keygen -t ed25519 -C "spwhite1337@gmail.com"`
-            - `eval "$(ssh-agent -s)"`
-            - `ssh-add ~/.ssh/id_ed25519`
-            - `cat ~/.ssh/id_ed25519.pub`
-            - Paste output to github SSH keys
-            - Test connection: `ssh -T git@github.com`
     - `cd website`
     - `source initialization.sh`
         
