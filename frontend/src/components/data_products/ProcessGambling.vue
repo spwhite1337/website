@@ -25,7 +25,6 @@
 
 <script>
 import axios from 'axios'
-const path = process.env.VUE_APP_ROOT_API.concat('/api/processgambling')
 
 export default {
   name: 'ProcessGambling',
@@ -37,7 +36,7 @@ export default {
   },
   methods: {
     processGambling () {
-      axios.get(path, {
+      axios.get('/api/processgambling', {
         params: {
           query: this.query
         }
