@@ -82,5 +82,5 @@ The full app can be run through docker but tends to slow down my computer a lot.
 - Create an Application Load Balancer that (i) redirects HTTP to HTTPS, (ii) forwards HTTPS requests to the Target Group containing the EC2 instance hosting the webpage with the associated Certificate from ACM
 - Register the certificate and load balancer in the DNS records for the domain (I used Route 53 in AWS).
 
-Requests sent to `https://scottpwhite.com` will direct to the Load Balancer and forward them (with SSL certification, auto-renewing) to the EC2 instance containing the server. If we need to beef up servers or add more we simply add them to the Target Group and direct them in the front-end of the app. 
+Requests sent to `https://scottpwhite.com` (`http` redirects) will first go to the Load Balancer which then forwards them (with SSL certification, auto-renewing) to the Target Group containing the EC2 instance running the site. If we need to beef up servers or add more we simply add them to the Target Group and direct them in the front end of the site.
 
