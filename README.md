@@ -68,25 +68,7 @@ The full app can be run through docker but tends to slow down my computer a lot.
     - `cd website`
     - `source initialization.sh`
         
-### 2.) GoDaddy    
-
-- Update DNS records in GoDaddy account
-    - Log-in -> Scott White (upper right) -> Manage Domains -> DNS -> Manage Zones -> Search `scottpwhite.com`
-    - Match records to the IP Address from the EC2 instance
-    
-        <img src="docs/outputs/DNS_records.JPG" alt="DNS Records" width=256>
-    
-    - Can take as little as minutes to work, but takes days to cover the globe.
-    
-- Update hard-coded domain name in the `nginx` folder and `letsencrypt` folder of this repo. The rest of the docs assume
-`scottpwhite.com`.
-    - `nginx.conf`
-    - `letsencrypt-staging.sh`
-    - `letsencrypt-prod.sh` (Also change the email in this script)
-    
----
-
-### 3a.) Serve over HTTP
+### 2.) Serve over HTTP
 
 - `cd website`
 - `sudo sh -c "echo 'VUE_APP_ROOT_API=http://scottpwhite.com' > frontend/.env.production"`
@@ -94,57 +76,7 @@ The full app can be run through docker but tends to slow down my computer a lot.
 
 ---
 
-### 3b.) Add SSL Certification
+### 3.) Configure AWS
 
-SSL Certification can be accomplished with a free process from [Let's Encrypt](https://letsencrypt.org/) to enable 
-transfer of data over HTTPS.
+- Can't figure this out yet...
 
-Generate an SSL certificate with Let's Encrypt / Certbot on a test site served over the domain. 
-([Reference](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx))
-- Stop and prune any running containers (e.g. `sudo docker system prune -a`)
-- `cd website/letsencrypt`
-- `sudo docker-compose up -d`
-- Go to `http://scottpwhite.com` and `http://www.scottpwhite.com` to verify site is working over http
-- Test the certification process with:
-    - `source letsencrypt-staging.sh`
-    
-        <img src="docs/outputs/letsencrypt_staging.JPG" alt="Let's Encrypt Staging" width=256>
-    
-    - Optional: Ensure success with `source letsencrypt-info.sh`    
-        
-        <img src="docs/outputs/letsencrypt_info_staging.JPG" alt="Let's Encrypt Info Staging" width=256>
-
-- Generate the certificates and save them to docker-volumes (rate limits are currently at 50 certificates per domain 
-per week. Should be plenty but best not waste them.):
-    - Remove staging volumes: `sudo rm -rf ../../docker-volumes/`
-    - Get certs with `source letsencrypt-prod.sh`
-    
-        <img src="docs/outputs/letsencrypt_prod.JPG" alt="Let's Encrypt Prod" width=256>
-    
-    - Optional: See info with `source letsencrypt-info.sh`
-    
-        <img src="docs/outputs/letsencrypt_info_prod.JPG" alt="Let's Encrypt Info Prod" width=256>
-
-- Shut down initial certification container with: `sudo docker-compose down`
-
-### 4.) Add DH-params
-
-This is a security key I don't totally understand but was recommended by the internet. We'll add it as well.
-
-- `cd website`
-- `sudo mkdir dh-param`
-- `sudo openssl dhparam -out /website/dh-param/dhparam-2048.pem 2048`
-
-    <img src="docs/outputs/dh_params_out.JPG" alt="DH Params Out" width=256>
-
-### 5.) Serve Over HTTPS
-
-- Clear all containers / networks with: `sudo docker system prune -a`
-- `cd website`
-- `sudo sh -c "echo 'VUE_APP_ROOT_API=https://scottpwhite.com' > frontend/.env.production"`
-- `sudo docker-compose -f docker-compose-https.yml up --build`
-
-### 6.) Automate SSL Renewal
-
-Set up a cron job to automatically renew SSL certificates in the docker environment (This still needs to be verified):
-- `0 0 1 * * cd website/letsencrypt && echo 'Y' | source cert_renewal.sh >> cron.txt`
