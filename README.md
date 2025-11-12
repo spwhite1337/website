@@ -37,21 +37,15 @@ The full app can be run through docker but tends to slow down my computer a lot.
 ### 1.) Create Instance and Download Files
 
 - Set Up AWS EC2 instance: 
-    - Ubuntu 18.04 Image
-    - t2.small (~$0.0023 / hour or ~$16 / month)
-        - t2.micro works if you download the `minified` branch of `card-classifier`, otherwise you will get a 
-        `Killed` error during install of `master` on t2.micro (I assume `tensorflow` is the culprit). This is ~1/2 the 
-        price of t2.small.
-    - Optional: Check Spot Requests to lower costs. But be warned that Amazon is on bullshit and your instance will 
-    disappear without explanation.
+    - Ubuntu
+    - t2.small (~$0.0023 / hour or ~$16 / month) (t2.micro takes too long to build)
     - Enable Auto-assign Public IP
     - 10-12 GB EBS (Costs ~$0.10 GB / month)
     - Security Group `Website`:
         - SSH on 22
         - HTTP on 80
-        - HTTPS on 443
+        - HTTPS on 443 (optional)
     - IAM Instance Profile: `ec2-s3access` to connect EC2 to S3
-    
 
 - Set up project
     - Connect to instance (e.g., EC2 Connect, SSH)
