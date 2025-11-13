@@ -78,9 +78,11 @@ The full app can be run through docker.
 - Starting with a EC2 server over HTTP (see Step 1-2) and a registered domain name (e.g., `scottpwhite.com`, I used Amazon Route 53 for domain registration)
 - Make a "Target Group" in AWS that contains the EC2 instance hosting the website
 - Create a certificate in AWS Certificate Manager (ACM) for the domain name
-- Create an Application Load Balancer that (i) redirects HTTP to HTTPS, (ii) forwards HTTPS requests to the Target Group containing the EC2 instance hosting the webpage with the associated Certificate from ACM
-- Register the certificate and load balancer in the DNS records for the domain.
-    - First time took a couple days for the domain to load reasonably fast
+    - Create a DNS record(s) for the certificate in Route 53 (or other registry)
+- Create an Application Load Balancer that (i) redirects HTTP to HTTPS,(ii) forwards HTTPS requests to the Target Group containing 
+the EC2 instance hosting the webpage with the associated Certificate from ACM
+- Register the Load Balancer in the DNS records for the domain.
+    - First time took a couple days for everything to sync and the domain to load reasonably fast
 
 Requests sent to `https://scottpwhite.com` (`http` redirects) will first go to the Load Balancer which then 
 forwards them (with SSL certification, auto-renewing) to the Target Group containing the EC2 instance 
