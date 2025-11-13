@@ -23,7 +23,7 @@
       <br><br>
       With most of my keyboard-time is spent behind a company firewall, I don't have much opportunity to display 
       my work publicly (n.b., my resume is available in the <a href="Contact">Contact</a>
-      section and has links to publications outlining some work-highlights over the years). 
+      section with links to publications outlining some work-highlights over the years). 
       However, technical details and specifics of my personal DS work are on my 
       <a href="https://github.com/spwhite1337" target="_blank">Github</a> while the 
       <a href="DataProducts">Data Products</a> section of this website contains 
