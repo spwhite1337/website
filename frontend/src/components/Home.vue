@@ -42,11 +42,13 @@
       </captioned-image>
       <br>
       Outside of the professional sphere, I am a husband to Brittany, father to Lucy, and a dog-keeper to 
-      Indy the Yorkie Terror. Ideologically I'm a tortured combination of Catholic and Liberal with the 
-      worst parts of each one contradictorily mixed together. Though the "Catholic" part should be mixed 
-      with "American" and integrated beyond an ideology to a Way of Life but I'm too liberal to make any 
-      coherent sense of it. I also subscribe to the ideology that doesn't like to put labels on anything 
-      but I think that just means I'm a Millennial.
+      Indy the Yorkie Terror. I maintain my constitution by grappling with other grown men at 
+      <a href="https://naptownbrazilianjiujitsu.com/" target="_blank">Naptown BJJ</a>. 
+      Ideologically I'm a tortured combination of Catholic and Liberal with the worst parts of each 
+      one contradictorily mixed together. Though the
+      "Catholic" part should be mixed with "American" and integrated beyond an ideology to a 
+      Way of Life but I'm too liberal to make any coherent sense of it. I also subscribe to the 
+      ideology that doesn't like to put labels on anything but I think that just means I'm a Millennial.
     </p>
   </div>
 </template>
