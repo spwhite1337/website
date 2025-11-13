@@ -75,16 +75,25 @@ The full app can be run through docker.
 
 ### 3.) Configure AWS
 
-- Starting with a EC2 server over HTTP (see Step 1-2) and a registered domain name (e.g., `scottpwhite.com`, I used Amazon Route 53 for domain registration)
-- Make a "Target Group" in AWS that contains the EC2 instance hosting the website
-- Create a certificate in AWS Certificate Manager (ACM) for the domain name
-    - Create a DNS record(s) for the certificate in Route 53 (or other registry)
-- Create an Application Load Balancer that (i) redirects HTTP to HTTPS, (ii) forwards HTTPS requests to the Target Group containing 
-the EC2 instance hosting the webpage with the associated Certificate from ACM
-- Register the Load Balancer in the DNS records for the domain.
-    - First time took a couple days for everything to sync and the domain to load reasonably fast
+- Start with a EC2 server over HTTP (see Step 1-2) and a registered domain name (e.g., `scottpwhite.com`, I used Amazon Route 53 for domain registration).
+- Make a "Target Group" in AWS. Register the EC2 instance hosting the website to the Target Group.
+- Create a certificate in AWS Certificate Manager (ACM) for the domain name.
+    - Create a DNS record(s) for the certificate in Route 53 (or other registry).
+- Create an Application Load Balancer (ALB) that (i) redirects HTTP to HTTPS, (ii) forwards HTTPS requests (verified with the ACM certs) to the Target Group.
+- Create DNS record for the ALB for the domain.
+    - First time took a couple days for everything to sync and the domain to load reasonably fast.
 
-Requests sent to `https://scottpwhite.com` (`http` redirects) will first go to the Load Balancer which then 
+Requests sent to `https://scottpwhite.com` (`http` redirects) will first go to the ALB which then 
 forwards them (with SSL certification, auto-renewing) to the Target Group containing the EC2 instance 
-running the site. If we need to change servers or add more we simply attach them to the Target Group - no need to re-route any DNS records.
+running the site. If we need to change servers or add more we simply register them to the Target Group; no need to edit any DNS records.
+
+### 4.) Future Work
+
+At present, I serve the website on one instance with a docker-network with two containers: one for the frontend and another for the backend. For 
+scalability, I should add another container for a database, repurpose the "Backed" container for models and API calls, then dedicate EC2 
+instances for each component (e.g., one for frontend, one for data, one for models / APIs / LLMs). These will all be registered in the Target 
+Group. 
+
+The main downside is that this will ~triple my hardware costs. Not really worth it at this time. But once I productionalize my models and
+gain some traction maybe it will be necessary...
 
