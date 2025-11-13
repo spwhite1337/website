@@ -2,6 +2,15 @@
 
 Personal website to display some data products and to impose my will on the internet via blog. 
 
+The framework is quite simple and a must-have skill for serious data scientists as standard 
+visualization and DevOps tools are far too limited to meet the requirements for all open-ended DS work.
+When operating at scale within an enterprise the AWS/Python/Vue.js tech stack here will have diminished
+returns and high technical debt. But for a solitary DS (or small team) trying to present creative solutions
+this is the best I have seen.
+
+AWS EC2 -> SQL Database -> Python Backend with DS models -> Vue.JS Frontend
+
+
 <img src="docs/logos/logo.jpg" alt="Website logo" width=256>
 
 ---
@@ -17,7 +26,7 @@ Personal website to display some data products and to impose my will on the inte
 
 ## Development
 
-Run two independent apps that do not communicate with each other for debugging and dev. Requires: Python 3.9+ and npm.
+Run two independent apps that do not communicate with each other for debugging and dev
 
 - `cd backend`
 - `set FLASK_APP=run.py` (`export FLASK_APP=run.py`)
@@ -27,7 +36,7 @@ Run two independent apps that do not communicate with each other for debugging a
 - `npm install`
 - `npm run serve`
 
-The full app can be run through docker but tends to slow down my computer a lot.
+The full app can be run through docker.
 - `cd website`
 - `docker-compose up --build`
 
@@ -38,13 +47,11 @@ The full app can be run through docker but tends to slow down my computer a lot.
 - a.) Set Up AWS EC2 instance: 
     - Ubuntu
     - t2.small (~$0.0023 / hour or ~$16 / month) (t2.micro takes too long to build)
-    - Enable Auto-assign Public IP
-    - 10-12 GB EBS (Costs ~$0.10 GB / month)
-    - Security Group `Website`:
+    - Security Group (Note to self: I named mine `Website`):
         - SSH on 22
         - HTTP on 80
         - HTTPS on 443 (optional)
-    - IAM Instance Profile: `ec2-s3access` to connect EC2 to S3
+    - IAM Instance Profile: (Note to self: I named mine `ec2-s3access`) to connect EC2 to S3
 
 - b.) Set up project
     - Connect to instance (e.g., EC2 Connect, SSH)
@@ -57,21 +64,25 @@ The full app can be run through docker but tends to slow down my computer a lot.
         - Test connection: `ssh -T git@github.com`
     - `sudo git clone https://github.com/spwhite1337/website.git`
     - `cd website`
-    - `source initialization.sh`
+    - `source initialization.sh` to download vim packages, docker, docker-compose
         
 ### 2.) Serve App from EC2
 
 - `cd website`
+- Optional: Open a `tmux` session: `tmux new -s webserver` (attach later with `tmux attach -t webserver`)
 - `sudo docker-compose up --build`
     - Optional: Test your app based on the public IP address on the EC2 (http only)
 
 ### 3.) Configure AWS
 
-- Starting with a EC2 server over HTTP (see Step 1a) and a registered domain name (e.g., `scottpwhite.com`, I used Amazon Route 53 for domain registration)
+- Starting with a EC2 server over HTTP (see Step 1-2) and a registered domain name (e.g., `scottpwhite.com`, I used Amazon Route 53 for domain registration)
 - Make a "Target Group" in AWS that contains the EC2 instance hosting the website
 - Create a certificate in AWS Certificate Manager (ACM) for the domain name
 - Create an Application Load Balancer that (i) redirects HTTP to HTTPS, (ii) forwards HTTPS requests to the Target Group containing the EC2 instance hosting the webpage with the associated Certificate from ACM
 - Register the certificate and load balancer in the DNS records for the domain.
+    - First time took a couple days for the domain to load reasonably fast
 
-Requests sent to `https://scottpwhite.com` (`http` redirects) will first go to the Load Balancer which then forwards them (with SSL certification, auto-renewing) to the Target Group containing the EC2 instance running the site. If we need to beef up servers or add more we simply add them to the Target Group and direct them in the front end of the site.
+Requests sent to `https://scottpwhite.com` (`http` redirects) will first go to the Load Balancer which then 
+forwards them (with SSL certification, auto-renewing) to the Target Group containing the EC2 instance 
+running the site. If we need to change servers or add more we simply attach them to the Target Group - no need to re-route any DNS records.
 
