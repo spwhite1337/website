@@ -26,10 +26,10 @@
       </captioned-image>
       <br>
       With most of my keyboard-time spent behind a company firewall, I don't have much opportunity to display 
-      my work and skills publicly. My best attempts are on disply on my Github and the Data Products section 
+      my work and skills publicly. My best attempts are on my Github while the Data Products section 
       of this website contains (or will contain...) the productionalized version of the best ones. For now, 
-      the gambling assisant I am working on is in the prototype stage but I am working to put it in production 
-      as fast as I can while maintaining full employment and keeping my newborn daughter alive. 
+      the gambling assisant I am working on is in the prototype stage but it will be in production 
+      as fast as I can get it there while maintaining full employment and keeping my newborn daughter alive. 
       <br><br>
       The Blog is all over the place and not intended to be a professional display - just personal enjoyment. 
       It is best described as a collection of drafted thoughts inspired by things I've read. <em>The Definition of Science</em> is probably my favorite but they are all similar quality.
