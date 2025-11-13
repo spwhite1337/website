@@ -24,14 +24,10 @@
               position="right" size="20%">
       </captioned-image>
       <br>
-      With most of my keyboard-time spent behind a company firewall, I don't have much opportunity to display my 
-      work and skills publicly. My best attempts are on disply on my Github and the Data Products section of this
-      website contains (or will contain...) the productionalize version of the best ones. For now, the gambling 
-      assisant I am working on is in the prototype stage but I am working to put it in production as fast as I can while maintaining full employment and keeping my newborn daughter alive. 
+      With most of my keyboard-time spent behind a company firewall, I don't have much opportunity to display my work and skills publicly. My best attempts are on disply on my Github and the Data Products section of this website contains (or will contain...) the productionalized version of the best ones. For now, the gambling assisant I am working on is in the prototype stage but I am working to put it in production as fast as I can while maintaining full employment and keeping my newborn daughter alive. 
       <br><br>
       The Blog is all over the place and not intended to be a professional display - just personal enjoyment. 
-      It is best described as a collection of drafted thoughts inspired by things I've read. <em>The 
-	      Definition of Science</em> is probably my favorite but they are all similar quality.
+      It is best described as a collection of drafted thoughts inspired by things I've read. <em>The Definition of Science</em> is probably my favorite but they are all similar quality.
       <br><br>
       Outside of the professional sphere, I am a husband to Brittany, father to Lucy, and a dog-keeper to 
       Indy the Yorkie Terror. Ideologically I'm a tortured combination of Catholic and Liberal with the 
