@@ -56,15 +56,15 @@ The full app can be run through docker.
 - b.) Set up project
     - Connect to instance (e.g., EC2 Connect, SSH)
     - Create SSH for github
-        - From `home`: `ssh-keygen -t ed25519 -C "[email]"`
+        - `ssh-keygen -t ed25519 -C "[email]"`
         - `eval "$(ssh-agent -s)"`
         - `ssh-add ~/.ssh/id_ed25519`
         - `cat ~/.ssh/id_ed25519.pub`
-        - Paste output to github SSH keys
+        - Paste output to [github SSH keys](https://github.com/settings/keys)
         - Test connection: `ssh -T git@github.com`
     - `sudo git clone https://github.com/spwhite1337/website.git`
     - `cd website`
-    - `source initialization.sh` to download vim packages, docker, docker-compose
+    - `source initialization.sh` to download vim packages, docker, docker-compose, aws-cli, data from S3
         
 ### 2.) Serve App from EC2
 
