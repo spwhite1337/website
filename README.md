@@ -90,7 +90,7 @@ running the site. If we need to change servers or add more we simply register th
 ### 4.) Future Work
 
 At present, I serve the website on one instance with a docker-network with two containers: one for the frontend and another for the backend. For 
-scalability, I should add another container for a database, repurpose the "Backed" container for models and API calls, then dedicate EC2 
+scalability, I should add another container for a database, repurpose the "Backend" container for models and API calls, then dedicate EC2 
 instances for each component (e.g., one for frontend, one for data, one for models / APIs / LLMs). These will all be registered in the Target 
 Group. 
 
