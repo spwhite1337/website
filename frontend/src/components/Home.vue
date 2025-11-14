@@ -11,7 +11,7 @@
       </captioned-image>
       <br>
       I'm Scott White and welcome to my site. I hail from the great state of Iowa but have since done a
-      Midwest tour to Minneapolis, Chicago, and Indianapolis. I currently reside in Indianapolis where I am 
+      Midwest tour to Minnesota, Chicago, and Indiana. I currently reside in Indianapolis where I am 
       a proud owner of a plot of land with a house on it.
       <br><br>
       I am an academy-certified Chemical Engineer with a BS from the University of Iowa and a PhD from The
